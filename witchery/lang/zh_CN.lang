@@ -13,7 +13,7 @@ item.witchery:ingredient.broomEnchanted.name=魔法扫帚
 item.witchery:ingredient.attunedStone.name=调谐之石
 item.witchery:ingredient.attunedStoneCharged.name=调谐之石(充能)
 item.witchery:ingredient.waystone.name=寻路石
-item.witchery:ingredient.waystoneBound.name=寻路石
+item.witchery:ingredient.waystoneBound.name=已绑定寻路石
 item.witchery:ingredient.mutandis.name=转生粉
 item.witchery:ingredient.mutandisExtremis.name=超级转生粉
 item.witchery:ingredient.quicklime.name=生石灰
@@ -50,11 +50,11 @@ item.witchery:ingredient.bookOven.name=巫术: 收集熏气
 item.witchery:ingredient.bookDistilling.name=巫术: 蒸馏
 item.witchery:ingredient.bookCircleMagic.name=巫术: 圆环法阵
 item.witchery:ingredient.bookInfusions.name=巫术: 酿造&注魔
-item.witchery:ingredient.oddPorkchopRaw.name=生猪肉片?
-item.witchery:ingredient.oddPorkchopCooked.name=烤猪肉片?
-item.witchery:ingredient.doorRowan.name=山梨树木门
-item.witchery:ingredient.doorAlder.name=赤杨树木门
-item.witchery:ingredient.doorKey.name=山梨树木门钥匙
+item.witchery:ingredient.oddPorkchopRaw.name=生猪排?
+item.witchery:ingredient.oddPorkchopCooked.name=烤猪排?
+item.witchery:ingredient.doorRowan.name=山梨木门
+item.witchery:ingredient.doorAlder.name=赤杨木门
+item.witchery:ingredient.doorKey.name=山梨木门钥匙
 item.witchery:ingredient.rock.name=岩石
 item.witchery:ingredient.web.name=密网
 item.witchery:ingredient.brewVines.name=藤蔓之酿药水
@@ -63,7 +63,7 @@ item.witchery:ingredient.brewThorns.name=荆棘之酿药水
 item.witchery:ingredient.brewInk.name=墨囊之酿药水
 item.witchery:ingredient.brewSprouting.name=萌芽之酿药水
 item.witchery:ingredient.brewErosion.name=侵蚀之酿药水
-item.witchery:ingredient.berriesRowan.name=山梨树篱笆
+item.witchery:ingredient.berriesRowan.name=山梨果
 item.witchery:ingredient.necroStone.name=死灵石
 item.witchery:ingredient.brewRaising.name=腾升之酿药水
 item.witchery:ingredient.spectralDust.name=幽灵粉末
@@ -84,8 +84,8 @@ item.witchery:poppet.protectStarvation.name=饥饿守护娃娃
 item.witchery:poppet.protectFire.name=火焰守护娃娃
 item.witchery:poppet.protectTool.name=工具防护娃娃
 item.witchery:poppet.protectDeath.name=死亡守护娃娃
-item.witchery:poppet.protectVoodoo.name=巫蛊防护娃娃
-item.witchery:poppet.voodoo.name=巫蛊娃娃
+item.witchery:poppet.protectVoodoo.name=巫毒防护娃娃
+item.witchery:poppet.voodoo.name=巫毒娃娃
 item.witchery:poppet.vampiric.name=吸血鬼娃娃
 item.witchery:circletalisman.name=环形护身符
 item.witchery:divinerwater.name=水源探测符
@@ -105,33 +105,33 @@ item.witchery:seedsmandrake.name=曼德拉种子
 item.witchery:seedsartichoke.name=水洋蓟种子
 
 circletalisman.small.1=小型仪式
-circletalisman.small.2=小型他处之界
+circletalisman.small.2=小型他处
 circletalisman.small.3=小型炼狱
 circletalisman.medium.1=中型仪式
-circletalisman.medium.2=中型他处之界
+circletalisman.medium.2=中型他处
 circletalisman.medium.3=中型炼狱
 circletalisman.large.1=大型仪式
-circletalisman.large.2=大型他处之界
+circletalisman.large.2=大型他处
 circletalisman.large.3=大型炼狱
 
-tile.witchery:rowanwooddoor.name=山梨树木门
-tile.witchery:alderwooddoor.name=赤杨树木门
-tile.witchery:rowandoorwood.name=山梨树木门
-tile.witchery:alderdoorwood.name=赤杨树木门
+tile.witchery:rowanwooddoor.name=山梨木门
+tile.witchery:alderwooddoor.name=赤杨木门
+tile.witchery:rowandoorwood.name=山梨木门
+tile.witchery:alderdoorwood.name=赤杨木门
 tile.witchery:altar.name=祭坛
 tile.witchery:witchesovenidle.name=巫师烤炉
 tile.witchery:witchesovenburning.name=巫师烤炉
 tile.witchery:distilleryidle.name=蒸馏塔
 tile.witchery:distilleryburning.name=蒸馏塔
 tile.witchery:kettle.name=水壶
-tile.witchery:poppetshelf.name=娃娃台子
-container.witchery:poppetshelf=娃娃台子
-tile.witchery:witchlog.rowan.name=山梨树原木
-tile.witchery:witchlog.alder.name=赤杨树原木
-tile.witchery:witchlog.hawthorn.name=山楂树原木
-tile.witchery:witchwood.rowan.name=山梨树木板
-tile.witchery:witchwood.alder.name=赤杨树木板
-tile.witchery:witchwood.hawthorn.name=山楂树木板
+tile.witchery:poppetshelf.name=娃娃架
+container.witchery:poppetshelf=娃娃架
+tile.witchery:witchlog.rowan.name=山梨木
+tile.witchery:witchlog.alder.name=赤杨木
+tile.witchery:witchlog.hawthorn.name=山楂木
+tile.witchery:witchwood.rowan.name=山梨木板
+tile.witchery:witchwood.alder.name=赤杨木板
+tile.witchery:witchwood.hawthorn.name=山楂木板
 tile.witchery:witchsapling.rowan.name=山梨树树苗
 tile.witchery:witchsapling.alder.name=赤杨树树苗
 tile.witchery:witchsapling.hawthorn.name=山楂树树苗
@@ -141,20 +141,20 @@ tile.witchery:witchleaves.hawthorn.name=山楂树树叶
 tile.witchery:belladonna.name=颠茄
 tile.witchery:mandrake.name=曼德拉草
 tile.witchery:barrier.name=篱笆
-tile.witchery:dreamcatcher.name=织梦机
+tile.witchery:dreamcatcher.name=织梦者
 tile.witchery:candelabra.name=枝状大烛台
 tile.witchery:chalice.name=圣餐杯
-tile.witchery:circle.name=心形
+tile.witchery:circle.name=核心符形
 tile.witchery:circleglyphritual.name=仪式符形
 tile.witchery:circleglyphotherwhere.name=他处符形
 tile.witchery:circleglyphinfernal.name=炼狱符形
-tile.witchery:stairswoodrowan.name=山梨树楼梯
-tile.witchery:stairswoodalder.name=赤杨树楼梯
-tile.witchery:stairswoodhawthorn.name=山楂树楼梯
+tile.witchery:stairswoodrowan.name=山梨木楼梯
+tile.witchery:stairswoodalder.name=赤杨木楼梯
+tile.witchery:stairswoodhawthorn.name=山楂木楼梯
 tile.witchery:witchwoodslab.name=木台阶
-tile.witchery:witchwoodslab.rowan.name=山梨树台阶
-tile.witchery:witchwoodslab.alder.name=赤杨树台阶
-tile.witchery:witchwoodslab.hawthorn.name=山楂树台阶
+tile.witchery:witchwoodslab.rowan.name=山梨木台阶
+tile.witchery:witchwoodslab.alder.name=赤杨木台阶
+tile.witchery:witchwoodslab.hawthorn.name=山楂木台阶
 tile.witchery:witchwooddoubleslab.name=木双层台阶
 tile.witchery:spanishmoss.name=寄生藤
 tile.witchery:leapinglily.name=跃动莲叶
@@ -171,10 +171,10 @@ tile.witchery:plantmine.grass_ink.name=墨灌木
 tile.witchery:plantmine.grass_sprouting.name=发芽灌木
 tile.witchery:plantmine.grass_thorns.name=荆棘灌木
 tile.witchery:embermoss.name=安博苔藓
-tile.witchery:artichoke.name=雅芝竹
+tile.witchery:artichoke.name=水洋蓟
 tile.witchery:alluringskull.name=魅惑头骨
 tile.witchery:fumefunnel.name=熏气漏斗
-tile.witchery:filteredfumefunnel.name=充满的熏气漏斗
+tile.witchery:filteredfumefunnel.name=带过滤器的熏气漏斗
 
 entity.witchery.demon.name=恶魔
 entity.demon.name=恶魔
@@ -187,8 +187,8 @@ entity.mandrake.name=曼德拉草
 entity.witchery.treefyd.name=行路花
 entity.treefyd.name=行路花
 
-witchery.book.mushroomred=红色蘑菇
-witchery.book.mushroombrown=棕色蘑菇
+witchery.book.mushroomred=红蘑菇
+witchery.book.mushroombrown=棕蘑菇
 witchery.book.altarpower=祭坛之力
 witchery.book.oven1={o{l巫术{r{r{o: 收集熏气{r||使用巫师烤炉烹煮物品会有一定几率能够收集到熏气.||这种烤箱并不能冶炼矿物,但相比普通熔炉它在烹煮食物时速度稍快.
 witchery.book.oven2=将 {8粘土罐{0放入烤箱来手机烹煮过程中产生的熏气:||食物 {6邪恶熏气{0|木头 {6邪恶熏气{0||烹煮{2树苗{0能够得到{8木灰{0且可能释放出树木的气态精华物质.
@@ -198,12 +198,12 @@ witchery.book.distillery.jars=粘土罐
 witchery.book.distillery.items={n可蒸馏下列物品{r
 witchery.book.distillery.results={n蒸馏产物{r
 witchery.book.brews1={o{l巫术{r{r{o: 酿造&注魔{r||{81.{0 将药材丢入装满水加热的壶中.如果必要的话用祭坛提供能量.{82.{0 将酿造产物装入空玻璃瓶中.|{83.{0 使用注魔仪式灌入魔力;但你须记得,{0死亡几乎总会如期而至{0.
-witchery.book.rites1={o{l巫术{r{r{o: 圆环法阵{r||{81.{0 使用彩色粉笔绘制圆环,在中央绘制心形.需要祭坛提供魔力.|{82.{0 将施法所需物品丢入圆环.|{83.{0 激活中央的心形.
+witchery.book.rites1={o{l巫术{r{r{o: 圆环法阵{r||{81.{0 使用彩色粉笔绘制圆环,在中央绘制核心.需要祭坛提供魔力.|{82.{0 将施法所需物品丢入圆环.|{83.{0 激活中央的核心.
 witchery.book.rites2=粉笔&大小:|7x7, 11x11, 15x15|{7仪式{0, {5他处{0, {4炼狱{0
 witchery.book.rites.anycircle=任意圆环皆可
 
-witchery.rite.bindcircle=Rite of Binding{r||Pulls the circles into the talisman.
-witchery.rite.bindcircleportable=Rite of Binding{r||Pulls the circles into the talisman.
+witchery.rite.bindcircle=绑定仪式{r||将圆环装入护身符.
+witchery.rite.bindcircleportable=绑定仪式{r||将圆环装入护身符.
 witchery.rite.bindwaystone=绑定仪式{r||给传送仪式设定目标传送石.
 witchery.rite.chargestone=充能仪式{r||给调谐之石充能.
 witchery.rite.infusionrecharge=充能仪式{r||站在圆环法阵里来补充魔力.
@@ -241,7 +241,7 @@ witchery.rite.fertility=富饶仪式{r||使得附近的土地肥沃多产,治疗
 witchery.rite.fertilityportable=富饶仪式{r||使得附近的土地肥沃多产,治疗生病的村民.
 witchery.rite.curseblight=枯萎之咒{r||使得附近的土地贫瘠且制造瘟疫.
 witchery.rite.curseblindness=失明之咒{r||使得附近生物失明.
-witchery.rite.hellonearth=人间地狱之咒{r||打开一扇通往地狱的传送门. 只在主世界的晚上起作用.
+witchery.rite.hellonearth=人间地狱之咒{r||打开一扇通往地狱的传送门. 只在主世界的晚上起作用. 
 witchery.rite.summonwitch=召唤仪式{r||召唤女巫.内部区域必须为全空的7x7x4格方块!
 witchery.rite.bindwaystoneportable=绑定仪式{r||给传送仪式设定目标传送石.
 witchery.rite.bindwaystonecopyportable=绑定仪式{r||复制一块传送石的位置到另一块.
@@ -259,10 +259,10 @@ tile.witchery:voidbramble.name=虚空荆棘
 witchery.rite.naturespower=自然力量仪式{r||对贫瘠的区域施放自然之力.
 
 item.witchery:witchrobe.name=巫师袍
-item.witchery:witchrobe.tip=城市里眼光敏锐的巫师所穿戴的服饰.||{5Creepers will ignore the wearer.{0||{9+35% chance of second brew (except necromantic){0
-
+item.witchery:witchrobe.tip=城市里眼光敏锐的巫师所穿戴的服饰
+
 item.witchery:necromancerrobe.name=死灵法师袍
-item.witchery:necromancerrobe.tip=掌控亡灵.||{5Undead will generally ignore the wearer.{0||{9+35% chance of second necromantic brew{0
+item.witchery:necromancerrobe.tip=掌控亡灵
 
 item.witchery:ingredient.creeperHeart.name=爬行者之心
 tile.witchery:glintweed.name=闪烁草
@@ -274,11 +274,11 @@ witchery.structure.apothecary.name=药房
 
 witchery.rite.disabled=仪式未能开始,服务器已经禁止使用该仪式.
 witchery.rite.unknownritual=未知仪式.
-witchery.rite.missingitem=缺少汇魔物品..
+witchery.rite.missingitem=缺少汇魔物品.
 witchery.rite.missinglivingsacrifice=缺少作为祭品的活物.
 witchery.rite.missingpowersource=附近没有祭坛.
-witchery.rite.insufficientpower=祭坛未能提供充沛能量.
-witchery.rite.missinglava=下边没有岩浆.
+witchery.rite.insufficientpower=祭坛未能提供充沛能量..
+witchery.rite.missinglava=下边没有岩浆..
 
 item.witchery:ingredient.brewIce.name=寒霜之酿药水
 item.witchery:ingredient.brewDepths.name=深渊之酿药水
@@ -312,31 +312,31 @@ witchery.book.herbology.belladonna=颠茄以能产出致命的剧毒出名.它�
 witchery.book.herbology.snowbell=冰冷若雪的怪异植物,生长时能够冻结空气里的水汽.它可以种植在耕地上,分若干阶段生长.高草阶段能产出种子.
 witchery.book.herbology.artichoke=具有奇怪效果的水生植物,胃囊鼓起来又瘪下去.它可以种植在静止水源上,分若干阶段生长.高草阶段能产出种子.
 witchery.book.herbology.glintweed=散发出非人间的光芒照亮周围.能够生长在任何地方,但只会向草地,泥土和沙子上蔓延.使用转生粉来使得其他植物变异成为它.
-witchery.book.herbology.spanishmoss=一种爬行者模样的苔藓,最适宜种在树上,能结出最好的娃娃.使用剪刀来收获以免损伤株体.使用转生粉来使得其他植物变异成为它.
+witchery.book.herbology.spanishmoss=一种爬山虎模样的苔藓,最适宜种在树上,能结出最好的娃娃.使用剪刀来收获以免损伤株体.使用转生粉来使得其他植物变异成为它.
 witchery.book.herbology.embermoss=拥有独特防护的植物,被入侵时会爆裂开来变成一团火焰.能够生长在任何地方,但只会向草地,泥土和沙子上蔓延.使用转生粉来使得其他植物变异成为它.
-witchery.book.herbology.voidbramble=这种奇怪的树莓能够阻挡生物前进,一旦他们靠近就将其传送离开.创建并且使用一些没有仪式的魔法能够有效接近它.
+witchery.book.herbology.voidbramble=这种奇怪的树莓能够阻挡生物前进,一旦他们靠近就将其传送离开.开启创造模式和使用一些没有仪式的魔法能够有效接近它.
 witchery.book.herbology.rowan=山梨树,或者也可用说成是一种相比其他树种对魔力格外亲和的突变白蜡树.使用转生粉来使得其他植物变异成为它.
 witchery.book.herbology.alder=赤杨木被砍伐时仿佛在流血.这种树会给所有人带来厄运.使用转生粉来使得其他植物变异成为它.
 witchery.book.herbology.hawthorn=山楂树是一种纯洁之树.在草药学领域它拥有悠久的应用史.使用转生粉来使得其他植物变异成为它.
 
 witchery.rite.infusiontree=注魔仪式{r||对神秘枝条灌注魔力.在夜晚施法.
 witchery.rite.cursecreature1=厄运之咒{r||施加诅咒,种下巫媒.在风暴中施法.
-witchery.rite.removecurse1=诅咒祛除仪式{r||祛除巫媒.但情况也可能会更糟糕.
+witchery.rite.removecurse1=诅咒祛除仪式{r||祛除巫媒.但情况也可能会更糟.
 witchery.rite.cookfood=烹煮仪式{r||在圆环法阵中烹煮食物.也许会煮过头哦.
 witchery.rite.obstructedcircle=中央符形附近区域的方块未清理干净.
 
 witchery.infuse.branch.nocharges=能量过低无法绘制该符文.
-witchery.infuse.branch.infusionrequired=你需要灌魔才能使用符文魔法.
-witchery.infuse.branch.unknownsymbol=位置符文.
-witchery.infuse.branch.infernalrequired=绘制禁忌符文需要炼狱灌魔.
+witchery.infuse.branch.infusionrequired=你需要注魔才能使用符文魔法.
+witchery.infuse.branch.unknownsymbol=未知符文.
+witchery.infuse.branch.infernalrequired=绘制禁忌符文需要炼狱注魔.
 
-witchery.pott.accio=飞来咒
+witchery.pott.accio=飞来飞去
 witchery.pott.aguamenti=清水如泉
 witchery.pott.alohomora=阿拉霍洞开
 witchery.pott.avadakedavra=阿瓦达索命
 witchery.pott.caveinimicum=降敌陷阱
-witchery.pott.colloportus=速速禁锢
-witchery.pott.confundus=信任咒
+witchery.pott.colloportus=快快禁锢
+witchery.pott.confundus=混淆视听
 witchery.pott.crucio=钻心剜骨
 witchery.pott.defodio=障碍焦落
 witchery.pott.ennervate=快快复苏
@@ -348,15 +348,15 @@ witchery.pott.impedimenta=障碍重重
 witchery.pott.imperio=魂魄出窍
 witchery.pott.incendio=火焰熊熊
 witchery.pott.lumos=荧光闪烁
-witchery.pott.meteolojinxrecanto=气象咒
-witchery.pott.nox=夜神咒
+witchery.pott.meteolojinxrecanto=云咒撤回
+witchery.pott.nox=诺克斯
 witchery.pott.protego=盔甲护身
 witchery.pott.stupefy=昏昏倒地
 
 entity.witchery.ent.name=树人
 
-witchery.taglockkit.taglockfailed=Failed to get taglock, other player noticed!
-witchery.taglockkit.taglockdiscovered=Someone just tried to take a taglock from you, but failed!
+witchery.taglockkit.taglockfailed=收集巫媒失败,有人发现了你!
+witchery.taglockkit.taglockdiscovered=有人企图收集你的巫媒,但是失败了!
 
 
 item.witchery:ingredient.doorKeyring.name=山梨木钥匙环
@@ -371,7 +371,7 @@ entity.witchery.illusionZombie.name=僵尸
 
 
 
-witchery.book.herbology.enderbramble=这种奇怪的树莓能够阻挡生物前进,一旦他们靠近就将其传送离开.可以使甘蔗和安博苔藓突变来得到它.
+witchery.book.herbology.enderbramble=这种奇怪的树莓能够阻挡生物前进,一旦他们靠近就将其传送离开.可以使甘蔗和寄生藤突变来得到它.
 witchery.book.herbology.grassper=这种充满好奇心的植物会接住你塞给它的任意物品.可以通过使高草和空箱子突变来得到它.
 witchery.book.herbology.crittersnare=捕食小生物的植物,会将它们咬成两截-千万别靠拢. 可以使赤杨树苗,蜘蛛网和僵尸突变来得到它.
 
@@ -387,10 +387,10 @@ witchery.rite.callfamiliar=召唤仪式{r||召唤未走失或未被杀死的爱�
 witchery.rite.corruptvoodooprotection=腐化娃娃之咒{r||摧毁巫媒的巫毒防护. 需要猫宠.
 witchery.rite.requirescursemastery=这种仪式需要带着一只猫作为爱宠时才能生效.
 
-item.witchery:ingredient.brewFrogsTongue.name=青蛙舌头之酿
-item.witchery:ingredient.brewCursedLeaping.name=诅咒跳跃之酿
-item.witchery:ingredient.brewHitchcock.name=酒窖之酿
-item.witchery:ingredient.brewInfection.name=感染之酿
+item.witchery:ingredient.brewFrogsTongue.name=青蛙舌头之酿药水
+item.witchery:ingredient.brewCursedLeaping.name=诅咒跳跃之酿药水
+item.witchery:ingredient.brewHitchcock.name=酒窖之酿药水
+item.witchery:ingredient.brewInfection.name=感染之酿药水
 item.witchery:ingredient.owletsWing.name=小猫头鹰之翼
 item.witchery:ingredient.toeOfFrog.name=青蛙趾
 item.witchery:ingredient.appleWormy.name=虫蛀苹果
@@ -401,7 +401,7 @@ tile.witchery:crittersnare.empty.name=生物陷阱
 tile.witchery:crittersnare.bat.name=生物陷阱(蝙蝠)
 tile.witchery:crittersnare.silverfish.name=生物陷阱(蠹虫)
 tile.witchery:crittersnare.slime.name=生物陷阱(史莱姆)
-tile.witchery:crittersnare.magmacube.name=生物陷阱(岩浆史莱姆)
+tile.witchery:crittersnare.magmacube.name=生物陷阱(岩浆怪)
 
 
 entity.witchery.babayaga.name=芭芭雅嘎
@@ -435,13 +435,13 @@ witchery.prediction.coal=你凝视着水晶球: %s会收集到大量的煤.
 
 tile.witchery:bramble.ender.name=末影荆棘
 tile.witchery:bramble.wild.name=野荆棘
-tile.witchery:bloodrose.name=血玫瑰
+tile.witchery:bloodrose.name=血罂粟
 
 witchery.rite.cursesinking1=沉重之咒{r||诅咒巫媒对象超重.只能在风暴中进行.
-witchery.rite.removesinking1=诅咒祛除仪式{r||清除引起沉重之咒的巫媒,但情况也可能会更糟.
+witchery.rite.removesinking1=诅咒祛除仪式{r||清除巫媒对象的沉重之咒,但情况也可能会更糟.
 tile.witcheryStatusGoddess.curesinking=女神消弭了你身上的沉重之咒.
 
-witchery.book.herbology.wildbramble=荆棘遍野,拉扯不穷.由仙人掌和西班牙苔藓变异而成.
+witchery.book.herbology.wildbramble=荆棘遍野,拉扯不穷.由仙人掌和寄生藤变异而成.
 witchery.book.herbology.bloodrose=在女巫花园里务必留神,玫瑰茎叶上的刺留下了你的血痕.由玫瑰和水蛭箱子变异而成.
 
 entity.witchery.covenwitch.name=聚会女巫
@@ -450,13 +450,13 @@ witchery.rite.infusionseerstone=注魔仪式{r||像石头注魔以参加女巫�
 witchery.rite.climatechange=季节变迁仪式{r||使用群落核心和荧石来选择生态群落.需要至少4名聚会女巫.
 witchery.rite.iceshell=寒冰蔓延仪式{r||制造一个冰球.需要至少2名聚会女巫.
 witchery.rite.curseoverheating=过热之咒{r||诅咒巫媒对象过热.
-witchery.rite.cureoverheating=诅咒祛除仪式{r||驱散巫媒对象的过热效果.事情亦有可能更糟.
+witchery.rite.cureoverheating=诅咒祛除仪式{r||驱散巫媒对象的过热效果.但情况也可能会更糟.
 tile.witcheryStatusGoddess.cureoverheating=女神保佑你远离高温的烦恼.
 witchery.rite.wrongdimension=该仪式不能在这个位面进行.
 witchery.rite.coventoosmall=你需要更多聚会女巫才能施展该仪式.
 witchery.rite.missingbiomefoci=缺少物品来代表目标生态群落.
 witchery.rite.rainoffrogs=雨蟾之咒{r||剧毒的蟾蜍如雨水般从天而降.需要至少1名聚会女巫.
-witchery.rite.glyphictransform=雕文转换仪式{r||掉落目标颜色的粉笔,根据聚会女巫数量分别有:1=小, 2=中, 3=大.
+witchery.rite.glyphictransform=雕文转换仪式{r||掉落目标颜色的粉笔,根据粉笔数量分别有:1=小, 2=中, 3=大.
 witchery.rite.callbeasts=野兽召唤仪式{r||召唤动物.需要至少3名聚会女巫.
 
 witchery.witch.pet=%s的宠物
@@ -464,7 +464,7 @@ witchery.witch.petflesh=%s的宠物之肉
 witchery.witch.peteye=%s的宠物之眼
 witchery.witch.say.covenfull=聚会已经凑够人数. 滚吧!
 witchery.witch.say.joinedcoven=我会参加聚会.到时候喊我.
-witchery.witch.say.questitemsremaining=还需要更多%s.
+witchery.witch.say.questitemsremaining=还需要%s个.
 witchery.witch.say.questnotfinished=你还没完成我的任务!
 witchery.witch.say.begone=滚吧!
 witchery.witch.say.notinterested1=我对你没兴趣!
@@ -481,29 +481,29 @@ witchery.witch.quest.makegrotesquebrew=我必须施展许多诅咒,为我带回�
 witchery.witch.quest.makenecrostone=为我带回掌握亡灵的方法,如果你接受任务就再和我对话一次!
 witchery.witch.quest.go=快出发吧!
 
-witchery.item.seerstone.misfortune=Curse of Misfortune (%d)
-witchery.item.seerstone.insanity=Curse of Insanity (%d)
-witchery.item.seerstone.sinking=Curse of Sinking (%d)
-witchery.item.seerstone.overheating=Curse of Overheating (%d)
-witchery.item.seerstone.notcursed=No curses.
+witchery.item.seerstone.misfortune=厄运之咒 (%d)
+witchery.item.seerstone.insanity=精神错乱之咒 (%d)
+witchery.item.seerstone.sinking=沉重之咒 (%d)
+witchery.item.seerstone.overheating=过热之咒 (%d)
+witchery.item.seerstone.notcursed=没有任何诅咒.
 
 entity.witchery.corpse.name=行尸
 entity.witchery.nightmare.name=梦魇
 
 tile.witchery:somniancotton.name=纤细棉花
-tile.witchery:spiritflowing.name=Flowing Spirit
+tile.witchery:spiritflowing.name=精神之门
 tile.witchery:spiritportal.name=精神之门
 tile.witchery:spinningwheel.name=转轮
 
-item.witchery:ingredient.brewSleep.name=沉睡之酿
-item.witchery:ingredient.brewWasting.name=浪费之酿
+item.witchery:ingredient.brewSleep.name=沉睡之酿药水
+item.witchery:ingredient.brewWasting.name=浪费之酿药水
 item.witchery:ingredient.sleepingApple.name=苹果
 item.witchery:ingredient.disturbedCotton.name=扰乱棉花
 item.witchery:ingredient.fancifulThread.name=幻想线团
 item.witchery:ingredient.tormentedTwine.name=折磨线团
 item.witchery:ingredient.goldenThread.name=黄金线团
 item.witchery:ingredient.mellifluousHunger.name=甜蜜饥饿
-item.witchery:ingredient.brewFlowingSpirit.name=水心之酿
+item.witchery:ingredient.brewFlowingSpirit.name=流动精神之酿药水
 item.witchery:ingredient.weaveIntensity.name=炽烈之织梦者
 item.witchery:bucketspirit.name=精神桶
 item.witchery:bitingbelt.name=咬人带
@@ -518,13 +518,13 @@ witchery.book.herbology.somniancotton=一个仅仅生长在梦境肆虐的睡眠
 
 tile.witchery:demonheart.name=恶魔之心
 
-witchery.rite.optional=(可选)
+witchery.rite.optional=恶魔之心
 witchery.rite.noplacelikehome=无处如家
-witchery.rite.unknownchant=未名圣歌
+witchery.rite.unknownchant=未知圣歌
 witchery.rite.manifestation.countdown=你感到若有实质,但只能维持%s秒.
 witchery.rite.slippersoncooldown=无事发生(等待%s分钟).
 witchery.rite.forestation=森林仪式{r||生长出一片森林,将树苗替换成希望之类型.
-witchery.rite.toofaraway=这么远的距离外无法完成仪式(需要一个大型女巫集会).
+witchery.rite.toofaraway=这么远的距离外无法完成仪式(需要一个大型女巫聚会).
 
 item.witchery:iceslippers.tip=冷却到可以触摸.
 item.witchery:brewbag.name=酿造袋
@@ -534,23 +534,23 @@ item.witchery:barkbelt.name=树皮腰带
 item.witchery:barkbelt.tip=这就是做树人的感觉咯.
 item.witchery:rubyslippers.name=红宝石舞鞋
 item.witchery:rubyslippers.tip=无处如家
-item.witchery:seepingshoes.name=睡鞋
+item.witchery:seepingshoes.name=渗漏鞋
 item.witchery:seepingshoes.tip=洞穴蜘蛛之祸
-item.witcheryTaglockKit.boundto=边界: {5%s{0
-item.witcheryTaglockKit.unbound=无界
+item.witcheryTaglockKit.boundto=绑定对象: {5%s{0
+item.witcheryTaglockKit.unbound=未绑定
 
 item.witchery:ingredient.bookBiomes.name=生态之书
 item.witchery:ingredient.bookWands.name=巫术:魔符学
 item.witchery:ingredient.batBall.name=浓缩蝙蝠球
-item.witchery:ingredient.brewBats.name=蝙蝠之酿
+item.witchery:ingredient.brewBats.name=蝙蝠之酿药水
 item.witchery:ingredient.purifiedMilk.name=纯牛奶
 item.witchery:ingredient.charmDisruptedDreams.name=奇思妙想符咒
 
 tile.witcheryStatusGoddess.curenightmare=女神祛除了你的梦魇.
 witchery.item.seerstone.nightmare=行走梦魇之咒 (%d)
 
-witchery.rite.cursenightmare=行走梦魇之咒{r||诅咒目标生物.
-witchery.rite.curenightmare=诅咒祛除仪式{r||清除巫媒对象的梦魇.事情可能变得更糟.
+witchery.rite.cursenightmare=行走梦魇之咒{r||只能在风暴中进行.
+witchery.rite.curenightmare=诅咒祛除仪式{r||清除巫媒对象的梦魇.但情况也可能会更糟.
 
 witchery.book.biomes1={o{l生态之书{r{r||理解世界上那些生态群落的第一步是改变它们.下面数页能发现完成{o季节变迁仪式{r所需要的核心物品以及荧石粉的消耗量.
 witchery.book.biomes.foci=核心
@@ -585,19 +585,19 @@ witchery.book.wands1={o{l巫术{r{r{o:魔符学{r||使用 {o魔法枝条{r绘制
 witchery.book.wands.strokes=手势
 witchery.book.wands.stroke.0=上
 witchery.book.wands.stroke.1=下
-witchery.book.wands.stroke.2=左
-witchery.book.wands.stroke.3=右
-witchery.book.wands.stroke.4=上左
-witchery.book.wands.stroke.5=上右
-witchery.book.wands.stroke.6=下左
-witchery.book.wands.stroke.7=下右
+witchery.book.wands.stroke.2=右
+witchery.book.wands.stroke.3=左
+witchery.book.wands.stroke.4=右上
+witchery.book.wands.stroke.5=左下
+witchery.book.wands.stroke.6=左上
+witchery.book.wands.stroke.7=右下
 
 witchery.pott.accio.info=牵引掉落物品
 witchery.pott.aguamenti.info=制造水源
 witchery.pott.alohomora.info=开启锁上的门
 witchery.pott.avadakedavra.info={4禁忌{0:咒杀
 witchery.pott.caveinimicum.info=强化方块
-witchery.pott.colloportus.info=为门户上锁
+witchery.pott.colloportus.info=为门上锁
 witchery.pott.confundus.info=蛊惑心智
 witchery.pott.crucio.info=禁忌:苦痛剜心
 witchery.pott.defodio.info=挖掘
@@ -614,7 +614,7 @@ witchery.pott.nox.info=熄灭光源
 witchery.pott.protego.info=护盾 (接触目标).
 witchery.pott.stupefy.info=击晕
 
-item.witchery:poppet.protectArmor.name=Armor Protection Poppet
+item.witchery:poppet.protectArmor.name=盔甲防护娃娃
 
 
 
@@ -626,19 +626,19 @@ item.witchery:boline.tip=类似剪刀,但能够收割被捕获的植物和蜘蛛
 witchery.infuse.infusionrequired=注魔后才拥有此能力.
 witchery.infuse.nocharges=魔力不足无法使用该能力.
 
-item.witchery:ingredient.brewSolidStone.name=固化酿造 (石头)
-item.witchery:ingredient.brewSolidDirt.name=固化酿造 (泥土)
-item.witchery:ingredient.brewSolidSand.name=固化酿造 (沙子)
-item.witchery:ingredient.brewSolidSandstone.name=固化酿造 (沙石)
-item.witchery:ingredient.brewSolidErosion.name=固化酿造 (侵蚀)
-item.witchery:ingredient.brewHollowTears.name=虚伪泪水之酿
-item.witchery:ingredient.brewSubstitution.name=置换之酿
+item.witchery:ingredient.brewSolidStone.name=固化药剂 (石头)
+item.witchery:ingredient.brewSolidDirt.name=固化药剂 (泥土)
+item.witchery:ingredient.brewSolidSand.name=固化药剂 (沙子)
+item.witchery:ingredient.brewSolidSandstone.name=固化药剂 (沙石)
+item.witchery:ingredient.brewSolidErosion.name=固化药剂 (侵蚀)
+item.witchery:ingredient.brewHollowTears.name=虚伪泪水之酿药水
+item.witchery:ingredient.brewSubstitution.name=置换之酿药水
 item.witchery:ingredient.condensedFear.name=凝集之恐惧
 item.witchery:ingredient.focusedWill.name=汇聚之意志
-item.witchery:ingredient.brewGrave.name=注魔墓穴之酿
-item.witchery:ingredient.brewSoaring.name=注魔翱翔之酿
-item.witchery:ingredient.infusionBase.name=注魔基础之酿
-item.witchery:ingredient.brewRevealing.name=揭示之酿
+item.witchery:ingredient.brewGrave.name=注魔墓穴之酿药水
+item.witchery:ingredient.brewSoaring.name=注魔翱翔之酿药水
+item.witchery:ingredient.infusionBase.name=注魔基础之酿药水
+item.witchery:ingredient.brewRevealing.name=揭示之酿药水
 item.witchery:ingredient.wormwood.name=苦艾
 item.witchery:ingredient.subduedSpirit.name=抑制之精神
 item.witchery:ingredient.brewCongealedSpirit.name=冻结之精神
@@ -682,15 +682,15 @@ witchery.fetish.ghostwalker.desc=维持从幽灵世界来的灵体生物.
 
 item.witchery:ingredient.seerstone.manifestationtime=可以显示%s秒.
 item.witchery:ingredient.seerstone.nomanifestationtime=无法显示.
-item.witchery:ingredient.seerstone.covensize=%s 名女巫在集会中.
-item.witchery:ingredient.seerstone.nocoven=无集会.
-item.witchery:ingredient.seerstone.nofamiliar=无熟人.
-item.witchery:ingredient.seerstone.familiar=熟人召唤 %s.
+item.witchery:ingredient.seerstone.covensize=%s 名女巫在聚会中.
+item.witchery:ingredient.seerstone.nocoven=无聚会.
+item.witchery:ingredient.seerstone.nofamiliar=无爱宠.
+item.witchery:ingredient.seerstone.familiar=爱宠召唤 %s.
 item.witchery:ingredient.bookBurning.name=巫术: 祈祷与灵物
 item.witchery:ingredient.graveyardDust.name=墓园土
 
 item.witchery.swordofdeath.customname=死神的备剑
-item.witchery.horseofdeath.customname=奶嘴
+item.witchery.horseofdeath.customname=冰奇
 
 witchery.rite.infusebrewsoaring=注魔仪式{r||为翱翔之酿注魔.
 witchery.rite.infusebrewgrave=注魔仪式{r||为墓穴之酿注魔.
@@ -729,20 +729,20 @@ entity.witchery.witchhunter.name=狩巫人
 
 item.witchery:handbow.name=狩巫手弩
 item.witchery:hunterhat.name=狩巫帽
-item.witchery:hunterhat.tip={9套装加成: 防护诅咒.{0|{9自动上弩.{0|{9无法使用娃娃.{0
+item.witchery:hunterhat.tip={9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
 item.witchery:huntercoat.name=狩巫衣
-item.witchery:huntercoat.tip={9套装加成: 防护诅咒.{0|{9自动上弩.{0|{9无法使用娃娃.{0
+item.witchery:huntercoat.tip={9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
 item.witchery:hunterlegs.name=狩巫裤
-item.witchery:hunterlegs.tip={9套装加成: 防护诅咒.{0|{9自动上弩.{0|{9无法使用娃娃.{0
+item.witchery:hunterlegs.tip={9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
 item.witchery:hunterboots.name=狩巫靴
-item.witchery:hunterboots.tip={9套装加成: 防护诅咒.{0|{9自动上弩.{0|{9无法使用娃娃.{0
+item.witchery:hunterboots.tip={9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
 item.witchery:shelfcompass.name=娃娃架罗盘
 item.witchery:ingredient.boltStake.name=木制弩箭
 item.witchery:ingredient.boltAntiMagic.name=废弃弩箭
 item.witchery:ingredient.boltHoly.name=骨制弩箭
 item.witchery:ingredient.boltSplitting.name=爆裂弩箭
 item.witchery:ingredient.nullifiedleather.name=废弃皮革
-item.witchery:ingredient.nullcatalyst.name=枯竭水晶
+item.witchery:ingredient.nullcatalyst.name=枯竭催化剂
 item.witchery:ingredient.binkyhead.name=冰奇头骨
 item.witchery:potion.antidote.name=万能解毒药
 
@@ -750,40 +750,39 @@ item.witchery:deathscowl.name=死神头巾
 item.witchery:deathscowl.tip={9它的凝视让恐惧深入骨髓,吓得可怜的牺牲者动弹不得.{0
 item.witchery:deathsrobe.name=死神之袍
 item.witchery:deathsrobe.tip={9抗火.{0
-item.witchery:deathsfeet.name=死神裹脚布
+item.witchery:deathsfeet.name=死神之鞋
 item.witchery:deathsfeet.tip={9水上行走.{0
 item.witchery:deathshand.name=死神之手
-item.witchery:deathshand.tip={9幽魂之触，忽略护甲防护.{0|{9死神套装加成: 召唤死神之镰{9|{9消耗饱腹度进行AOE范围攻击.{9
+{9幽魂之触，忽略护甲防护.{0|{9死神套装加成: 召唤死神之镰{9|{9消耗饱腹度进行AOE范围攻击.{9
 
 witchery.rite.blackmagicdampening=有什么在驱散魔法.
 
-fluid.witchery:hollowtears=Hollow Tears
-fluid.witchery:flowingspirit=Flowing Spirit
+fluid.witchery:hollowtears=虚伪泪水
+fluid.witchery:flowingspirit=流动精神
 
-tile.witchery:hollowtears.name=Flowing Spirit
-
+tile.witchery:hollowtears.name=流动精神
 
 
 entity.witchery.lordoftorment.name=痛苦之王
 
 entity.witchery.imp.name=烈焰小鬼
-entity.witchery.imp.goodbye=<%s>契约已签订
-entity.witchery.imp.contract.notowners=<%s>该契约无法用汝的血来签署!
-entity.witchery.imp.contract.unsigned=<%s>请用汝的血签署契约!
-entity.witchery.imp.contract.noxp=<%s>汝的经验过少,不足以满足吾的需求!
-entity.witchery.imp.contract.deal=<%s>契约达成!
-entity.witchery.imp.gift.like=<%s>闪耀!
-entity.witchery.imp.gift.hate=<%s>吾并不喜!不过是些新的闪耀之物!
-entity.witchery.imp.gift.reciprocate=<%s>吾有秘密欲与汝分享!
-entity.witchery.imp.gift.toomany=<%s>闪耀...耶...
-entity.witchery.imp.gift.power=<%s>压倒一切的伟力!
-entity.witchery.imp.gift.powerloss=<%s>为何汝要那样行事?
-entity.witchery.imp.spell.feelthefire=<%s>%s将感受到吾的光辉!
-entity.witchery.imp.spell.cannotfind=<%s>无法找到%s!
-entity.witchery.imp.spell.failed=<%s>似乎不太对劲.
-entity.witchery.imp.spell.notliked=<%s>吾为何当如此?
-entity.witchery.imp.spell.toooften=<%s>稍等片刻.
-entity.witchery.imp.spell.toomuchpower=<%s>太多力量需得考量!
+entity.witchery.imp.goodbye=<%s> 契已结
+entity.witchery.imp.contract.notowners=<%s> 此契非以汝之血所结!
+entity.witchery.imp.contract.unsigned=<%s> 请以汝之血结契!
+entity.witchery.imp.contract.noxp=<%s>汝之经验少甚,不足以供吾之求!
+entity.witchery.imp.contract.deal=<%s>契成!
+entity.witchery.imp.gift.like=<%s> 烁烁然!
+entity.witchery.imp.gift.hate=<%s> 吾不喜之!此仅为新烁烁然之物耳!
+entity.witchery.imp.gift.reciprocate=<%s> 吾有秘欲与汝共!
+entity.witchery.imp.gift.toomany=<%s> 烁烁然...噫...
+entity.witchery.imp.gift.power=<%s> 胜万物之伟力!
+entity.witchery.imp.gift.powerloss=<%s> 汝何为行事如彼?
+entity.witchery.imp.spell.feelthefire=<%s>%s将觉吾之光!
+entity.witchery.imp.spell.cannotfind=<%s> 不可寻%s!
+entity.witchery.imp.spell.failed=<%s> 似有蹊跷.
+entity.witchery.imp.spell.notliked=<%s> 吾为何当如此?
+entity.witchery.imp.spell.toooften=<%s> 且待片刻.
+entity.witchery.imp.spell.toomuchpower=<%s> 甚多力须得思之!
 
 tile.witchery:force.name=固体
 tile.witchery:tormentportal.name=痛苦之扉
@@ -792,7 +791,7 @@ tile.witchery:refillingchest.name=箱子
 witchery.infuse.branch.unknowneffect=你尚未学会这种法术效果！
 witchery.infuse.branch.effectoncooldown=法术效果尚未冷却完毕,还需%s 秒.
 
-item.witchery:ingredient.seerstone.knownspells=已知: %s.
+item.witchery:ingredient.seerstone.knownspells=Knows: 已知: %s.
 item.witchery:ingredient.seerstone.nospells=无神秘树枝知识.
 
 item.witchery:ingredient.brewSoulHunger.name=饿鬼之魂
@@ -814,39 +813,39 @@ witchery.pott.tormentum.info=将牺牲者投入那无尽的痛苦之中.
 witchery.pott.carnosadiem=盛宴堂堂
 witchery.pott.carnosadiem.info=盛大的宴会.
 witchery.pott.ignianima=蚀心魂焰
-witchery.pott.ignianima.info=魂火: 将与己等同的痛苦加诸于对方.
+witchery.pott.ignianima.info=魂火: 将与己等同的痛苦加诸对方.
 witchery.pott.morsmordre=尸骨再现
 witchery.pott.morsmordre.info=召唤出黑魔标记.
 
 witchery.rite.summonimp=召唤仪式{r||召唤出一头恶魔.内部区域必须留空7x7x4大小!
 
 
-tile.witchery:decurseteleport.name=封闭召唤之雕像
-tile.witchery:decursedirected.name=破损诅咒之雕像
+tile.witchery:decurseteleport.name=破损诅咒之雕像
+tile.witchery:decursedirected.name=封闭召唤之雕像
 entity.witchery.mindrake.name=矿德拉草
 entity.witchery.darkmark.name=黑魔标记
 item.witchery:seedsmindrake.name=矿德拉花蕾
 tile.witchery:mindrake.name=矿德拉草
 
 witchery.rite.bindstatuetoplayer=绑定仪式{r||在法阵中将角色与雕像绑定.
-witchery.rite.bindwaystonetoplayer=绑定仪式{r||制造出于该生物位置绑定的血腥路碑.
+witchery.rite.bindwaystonetoplayer=绑定仪式{r||制造出于该生物位置绑定的血腥寻路石.
 entity.witchery.goblin.name=妖精
 entity.witchery.goblinmog.name=莫哥
 entity.witchery.goblingulg.name=瓜哥
-item.witchery:ingredient.waystoneCreatureBound.name=血腥路碑
+item.witchery:ingredient.waystoneCreatureBound.name=血腥寻路石
 item.witchery:quiverofmog.name=莫哥箭囊
 item.witchery:quiverofmog.tip={9无限快的箭矢,扫射空中的敌人.{0|{5如果靠近装备了瓜哥妖带的玩家威力会提高.{0
 item.witchery:gurdleofgulg.name=瓜哥妖带
 item.witchery:gurdleofgulg.tip={9徒手将敌人砸飞.{0|{5如果靠近装备了莫哥箭囊的玩家威力会提高.{0
-tile.witchery:stockade.oak.name=橡树围栏
-tile.witchery:stockade.spruce.name=云杉树围栏
-tile.witchery:stockade.birch.name=白桦树围栏
+tile.witchery:stockade.oak.name=橡木围栏
+tile.witchery:stockade.spruce.name=云杉木围栏
+tile.witchery:stockade.birch.name=白桦木围栏
 tile.witchery:stockade.jungle.name=丛林木围栏
-tile.witchery:stockade.rowan.name=山梨树围栏
-tile.witchery:stockade.alder.name=赤杨树围栏
-tile.witchery:stockade.hawthorn.name=山楂树围栏
-tile.witchery:stockade.acacia.name=刺槐树围栏
-tile.witchery:stockade.big_oak.name=暗橡树围栏
+tile.witchery:stockade.rowan.name=山梨木围栏
+tile.witchery:stockade.alder.name=赤杨木围栏
+tile.witchery:stockade.hawthorn.name=山楂木围栏
+tile.witchery:stockade.acacia.name=金合欢围栏
+tile.witchery:stockade.big_oak.name=深色橡木围栏
 item.witchery:dupstaff.name=拷贝手杖
 tile.witchery:statueofworship.name=妖精主顾之雕像
 item.witchery:ingredient.kobolditedust.name=妖金粉末
@@ -857,829 +856,828 @@ item.witchery:ingredient.pentacle.name=五芒星阵
 tile.witchery:perpetualice.name=永冻之冰
 tile.witchery:tormentstone.name=痛苦之石
 
-tile.witchery:infinityegg.name=Infinity Egg
-item.witchery:kobolditehelm.name=Twisting Band
-item.witchery:kobolditehelm.tip={9Disorientates observers.{0
+tile.witchery:infinityegg.name=无穷之蛋
+item.witchery:kobolditehelm.name=扭曲手杖
+item.witchery:kobolditehelm.tip={9让观察者晕头转向.{0
 
 
 
 
-witchery:effect.paralysed=Paralysed
-witchery:effect.wrappedinvine=Vine Wrapped
-witchery:effect.spiked=Spikey
-witchery:potion.paralysed=Paralysed
-witchery:potion.insane=Insanity
-witchery:potion.wrappedinvine=Vine Wrapped
-witchery:potion.spiked=Spikey
-witchery:potion.sprouting=Sprouting
-witchery:potion.grotesque=Grotesque
-witchery:potion.love=In Love
-witchery:potion.allergysun=Undead's Curse
-witchery:potion.allergydark=Grue's Prey
-witchery:potion.chilled=Chilled
-witchery:potion.snowtrail=Snow Trail
-witchery:potion.hellishaura=Hellish Aura
-witchery:potion.brewingexpertise=Brewing Expertise
-witchery:potion.unknown=<unknown>
-witchery:potion.doublejump=Frog's Leg
-witchery:potion.featherfall=Feather Fall
-witchery:potion.reincarnate=Reincarnate
-witchery:potion.insanity=Insane
-witchery:potion.insanity.0=Cheese Flavored
-witchery:potion.insanity.1=Finely Groomed
-witchery:potion.insanity.2=Waffle Inclined
-witchery:potion.insanity.3=Hairy Legged
-witchery:potion.insanity.4=Turnip Tonsured
-witchery:potion.insanity.5=Captain Incredible
-witchery:potion.insanity.6=Tweety Pie
-witchery:potion.keepinventory=Sticky Items
-witchery:potion.sinking=Sinking
-witchery:potion.overheating=Overheating
-witchery:potion.wakingnightmare=Waking Nightmare
-witchery:potion.queasy=Queasy
-witchery:potion.swimming=Swim Boost
-witchery:potion.resizing=Resized
-witchery:potion.enderinhibition=Ender Inhibition
-witchery:potion.illfitting=Ill Fitting
-witchery:potion.volatility=Volatility
-witchery:potion.enslaved=Enslaved
-witchery:potion.mortalcoil=Mortal Coil
-witchery:potion.absorbmagic=Absorb Magic
-witchery:potion.poisonweapons=Poison Weapons
-witchery:potion.reflectprojectiles=Reflect Projectiles
-witchery:potion.reflectdamage=Reflect Damage
-witchery:potion.attractprojectiles=Attract Projectiles
-witchery:potion.repellattacker=Repell
-witchery:potion.stoutbelly=Stout Belly
-witchery:potion.feelnopain=Feel No Pain
-witchery:potion.floating=Floating
-witchery:potion.gasmask=Gas Mask
-witchery:potion.diseased=Disease
-witchery:potion.fortune=Luck
-witchery:potion.worship=Worship
-witchery:potion.keepeffects=Sticky Potion Effects
+witchery:effect.paralysed=瘫痪
+witchery:effect.wrappedinvine=藤蔓束缚
+witchery:effect.spiked=尖刺
+witchery:potion.paralysed=瘫痪
+witchery:potion.insane=疯狂
+witchery:potion.wrappedinvine=藤蔓束缚
+witchery:potion.spiked=尖刺
+witchery:potion.sprouting=萌芽
+witchery:potion.grotesque=怪诞
+witchery:potion.love=相爱
+witchery:potion.allergysun=亡灵之诅咒
+witchery:potion.allergydark=战栗之猎物
+witchery:potion.chilled=寒冷
+witchery:potion.snowtrail=雪之足迹
+witchery:potion.hellishaura=地狱氛围
+witchery:potion.brewingexpertise=酿造精通
+witchery:potion.unknown=<未知>
+witchery:potion.doublejump=蛙之腿
+witchery:potion.featherfall=羽之落
+witchery:potion.reincarnate=转世
+witchery:potion.insanity=疯狂
+witchery:potion.insanity.0=奶酪口味
+witchery:potion.insanity.1=照料妥当
+witchery:potion.insanity.2=开始唠叨
+witchery:potion.insanity.3=腿上长毛
+witchery:potion.insanity.4=剃成萝卜
+witchery:potion.insanity.5=怪异队长
+witchery:potion.insanity.6=鸟鸣馅饼
+witchery:potion.keepinventory=物品粘性
+witchery:potion.sinking=沉重
+witchery:potion.overheating=过热
+witchery:potion.wakingnightmare=白日噩梦
+witchery:potion.queasy=反胃
+witchery:potion.swimming=游泳加速
+witchery:potion.resizing=改变大小
+witchery:potion.enderinhibition=末影抑制
+witchery:potion.illfitting=不合身
+witchery:potion.volatility=挥发
+witchery:potion.enslaved=奴役
+witchery:potion.mortalcoil=死亡涡旋
+witchery:potion.absorbmagic=魔法吸收
+witchery:potion.poisonweapons=有毒武器
+witchery:potion.reflectprojectiles=投掷物反射
+witchery:potion.reflectdamage=伤害反射
+witchery:potion.attractprojectiles=投掷物吸引
+witchery:potion.repellattacker=排斥
+witchery:potion.stoutbelly=大肚皮
+witchery:potion.feelnopain=无痛
+witchery:potion.floating=漂浮
+witchery:potion.gasmask=防毒面具
+witchery:potion.diseased=疾病
+witchery:potion.fortune=幸运
+witchery:potion.worship=崇拜
+witchery:potion.keepeffects=药效粘性
 
-witchery:potion.colorful=Tinting
-witchery:potion.colorful.black=Tinting Black
-witchery:potion.colorful.red=Tinting Red
-witchery:potion.colorful.green=Tinting Green
-witchery:potion.colorful.brown=Tinting Brown
-witchery:potion.colorful.blue=Tinting Blue
-witchery:potion.colorful.purple=Tinting Purple
-witchery:potion.colorful.cyan=Tinting Cyan
-witchery:potion.colorful.lightgray=Tinting Light Gray
-witchery:potion.colorful.gray=Tinting Gray
-witchery:potion.colorful.pink=Tinting Pink
-witchery:potion.colorful.lime=Tinting Lime
-witchery:potion.colorful.yellow=Tinting Yellow
-witchery:potion.colorful.lightblue=Tinting Light Blue
-witchery:potion.colorful.magenta=Tinting Magenta
-witchery:potion.colorful.orange=Tinting Orange
-witchery:potion.colorful.white=Tinting White
+witchery:potion.colorful=染色
+witchery:potion.colorful.black=染黑色
+witchery:potion.colorful.red=染红色
+witchery:potion.colorful.green=染绿色
+witchery:potion.colorful.brown=染棕色
+witchery:potion.colorful.blue=染蓝色
+witchery:potion.colorful.purple=染紫色
+witchery:potion.colorful.cyan=染青色
+witchery:potion.colorful.lightgray=染淡灰色
+witchery:potion.colorful.gray=染灰色
+witchery:potion.colorful.pink=染粉红色
+witchery:potion.colorful.lime=染黄绿色
+witchery:potion.colorful.yellow=染黄色
+witchery:potion.colorful.lightblue=染淡蓝色
+witchery:potion.colorful.magenta=染品红色
+witchery:potion.colorful.orange=染橙色
+witchery:potion.colorful.white=染白色
 
-item.witchery:brewbottle.name=Brew
-item.witchery:brewbucket.name=Bucket of Brew
-witchery:brew.planting=Planting
-witchery:brew.floating=Floating
-witchery:brew.tilling=Tilling
-witchery:brew.harvesting=Harvest
-witchery:brew.frogtongue=Frog's Tongue
-witchery:brew.fertilization=Fertilize
-witchery:brew.flowers=Flowers
-witchery:brew.blight=Blight
-witchery:brew.moonshine=Moonshine
-witchery:brew.blast=Blast
-witchery:brew.raiseland=Raise Land
-witchery:brew.raising=Raising
-witchery:brew.frogsleg=Frog's Leg
-witchery:brew.potion=Brew of
-witchery:brew.potionwater=Colored Water
-witchery:brew.dispersal.gas=Gas
-witchery:brew.dispersal.liquid=Liquid
-witchery:brew.dispersal.splash=Splash
-witchery:brew.dispersal.triggered=Triggered
-witchery:brew.lifetime=Linger
-witchery:brew.drinkspeed={9Quaffing: %s{0
-witchery:brew.drinkspeed.veryslow=Very Slow
-witchery:brew.drinkspeed.slow=Slow
-witchery:brew.drinkspeed.veryfast=Very Fast
-witchery:brew.drinkspeed.fast=Fast
+item.witchery:brewbottle.name=药剂
+item.witchery:brewbucket.name=药桶
+witchery:brew.planting=种植
+witchery:brew.floating=漂浮
+witchery:brew.tilling=耕耘
+witchery:brew.harvesting=收获
+witchery:brew.frogtongue=蛙之舌
+witchery:brew.fertilization=施肥
+witchery:brew.flowers=百花
+witchery:brew.blight=枯萎
+witchery:brew.moonshine=月光
+witchery:brew.blast=冲击波
+witchery:brew.raiseland=震地
+witchery:brew.raising=提升
+witchery:brew.frogsleg=蛙之腿
+witchery:brew.potion=药水——
+witchery:brew.potionwater=有颜色的水
+witchery:brew.dispersal.gas=气体
+witchery:brew.dispersal.liquid=液体
+witchery:brew.dispersal.splash=喷溅
+witchery:brew.dispersal.triggered=触发
+witchery:brew.lifetime=药效保留
+witchery:brew.drinkspeed={9喝干: %s{0
+witchery:brew.drinkspeed.veryslow=很慢
+witchery:brew.drinkspeed.slow=慢
+witchery:brew.drinkspeed.veryfast=很快
+witchery:brew.drinkspeed.fast=快
 
-witchery:brew.levelling=Levelling
-witchery:brew.dissipate=Dissipate
-witchery:brew.pulverisation=Pulverisation
-witchery:brew.removedebuffs=Cure Debuffs
-witchery:brew.removebuffs=Cure Buffs
-witchery:brew.pruning=Pruning
-witchery:brew.tidehold=Tidal Hold
-witchery:brew.lavahold=Lava Hold
-witchery:brew.inferno=Flames
-witchery:brew.resizing=Resizing
-witchery:brew.extinguish=Extinguish
-witchery:brew.swimming=Swim Boost
-witchery:brew.durationboost=Potion Longevity
-witchery:brew.keepinventory=Sticky Items
-witchery:brew.revealing=Revealing
-witchery:brew.fullness=Fullness
-witchery:brew.wasting=Wasting
-witchery:brew.insanity=Insanity
-witchery:brew.airhike=Air Hike
-witchery:brew.reincarnate=Reincarnation
-witchery:brew.featherfall=Feather Fall
-witchery:brew.jump=Jumping
-witchery:brew.potionmaster=Decanting
-witchery:brew.moveslow=Slowness
-witchery:brew.invisibility=Invisibility
-witchery:brew.weakness=Weakness
-witchery:brew.harming=Harming
-witchery:brew.wither=Wither
-witchery:brew.poison=Poison
-witchery:brew.movespeed=Speed
-witchery:brew.waterbreathing=Gills
-witchery:brew.resistfire=Fire Resist
-witchery:brew.nightvision=Owl Eye
-witchery:brew.regeneration=Regeneration
-witchery:brew.damageboost=Strength
-witchery:brew.healing=Healing
-witchery:brew.blindness=Ink
-witchery:brew.fear=Fear
-witchery:brew.love=Love
-witchery:brew.snow=Snow
-witchery:brew.allergysun=Undead's Curse
-witchery:brew.allergydark=Grue's Prey
-witchery:brew.paralysis=Paralysis
-witchery:brew.erosion=Erosion
-witchery:brew.webs=Webs
-witchery:brew.vines=Vines
-witchery:brew.thorns=Thorns
-witchery:brew.sprouting=Sprouting
-witchery:brew.iceshell=Icy Shell
-witchery:brew.cold=Cold
-witchery:brew.treeoak=Oak
-witchery:brew.treespruce=Spruce
-witchery:brew.treebirch=Birch
-witchery:brew.treejungle=Jungle
-witchery:brew.treeacacia=Acacia
-witchery:brew.treedarkoak=Dark Oak
-witchery:brew.treerowan=Rowan
-witchery:brew.treealder=Alder
-witchery:brew.treehawthorn=Hawthorn
-witchery:brew.knockback=Knockback
-witchery:brew.batburst=Bat Burst
-witchery:brew.sinking=Sinking
-witchery:brew.overheating=Overheating
-witchery:brew.wakingnightmare=Waking Nightmare
-witchery:brew.drainmagic=Drain Magic
-witchery:brew.lilify=Lilify
-witchery:brew.hellgate=Inferno
-witchery:brew.harmdemons=Demonbane
-witchery:brew.harmundead=Undeadbane
-witchery:brew.harminsects=Insectbane
-witchery:brew.poisontoad=Poison Toad
-witchery:brew.seasons=Shifting Seasons
-witchery:brew.felling=Felling
-witchery:brew.absorbsion=Absorbsion
-witchery:brew.healthboost=Health Boost
-witchery:brew.transposeore=Transpose Ore
-witchery:brew.transpose=Transpose
-witchery:brew.stealbuffs=Steal Buffs
-witchery:brew.spreaddebuffs=Spread Debuffs
-witchery:brew.iceworld=Ice World
+witchery:brew.levelling=整平
+witchery:brew.dissipate=驱散
+witchery:brew.pulverisation=粉碎
+witchery:brew.removedebuffs=消除负面效果
+witchery:brew.removebuffs=消除正面效果
+witchery:brew.pruning=修剪
+witchery:brew.tidehold=潮汐退让
+witchery:brew.lavahold=岩浆退让
+witchery:brew.inferno=火焰
+witchery:brew.resizing=改变大小
+witchery:brew.extinguish=灭火
+witchery:brew.swimming=游泳加速
+witchery:brew.durationboost=药效长寿
+witchery:brew.keepinventory=物品粘性
+witchery:brew.revealing=揭示
+witchery:brew.fullness=饱足
+witchery:brew.wasting=浪费
+witchery:brew.insanity=疯狂
+witchery:brew.airhike=空中远足
+witchery:brew.reincarnate=转世
+witchery:brew.featherfall=羽之落
+witchery:brew.jump=跳跃
+witchery:brew.potionmaster=倾出
+witchery:brew.moveslow=缓慢
+witchery:brew.invisibility=隐形
+witchery:brew.weakness=虚弱
+witchery:brew.harming=伤害
+witchery:brew.wither=凋灵
+witchery:brew.poison=剧毒
+witchery:brew.movespeed=速度
+witchery:brew.waterbreathing=水肺
+witchery:brew.resistfire=抗火
+witchery:brew.nightvision=猫头鹰之眼
+witchery:brew.regeneration=再生
+witchery:brew.damageboost=力量
+witchery:brew.healing=治疗
+witchery:brew.blindness=墨黑
+witchery:brew.fear=恐惧
+witchery:brew.love=爱
+witchery:brew.snow=雪花
+witchery:brew.allergysun=亡灵之诅咒
+witchery:brew.allergydark=战栗之猎物
+witchery:brew.paralysis=瘫痪
+witchery:brew.erosion=侵蚀
+witchery:brew.webs=蛛网
+witchery:brew.vines=藤蔓
+witchery:brew.thorns=荆棘
+witchery:brew.sprouting=萌芽
+witchery:brew.iceshell=寒冰外壳
+witchery:brew.cold=严寒
+witchery:brew.treeoak=橡树
+witchery:brew.treespruce=云杉
+witchery:brew.treebirch=白桦
+witchery:brew.treejungle=丛林
+witchery:brew.treeacacia=金合欢
+witchery:brew.treedarkoak=深色橡树
+witchery:brew.treerowan=山梨
+witchery:brew.treealder=赤杨
+witchery:brew.treehawthorn=山楂
+witchery:brew.knockback=击退
+witchery:brew.batburst=蝙蝠爆发
+witchery:brew.sinking=沉重
+witchery:brew.overheating=过热
+witchery:brew.wakingnightmare=白日噩梦
+witchery:brew.drainmagic=耗尽魔法
+witchery:brew.lilify=莲叶化
+witchery:brew.hellgate=地狱
+witchery:brew.harmdemons=恶魔杀手
+witchery:brew.harmundead=亡灵杀手
+witchery:brew.harminsects=昆虫杀手
+witchery:brew.poisontoad=毒蟾蜍
+witchery:brew.seasons=季节变迁
+witchery:brew.felling=砍倒
+witchery:brew.absorbsion=吸收
+witchery:brew.healthboost=生命恢复
+witchery:brew.transposeore=矿石转移
+witchery:brew.transpose=转移
+witchery:brew.stealbuffs=窃取正面效果
+witchery:brew.spreaddebuffs=扩散负面效果
+witchery:brew.iceworld=冰天雪地
 
-witchery:brew.skillincrease=You feel more skilled at brewing, perhaps less brew will be wasted from now on.
+witchery:brew.skillincrease=你觉得在酿造方面更有技巧, 也许更少的药剂会被浪费.
 
-item.witchery:brew.water.name=Brew of Endless Water
-item.witchery:brew.water.tip=Endless Water (%s/%s)
-
-
-tile.witchery:cauldron.name=Witch's Cauldron
-tile.witchery:web.name=Web
-tile.witchery:vine.name=Vine
-tile.witchery:cactus.name=Cactus
-tile.witchery:lilypad.name=Water Lily
-
-tile.witchery:icedoor.name=Ice Door
-tile.witchery:icefence.name=Ice Fence
-tile.witchery:icefencegate.name=Ice Gate
-tile.witchery:iceslab.name=Ice Slab
-tile.witchery:icedoubleslab.name=Ice Double Slab
-item.witchery:iceslab.name=Ice Slab
-item.witchery:icedoubleslab.name=Ice Double Slab
-tile.witchery:icestairs.name=Ice Stairs
-item.witchery:ingredient.doorIce.name=Ice Door
-tile.witchery:icestockade.ice.name=Ice Stockade
-tile.witchery:icepressureplate.name=Ice Pressure Plate
-tile.witchery:snowpressureplate.name=Snow Pressure Plate
-
-item.witchery:ingredient.annointingPaste.name=Anointing Paste
-
-item.witchery:ingredient.seerstone.bottlingskill=Bottling skill: %s.
-
-tile.witchery:snowstairs.name=Snow Stairs
-tile.witchery:snowslab.name=Snow Slab
-tile.witchery:snowdoubleslab.name=Snow Double Slab
-item.witchery:snowslab.name=Snow Slab
-item.witchery:snowdoubleslab.name=Snow Double Slab
-
-tile.witchery:pitdirt.name=Dirt
-tile.witchery:pitpodzol.name=Podzol
-tile.witchery:pitgrass.name=Grass
-
-tile.witchery:cbuttonwood.name=Button
-tile.witchery:cbuttonstone.name=Button
-tile.witchery:clever.name=Lever
-tile.witchery:cwoodpressureplate.name=Pressure Plate
-tile.witchery:cstonepressureplate.name=Pressure Plate
-tile.witchery:csnowpressureplate.name=Snow Pressure Plate
-tile.witchery:cwoodendoor.name=Wooden Door
-
-item.witchery:leonardsurn.name=Leonard's Urn
-item.witchery:leonardsurn.tip=Place a brew in the Urn to|focus its power, then release|it though your wand.
-item.witchery:earmuffs.name=Earmuffs
-item.witchery:earmuffs.tip=Protection from Mandrakes
-item.witchery:playercompass.name=Player Compass
-item.witchery:ingredient.subduedSpiritVillage.name=Subdued Village Spirit
-
-fluid.witchery:disease=Disease
-tile.witchery:disease.name=Disease
-
-item.witchery:brew.fuel.name=Brew of Combustion
-item.witchery:brew.fuel.0=Combustion
-item.witchery:brew.fuel.1=Combustion II
-item.witchery:brew.fuel.2=Combustion III
-item.witchery:brew.fuel.3=Combustion IV
-item.witchery:bookbiomes2.name=Book of Biomes (Extended Edition)
-item.witchery:biomenote.name=Biome %s
-witchery.book.biomes.river.name=River
-witchery.book.biomes.ocean.name=Ocean
-witchery.book.biomes.sandy.name=Sandy
-witchery.book.biomes.snowy.name=Snowy
-witchery.book.biomes.mesa.name=Mesa
-witchery.book.biomes.spooky.name=Spooky
-witchery.biomebook.currentpage=Current Page: {5%s{0
-witchery.biomebook.rainfall=Rainfall: %s
-witchery.biomebook.snows=Snows: %s
-witchery.biomebook.lightning=Lightning: %s
-witchery.biomebook.temperature=Temp: %s
-witchery.biomebook.temperaturehot=Temp: %s (Humid)
-witchery.no=No
-witchery.yes=Yes
-item.witchery:biomebook2.tip={oCraft the book with a piece of paper,|{oto copy the current biome page (used|{oin some rituals).
-
-entity.witchery.leonard.name=Shade of Leonard
-entity.witchery.lostsoul.name=Lost Soul
-
-witchery.pott.leonard1=Caelum
-witchery.pott.leonard2=Baratrum
-witchery.pott.leonard3=Ortus
-witchery.pott.leonard4=Occasus
-
-witchery:color.black=Black
-witchery:color.red=Red
-witchery:color.green=Green
-witchery:color.brown=Brown
-witchery:color.blue=Blue
-witchery:color.purple=Purple
-witchery:color.cyan=Cyan
-witchery:color.lightgray=Light Gray
-witchery:color.gray=Gray
-witchery:color.pink=Pink
-witchery:color.lime=Lime
-witchery:color.yellow=Yellow
-witchery:color.lightblue=Light Blue
-witchery:color.magenta=Magenta
-witchery:color.orange=Orange
-witchery:color.white=White
+item.witchery:brew.water.name=无穷水之酿药水
+item.witchery:brew.water.tip=无穷之水 (%s/%s)
 
 
+tile.witchery:cauldron.name=女巫的炼药锅
+tile.witchery:web.name=蜘蛛网
+tile.witchery:vine.name=藤蔓
+tile.witchery:cactus.name=仙人掌
+tile.witchery:lilypad.name=睡莲
 
-item.witchery:cauldronbook.name=Witches' Brews
-item.witchery:cauldronbook.tip=The definitive guide to cauldrons and potion brewing.
+tile.witchery:icedoor.name=冰门
+tile.witchery:icefence.name=冰栅栏
+tile.witchery:icefencegate.name=冰栅栏门
+tile.witchery:iceslab.name=冰台阶
+tile.witchery:icedoubleslab.name=冰双层台阶
+item.witchery:iceslab.name=冰台阶
+item.witchery:icedoubleslab.name=冰双层台阶
+tile.witchery:icestairs.name=冰楼梯
+item.witchery:ingredient.doorIce.name=冰门
+tile.witchery:icestockade.ice.name=冰围栏
+tile.witchery:icepressureplate.name=冰压力板
+tile.witchery:snowpressureplate.name=雪压力板
+
+item.witchery:ingredient.annointingPaste.name=神奇药膏
+
+item.witchery:ingredient.seerstone.bottlingskill=装瓶技巧: %s.
+
+tile.witchery:snowstairs.name=雪楼梯
+tile.witchery:snowslab.name=雪台阶
+tile.witchery:snowdoubleslab.name=雪双层台阶
+item.witchery:snowslab.name=雪台阶
+item.witchery:snowdoubleslab.name=雪双层台阶
+
+tile.witchery:pitdirt.name=泥土
+tile.witchery:pitpodzol.name=灰化土
+tile.witchery:pitgrass.name=草丛
+
+tile.witchery:cbuttonwood.name=按钮
+tile.witchery:cbuttonstone.name=按钮
+tile.witchery:clever.name=拉杆
+tile.witchery:cwoodpressureplate.name=压力板
+tile.witchery:cstonepressureplate.name=压力板
+tile.witchery:csnowpressureplate.name=压力板
+tile.witchery:cwoodendoor.name=木门
+
+item.witchery:leonardsurn.name=莱昂纳德的瓮
+item.witchery:leonardsurn.tip=把药水置于瓮中以|聚集药效,然后|用你的魔杖释放.
+item.witchery:earmuffs.name=护耳罩
+item.witchery:earmuffs.tip=曼德拉草防护
+item.witchery:playercompass.name=玩家罗盘
+item.witchery:ingredient.subduedSpiritVillage.name=压抑的村庄之魂
+
+fluid.witchery:disease=瘟疫
+tile.witchery:disease.name=瘟疫
+
+item.witchery:brew.fuel.name=燃烧之酿药水
+item.witchery:brew.fuel.0=燃烧
+item.witchery:brew.fuel.1=燃烧 II
+item.witchery:brew.fuel.2=燃烧 III
+item.witchery:brew.fuel.3=燃烧 IV
+item.witchery:bookbiomes2.name=生态之书 (增订版)
+item.witchery:biomenote.name=生物群系 %s
+witchery.book.biomes.river.name=河流
+witchery.book.biomes.ocean.name=海洋
+witchery.book.biomes.sandy.name=沙漠
+witchery.book.biomes.snowy.name=雪原
+witchery.book.biomes.mesa.name=平顶山
+witchery.book.biomes.spooky.name=幽冥
+witchery.biomebook.currentpage=当前页: {5%s{0
+witchery.biomebook.rainfall=降雨: %s
+witchery.biomebook.snows=降雪: %s
+witchery.biomebook.lightning=闪电: %s
+witchery.biomebook.temperature=温度: %s
+witchery.biomebook.temperaturehot=温度: %s (潮湿)
+witchery.no=否
+witchery.yes=是
+item.witchery:biomebook2.tip={o将此书与一张纸合成,|{o以拷贝当前页 (在|{o某些仪式中使用).
+
+entity.witchery.leonard.name=莱昂纳德之影
+entity.witchery.lostsoul.name=失落之魂
+
+witchery.pott.leonard1=天有雕具座
+witchery.pott.leonard2=地有无底洞
+witchery.pott.leonard3=东方有启元
+witchery.pott.leonard4=西方有邪乐
+
+witchery:color.black=黑色
+witchery:color.red=红色
+witchery:color.green=绿色
+witchery:color.brown=棕色
+witchery:color.blue=蓝色
+witchery:color.purple=紫色
+witchery:color.cyan=青色
+witchery:color.lightgray=淡灰色
+witchery:color.gray=灰色
+witchery:color.pink=粉红色
+witchery:color.lime=黄绿色
+witchery:color.yellow=黄色
+witchery:color.lightblue=淡蓝色
+witchery:color.magenta=品红色
+witchery:color.orange=橙色
+witchery:color.white=白色
+
+
+
+item.witchery:cauldronbook.name=女巫的酿造
+item.witchery:cauldronbook.tip=炼药锅和药水酿造的精准指南
 
 witchery:cauldronbook.tbench=[i Crafting Bench][br][br][stack=%s][stack=%s][stack=%s][br][stack=%s][stack=%s][stack=%s] [img=witchery:textures/gui/arrowrightresult.png|left|middle|22|15] [stack=%s|left|middle][br] [stack=%s][stack=%s][stack=%s]
 witchery:cauldronbook.tcraft=%s[br][img=witchery:textures/gui/cauldron.png|left|top|30|29] [img=witchery:textures/gui/arrowrightresult.png|left|middle|22|15] [stack=%s|left|middle]
 witchery:cauldronbook.tritual=%s[br][img=witchery:textures/gui/cauldron.png|center|top|30|29]
 
-witchery:cauldronbook.toc=[h1 Witches' Brews]> [url Introduction][br]> [url Brewing][br]> [url=rituals Cauldron Rituals][br]> [url Crafting][br]> [url Other rituals][br]> [url Capacity][br]> [url Power][br]> [url Duration][br]> [url Modifiers][br]> [url Dispersal][br]> [url=toc/effects Effects]
-
-witchery:cauldronbook.introduction=[next=cauldron][h1 Introduction]Fill a [url cauldron] to the brim with water and light a fire beneath. When the water boils, throw in your ingredients for either:[br][br]> [url Brewing][br]> [url Rituals][br]> [url Crafting]
-witchery:cauldronbook.cauldron=[next=cauldron2][h1 Cauldron: Recipe]A witch's cauldron is made by placing a normal [i Cauldron] in the world and using [i Anointing Paste] on it:[br][br][template=tbench 6=witchery:ingredient|153 0=witchery:seedsbelladonna 1=witchery:seedsmandrake 2=empty 3=witchery:seedsartichoke 4=witchery:seedssnowbell 5=empty 7=empty 8=empty 9=empty]
-witchery:cauldronbook.cauldron2=[h1 Cauldron: Emptying]Empty a cauldron by dropping in one of the following:[br][br][stack=witchery:ingredient|17 Clear cauldron][br][stack=witchery:ingredient|16 Explode contents][br][br][i The witch and nearby structures will not be damaged.]
-
-witchery:cauldronbook.crafting=[next=toc/crafting2][h1 Crafting]The cauldron can be used to create or imbue items with magical properites. If a suitable combination of ingredients is thrown into the cauldron, the creation process will begin automatically. Use [url=rituals6 ritual circles] to reduce power costs!
-witchery:cauldronbook.toc/crafting2=[next=crafting3][h1 Crafting: Recipes]> [url Boiled Meat][br]> [url Mutandis][br]> [url Mutandis Extremis][br]> [url Drop of Luck][br]> [url Otherwhere Chalk][br]> [url Infernal Chalk][br]> [url Golden Chalk][br]> [url Mutating Sprig][br]> [url Nether Wart][br]> [url End Stone][br]> [url Rotten Flesh]
-witchery:cauldronbook.crafting3=[h1 Crafting: Recipes]> [url Pit Traps][br]> [url=compass Player Compass]
-witchery:cauldronbook.boiledmeat=[h1 Crafting: Cooked Meat]Porkchop, Beef, Chicken and Porkchop? can all be dropped into a boiling cauldron to cook.[br][br][template=tcraft stack|0=porkchop 1=cooked_porkchop]
-witchery:cauldronbook.mutandis=[h1 Crafting: Mutandis]Use Mutandis on simple plants, to mutate them into another, perhaps undiscovered, species.[br][br][template=tcraft stack|0=witchery:ingredient|22,witchery:ingredient|31,egg 1=witchery:ingredient|14|6]
-witchery:cauldronbook.mutandisextremis=[h1 Crafting: Mutandis Extremis]Use on plants to mutate them. Grass creates mycellium. Underwater dirt creates clay.[br][br][template=tcraft stack|0=nether_wart,witchery:ingredient|14 1=witchery:ingredient|15]
-witchery:cauldronbook.mutatingsprig=[h1 Crafting: Mutating Sprig]Use on plants and creatures as part of mutating rituals.[br][br][template=tcraft stack|0=nether_wart,witchery:ingredient|82,witchery:ingredient|15 1=witchery:mutator]
-witchery:cauldronbook.dropofluck=[h1 Crafting: Drop of Luck]Bottled luck, rare and hard to make.[br][br][template=tcraft stack|0=witchery:ingredient|22,nether_wart,witchery:ingredient|37,witchery:ingredient|38,witchery:ingredient|15 1=witchery:ingredient|39]
-witchery:cauldronbook.otherwherechalk=[h1 Crafting: Otherwhere Chalk]Used in rites involving transposition.[br][br][template=tcraft stack|0=nether_wart,witchery:ingredient|37,ender_pearl,witchery:chalkritual 1=witchery:chalkotherwhere]
-witchery:cauldronbook.infernalchalk=[h1 Crafting: Infernal Chalk]Used in rites involving the nether and demons.[br][br][template=tcraft stack|0=nether_wart,blaze_powder,witchery:chalkritual 1=witchery:chalkinfernal]
-witchery:cauldronbook.goldenchalk=[h1 Crafting: Golden Chalk]The centrepiece of most rites.[br][br][template=tcraft stack|0=witchery:ingredient|22,gold_nugget,witchery:chalkritual 1=witchery:chalkheart]
-witchery:cauldronbook.netherwart=[h1 Crafting: Nether Wart]For when a Nether Fortress is too hard to find.[br][br][template=tcraft stack|0=witchery:ingredient|22,witchery:ingredient|37,witchery:ingredient|29,ender_pearl,wheat,witchery:ingredient|14 1=nether_wart]
-witchery:cauldronbook.endstone=[h1 Crafting: End Stone]What happens when the floating island is all gone?[br][br][template=tcraft stack|0=witchery:ingredient|22,stone,end_stone,witchery:ingredient|15 1=end_stone|0|2]
-witchery:cauldronbook.rottenflesh=[h1 Crafting: Rotten Flesh]Finally a use for spare hands.[br][br][template=tcraft stack|0=witchery:witchhand 1=rotten_flesh|0|5]
-witchery:cauldronbook.pittraps=[h1 Crafting: Pit Traps]Non-solid blocks![br][template=tcraft stack|0=witchery:ingredient|22,dirt,witchery:ingredient|101 1=witchery:pitdirt|0|4][br][br][template=tcraft stack|0=nether_wart,dirt,yellow_flower,witchery:ingredient|101 1=witchery:pitgrass|0|4]
-witchery:cauldronbook.compass=[h1 Crafting: Player Compass]Craft with a taglock to find the way to that person.[br][br][template=tcraft stack|0=nether_wart,witchery:ingredient|37,vine,spider_eye,compass 1=witchery:playercompass]
-
-witchery:cauldronbook.brewing=[next=brewing2][h1 Brews]Use a glass bottle to retrieve your potion when the cauldron splutters. Certain ingredients may need to draw power from an altar. More brews may be recovered as your [url=bottling expertise] grows.[br][br][stack=glass_bottle Glass Bottle]
-witchery:cauldronbook.brewing2=[next=brewing3][h1 Brews: Effects & Modifiers]A brew consists of one or more [url=toc/effects effects] with modifiers and a [url dispersal] method, also with modifiers. Modifiers to an effect or dispersal method must be added in-order before the effect is added.
-witchery:cauldronbook.brewing3=[next=brewing4][h1 Brews: Capacity]Each effect added to a brew will require a certain ammout of storage space. Special [url=capacity ingredients] are used to add such capacity to a brew, and they must be added in order to have a cumulative effect.
-witchery:cauldronbook.brewing4=[next=brewing5][h1 Brews: Capacity]Multiple effects can be added to a brew, but there must be sufficient capacity for all of them combined.
-witchery:cauldronbook.brewing5=[next=brewing6][h1 Brews: Step-by-step]1. Increase [url capacity][br]2. Add [url modifiers][br]3. Increase [url power][br]4. Increase [url duration][br]5. Add [url=toc/effects effect][br]6. Repeat from 3[br]> Bottle or continue[br]7. Increase [url extent][br]8. Increase [url=linger lingering][br]9. Set [url dispersal][br]> Bottle or do [url=rituals ritual]
-witchery:cauldronbook.brewing6=[h1 Brews: Splash Brew of Extinguish Fires]Throw the following items into a full, boiling cauldron. Then use a glass bottle on the cauldron.[stack=glass_bottle][br][stack=witchery:ingredient|22][stack=coal][stack=gunpowder][br][img=witchery:textures/gui/cauldron.png|center|top|30|29]
-witchery:cauldronbook.bottling=[next=bottling2][h1 Bottling]Inexperienced witches are not so proficient in actually bottling a brew. To obtain more brews from a cauldron practice is needed, eventually requiring more complex brews to be made.
-witchery:cauldronbook.bottling2=[h1 Bottling]Wearing the correct clothing also helps an experienced witch, as does a Toad familiar. It may also be possible to use special brews to augment your proficiency.
-
-witchery:cauldronbook.rituals=[next=rituals2][h1 Rituals]Instead of bottling a brew, a full cauldron may instead be used to cast the effects as a ritual. Ritual casting requires the witch to add either a Taglock of the target or Tongue of Dog to cast it at the cauldron's location. 
-witchery:cauldronbook.rituals2=[next=rituals3][h1 Rituals: Waystones]A bound waystone may be added before the Tongue of Dog, to cast the ritual at the waystone's location. Some effects may require a second waystone to determine a source location.
-witchery:cauldronbook.rituals3=[next=rituals4][h1 Rituals: Covens & Strength]The power of a rituals effects and the maximum range a ritual may be cast is determined by how many witches from a coven participate in the ritual. A maximum of seven witches may participate.
-witchery:cauldronbook.rituals4=[next=rituals5][h1 Rituals: Dispersal]Using a taglock to start a ritual targets the bound creature. Otherwise a [url dispersal] ingredient must be added before the Tongue of Dog. Instant splash remains unchanged, but gas become an expanding effect and liquid produces rain.
-witchery:cauldronbook.rituals5=[next=rituals6][h1 Rituals: Risks & Power]Performing a ritual with a cauldron needs altar power and, unlike pure circle magic, carries a risk of side-effects.[br]Surrounding the cauldron with chalk circles can help offset the power requirements and augment the risks. 
-witchery:cauldronbook.rituals6=[next=rituals7][h1 Rituals: Risks & Power]Ritual (white) small and/or medium circles can be used to moderately reduce power costs and eliminate side-effects.[br][br][img=witchery:textures/gui/circles_2white.png|center|top|32|32]
-witchery:cauldronbook.rituals7=[next=rituals8][h1 Rituals: Risks & Power]Infernal (red) small and/or medium circles can be used to significantly reduce altar power costs, but at an increased risk of side-effects.[br][br][img=witchery:textures/gui/circles_2red.png|center|top|32|32]
-witchery:cauldronbook.rituals8=[next=rituals9][h1 Rituals: Risks & Power]Red and white circles may be mixed as desired to get the appropriate balance of power costs and risks.
-witchery:cauldronbook.rituals9=[next=rituals10][h1 Rituals: Failed rituals] When a ritual fails, it will emit colored smoke:[br][br][darkgreen Green] Target too far[br][darkblue Blue] Coven needed[br][darkred Red] Invalid circles[br][darkyellow Yellow] Underpowered[br][darkpurple Purple] Other failure[br][br]Rituals will not start if there is too little power.
-witchery:cauldronbook.rituals10=[next=rituals11][h1 Rituals: Ritual of Raise Land]The further from the cauldron the waystone points, the larger the coven must be.[br][br][template=tritual stack|0=nether_wart,witchery:ingredient|37,quartz,witchery:ingredient|13,witchery:ingredient|25]
-witchery:cauldronbook.rituals11=[h1 Rituals: Extended Curse of Blindness]The further from the victim, the larger the coven must be.[br][br][template=tritual stack|0=nether_wart,witchery:ingredient|37,redstone,dye|0,witchery:taglockkit|1]
-
-witchery:cauldronbook.otherrituals=[h1 Other Rituals]New rites that do not require an altar:[br][br]> [url=ritualwaystone Bind Waystone][br]> [url=ritualwaystoneblooded Blooded Waystone][br]> [url=ritualtranspose Transpose][br]> [url=ritualfind Find Structure]
-witchery:cauldronbook.ritualwaystone=[h1 Ritual: Bind Waystone]To bind up to eight waystones, draw a 3x3 purple-chalk circle:[br][img=witchery:textures/gui/circles_tinypurple.png|center|top|32|32][br]Drop the waystones into the center, step back and wait.
-witchery:cauldronbook.ritualwaystoneblooded=[h1 Ritual: Bind Blooded Waystone]To bind a waystone to a creature, draw a 3x3 purple-chalk circle near an Altar:[br][img=witchery:textures/gui/circles_tinypurple.png|center|top|32|32][br]With the creature near, drop a waysone in the center and wait.
-witchery:cauldronbook.ritualtranspose=[h1 Ritual: Transpose]To transpose to a bound waystone, draw a 5x5 purple-chalk circle:[br][img=witchery:textures/gui/circles_spurple.png|center|top|32|32][br]Stand in the circle, drop the waystone inside the circle, and wait.
-witchery:cauldronbook.ritualfind=[h1 Ritual: Find Structure]Summon a spirit that flys towards the closest village (or nether fortress). Draw a 3x3 white-chalk circle:[br][img=witchery:textures/gui/circles_tinywhite.png|center|top|32|32][br]Drop a Subdued Spirit or Attuned Stone in the center and wait.
-
-witchery:cauldronbook.capacity=[i Capacity] - [url=toc/effects Effects] each have a space requirement, add these ingredients, in order, to increase a brew's capacity.[br][br][stack=witchery:ingredient|22 +1][tab][stack=nether_wart +2][br][stack=witchery:ingredient|37 +2][tab][stack=witchery:ingredient|29 +2][br][stack=diamond +2][tab][stack=nether_star|29 +4]
-witchery:cauldronbook.power=[i Power] - Add, in order, before an [url=toc/effects effect] to increase its power.[br][br][stack=glowstone_dust +1 (to level II)][br][stack=blaze_rod +1 (to level III)][br][stack=witchery:ingredient|11 +1 (to level IV)]
-witchery:cauldronbook.duration=[i Duration] - Add, in order, before an [url=toc/effects effect] to increase its duration.[br][br][stack=redstone +1 (to x2)][br][stack=obsidian +1 (to x4)][br][stack=witchery:seedsmindrake +1 (to x6)]
-
-witchery:cauldronbook.modifiers=[next=modifiers2][h1 Modifiers: General]These modifiers change the following effect.[br][br][stack=gold_nugget No particles][br][stack=fermented_spider_eye Invert next effect][br][stack=netherbrick Skip block effects][br][stack=brick Skip entity effects]
-witchery:cauldronbook.modifiers2=[next=modifiers3][h1 Modifiers: Quaffing]Each quaffing bonus can be added once, before all effects, for a cumulative boost.[br][br][stack=witchery:ingredient|63 Faster quaffing][br][stack=witchery:ingredient|31 Faster quaffing][br][stack=witchery:spanishmoss Faster quaffing]
-witchery:cauldronbook.modifiers3=[next=modifiers4][h1 Modifiers: Color]Change brew color.[br][stack=wool|0 White color][br][stack=wool|1 Orange color][br][stack=wool|2 Magenta color][br][stack=wool|3 Light blue color][br][stack=wool|4 Yellow color][br][stack=wool|5 Lime color]
-witchery:cauldronbook.modifiers4=[next=modifiers5][h1 Modifiers: Color][stack=wool|6 Pink color][br][stack=wool|7 Gray color][br][stack=wool|8 Light gray color][br][stack=wool|9 Cyan color][br][stack=wool|10 Purple color][br][stack=wool|11 Blue color]
-witchery:cauldronbook.modifiers5=[h1 Modifiers: Color][stack=wool|12 Brown color][br][stack=wool|13 Green color][br][stack=wool|14 Red color][br][stack=wool|15 Black color]
-
-witchery:cauldronbook.dispersal=[i Dispersal] - Add one, after any [url extent] or [url linger] modifiers, to set a splash effect.[br][br][stack=gunpowder or][stack=witchery:ingredient|69 Instant][br][stack=witchery:ingredient|24 Gas][br][stack=witchery:ingredient|111 Liquid][br][stack=skull|2][url=dispersaltrigger|middle Trigger]
-witchery:cauldronbook.dispersaltrigger=[next=dispersaltrigger2][h1 Dispersal: Trigger - Brew]Brew the [url=brewing potion] then throw it at a button, lever, wooden door or pressure plate, to apply its effects to the next person who activates the block.
-witchery:cauldronbook.dispersaltrigger2=[h1 Dispersal: Trigger - Ritual]Cast the brew as a [url=rituals ritual], then place any item on top of the cauldron, to imbue the item with its effects. The effects will be cast on the next creature to use the item. Repeat the ritual to add more charges to the item.
-witchery:cauldronbook.extent=[i Disperal Extent] - Add, in order, before the [url dispersal] ingredient, to increase its area of effect.[br][br][stack=witchery:ingredient|18 +1 (to level II)][br][stack=dye|3 +1 (to level III)][br][stack=witchery:somniancotton +1 (to level IV)]
-witchery:cauldronbook.linger=[i Disperal Lingering] - Add, in order, before the [url dispersal], to increase its duration.[br][br][stack=witchery:ingredient|21 +1 (to level II)][br][stack=dye|4 +1 (to level III)][br][stack=end_stone +1 (to level IV)]
-
-witchery:cauldronbook.toc/effects=[h1 Effects]Add after any [url power] and [url duration] boost or [url modifiers]. Ensure brew has [url capacity].[br][br]> [url Level 1][br]> [url Level 2][br]> [url Level 4][br]> [url Level 5][br]> [url Level 6][br]> [url Level 8][br]> [url Level 12]
-witchery:cauldronbook.level1=[next=level1_2][h1 Effect: Level 1][stack=snowball][url=snowburst|middle Snow Burst & Trail][br][stack=fish|0][url=swimspeed|middle Swim Speed][br][stack=witchery:ingredient|67][url=enderinhibition|middle Ender Inhibition][br][stack=wheat][url=moonshine|middle Moonshine][br][stack=sand][url=partwater|middle Part water]
-witchery:cauldronbook.level1_2=[next=level1_3][h1 Effect: Level 1][stack=coal|0][url=extinguish|middle Extinguish Fires][br][stack=stone][url=dissipategas|middle Dissipate Gas][br][stack=yellow_flower][url=growflowers|middle Grow flowers][br][stack=dye|15][url=fertilize|middle Fertilize][br][stack=apple][url=harvest|middle Harvest]
-witchery:cauldronbook.level1_3=[next=level1_4][h1 Effect: Level 1][stack=dirt][url=tilling|middle Till land][br][stack=wheat_seeds][url=planting|middle Planting][br][stack=brown_mushroom][url=pruning|middle Prune Leaves][br][stack=string][url=felling|middle Fell tree][br][stack=flint][url=pulverize|middle Pulverize rock][br][stack=waterlily][url=growlily|middle Grow lily]
-witchery:cauldronbook.level1_4=[h1 Effect: Level 1][stack=witchery:ingredient|156][url=wolfsbane|middle Wolfsbane][br][stack=dye|1][url=tinting|middle Tint skin *][br][br][i * can use any dye for the desired color.][br][br][stack=coal|1][url=combustion|middle Combustion *][br][br][i * cannot be combined with other effects.]
-
-witchery:cauldronbook.level2=[next=level2_2][h1 Effect: Level 2][stack=cobblestone][url=partlava|middle Part lava][br][stack=witchery:bramble][url=repel|middle Repel attacker][br][stack=gravel][url=brewgasimmunity|middle Brew gas immunity][br][stack=spider_eye][url=poison|middle Poison][br][stack=ghast_tear][url=regeneration|middle Regeneration][br][stack=fermented_spider_eye][stack=ghast_tear][url=poison|middle Poison]
-witchery:cauldronbook.level2_2=[next=level2_3][h1 Effect: Level 2][stack=sugar][url=fastmove|middle Fast movement][br][stack=fermented_spider_eye][stack=sugar][url=slowmove|middle Slow movement[br][stack=fish|3][url=waterbreathing|middle Water breathing][br][stack=magma_cream][url=resistfire|middle Resist fire][br][stack=golden_carrot][url=nightvision|middle Night vision][br][stack=fermented_spider_eye][stack=golden_carrot][url=invisible|middle Invisible]
-witchery:cauldronbook.level2_3=[next=level2_4][h1 Effect: Level 2][stack=blaze_powder][url=damageboost|middle Damage boost][br][stack=fermented_spider_eye][stack=blaze_powder][url=weakness|middle Weakness][br][stack=speckled_melon][url=heal|middle Heal][br][stack=fermented_spider_eye][stack=speckled_melon][url=harm|middle Harm][br][stack=reeds][url=floating|middle Floating]
-witchery:cauldronbook.level2_4=[next=level2_5][h1 Effect: Level 2][stack=leather][url=jump|middle Jump][br][stack=feather][url=slowfall|middle Slow fall][br][stack=web][url=reflectarrows Reflect arrows][br][stack=fermented_spider_eye][stack=web][url=attractarrows|middle Attract arrows][br][stack=red_mushroom][url=poisonweapon|middle Poison weapon]
-witchery:cauldronbook.level2_5=[next=level2_6][h1 Effect: Level 2][stack=witchery:ingredient|108][url=batburst|middle Bat burst][br][stack=witchery:ingredient|32][url=airhike|middle Air hike][br][stack=slime_ball][url=pull|middle Pull][br][stack=witchery:ingredient|30][url=erosion|middle Erosion][br][stack=netherrack][url=levelland|middle Level Land][br][stack=witchery:ingredient|56][url=webs|middle Webs]
-witchery:cauldronbook.level2_6=[next=level2_7][h1 Effect: Level 2][stack=vine][url=vines|middle Vines & Flammable][br][stack=cactus][url=thorns|middle Cactus & Thorned][br][stack=witchery:ingredient|82][url=sprouting|middle Sprouting][br][stack=witchery:ingredient|78][url=freeze|middle Freeze][br][stack=stick][url=knockback|middle Knockback][br][stack=pumpkin][url=undeadbane|middle Undeadbane]
-witchery:cauldronbook.level2_7=[next=level2_8][h1 Effect: Level 2][stack=red_flower|1][url=insectbane|middle Insectbane][br][stack=witchery:witchsapling|0][url=growtree|middle Grow rowan][br][stack=witchery:witchsapling|1][url=growtree|middle Grow alder][br][stack=witchery:witchsapling|2][url=growtree|middle Grow hawthorn][br][stack=sapling|5][url=growtree|middle Grow dark oak]
-witchery:cauldronbook.level2_8=[next=level2_9][h1 Effect: Level 2][stack=sapling|0][url=growtree|middle Grow oak][br][stack=sapling|1][url=growtree|middle Grow spruce][br][stack=sapling|2][url=growtree|middle Grow birch][br][stack=sapling|3][url=growtree|middle Grow jungle][br][stack=sapling|4][url=growtree|middle Grow acacia][br][stack=witchery:ingredient|35][url=removebuffs|middle Remove Buffs]
-witchery:cauldronbook.level2_9=[h1 Effect: Level 2][stack=witchery:ingredient|105][url=removedebuffs|middle Remove debuffs][br][stack=snow][url=endlesswater|middle Endless Water *][br][br][i * cannot be combined with other effects.]
-
-witchery:cauldronbook.level4=[next=level4_2][h1 Effect: Level 4][stack=witchery:glintweed][url=flames|middle Flames][br][stack=witchery:ingredient|80][url=fear|middle Fear][br][stack=dye|0][url=blindness|middle Blindness][br][stack=red_flower|0][url=love|middle Love][br][stack=witchery:ingredient|23][url=paralysis|middle Paralysis][br][stack=rotten_flesh][url=disease|middle Disease]
-witchery:cauldronbook.level4_2=[next=level4_3][h1 Effect: Level 4][stack=witchery:ingredient|39][url=brewbottling|middle Brew bottling][br][stack=fermented_spider_eye][stack=witchery:ingredient|39][url=insanity|middle Insanity][br][stack=witchery:ingredient|99][url=sinking|middle Sinking][br][stack=witchery:embermoss][url=overheating|middle Overheating][br][stack=witchery:ingredient|103][url=nightmare|middle Nightmare][br][stack=witchery:ingredient|90][url=frogsleg|middle Frog's Leg]
-witchery:cauldronbook.level4_3=[next=level4_4][h1 Effect: Level 4][stack=golden_apple][url=absorbtion|middle Absorption][br][stack=golden_apple|1][url=healthboost|middle Health boost][br][stack=witchery:ingredient|112][url=wasting|middle Wasting][br][stack=fermented_spider_eye][stack=witchery:ingredient|112][url=fullness|middle Fullness][br][stack=witchery:ingredient|36][url=revealing|middle Revealing][br][stack=tallgrass|0][url=volatility|middle Volatility]
-witchery:cauldronbook.level4_4=[next=level4_5][h1 Effect: Level 4][stack=witchery:ingredient|28][url=stoutbelly|middle Stout belly][br][stack=poisonous_potato][url=blight|middle Blight][br][stack=ender_pearl][url=transpose|middle Transpose][br][stack=iron_ingot][url=transposeore|middle Transpose ore][br][stack=bone][url=raisedead|middle Raise dead][br][stack=quartz][url=raiseland|middle Raise land]
-witchery:cauldronbook.level4_5=[next=level4_6][h1 Effect: Level 4][stack=soul_sand][url=gruesprey|middle Grue's Prey][br][stack=witchery:ingredient|34][url=absorbmagic|middle Absorb magic][br][stack=skull|1][url=wither|middle Wither][br][stack=witchery:ingredient|157][url=harmwerewolves|middle Harm Werewolves][br][stack=witchery:garlic][url=weakenvampires|middle Weaken Vampires]
-witchery:cauldronbook.level4_6=[h1 Effect: Level 4][stack=witchery:ingredient|165][url=animalattraction|middle Animal attraction][br][stack=fermented_spider_eye][stack=witchery:ingredient|165][url=animalrepulsion|middle Animal replusion]
-
-witchery:cauldronbook.level5=[next=level5_2][h1 Effect: Level 5][stack=witchery:ingredient|38][url=inferno|middle Inferno][br][stack=gold_ingot][url=blast|middle Blast][br][stack=double_plant][url=poisontoad|middle Poison Toad][br][stack=ender_eye][url=iceworld|middle Ice World][br][stack=witchery:ingredient|79][url=iceshell|middle Ice shell][br][stack=witchery:ingredient|66][url=reflectdamage|middle Reflect damage]
-witchery:cauldronbook.level5_2=[h1 Effect: Level 5][stack=ice][url=demonbane|middle Demonbane]
-
-witchery:cauldronbook.level6=[next=level6_2][h1 Effect: Level 6][stack=fish|1][url=undeadscurse|middle Undead's Curse][br][stack=witchery:bramble|1][url=illfitting|middle Ill Fitting][br][stack=witchery:ingredient|33][url=reincarnate|middle Reincarnate][br][stack=witchery:ingredient|74][url=durationboost|middle Duration Boost][br][stack=emerald][url=resizing|middle Resizing][br][stack=skull|0][url=stealbuffs|middle Steal buffs]
-witchery:cauldronbook.level6_2=[stack=clay_ball][url=fortune|middle Fortune][br][stack=witchery:ingredient|114][url=drainmagic|middle Drain magic]
-
-witchery:cauldronbook.level8=[h1 Effect: Level 8][stack=witchery:ingredient|113][url=keepinventory|middle Keep inventory][br][stack=witchery:biomenote][url=shiftingseasons|middle Shifting seasons][br][stack=skull|4][url=spreaddebuffs|middle Spread debuffs][br][stack=witchery:ingredient|40][url=keepeffects|middle Keep effects]
-
-witchery:cauldronbook.level12=[h1 Effect: Level 12][stack=witchery:witchhat][url=leonard|middle Summon Leonard]
-
-witchery:cauldronbook.endlesswater=[h1 Effect: Endless water]This effect cannot be combined with any other. When complete, it will have a number of charges based on the power modifier. One charge can be used to create a water block or fill a cauldron. A dispensor can be used to fill or create water.
-witchery:cauldronbook.growtree=[h1 Effect: Grow tree]Causes a tree to grow of the type used when creating the brew. Larger trees can be grown by increasing the power level of the effect.
-witchery:cauldronbook.removebuffs=[h1 Effect: Remove buffs]Removes any positive potion effects from hit creatures, that are the same level or lower than that of the power of this effect.
-witchery:cauldronbook.insectbane=[h1 Effect: Insect bane]Causes a small amount of damage to all creatures, and a lot of damage to insects.
-witchery:cauldronbook.knockback=[h1 Effect: Knockback]Causes creatures to be pushed away from the impact location. The strength of the effect determines how far they are pushed back.
-witchery:cauldronbook.undeadbane=[h1 Effect: Undead bane]Causes a small amount of damage to all creatures, and a lot of damage to undead.
-witchery:cauldronbook.thorns=[h1 Effect: Thorns]Causes a cactus to grow, or an existing cactus to grow more. Creatures hit with this effect will gain a spikey coating that damages creatures that they walk in to.
-witchery:cauldronbook.sprouting=[h1 Effect: Sprouting]Causes a large branch to sprout from the hit surface. Thrown under a creature causes them to ride the branch upwards. Creatures under this effect will occasionally sprout a small branch below them.
-witchery:cauldronbook.freeze=[h1 Effect: Freeze]Causes the creature to become very cold, slowing them and at higher levels causing cold damage. Blazes will take more damage from this effect, based on its level.
-witchery:cauldronbook.erosion=[h1 Effect: Erosion]This effect causes blocks to melt, instantly destorying any except obsidian (which is mearly broken). Creatures hit will take damage (as will armor they are wearing).
-witchery:cauldronbook.levelland=[h1 Effect: Level land]Causes land to be levelled out to the height of the block hit. Blocks above will be removed, and space below will be filled in. The power level influences the area of effect and the number of air blocks that may be filled.
-witchery:cauldronbook.webs=[h1 Effect: Webs]Causes a mass of webs to explode at the impact location, trapping creatures, or providing obstacles.
-witchery:cauldronbook.airhike=[h1 Effect: Air hike]Throws hit creatures into the air.
-witchery:cauldronbook.pull=[h1 Effect: Pull]Unpowered, pulls items and creatures to the impact location. When powered, will pull items and creatures towards the thrower. Very useful in commbination with harvest-type effects.
-witchery:cauldronbook.batburst=[h1 Effect: Bat burst]Causes an explosion of bats.
-witchery:cauldronbook.poisonweapon=[h1 Effect: Poison weapon]Attacks from an entity, under the influence of this effect, will cause poison to their target.
-witchery:cauldronbook.attractarrows=[h1 Effect: Attract arrows]Projectiles in an area based on the power of this effect will home-in on the victim.
-witchery:cauldronbook.reflectarrows=[h1 Effect: Reflect arrows]Projectiles targetting the creature under this effect will reflect back to their source.
-witchery:cauldronbook.slowfall=[h1 Effect: Slow fall]Creatures under this effect will fall slowly to earth, taking no damage.
-witchery:cauldronbook.jump=[h1 Effect: Jump]The jump height of creatures under this effect will be increased based on the power of the effect.
-witchery:cauldronbook.floating=[h1 Effect: Floating]Creatures under this effect will float a little way above the ground untill the effect finsihes. The power level determines how high the creatures float.
-witchery:cauldronbook.damageboost=[h1 Effect: Damage boost]Increases the attack damage of a creature.
-witchery:cauldronbook.weakness=[h1 Effect: Weakness]Reduces the attack damage of a creature.
-witchery:cauldronbook.heal=[h1 Effect: Heal]Heals a creature or player. Will harm undead.
-witchery:cauldronbook.harm=[h1 Effect: Harm]Damages a creature or player (causes magic damage). Will heal undead.
-witchery:cauldronbook.nightvision=[h1 Effect: Night vision]Allows a player to see clearly in the dark.
-witchery:cauldronbook.invisible=[h1 Effect: Invisible]Makes a creature under this effect invisible. Their armor and held objects will not be invisible.
-witchery:cauldronbook.fastmove=[h1 Effect: Fast movement]Causes a creature under this effect to move faster.
-witchery:cauldronbook.slowmove=[h1 Effect: Slow movement]Causes a creature under this effect to move slower.
-witchery:cauldronbook.waterbreathing=[h1 Effect: Water breathing]Allows a creature to breath underwater without running out of air.
-witchery:cauldronbook.resistfire=[h1 Effect: Resist fire]Makes a creature immune to fire damage.
-witchery:cauldronbook.partlava=[h1 Effect: Part lava]Tempoarily pushes back lava.
-witchery:cauldronbook.repel=[h1 Effect: Repel attacker]Creature or players hitting a creature under this effect will be knocked back.
-witchery:cauldronbook.poison=[h1 Effect: Poison]Causes damage over time to creatures under the effect.
-witchery:cauldronbook.regeneration=[h1 Effect: Regeneration]Causes creatures under this effect to heal over time.
-witchery:cauldronbook.harmwerewolves=[h1 Effect: Harm werewolves]Causes significant damage to werewolves and minor damage to other creatures. Cast as a ritual, will cause rain to fall.
-witchery:cauldronbook.weakenvampires=[h1 Effect: Weaken vampires]Weakens vampire strength and can drain some of their power.
-
-witchery:cauldronbook.animalattraction=[h1 Effect: Animal Attraction]Will tame any untamed animals in a wide area, and cause animals to move towards the drinker.
-witchery:cauldronbook.animalrepulsion=[h1 Effect: Animal Repulsion]Will untame any animals not tamed by the drinker and cause all animals to flee away.
-
-witchery:cauldronbook.flames=[h1 Effect: Flames]Causes a spread of flames, over an area determined by the power of the effect.
-witchery:cauldronbook.blindness=[h1 Effect: Blindness]Causes hit creatures to be blinded.
-witchery:cauldronbook.disease=[h1 Effect: Disease]Causes creatures under this effect to be weakened and to spread the disease further.
-witchery:cauldronbook.insanity=[h1 Effect: Insanity]Creatures will see and hear things that do not exist.
-witchery:cauldronbook.sinking=[h1 Effect: Sinking]Creatures will sink rapidly in water and be unable to fly.
-witchery:cauldronbook.overheating=[h1 Effect: Overheating]Creature will catch fire in hot places.
-witchery:cauldronbook.nightmare=[h1 Effect: Nightmare]Creatures will occasionally experience their nightmares when awake.
-witchery:cauldronbook.absorbtion=[h1 Effect: Absorbsion]Creatures will find they are able to absorb slightly more damage.
-witchery:cauldronbook.healthboost=[h1 Effect: Health boost]Creatures will find they have more health.
-witchery:cauldronbook.wasting=[h1 Effect: Wasting]Creatures will become very hungry.
-witchery:cauldronbook.fullness=[h1 Effect: Fullness]Reduces hunger.
-witchery:cauldronbook.revealing=[h1 Effect: Revealing]Makes the invisible, visible.
-witchery:cauldronbook.blight=[h1 Effect: Blight]Causes land and crops to die, and villagers to mutate.
-witchery:cauldronbook.raisedead=[h1 Effect: Raise dead]Summons undead creatures to assist the summoner.
-witchery:cauldronbook.raiseland=[h1 Effect: Raise land]Raises a glock of land with a radius determined by the power of the effect.
-witchery:cauldronbook.gruesprey=[h1 Effect: Grue's Prey]Causes creatures under this effect to suffer damage in darkness. The power determines how dark in needs to be (more power = less dark).
-witchery:cauldronbook.wither=[h1 Effect: Wither]Causes the victim to suffer damage and hunger until they die, or the effect ends.
-
-witchery:cauldronbook.demonbane=[h1 Effect: Demonbane]Causes a lot of damage to demons, and a little damage to other creatures.
-witchery:cauldronbook.inferno=[h1 Effect: Inferno]Creatures under this effect will burn other creatures nearby. As a ritual, this may summon a demon if the correct circles are used.
-witchery:cauldronbook.blast=[h1 Effect: Blast]Causes an explosion.
-witchery:cauldronbook.poisontoad=[h1 Effect: Poison toad]Summons a toad that will explode causing nearby creatures to become poisoned.
-witchery:cauldronbook.reflectdamage=[h1 Effect: Reflect damage]Redirect some damage back to its source. The higher the level, the more damage reflected.
-witchery:cauldronbook.iceshell=[h1 Effect: Ice shell]Forms a hollow icy sphere at the impact location. More power increases the radius. Can be used underwater to create breatheable spaces. 
-
-witchery:cauldronbook.fortune=[h1 Effect: Fortune]Players under this effect, become more fortunate when mining.
-witchery:cauldronbook.undeadscurse=[h1 Effect: Undead's Curse]Creatures will be damage by sunlight.
-
-witchery:cauldronbook.snowburst=[h1 Effect: Snow burst & trail]Causes a light snow covering to burst over hit blocks. Creatures and players will start to leave snow trails (in not too hot biomes). Snowmen may suffer from too much snow.
-witchery:cauldronbook.swimspeed=[h1 Effect: Swim speed]Increases movement speed in water.
-witchery:cauldronbook.enderinhibition=[h1 Effect: Ender inhibition]Prevents teleportation of most creatures. Higher levels may be required to prevent more powerful teleportation effects and rituals. 
-witchery:cauldronbook.partwater=[h1 Effect: Part water]Temporarily pushes back water.
-witchery:cauldronbook.extinguish=[h1 Effect: Extinguish fires]Extinguishes fires on blocks and creatures in an area. Harms blazes.
-witchery:cauldronbook.dissipategas=[h1 Effect: Dissipate brew gas]Removes gas blocks created by a gas brew. When powered also removes other types of gas blocks. Harms spectral undead.
-witchery:cauldronbook.growflowers=[h1 Effect: Grow flowers]Causes random flowers to grow on appropriate blocks.
-witchery:cauldronbook.fertilize=[h1 Effect: Fertilize]Fertilizes the blocks in an areas in a similar way to bonemeal.
-witchery:cauldronbook.harvest=[h1 Effect: Harvest]Breaks nearby harvestable plants, triggering their normal drops. A way of collecting them will still be needed.
-witchery:cauldronbook.tilling=[h1 Effect: Tilling]Tills any applicable blocks in an area into farmland.
-witchery:cauldronbook.pruning=[h1 Effect: Prune leaves]Removes any leave blocks in an area, triggering their normal drops.
-witchery:cauldronbook.felling=[h1 Effect: Fell trees]Breaks any nearby log blocks, triggering their normal drops.
-witchery:cauldronbook.growlily=[h1 Effect: Grow lily]Causes a lily to rapidly grow if triggered in water. The lily may expand depending on the brew's power level.
-witchery:cauldronbook.tinting=[h1 Effect: Tint skin]Changes the hue of the creature or player's skin to that of the selected dye.
-
-witchery:cauldronbook.transpose=[next=transpose2][h1 Effect: Transpose]In a brew, this effect will randomly teleport the target a short distance.[br][br]Two ritual casting are possible. Either use a a waystone to target a destination, and finally add a taglock to indentify the target.
-witchery:cauldronbook.transpose2=[next=transpose3][h1 Effect: Transpose]The second ritual casting, requires the source location to be added as a waystone [i before] the ender pearl is added.[br][br]The destination needs to be added with a waystone [i after] the ender pearl.
-witchery:cauldronbook.transpose3=[h1 Effect: Transpose]The source [i must] be surrounded by a medium otherwhere circle.[br][br][img=witchery:textures/gui/circles_mpurple.png|center|top|32|32]
-
-witchery:cauldronbook.transposeore=[h1 Effect: Transpose Ore]Breaks ore blocks in a sphere based on the power. Higher power levels break rarer ores. You may need a way to pull the ores to you.
-witchery:cauldronbook.frogsleg=[h1 Effect: Frog's Leg]Multi-jump, allows an additional jump in the air for each power level. Only works on witches with a toad familiar.
-witchery:cauldronbook.fear=[h1 Effect: Fear]Creatures are too scared to approach.
-
-witchery:cauldronbook.removedebuffs=[h1 Effect: Remove Debuffs]Removes curable potion effects of the same level or less. Cast as a ritual can remove incurable effects. Level III+ to remove the disease effect.
-witchery:cauldronbook.paralysis=[h1 Effect: Paralysis]Cause a creature to freeze in place. Level III+ to also freeze players.
-witchery:cauldronbook.combustion=[h1 Effect: Combustion]Creates a potion that may be used as a fuel source in furnaces. The higher the power the longer the burn.
-
-witchery:cauldronbook.illfitting=[h1 Effect: Ill Fitting]Causes clothing to slip off the victim when the effect countdown finishes. The higher the level, the more chance of multiple losses. 
-witchery:cauldronbook.leonard=[h1 Leonard]A demon from medieval times, who can preside over a ritual to allow it to affect targets in other dimensions. When summoned he is unlikely to want to leave, unless defeated.
-
-witchery:cauldronbook.durationboost=[h1 Effect: Duration boost]Boosts the duration of any currently active potion effects. Cannot be used when Quesy.
-witchery:cauldronbook.absorbmagic=[h1 Effect: Absorb magic]Convert magical damage into infusion power.
-witchery:cauldronbook.reincarnate=[h1 Effect: Reincarnate]When the creature dies, they will be reincarnated as another creature, the power of which is determined by the potion power.
-witchery:cauldronbook.moonshine=[h1 Effect: Moonshine]Alcohol makes you feel less pain, but get hungry instead, and occasionally dizzy.
-witchery:cauldronbook.stoutbelly=[h1 Effect: Stout belly]Removes the dizzy effects of [url Moonshine].
-witchery:cauldronbook.brewgasimmunity=[h1 Effect: Brew gas immunity]Makes you immune to negative effects from brew-based gas clouds
-witchery:cauldronbook.drainmagic=[h1 Effect: Drain magic]Drains the magical power from the victim.
-witchery:cauldronbook.keepinventory=[h1 Effect: Keep inventory]Keep your inventory items when you die.
-witchery:cauldronbook.shiftingseasons=[h1 Effect: Shifting seasons]Change the targeted location to a new biome. The biome in the Biome Note determines the target biome.
-witchery:cauldronbook.keepeffects=[h1 Effect: Keep effects]Keep active beneficial potion effects on death. 
-witchery:cauldronbook.spreaddebuffs=[h1 Effect: Spread debuffs]Spread any curable negative potions of one level below this potions level to all creatures in a wide area.
-
-witchery:cauldronbook.brewbottling=[h1 Effect: Brew bottling]Increases the number of bottles of brew a [i skilled] witch may make.
-witchery:cauldronbook.planting=[h1 Effect: Planting]Plants any seeds that have been dropped on the floor nearby.
-witchery:cauldronbook.pulverize=[h1 Effect: Pulverize]Smashes nearby blocks into increasing fragmented block types. Stone to gravel to sand.
-witchery:cauldronbook.vines=[h1 Effect: Vines]Creates climbable vines on a solid surface, at higher levels will even extend the vines to the ground through the air. Creatures hit will become more flammable.
-witchery:cauldronbook.love=[h1 Effect: Love]Animals, villagers and zombies will try to mate.
-witchery:cauldronbook.volatility=[h1 Effect: Volatility]Creatures hit with this effect, become explosively fragile to hits.
-witchery:cauldronbook.iceworld=[h1 Effect: Ice world]Turns blocks and other structures to snow and ice.
-witchery:cauldronbook.resizing=[h1 Effect: Resizing]Changes the size of the hit creature:[br][br]> Level I: 1/4 size[br]> Level II: 1/2 size[br]> Level III: 1.5x size[br]> Level IV: 2x size.
-witchery:cauldronbook.stealbuffs=[h1 Effect: Steal buffs]Remove all of the positive effects from creatures in a wide area, and apply them to yourself.
-
-
-witchery:cauldronbook.wolfsbane=[h1 Effect: Wolfsbane]Prevents a werewolf from shapeshifting, thus locking it in its current form untill the potion wears off. The power of the effect determines how effective it is against more powerful werewolves.
-
-witchery.brewing.ingredientpowercost=Altar power cost: %d (for rituals: %d)
-
-item.witchery:mooncharm.name=Moon Charm
-item.witchery:mooncharm.tip=Helps lycanthropes force a transformation.
-tile.witchery:wolfaltar.name=Wolf Altar
-item.witchery:silversword.name=Silver Sword
-item.witchery:silversword.tip=2x unblockable damage against werewolves.
-item.witchery:ingredient.boltSilver.name=Silver Bolt
-entity.witchery.wolfman.name=Werewolf
-entity.witchery.hellhound.name=Hellhound
-entity.witchery.werevillager.name=Villager
-item.witchery:seedswolfsbane.name=Wolfsbane Seeds
-item.witchery:ingredient.wolfsbane.name=Wolfsbane
-item.witchery:ingredient.silverdust.name=Silver Deposits
-item.witchery:ingredient.muttonraw.name=Raw Lambchop
-item.witchery:ingredient.muttoncooked.name=Cooked Lambchop
-item.witchery:wolfhead.wolf.name=Wolf Head
-item.witchery:wolfhead.hellhound.name=Hellhound Head
-tile.witchery:wolfhead.name=Wolf Head
-tile.witchery:wolfhead.wolf.name=Wolf Head
-tile.witchery:wolfhead.hellhound.name=Hellhound Head
-tile.witchery:wolfsbane.name=Wolfsbane
-tile.witchery:silvervat.name=Silver Vat
-witchery:potion.wolfsbane=Wolfsbane
-witchery:brew.harmwerewolves=Harm Werewolves
-item.witchery:hornofthehunt.name=Horn of the Hunt
-item.witchery:hornofthehunt.tip=Calls forth the Horned Huntsman then vanishes.
-item.witchery:wolftoken.name=Creative Bat/Wolf Token
-item.witchery:wolftoken.tip=(creative only)|Use to cycle through werewolf levels.|Sneak-use to cycle through vampire levels.
-tile.witchery:beartrap.name=Beartrap
-tile.witchery:wolftrap.name=Wolftrap
-
-witchery.nosleep.wolf=You cannot sleep in wolf form!
-witchery.nosleep.resized=You cannot sleep while resized!
-
-witchery.werewolf.infection=Your sense of smell seems a little stronger.
-witchery.rite.wolfcurse.alreadyactive=The target is already under the curse.
-witchery.rite.wolfcurse.nothuman=The target is not a normal villager or player.
-witchery.rite.wolfcurse.notactive=The target is not under the curse.
-witchery.rite.wolfcurse.requiresfullmoon=Perform under a full moon.
-witchery.rite.wolfcurse.requirescat=A cat familiar is required.
-witchery.rite.wolfcurse.requiresfullcoven=A full coven of six additional witches is required.
-witchery.rite.wolfcurse.toofar=The werewolf is too powerful, and must be within the circle for the cure to work.
-
-witchery.rite.wolfcurse.book=Curse of the Wolf{r||Perform under a full moon with a full coven.
-witchery.rite.wolfcure.book=Rite of Remove Curse{r||Cleanse the taglocked being of lycanthropy.
-
-witchery.werewolf.setlevel=Werewolf level set to %s.
-witchery.werewolf.chunkvisited=You feel as if you have already been here.
-witchery.werewolf.mooncharmcrafted=The voice rumbles, "DO NOT LOSE IT AGAIN!"
-witchery.werewolf.notworthy=A voice echoes in your head, "YOU ARE UNWORTHY!"
-
-witchery.werewolf.level2begin=A voice echoes, "%s INGOTS OF GOLD, GIVE THEM TO ME!"
-witchery.werewolf.level2progress=A deep voice bellows, "%s INGOTS OF GOLD ARE SOUGHT, YOU LACK %s!"
-witchery.werewolf.level2complete=The voice rumbles, "GOLD IS GIVEN, A CHARM IS MADE, LET THE BEAST WITHIN BE FREED, AND THE MOON HAVE NO SWAY!"
-
-witchery.werewolf.level3begin=The voice intones, "STRENGTHEN YOUR CLAWS, REND THE FLESH FROM %s OF THE WEAKEST OF PREY, PLACE THEIR MUTTON BEFORE ME!"
-witchery.werewolf.level3progress=The voice echoes, "SLAY %s AND BRING THEIR FLESH, YOU REQUIRE %s MORE!"
-witchery.werewolf.level3complete=The voice bellows, "MEAT TORN FROM THE WEAKEST, CLAWS LIKE STEEL TEMPERED, TO RIP THE EARTH AND FLESH, THE BEASTS HUNGER NEVER SATED!" 
-
-witchery.werewolf.level4begin=The voice rumbles, "THE FANGS OF THE ALPHA MUST BE HONED, RIP THE THROAT FROM %s LESSER WOLVES AND BRING ME THEIR TONGUES!"
-witchery.werewolf.level4progress=The voice echoes, "DOMINATE %s, %s REMAIN!"
-witchery.werewolf.level4complete=The voice bellows, "THE PACK IS HUNGERING, FANGS FEAST ON THE KILL, A NEW ALPHA RISES, FROM THE SLAIN EAT YOUR FILL!" 
-
-witchery.werewolf.level5begin=The voice rumbles, "THE WOLF AND THE MAN MUST BECOME ONE, SLAY THE HORNED LORD OF THE WILD HUNT! CALL HIM FORTH WITH THIS HORN AND LAND THE KILLING BLOW!"
-witchery.werewolf.level5progress=The voice echoes, "THE HUNTSMAN LIES UNDEFEATED! SUMMON HIM WITH THE HORN AND LAND THE KILLING BLOW!"
-witchery.werewolf.level5complete=The voice bellows, "A MIGHTY CHAMPION DEFEATED, STANDING TALL THE VICTOR, THE BEAST IS FULLY AWOKEN, HUNT NOW ON TWO LEGS OR FOUR!" 
-
-witchery.werewolf.level6begin=The voice growls, "BUILD POWERFUL MUSCLES TO SMASH YOUR PREY, LEAP AT %s MONSTERS, AND FROM THE AIR SLAY!"
-witchery.werewolf.level6progress=The voice rumbles, "SLAY %s FROM THE AIR WAS BIDDEN, %s REMAIN!"
-witchery.werewolf.level6complete=The voice proclaims, "DEATH FROM ABOVE, LIKE LIGHTNING YOU STRIKE, SPRINT NOW WHEN YOU HIT, TO QUICKLY END THE FIGHT!"
-
-witchery.werewolf.level7begin=The voice bellows, "OTHERS MUST LEARN TO FEAR YOU, TRAVEL THE LAND AT NIGHT, IN %s PLACES LOOK TO THE SKY AND LET YOUR WOLFS VOICE BE HEARD!"
-witchery.werewolf.level7progress=The voice intones, "HOWL AT THE NIGHT SKY IN %s PLACES, %s REMAIN!"
-witchery.werewolf.level7complete=The voice growls, "YOUR VOICE IS HEARD, YOUR COMING NOT CHEERED, AS WOLFMAN CRY OUT, LET YOUR FOES FREEZE IN FEAR!"
-
-witchery.werewolf.level8begin=The voice echoes, "MASTER THE PACK! AS A WOLF, FIND AND BEND %s WOLVES TO YOUR WILL!"
-witchery.werewolf.level8progress=The voice intones, "FORM A PACK OF %s WOLVES. YOU HAVE YET TO MASTER %s!"
-witchery.werewolf.level8complete=The voice rumbles, "THE ALPHA OF THE PACK, MASTERY IS ACHIEVED, HOWL AT THE SKY, TO CALL YOUR SERVANTS AT NEED."
-
-witchery.werewolf.level9begin=The voice bellows, "CLAWS AS KNIVES, AS WOLFMAN YOU MUST HUNT, SLAY %s OF THE PIGS THAT IN THE NETHER GRUNT!"
-witchery.werewolf.level9progress=The voice intones, "AS WOLFMAN, HUNT %s NETHER PIGS, %s MUST BE FOUND!"
-witchery.werewolf.level9complete=The voice proclaims, "INFERNAL FOES ARE DEFEATED, CLAWS HONED TO AN EDGE, ARMOR LIKE PAPER, YOU WILL NOW RIP TO SHREADS!"
-
-witchery.werewolf.level10begin=The voice bellows, "TAKE THE LIFE OF ANOTHER, FROM VILLAGE OR FRIEND, THEN YOU'LL BE GRANTED THE FAVOUR, MY BLESSING TO SPREAD!"
-witchery.werewolf.level10progress=The voice echoes, "SLAY ONE FROM A VILLAGE, OR ONE SUCH AS YOU!"
-witchery.werewolf.level10complete=The voice exclaims, "YOU HAVE MASTERED MY PATH, NOW SPREAD MY BLESSING!"
-
-item.witchery:hunterhatsilvered.name=Witch Hunter Hat (Silvered)
-item.witchery:hunterhatsilvered.tip={9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
-item.witchery:huntercoatsilvered.name=Witch Hunter Coat (Silvered)
-item.witchery:huntercoatsilvered.tip={9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
-item.witchery:hunterlegssilvered.name=Witch Hunter Trousers (Silvered)
-item.witchery:hunterlegssilvered.tip={9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
-item.witchery:hunterbootssilvered.name=Witch Hunter Boots (Silvered)
-item.witchery:hunterbootssilvered.tip={9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
-
-entity.witchery.villageguard.name=Guard
-entity.witchery.vampire.name=Vampire
-item.witchery:coffin.name=Coffin
-item.witchery:garlic.name=Garlic
-tile.witchery:garlicplant.name=Garlic
-tile.witchery:coffinblock.name=Coffin
-witchery.nosleep.dayonly=Vampires can only sleep during the day
-witchery.nosleep.closedcoffin=Coffin is not open
-tile.witchery:garlicgarland.name=Garlic Garland
-tile.witchery:bloodedwool.name=Blood-stained Wool
-
-tile.witchery:shadedglass_active.black.name=Black Shaded Glass
-tile.witchery:shadedglass_active.red.name=Red Shaded Glass
-tile.witchery:shadedglass_active.green.name=Green Shaded Glass
-tile.witchery:shadedglass_active.brown.name=Brown Shaded Glass
-tile.witchery:shadedglass_active.blue.name=Blue Shaded Glass
-tile.witchery:shadedglass_active.purple.name=Purple Shaded Glass
-tile.witchery:shadedglass_active.cyan.name=Cyan Shaded Glass
-tile.witchery:shadedglass_active.silver.name=Silver Shaded Glass
-tile.witchery:shadedglass_active.gray.name=Gray Shaded Glass
-tile.witchery:shadedglass_active.pink.name=Pink Shaded Glass
-tile.witchery:shadedglass_active.lime.name=Lime Shaded Glass
-tile.witchery:shadedglass_active.yellow.name=Yellow Shaded Glass
-tile.witchery:shadedglass_active.light_blue.name=Light Blue Shaded Glass
-tile.witchery:shadedglass_active.magenta.name=Magenta Shaded Glass
-tile.witchery:shadedglass_active.orange.name=Orange Shaded Glass
-tile.witchery:shadedglass_active.white.name=White Shaded Glass
-
-tile.witchery:shadedglass.black.name=Black Shaded Glass
-tile.witchery:shadedglass.red.name=Red Shaded Glass
-tile.witchery:shadedglass.green.name=Green Shaded Glass
-tile.witchery:shadedglass.brown.name=Brown Shaded Glass
-tile.witchery:shadedglass.blue.name=Blue Shaded Glass
-tile.witchery:shadedglass.purple.name=Purple Shaded Glass
-tile.witchery:shadedglass.cyan.name=Cyan Shaded Glass
-tile.witchery:shadedglass.silver.name=Silver Shaded Glass
-tile.witchery:shadedglass.gray.name=Gray Shaded Glass
-tile.witchery:shadedglass.pink.name=Pink Shaded Glass
-tile.witchery:shadedglass.lime.name=Lime Shaded Glass
-tile.witchery:shadedglass.yellow.name=Yellow Shaded Glass
-tile.witchery:shadedglass.light_blue.name=Light Blue Shaded Glass
-tile.witchery:shadedglass.magenta.name=Magenta Shaded Glass
-tile.witchery:shadedglass.orange.name=Orange Shaded Glass
-tile.witchery:shadedglass.white.name=White Shaded Glass
-
-item.witchery:glassgoblet.name=Glass Goblet
-item.witchery:glassgoblet.full=Glass Goblet (full)
-item.witchery:glassgoblet.tip=Blood: {4%s{0
-item.witchery:glassgoblet.chicken=Chicken
-item.witchery:glassgoblet.lilith=Lilith
-item.witchery:glassgoblet.convertingplayermustsleep=Victim must be asleep
-item.witchery:glassgoblet.targetnotdrained=Victim must be drained of blood
-item.witchery:glassgoblet.targetnottransfixed=Victim is not mesmerized
-item.witchery:glassgoblet.nocoffinnear=There is no coffin nearby
-item.witchery:glassgoblet.notenoughblood=Half a droplet of blood is needed to fill the glass
-item.witchery:glassgoblet.nothighenoughlevel=Your blood is not yet strong enough for this task
-item.witchery:glassgoblet.nothinghappens=Nothing happens
-item.witchery:glassgoblet.seemswrong=This does not seem correct
-item.witchery:glassgoblet.lilithquest=A voice sings, "Bring my daughter to the lakes of fire in the netherworld"
-item.witchery:glassgoblet.lilithquestsummon=Are you worthy of my mistress?
-item.witchery:glassgoblet.lilithquestsummon2=My mistress is here...
-item.witchery:glassgoblet.lilithquestcomplete=You are worthy... this time... do you desire magic, or death?
-item.witchery:glassgoblet.lilithquestcomplete2=If you wish magic, give me an item to enchant.
-item.witchery:glassgoblet.lilithquestcompletelife=I take your blood, and gift you mine, drink quickly...
-item.witchery:glassgoblet.lilithquestcompletemagic=Take this, as a gift... 
-item.witchery:glassgoblet.lilithquestcompletelifefail=My child, you have no need of my blood...
-item.witchery:glassgoblet.lilithquestcompletecure=If you so wish it, your are mortal once more...
-item.witchery:glassgoblet.lilithquestcompletecurefail=Such a thing is meaningless...
-item.witchery:glassgoblet.lilithquestcompletebatflight=My child, I grant you freedom...
-item.witchery:glassgoblet.lilithquestcompletebatflightfail=You flatter me, but no...
-
-item.witchery:sungrenade.name=Sun Grenade
-item.witchery:stew.name=Meaty Stew
-item.witchery:stewraw.name=Raw Meaty Stew
-item.witchery:canesword.name=Cane Sword
-item.witchery:canesword.tip=Sneak-Use to draw/sheathe.|Siphons blood of kills to an internal|resevoir, use when sheathed to extract.|{4Blood resevoir: %d{0
-tile.witchery:daylightcollector.name=Sun Collector
-tile.witchery:bloodcrucible.name=Blood Crucible
-
-entity.witchery.lilith.name=Lilith
-entity.witchery.follower.name=Follower
-entity.witchery.follower.elle.name=Elle
-entity.witchery.wingedmonkey.name=Winged Monkey
-witchery:brew.weakenvampires=Weaken Vampires
-
-witchery.village.reptoolow=Your reputation is too low to promote guards.
-witchery.village.villagetoosmall=This village is too small for more guards.
-witchery.village.toomanyguards=This village already has a full complement of guards.
-witchery.village.villagerrefusesguardduty=I don't want to be a guard!
-witchery.village.villageracceptsguardduty=By your command!
-
-witchery.book.herbology.wolfsbane=Its name is the clue, the werewolf's secret it does undo. It grows in tilled earth in stages. Tall grass yields seeds.
-witchery.book.herbology.garlic=A flavor for food at day, at night it keeps vampires away. It grows in tilled earth in stages. Tall grass yields seeds.
-
-item.witchery:ingredient.darkCloth.name=Woven Cruor
-item.witchery:ingredient.warmBlood.name=Warm Blood
-item.witchery:ingredient.lilithsBlood.name=Lilith's Blood
-item.witchery:ingredient.stake.name=Wooden Stake
-item.witchery:ingredient.vbookPage.name=Torn Page
-item.witchery:vampirebook.name=Observations of an Immortal
-item.witchery:vampirebook.tip=A doomed scholar's account of discourse with the undead.
-
-witchery.rite.vampirecure.book=Rite of Remove Curse{r||Cleanse the taglocked being of vampirism.
-
-witchery.rite.wolfcurse.hybridsnotallow=Vampire/Werewolf hybrids are not allowed
-witchery.vampirepower.feed=Drink Blood
-witchery.vampirepower.eye=Transfix / Toggle Night Vision
-witchery.vampirepower.speed=Speed
-witchery.vampirepower.bat=Toggle Bat Form
-witchery.vampirepower.unone=None
-witchery.vampirepower.ubats=Bat Swarm (%d)
-witchery.vampirepower.uteleport=Teleport (%d)
-witchery.vampirepower.ustorm=Call Storm (%d)
-
-witchery:vampirebook.toc=[next=ritual1][h1 Observations of an Immortal][br][br][br][darkred A doomed scholar's account of discourse with the undead]
-witchery:vampirebook.ritual1=[next=ritual2]It is with some reluctance I commit these observations to paper, for what I have witnessed is not for the weak of mind. Instead, take my words as a warning...
-witchery:vampirebook.ritual2=[next=ritual3][br]...he was reminiscing over dinner this evening about his "birth", a demonic pact of sorts...[br][br]...butchering a chicken over a skull with a boline and holding a glass goblet to collect the blood is barbaric," I told him...
-witchery:vampirebook.ritual3=[next=ritual4][br]...apparently start of a long forgotten rite (I made a sketch...[br][img=witchery:textures/gui/vritual.png|center|middle|64|64][br]...night, open to the moon, string, red dust, torches and skull...
-witchery:vampirebook.ritual4=[next=ritual5][br][br]...pouring the blood onto the skull...[br][br]...mumbling about taking her to the lakes of lava...   ...underworld...
-witchery:vampirebook.ritual5=[next=transfix|1][br]...proving his worth to Her...[br][br][br]...that glass goblet again, could someone really drink such a thing? ...
-witchery:vampirebook.transfix=[next=knockback|2][br]...Today, or should I say this evening, he told me of his first kill...[br][br][br]...the thirst that first night, he said, was overwhelming, he had to fully sait his hunger...
-witchery:vampirebook.knockback=[next=speed|3]...he found he was able to transfix his victims...[br][br]...was now able to drink as he needed without others realizing, so long as he did not drain more than half...[br][br]...did so, from five oblivious souls...
-witchery:vampirebook.speed=[next=resistsun|4][br]...strength was flowing into him, the more he drank, as the nights progressed, the stronger he became...[br][br]...it was on the forth night after his mastery of drinking, that the world slowed down...
-witchery:vampirebook.resistsun=[next=smashstone|5]...his greatest foe, the sun, was ever present, tormenting and instantly deadly to him...[br][br]...became his obsession... ...found a way to collect sunlight and burnt himself with it ten times during the night...
-witchery:vampirebook.smashstone=[next=bats|6]...first walk in the sun after his rebirth brought him to bloody tears, he felt his blood burning, but no longer instantly...[br][br]...he needed more strength, and extingishing creatures of pure fire was his solution...[br]...twenty died.
-witchery:vampirebook.bats=[next=mesmerize|7]...he could smash solid stone, but bound to the earth, however fast, he was still limited...[br][br]...he called on Her once more, repeating the rite of his rebirth...[br][br]...gifted Her a flower, the color of the blood She so craves...
-witchery:vampirebook.mesmerize=[next=maker|8]...he smiled, a rare event, when he told me of his first flight...[br][br]...he flew from village to village, untill he knew the full extent of his domain, there was now nowhere he could not go... 
-witchery:vampirebook.maker=[next=maker2|8]...the weak minded would now not only let him drink his fill, but would also follow like faithful hounds...[br][br]...horror of all horrors, he lured five of them to specially prepared iron cages, topped with wood and with a gap at the front. He sealed them inside...
-witchery:vampirebook.maker2=[next=finalpowers|9][img=witchery:textures/gui/vcage.png|center|middle|64|64][br][br]...he began feeding from each of them; mezmerising them first, then carefully he drank all he could, without damaging any...
-witchery:vampirebook.finalpowers=At last he knew his blood was strong enough to replicate what She had done for him... ...left me weak, close to oblivion, but I watched him fill a glass goblet and hand it to me... ...we both sat next to a coffin, far from the sun's gaze, "drink!" is all he said...
-
-witchery.vampire.setlevel=Vampire level set to %s.
-witchery:death.attack.sun=%1$s burnt to a crisp in the sun
-witchery:death.attack.sun.player=%1$s burnt to a crisp in sunlight whilst fighting %2$s
-death.attack.sun=%1$s burnt to a crisp in the sun
-death.attack.sun.player=%1$s burnt to a crisp in sunlight whilst fighting %2$s
-item.witchery:vampirehat.name=Vampire Top Hat
-item.witchery:vampirehat.tip=Set bonuses:|2 pieces - Faster drinking|3 pieces - Fire resistance|3 pieces - Mesmerize boost|4 pieces - Extended fire resistance
-item.witchery:vampirehelmet.name=Vampire Helmet
-item.witchery:vampirehelmet.tip=Set bonuses:|2 pieces - Fire resistance
-item.witchery:vampirecoat.name=Vampire Dress Coat
-item.witchery:vampirecoat.tip=Set bonuses:|2 pieces - Faster drinking|3 pieces - Fire resistance|3 pieces - Mesmerize boost|4 pieces - Extended fire resistance
-item.witchery:vampirecoat_female.name=Vampire Dress Jacket (Ladies)
-item.witchery:vampirecoat_female.tip=Set bonuses:|2 pieces - Faster drinking|3 pieces - Fire resistance|3 pieces - Mesmerize boost|4 pieces - Extended fire resistance
-item.witchery:vampirechaincoat.name=Vampire Chain Coat
-item.witchery:vampirechaincoat.tip=Set bonuses:|2 pieces - Fire resistance
-item.witchery:vampirechaincoat_female.name=Vampire Chain Coat (Ladies)
-item.witchery:vampirechaincoat_female.tip=Set bonuses:|2 pieces - Fire resistance
-item.witchery:vampirelegs.name=Vampire Trousers
-item.witchery:vampirelegs.tip=Set bonuses:|2 pieces - Faster drinking|3 pieces - Fire resistance|3 pieces - Mesmerize boost|4 pieces - Extended fire resistance
-item.witchery:vampirelegs_kilt.name=Vampire Skirted Trousers
-item.witchery:vampirelegs_kilt.tip=Set bonuses:|2 pieces - Faster drinking|3 pieces - Fire resistance|3 pieces - Mesmerize boost|4 pieces - Extended fire resistance
-item.witchery:vampireboots.name=Vampire Oxford Boots
-item.witchery:vampireboots.tip=Set bonuses:|2 pieces - Faster drinking|3 pieces - Fire resistance|3 pieces - Mesmerize boost|4 pieces - Extended fire resistance
-
-item.witchery:hunterhatgarlicked.name=Witch Hunter Dawn Hat
-item.witchery:hunterhatgarlicked.tip={9Vampire protection.{0|{9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
-item.witchery:huntercoatgarlicked.name=Witch Hunter Dawn Coat
-item.witchery:huntercoatgarlicked.tip={9Vampire protection.{0|{9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
-item.witchery:hunterlegsgarlicked.name=Witch Hunter Dawn Trousers
-item.witchery:hunterlegsgarlicked.tip={9Vampire protection.{0|{9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
-item.witchery:hunterbootsgarlicked.name=Witch Hunter Dawn Boots
-item.witchery:hunterbootsgarlicked.tip={9Vampire protection.{0|{9Werewolf protection.{0|{9Set bonuses: Protection from curses.{0|{9Enables draining bolts.{0|{9Cannot use poppets.{0
-
-
-tile.witchery:mirrorblock.name=Mirror
-tile.witchery:mirrorblock2.name=Mirror
-tile.witchery:mirrorwall.name=Mirror Surface
-item.witchery:mirror.name=Mirror
-item.witchery:dupgrenade.name=Duplication Grenade
-item.witchery:dupgrenade.tip={3Reflection of: %s{0
-item.witchery:mirror.tip.bridge={5Hollow{0
-item.witchery:mirror.tip.bridgeplus={5Hollow (%s: %d, %d, %d){0
-item.witchery:mirror.tip.inhabited={3Inhabited{0
-entity.witchery.reflection.name=Reflection
-item.witchery:ingredient.heartofgold.name=Heart of Gold
-
-witchery.rite.infusionmirror=Rite of Infusion{r||Trap a Demon into a mirror.
-witchery:brew.animalattraction=Animal Attraction
-witchery:brew.animalrepulsion=Animal Repulsion
-witchery.rite.summonreflection=Rite of Summoning{r||Call forth the demon from a mirror. The inner area must be clear 7x7x4 blocks!
-witchery.rite.eclipse.cooldown=The Rite of Total Eclipse has been used recently in this world, wait a while.
-witchery.rite.mirrormirror.playersseen=Furthermore, other than thee, others have stood before me: %s
-witchery.rite.mirrormirror.playersnotseen=Furthermore, other than thee, no others have stood before me.
-witchery.rite.mirrormirror.escapecooldown=Chant fails, cooldown is active (%s seconds remain)
-
-witchery.rite.mirrormirrorsendmehome=mirror mirror send me home
-witchery.rite.mirrormirrorigiveup=mirror mirror i give up
-witchery.rite.mirrormirror=<%s> Mirror, mirror, on the wall, who is the fairest one of all?
-witchery.rite.mirrormirror.anotherf=Fair indeed you may be. But hold, another do I see. Alas, she is more fair than thee.
-witchery.rite.mirrormirror.anotherm=Fair indeed you may be. But hold, another do I see. Alas, he is more fair than thee.
-witchery.rite.mirrormirror.anotherplayer=Fair indeed you may be. But hold, another do I see. Alas, they are more fair than thee.
-witchery.rite.mirrormirror.you=In all the world I cannot see, one that is more fair than thee.
-witchery.rite.mirrormirror.bearing0=North is where the fairest will be.
-witchery.rite.mirrormirror.bearing1=North East is where the fairest will be.
-witchery.rite.mirrormirror.bearing2=East is where the fairest will be.
-witchery.rite.mirrormirror.bearing3=South East is where the fairest will be.
-witchery.rite.mirrormirror.bearing4=South is where the fairest will be.
-witchery.rite.mirrormirror.bearing5=South West is where the fairest will be.
-witchery.rite.mirrormirror.bearing6=West is where the fairest will be.
-witchery.rite.mirrormirror.bearing7=North West is where the fairest will be.
-
-witchery.rite.mirrormirror.opchatreveal=In next message, player "%s" is really: "%s"
+witchery:cauldronbook.toc=[h1 女巫的酿造]> [url=introduction 简介][br]> [url=brewing 酿造][br]> [url=rituals 炼药锅仪式][br]> [url=crafting 合成][br]> [url=otherrituals 其他仪式][br]> [url=capacity 容量][br]> [url=power 药力][br]> [url=duration 持久度][br]> [url=modifiers 修饰][br]> [url=dispersal 扩散][br]> [url=toc/effects 效果]
+
+witchery:cauldronbook.introduction=[next=cauldron][h1 简介]用水把[url=cauldron 炼药锅]装满然后在下面生火. 当水沸腾后, 加入以下任意成分:[br][br]> [url=brewing 酿造][br]> [url=rituals 仪式][br]> [url=crafting 合成]
+witchery:cauldronbook.cauldron=[next=cauldron2][h1 炼药锅:配方]女巫的炼药锅是把普通的[i 炼药锅]放置在世界中然后对其使用[i 神奇药膏]:[br][br][template=tbench 6=witchery:ingredient|153 0=witchery:seedsbelladonna 1=witchery:seedsmandrake 2=empty 3=witchery:seedsartichoke 4=witchery:seedssnowbell 5=empty 7=empty 8=empty 9=empty]
+witchery:cauldronbook.cauldron2=[h1 炼药锅:清空]向炼药锅中丢入以下成分以清空:[br][br][stack=witchery:ingredient|17 清空炼药锅][br][stack=witchery:ingredient|16 内容物爆炸][br][br][i 女巫和附近地形不会受到破坏.]
+
+witchery:cauldronbook.crafting=[next=toc/crafting2][h1 合成]炼药锅可以用来创造或 灌输魔法物品.如果合适的组合 或成分被丢入炼药锅,创造 过程会自动开始.使用 [url=rituals6 仪式圆环]以减少力量消耗!
+witchery:cauldronbook.toc/crafting2=[next=crafting3][h1 合成:配方]> [url=boiledmeat 熟肉][br]> [url=mutandis 转生粉][br]> [url=mutandisextremis 超级转生粉][br]> [url=dropofluck 幸运液滴][br]> [url=otherwherechalk 他处粉笔][br]> [url=infernalchalk 炼狱粉笔][br]> [url=goldenchalk 金色粉笔][br]> [url=mutatingsprig 变异枝条][br]> [url=netherwart 地狱疣][br]> [url=endstone 末地石][br]> [url=rottenflesh 腐肉]
+witchery:cauldronbook.crafting3=[h1 合成:配方]> [url=pittraps 陷阱方块][br]> [url=compass 玩家罗盘]
+witchery:cauldronbook.boiledmeat=[h1 合成:熟肉]生猪排,生牛肉,生鸡肉和生猪排? 都可以丢入煮沸的炼药锅中煮熟.[br][br][template=tcraft stack|0=porkchop 1=cooked_porkchop]
+witchery:cauldronbook.mutandis=[h1 合成:转生粉]对简单的植物使用转生粉, 可以将其变异为其他, 也许是未发现的,物种.[br][br][template=tcraft stack|0=witchery:ingredient|22,witchery:ingredient|31,egg 1=witchery:ingredient|14|6]
+witchery:cauldronbook.mutandisextremis=[h1 合成:超级转生粉]对植物使用使其变异. 对草方块使用创造菌丝. 对水下的泥土使用创造粘土.[br][br][template=tcraft stack|0=nether_wart,witchery:ingredient|14 1=witchery:ingredient|15]
+witchery:cauldronbook.mutatingsprig=[h1 合成:变异枝条]对动植物使用作为 变异仪式的一部分.[br][br][template=tcraft stack|0=nether_wart,witchery:ingredient|82,witchery:ingredient|15 1=witchery:mutator]
+witchery:cauldronbook.dropofluck=[h1 合成:幸运液滴]装瓶的运气,稀有且难以制作.[br][br][template=tcraft stack|0=witchery:ingredient|22,nether_wart,witchery:ingredient|37,witchery:ingredient|38,witchery:ingredient|15 1=witchery:ingredient|39]
+witchery:cauldronbook.otherwherechalk=[h1 合成:他处粉笔]用在传送相关的仪式中.[br][br][template=tcraft stack|0=nether_wart,witchery:ingredient|37,ender_pearl,witchery:chalkritual 1=witchery:chalkotherwhere]
+witchery:cauldronbook.infernalchalk=[h1 合成:炼狱粉笔]用在地狱和恶魔相关的仪式中.[br][br][template=tcraft stack|0=nether_wart,blaze_powder,witchery:chalkritual 1=witchery:chalkinfernal]
+witchery:cauldronbook.goldenchalk=[h1 合成:金色粉笔]绝大多数仪式的核心.[br][br][template=tcraft stack|0=witchery:ingredient|22,gold_nugget,witchery:chalkritual 1=witchery:chalkheart]
+witchery:cauldronbook.netherwart=[h1 合成:地狱疣]实在找不到地狱要塞时可以用用.[br][br][template=tcraft stack|0=witchery:ingredient|22,witchery:ingredient|37,witchery:ingredient|29,ender_pearl,wheat,witchery:ingredient|14 1=nether_wart]
+witchery:cauldronbook.endstone=[h1 合成:末地石]末地空岛挖光了怎么办?[br][br][template=tcraft stack|0=witchery:ingredient|22,stone,end_stone,witchery:ingredient|15 1=end_stone|0|2]
+witchery:cauldronbook.rottenflesh=[h1 合成:腐肉]多余的手可以这么用.[br][br][template=tcraft stack|0=witchery:witchhand 1=rotten_flesh|0|5]
+witchery:cauldronbook.pittraps=[h1 合成:陷阱方块]非固体方块![br][template=tcraft stack|0=witchery:ingredient|22,dirt,witchery:ingredient|101 1=witchery:pitdirt|0|4][br][br][template=tcraft stack|0=nether_wart,dirt,yellow_flower,witchery:ingredient|101 1=witchery:pitgrass|0|4]
+witchery:cauldronbook.compass=[h1 合成:玩家罗盘]与巫媒合成用来指出玩家的方向.[br][br][template=tcraft stack|0=nether_wart,witchery:ingredient|37,vine,spider_eye,compass 1=witchery:playercompass]
+
+witchery:cauldronbook.brewing=[next=brewing2][h1 酿造]当炼药锅发出噼噼啪啪的声音时, 将药水装入玻璃瓶中. 某些成分需要抽取祭坛之力. 更多的药剂会随着你的 [url=bottling 经验]增长被发现.[br][br][stack=glass_bottle 玻璃瓶]
+witchery:cauldronbook.brewing2=[next=brewing3][h1 酿造: 效果&修饰]一瓶药剂含有一种或几种[url=toc/effects 效果]伴随着修饰和[url 扩散]方法, 也伴随着修饰. 效果或扩散方法的修饰组分 必须在加入有效成分前加入.
+witchery:cauldronbook.brewing3=[next=brewing4][h1 酿造:容量]加入药剂的每种效果 都需要一定的储存空间. 特殊的[url=capacity 成分]可以用于增加空间, 而且必须按顺序 加入以累积效果.
+witchery:cauldronbook.brewing4=[next=brewing5][h1 酿造:容量]一瓶药剂可加入多种效果, 但必须有足够的空间 容纳所有效果.
+witchery:cauldronbook.brewing5=[next=brewing6][h1 酿造:手把手教学]1.增加[url=capacity 容量][br]2.加入[url=modifiers 修饰][br]3.增加[url=power 药力][br]4. 增加[url=duration 持久度][br]5.加入[url=toc/effects 有效成分][br]6. 从第3步开始重复[br]>装瓶或继续[br]7.增加[url=extent 扩散程度][br]8. 增加[url=linger 保留时间][br]9. 设置[url=dispersal 扩散][br]> 装瓶或实施[url=rituals 仪式]
+witchery:cauldronbook.brewing6=[h1 酿造: 喷溅药水——灭火]将以下物品扔进满的, 沸腾的炼药锅. 然后对炼药锅使用玻璃瓶.[stack=glass_bottle][br][stack=witchery:ingredient|22][stack=coal][stack=gunpowder][br][img=witchery:textures/gui/cauldron.png|center|top|30|29]
+witchery:cauldronbook.bottling=[next=bottling2][h1 装瓶]缺乏经验的女巫在给药剂装瓶 时并不是那么熟练. 要从炼药锅得到更多药剂需要练习, 最终需要制作更复杂的药剂.
+witchery:cauldronbook.bottling2=[h1 装瓶]正确的服装也能帮助有经验的女巫, 蛙宠一样有用. 也可以用一些特别的药剂改变熟练度.
+
+witchery:cauldronbook.rituals=[next=rituals2][h1 仪式]除了将药剂装瓶, 装满的炼药锅也可以用于实施仪式. 实施仪式需要女巫加入目标的巫媒 或狗之舌以在炼药锅所在地施法. 
+witchery:cauldronbook.rituals2=[next=rituals3][h1 仪式:寻路石]加入狗之舌前可以加入已绑定 寻路石,以在寻路石绑定处施法. 有些效果需要第二块寻路石 以确定来源.
+witchery:cauldronbook.rituals3=[next=rituals4][h1 仪式:聚会女巫&强度]仪式效果的强度和最大施法 距离由聚会女巫数量决定. 最多允许七位聚会女巫.
+witchery:cauldronbook.rituals4=[next=rituals5][h1 仪式:扩散]使用巫媒可在巫媒对象上施法. 否则[url=dispersal 扩散]成分必须在狗之舌之前加入. 速效喷溅效果不会变化, 但气体会变为扩张效果而液体 产生降雨.
+witchery:cauldronbook.rituals5=[next=rituals6][h1 仪式:风险&祭坛之力]实施炼药锅仪式需要祭坛之力 并且,与纯粹圆环法阵不同, 会伴随产生副作用的风险.[br]在炼药锅四周描画圆环会 降低祭坛之力需求, 也会影响风险. 
+witchery:cauldronbook.rituals6=[next=rituals7][h1 仪式:风险&祭坛之力]仪式(白色)小型和/或中型圆环可以 一定程度上降低祭坛之力需求并且 消除副作用.[br][br][img=witchery:textures/gui/circles_2white.png|center|top|32|32]
+witchery:cauldronbook.rituals7=[next=rituals8][h1 仪式:风险&祭坛之力]炼狱(红色)小型和/或中型圆环可以 明显降低祭坛之力需求, 但会增加产生副作用的风险.[br][br][img=witchery:textures/gui/circles_2red.png|center|top|32|32]
+witchery:cauldronbook.rituals8=[next=rituals9][h1 仪式:风险&祭坛之力]红色和白色圆环可同时使用 以满足想在消耗和风险间 寻求平衡者的需求.
+witchery:cauldronbook.rituals9=[next=rituals10][h1 仪式:仪式失败]一旦仪式失败,会有彩色烟雾产生:[br][br][darkgreen 绿色]目标太远[br][darkblue 蓝色]需要聚会女巫[br][darkred 红色]非法圆环[br][darkyellow 黄色]祭坛之力不足[br][darkpurple 紫色]其他种类失败[br][br]一旦祭坛之力太少仪式不会开始.
+witchery:cauldronbook.rituals10=[next=rituals11][h1 仪式:震地仪式]炼药锅离寻路石绑定点越远, 需要聚会女巫越多.[br][br][template=tritual stack|0=nether_wart,witchery:ingredient|37,quartz,witchery:ingredient|13,witchery:ingredient|25]
+witchery:cauldronbook.rituals11=[h1 仪式:扩张版失明之咒]离受害者越远, 需要聚会女巫越多.[br][br][template=tritual stack|0=nether_wart,witchery:ingredient|37,redstone,dye|0,witchery:taglockkit|1]
+
+witchery:cauldronbook.otherrituals=[h1 其他仪式]不需要祭坛的新仪式:[br][br]> [url=ritualwaystone 绑定寻路石][br]> [url=ritualwaystoneblooded 血腥寻路石][br]> [url=ritualtranspose 传送][br]> [url=ritualfind 寻找结构]
+witchery:cauldronbook.ritualwaystone=[h1 仪式:绑定寻路石]为了绑定寻路石(最多八块), 画一个3x3白色粉笔 圆环:[br][img=witchery:textures/gui/circles_tinypurple.png|center|top|32|32][br]将寻路石扔在中央, 后退并等待.
+witchery:cauldronbook.ritualwaystoneblooded=[h1 仪式:绑定血腥寻路石]为了将寻路石绑定在生物上, 在祭坛附近画一个3x3白色粉笔 圆环:[br][img=witchery:textures/gui/circles_tinypurple.png|center|top|32|32][br]当生物靠近时,将寻路石扔在中央 并等待.
+witchery:cauldronbook.ritualtranspose=[h1 仪式:传送]为了传送到寻路石绑定点, 画一个5x5紫色粉笔圆环:[br][img=witchery:textures/gui/circles_spurple.png|center|top|32|32][br]站在圆环中, 把寻路石仍在圆环内,并等待.
+witchery:cauldronbook.ritualfind=[h1 仪式:寻找结构]召唤一个灵魂飞向最近的村庄 (或下界要塞). 画一个3x3白色粉笔圆环:[br][img=witchery:textures/gui/circles_tinywhite.png|center|top|32|32][br]将一个抑制之精神或调谐之石 丢在中央并等待.
+
+witchery:cauldronbook.capacity=[i 容量] - [url=toc/effects 每种效果]都有空间需求,按顺序加入以下 成分以提高药剂容量.[br][br][stack=witchery:ingredient|22 +1][tab][stack=nether_wart +2][br][stack=witchery:ingredient|37 +2][tab][stack=witchery:ingredient|29 +2][br][stack=diamond +2][tab][stack=nether_star|29 +4]
+witchery:cauldronbook.power=[i 药力] - 在加入[url=toc/effects 有效成分]前按顺序 加入以增强药力.[br][br][stack=glowstone_dust +1 (到等级 II)][br][stack=blaze_rod +1 (到等级III)][br][stack=witchery:ingredient|11 +1 (到等级IV)]
+witchery:cauldronbook.duration=[i 持久度] - 在加入[url=toc/effects 有效成分]前按顺序 加入以增强持久度.[br][br][stack=redstone +1 (到x2)][br][stack=obsidian +1 (到x4)][br][stack=witchery:seedsmindrake +1 (到x6)]
+
+witchery:cauldronbook.modifiers=[next=modifiers2][h1 修饰:综合]这些修饰会产生如下效果.[br][br][stack=gold_nugget 没有粒子][br][stack=fermented_spider_eye 得到相反效果][br][stack=netherbrick 跳过方块效果][br][stack=brick 跳过实体效果]
+witchery:cauldronbook.modifiers2=[next=modifiers3][h1 修饰:喝干]每种喝干加成只能 在所有有效成分之前加入一次, 以获取叠加效果.[br][br][stack=witchery:ingredient|63 更快喝干][br][stack=witchery:ingredient|31 更快喝干][br][stack=witchery:spanishmoss 更快喝干]
+witchery:cauldronbook.modifiers3=[next=modifiers4][h1 修饰:颜色]改变药剂颜色.[br][stack=wool|0 白色][br][stack=wool|1 橙色][br][stack=wool|2 品红色][br][stack=wool|3 淡蓝色][br][stack=wool|4 黄色][br][stack=wool|5 黄绿色]
+witchery:cauldronbook.modifiers4=[next=modifiers5][h1 修饰:颜色][stack=wool|6 粉红色][br][stack=wool|7 灰色][br][stack=wool|8 淡灰色][br][stack=wool|9 青色][br][stack=wool|10 紫色][br][stack=wool|11 蓝色]
+witchery:cauldronbook.modifiers5=[h1 修饰:颜色][stack=wool|12 棕色][br][stack=wool|13 绿色][br][stack=wool|14 红色][br][stack=wool|15 黑色]
+
+witchery:cauldronbook.dispersal=[i 扩散] -在任何[url=extent 有效成分]或[url=linger 保留时间]修饰后加入其中一种, 以确定喷溅效果.[br][br][stack=gunpowder]或者[stack=witchery:ingredient|69 速效][br][stack=witchery:ingredient|24 气体][br][stack=witchery:ingredient|111 液体][br][stack=skull|2][url=dispersaltrigger|middle 触发]
+witchery:cauldronbook.dispersaltrigger=[next=dispersaltrigger2][h1 扩散:触发-药剂]酿造[url=brewing 药水]然后扔在按钮,拉杆, 木门或压力板上, 以对下一个激活方块者释放效果.
+witchery:cauldronbook.dispersaltrigger2=[h1 扩散:触发-仪式]用药剂实施[url=rituals 仪式],然后将任何物品放在炼药锅上, 向物品注入效力. 效力会对下一个使用物品者释放. 重复仪式以增强效力.
+witchery:cauldronbook.extent=[i 扩散程度] - 在加入[url 扩散]成分前按顺序加入, 以增加药效扩散面积.[br][br][stack=witchery:ingredient|18 +1 (到等级II)][br][stack=dye|3 +1 (到等级III)][br][stack=witchery:somniancotton +1 (到等级IV)]
+witchery:cauldronbook.linger=[i 扩散持续时间] - 在加入[url 扩散]成分前按顺序加入, 以增加扩散持续时间.[br][br][stack=witchery:ingredient|21 +1 (到等级II)][br][stack=dye|4 +1 (到等级III)][br][stack=end_stone +1 (到等级IV)]
+
+witchery:cauldronbook.toc/effects=[h1 效果]在加入任何[url=power 药力]和[url=duration 持久度]增强或[url=modifiers 修饰]后加入. 确保药剂具有足够的[url=capacity 容量].[br][br]> [url=Level1 等级1][br]> [url=Level2 等级2][br]> [url=Level4 等级4][br]> [url=Level5 等级5][br]> [url=Level6 等级6][br]> [url=Level8 等级8 ][br]> [url=Level12 等级12]
+witchery:cauldronbook.level1=[next=level1_2][h1 效果:等级1][stack=snowball][url=snowburst|middle 雪之爆发&足迹][br][stack=fish|0][url=swimspeed|middle 游泳加速][br][stack=witchery:ingredient|67][url=enderinhibition|middle 末地抑制][br][stack=wheat][url=moonshine|middle 月光][br][stack=sand][url=partwater|middle 水体退让]
+witchery:cauldronbook.level1_2=[next=level1_3][h1 效果:等级1][stack=coal|0][url=extinguish|middle 灭火][br][stack=stone][url=dissipategas|middle 气体驱散][br][stack=yellow_flower][url=growflowers|middle 百花盛开][br][stack=dye|15][url=fertilize|middle 施肥][br][stack=apple][url=harvest|middle 收获]
+witchery:cauldronbook.level1_3=[next=level1_4][h1 效果:等级1][stack=dirt][url=tilling|middle 耕耘][br][stack=wheat_seeds][url=planting|middle 种植][br][stack=brown_mushroom][url=pruning|middle 剪树叶][br][stack=string][url=felling|middle 伐木][br][stack=flint][url=pulverize|middle 粉碎岩石][br][stack=waterlily][url=growlily|middle 长出莲叶]
+witchery:cauldronbook.level1_4=[h1 效果:等级1][stack=witchery:ingredient|156][url=wolfsbane|middle 狼族之祸][br][stack=dye|1][url=tinting|middle 皮肤着色 *][br][br][i * 可使用任何期望颜色.][br][br][stack=coal|1][url=combustion|middle 燃烧 *][br][br][i * 不可与其他效果复合.]
+
+witchery:cauldronbook.level2=[next=level2_2][h1 效果:等级2][stack=cobblestone][url=partlava|middle 岩浆退让][br][stack=witchery:bramble][url=repel|middle 排斥][br][stack=gravel][url=brewgasimmunity|middle 气雾剂免疫][br][stack=spider_eye][url=poison|middle 剧毒][br][stack=ghast_tear][url=regeneration|middle 再生][br][stack=fermented_spider_eye][stack=ghast_tear][url=poison|middle 剧毒]
+witchery:cauldronbook.level2_2=[next=level2_3][h1 效果:等级2][stack=sugar][url=fastmove|middle 疾行][br][stack=fermented_spider_eye][stack=sugar][url=slowmove|middle 缓行][br][stack=fish|3][url=waterbreathing|middle 水下呼吸][br][stack=magma_cream][url=resistfire|middle 抗火][br][stack=golden_carrot][url=nightvision|middle 夜视][br][stack=fermented_spider_eye][stack=golden_carrot][url=invisible|middle 隐身]
+witchery:cauldronbook.level2_3=[next=level2_4][h1 效果:等级2][stack=blaze_powder][url=damageboost|middle 杀伤增强][br][stack=fermented_spider_eye][stack=blaze_powder][url=weakness|middle 虚弱][br][stack=speckled_melon][url=heal|middle 治疗][br][stack=fermented_spider_eye][stack=speckled_melon][url=harm|middle 伤害][br][stack=reeds][url=floating|middle 漂浮]
+witchery:cauldronbook.level2_4=[next=level2_5][h1 效果:等级2][stack=leather][url=jump|middle 跳跃][br][stack=feather][url=slowfall|middle 缓降][br][stack=web][url=reflectarrows 反射箭矢][br][stack=fermented_spider_eye][stack=web][url=attractarrows|middle 吸引箭矢][br][stack=red_mushroom][url=poisonweapon|middle 有毒武器]
+witchery:cauldronbook.level2_5=[next=level2_6][h1 效果:等级2][stack=witchery:ingredient|108][url=batburst|middle 蝙蝠爆发][br][stack=witchery:ingredient|32][url=airhike|middle 空中远足][br][stack=slime_ball][url=pull|middle 推动][br][stack=witchery:ingredient|30][url=erosion|middle 侵蚀][br][stack=netherrack][url=levelland|middle 整地][br][stack=witchery:ingredient|56][url=webs|middle 蛛网]
+witchery:cauldronbook.level2_6=[next=level2_7][h1 效果:等级2][stack=vine][url=vines|middle 藤蔓&可燃物][br][stack=cactus][url=thorns|middle 仙人掌&荆棘][br][stack=witchery:ingredient|82][url=sprouting|middle 萌芽][br][stack=witchery:ingredient|78][url=freeze|middle 冻结][br][stack=stick][url=knockback|middle 击退][br][stack=pumpkin][url=undeadbane|middle 亡灵杀手]
+witchery:cauldronbook.level2_7=[next=level2_8][h1 效果:等级2][stack=red_flower|1][url=insectbane|middle 昆虫杀手][br][stack=witchery:witchsapling|0][url=growtree|middle 长出山梨树][br][stack=witchery:witchsapling|1][url=growtree|middle 长出赤杨树][br][stack=witchery:witchsapling|2][url=growtree|middle 长出山楂树][br][stack=sapling|5][url=growtree|middle 长出深色橡树]
+witchery:cauldronbook.level2_8=[next=level2_9][h1 效果:等级2][stack=sapling|0][url=growtree|middle 长出橡树][br][stack=sapling|1][url=growtree|middle 长出云杉树][br][stack=sapling|2][url=growtree|middle 长出白桦树][br][stack=sapling|3][url=growtree|middle 长出丛林树][br][stack=sapling|4][url=growtree|middle 长出金合欢树][br][stack=witchery:ingredient|35][url=removebuffs|middle 消除正面效果]
+witchery:cauldronbook.level2_9=[h1 效果:等级2][stack=witchery:ingredient|105][url=removedebuffs|middle 消除负面效果][br][stack=snow][url=endlesswater|middle 无穷之水*][br][br][i * 不可与其他效果复合.]
+
+witchery:cauldronbook.level4=[next=level4_2][h1 效果:等级4][stack=witchery:glintweed][url=flames|middle 火焰][br][stack=witchery:ingredient|80][url=fear|middle 恐惧][br][stack=dye|0][url=blindness|middle 失明][br][stack=red_flower|0][url=love|middle 爱][br][stack=witchery:ingredient|23][url=paralysis|middle 瘫痪][br][stack=rotten_flesh][url=disease|middle 疾病]
+witchery:cauldronbook.level4_2=[next=level4_3][h1 效果:等级4][stack=witchery:ingredient|39][url=brewbottling|middle 药剂装瓶][br][stack=fermented_spider_eye][stack=witchery:ingredient|39][url=insanity|middle 疯狂][br][stack=witchery:ingredient|99][url=sinking|middle 下沉][br][stack=witchery:embermoss][url=overheating|middle 过热][br][stack=witchery:ingredient|103][url=nightmare|middle 噩梦][br][stack=witchery:ingredient|90][url=frogsleg|middle 蛙之腿]
+witchery:cauldronbook.level4_3=[next=level4_4][h1 效果:等级4][stack=golden_apple][url=absorbtion|middle 吸收][br][stack=golden_apple|1][url=healthboost|middle 生命恢复][br][stack=witchery:ingredient|112][url=wasting|middle 浪费][br][stack=fermented_spider_eye][stack=witchery:ingredient|112][url=fullness|middle 饱足][br][stack=witchery:ingredient|36][url=revealing|middle 揭示][br][stack=tallgrass|0][url=volatility|middle 挥发]
+witchery:cauldronbook.level4_4=[next=level4_5][h1 效果:等级4][stack=witchery:ingredient|28][url=stoutbelly|middle 大肚皮][br][stack=poisonous_potato][url=blight|middle 枯萎][br][stack=ender_pearl][url=transpose|middle 传送][br][stack=iron_ingot][url=transposeore|middle 矿石转移][br][stack=bone][url=raisedead|middle 亡灵复苏][br][stack=quartz][url=raiseland|middle 震地]
+witchery:cauldronbook.level4_5=[next=level4_6][h1 效果:等级4][stack=soul_sand][url=gruesprey|middle 战栗之猎物][br][stack=witchery:ingredient|34][url=absorbmagic|middle 魔法吸收][br][stack=skull|1][url=wither|middle 凋灵][br][stack=witchery:ingredient|157][url=harmwerewolves|middle 狼人之殇][br][stack=witchery:garlic][url=weakenvampires|middle 吸血鬼削弱]
+witchery:cauldronbook.level4_6=[h1 效果:等级4][stack=witchery:ingredient|165][url=animalattraction|middle 动物吸引][br][stack=fermented_spider_eye][stack=witchery:ingredient|165][url=animalrepulsion|middle 动物排斥]
+
+witchery:cauldronbook.level5=[next=level5_2][h1 效果:等级5][stack=witchery:ingredient|38][url=inferno|middle 炼狱][br][stack=gold_ingot][url=blast|middle 冲击波][br][stack=double_plant][url=poisontoad|middle 毒蟾蜍][br][stack=ender_eye][url=iceworld|middle 冰天雪地][br][stack=witchery:ingredient|79][url=iceshell|middle 寒冰外壳][br][stack=witchery:ingredient|66][url=reflectdamage|middle 伤害反射]
+witchery:cauldronbook.level5_2=[h1 效果:等级5][stack=ice][url=demonbane|middle 恶魔杀手]
+
+witchery:cauldronbook.level6=[next=level6_2][h1 效果:等级6][stack=fish|1][url=undeadscurse|middle 亡灵之诅咒][br][stack=witchery:bramble|1][url=illfitting|middle 不合身][br][stack=witchery:ingredient|33][url=reincarnate|middle 转世][br][stack=witchery:ingredient|74][url=durationboost|middle 持久性增强][br][stack=emerald][url=resizing|middle 改变大小][br][stack=skull|0][url=stealbuffs|middle 窃取正面效果]
+witchery:cauldronbook.level6_2=[stack=clay_ball][url=fortune|middle 幸运][br][stack=witchery:ingredient|114][url=drainmagic|middle 耗尽魔法]
+
+witchery:cauldronbook.level8=[h1 效果:等级8][stack=witchery:ingredient|113][url=keepinventory|middle 保持物品栏][br][stack=witchery:biomenote][url=shiftingseasons|middle 季节变迁][br][stack=skull|4][url=spreaddebuffs|middle 扩散负面效果][br][stack=witchery:ingredient|40][url=keepeffects|middle 保持效果]
+
+witchery:cauldronbook.level12=[h1 效果:等级12][stack=witchery:witchhat][url=leonard|middle 召唤莱昂纳德]
+
+witchery:cauldronbook.endlesswater=[h1 效果:无穷之水]此效果不可与其他效果合并. 完成时, 会拥有基于药力 修饰确定的使用次数. 使用一次可以创造一个水方块或装填一次炼药锅.发射器可用于装填或创造水方块.
+witchery:cauldronbook.growtree=[h1 效果:长出树木]长出一颗树,其种类在创造药剂 时确定. 药力越强,树越大.
+witchery:cauldronbook.removebuffs=[h1 效果:消除正面效果]消除药水所击中生物的 所有正面效果, 同等或更低等级的效果可被消除. 
+witchery:cauldronbook.insectbane=[h1 效果:昆虫杀手]对所有生物造成少量伤害, 对昆虫造成大量伤害.
+witchery:cauldronbook.knockback=[h1 效果:击退]将生物推离战斗地点. 药力决定推离的距离.
+witchery:cauldronbook.undeadbane=[h1 效果:亡灵杀手]对所有生物造成少量伤害, 对不死族造成大量伤害.
+witchery:cauldronbook.thorns=[h1 效果:荆棘]长出仙人掌, 或使已有仙人掌进一步生长. 被药水击中的生物会长出尖刺表皮 对所有走近的生物造成伤害.
+witchery:cauldronbook.sprouting=[h1 效果:萌芽]从命中点长出一根大树枝. 扔在生物下方会导致生物 骑在树枝上.药效影响下的生物会 有几率从脚下长出小树枝.
+witchery:cauldronbook.freeze=[h1 效果:冻结]导致生物觉得异常寒冷, 减缓他们且在高等级 下引起冻伤. 烈焰人会受到更多伤害, 程度由等级决定.
+witchery:cauldronbook.erosion=[h1 效果:侵蚀]方块融化, 瞬间被破坏 (黑曜石例外,但接近破坏). 生物会受伤害 (身上的盔甲也一样).
+witchery:cauldronbook.levelland=[h1 效果:整地]将土地整平至击中点高度. 上方的方块会被移除, 下方的空间会被填实. 药力等级影响整平范围大小 和可能被填实的空气方块数.
+witchery:cauldronbook.webs=[h1 效果:蛛网]在击中点爆炸产生大量蛛网, 抓住生物, 或制造障碍.
+witchery:cauldronbook.airhike=[h1 效果:空中远足]将被击中的生物扔到天上.
+witchery:cauldronbook.pull=[h1 效果: 推动]无药力加成时, 将物品和生物推到击中点. 有药力加成时, 将物品和生物推进投掷者. 与收割相关效果配合相当有用.
+witchery:cauldronbook.batburst=[h1 效果:蝙蝠爆发]爆炸产生一群蝙蝠.
+witchery:cauldronbook.poisonweapon=[h1 效果:剧毒武器]药效作用下实体实施的攻击 会使目标中毒.
+witchery:cauldronbook.attractarrows=[h1 效果:吸引箭矢]由药力决定一定范围内的投掷物 会飞向受害者.
+witchery:cauldronbook.reflectarrows=[h1 效果:反射箭矢]以作用者为对象的投掷物 会飞回其来源.
+witchery:cauldronbook.slowfall=[h1 效果:缓降]生物会缓慢地降落至地面, 且不受伤害.
+witchery:cauldronbook.jump=[h1 效果:跳跃]药效作用下生物的跳跃高度 会因药力不同而不同程度增加.
+witchery:cauldronbook.floating=[h1 效果:漂浮]生物会在地面上漂浮一定高度 直到药效结束. 药力决定漂浮高度.
+witchery:cauldronbook.damageboost=[h1 效果:杀伤加成]增加生物的攻击伤害.
+witchery:cauldronbook.weakness=[h1 效果:虚弱]降低生物的攻击伤害.
+witchery:cauldronbook.heal=[h1 效果:治疗]治疗生物或玩家. 会伤害不死族.
+witchery:cauldronbook.harm=[h1 效果:伤害]杀伤上午或玩家(魔法伤害). 会治疗不死族.
+witchery:cauldronbook.nightvision=[h1 效果:夜视]让玩家在黑暗中看得清清楚楚.
+witchery:cauldronbook.invisible=[h1 效果:隐身]让生物隐身. 盔甲和手持物品无法隐身.
+witchery:cauldronbook.fastmove=[h1 效果:疾行]生物移动速度更快.
+witchery:cauldronbook.slowmove=[h1 效果:缓行]生物移动速度更慢.
+witchery:cauldronbook.waterbreathing=[h1 效果:水下呼吸]允许在水下呼吸不消耗空气.
+witchery:cauldronbook.resistfire=[h1 效果:抗火]生物免疫火焰伤害.
+witchery:cauldronbook.partlava=[h1 效果:岩浆退让]暂时推开岩浆.
+witchery:cauldronbook.repel=[h1 效果:排斥]攻击药效作用下生物的 生物或玩家会被击退.
+witchery:cauldronbook.poison=[h1 效果:剧毒]受到持续一段时间的伤害.
+witchery:cauldronbook.regeneration=[h1 效果:再生]在一段时间内治疗生物.
+witchery:cauldronbook.harmwerewolves=[h1 效果:狼人之殇]对狼人造成明显伤害 对其他生物造成少量伤害. 作为仪式实施时, 会导致降雨.
+witchery:cauldronbook.weakenvampires=[h1 效果:吸血鬼削弱]削弱吸血鬼的力量 且使其部分能量流失.
+witchery:cauldronbook.animalattraction=[h1 效果:动物吸引]使一片较宽阔区域 内的动物驯服, 且使动物走近饮用者.
+witchery:cauldronbook.animalrepulsion=[h1 效果:动物排斥]使所有不是由饮用者 驯化的动物野化 且使所有动物逃跑.
+
+witchery:cauldronbook.flames=[h1 效果:火焰]产生一片火焰, 在药力决定的一定范围内燃烧.
+witchery:cauldronbook.blindness=[h1 效果:失明]使被击中的生物失明.
+witchery:cauldronbook.disease=[h1 效果:疾病]使生物虚弱并传播疾病.
+witchery:cauldronbook.insanity=[h1 效果:疯狂]生物会看到听到不存在的东西.
+witchery:cauldronbook.sinking=[h1 效果:下沉]生物会迅速下沉且无法飞行.
+witchery:cauldronbook.overheating=[h1 效果:过热]生物会在炎热的地区着火.
+witchery:cauldronbook.nightmare=[h1 效果:噩梦]生物会在醒来时有几率做恶梦.
+witchery:cauldronbook.absorbtion=[h1 效果:吸收]生物能够吸收略多的伤害.
+witchery:cauldronbook.healthboost=[h1 效果:生命增强]生物拥有更多的生命值.
+witchery:cauldronbook.wasting=[h1 效果:浪费]生物会非常饿.
+witchery:cauldronbook.fullness=[h1 效果:饱足]减轻饥饿.
+witchery:cauldronbook.revealing=[h1 效果:揭示]使隐形者现身.
+witchery:cauldronbook.blight=[h1 效果:枯萎]杀死植被和农作物, 且诱变村民.
+witchery:cauldronbook.raisedead=[h1 效果:亡灵复苏]召唤一群不死族协助召唤者.
+witchery:cauldronbook.raiseland=[h1 效果:震地]使药力决定的一定范围内的 地面隆起.
+witchery:cauldronbook.gruesprey=[h1 效果:战栗之猎物]使生物在黑暗中受到伤害. 药力决定了施加伤害需要的黑暗 程度(药力越强,需要黑暗越轻).
+witchery:cauldronbook.wither=[h1 效果:凋灵]使受害者承受伤害和饥饿 直到死亡, 或药效结束.
+
+witchery:cauldronbook.demonbane=[h1 效果:恶魔杀手]对恶魔造成明显伤害 对其他生物造成少量伤害.
+witchery:cauldronbook.inferno=[h1 效果:炼狱]药效作用下的生物会 点燃其他生物. 作为仪式实施时, 使用正确的圆环会召唤出恶魔.
+witchery:cauldronbook.blast=[h1 效果:冲击波]引发一场爆炸.
+witchery:cauldronbook.poisontoad=[h1 效果:毒蟾蜍]召唤一只会爆炸的蟾蜍 使附近生物中毒.
+witchery:cauldronbook.reflectdamage=[h1 效果:反射伤害]将一些伤害转移至其来源. 等级越高, 反射的伤害越多.
+witchery:cauldronbook.iceshell=[h1 效果:寒冰外壳]在落地点制造一个空心冰球体. 药力越强半径越大. 可在水下使用制造可供 呼吸的空间. 
+
+witchery:cauldronbook.fortune=[h1 效果:幸运]药效作用下的玩家, 在挖矿使会更幸运.
+witchery:cauldronbook.undeadscurse=[h1 效果:亡灵之诅咒]生物会受阳光伤害.
+
+witchery:cauldronbook.snowburst=[h1 效果:雪之爆发&足迹]在击中点附近爆发产生 一薄层雪. 生物和玩家会留下雪之足迹 (在不太热的生物群系). 雪人会受雪量过多之苦.
+witchery:cauldronbook.swimspeed=[h1 效果:游泳加速]增加水中的移动速度.
+witchery:cauldronbook.enderinhibition=[h1 效果:末影抑制]阻止绝大多数生物的传送. 要阻止更强大的传送效果 和仪式需要更高等级. 
+witchery:cauldronbook.partwater=[h1 效果:水体退让]暂时使水退回.
+witchery:cauldronbook.extinguish=[h1 效果:灭火]扑灭一片区域内的方块和生物 上的火.会伤害烈焰人.
+witchery:cauldronbook.dissipategas=[h1 效果:气体驱散]清除气体药水产生的 气体方块. 有药力加成时也清除其他气体 方块. 会伤害各种幽灵.
+witchery:cauldronbook.growflowers=[h1 效果:百花盛开]在合适的方块上长出 随机种类的花.
+witchery:cauldronbook.fertilize=[h1 效果:施肥]以与骨粉类似的方式在一定 范围内施肥.
+witchery:cauldronbook.harvest=[h1 效果:收获]破坏附近所有可收获的植物, 得到他们正常的掉落物. 仍需某种收集手段.
+witchery:cauldronbook.tilling=[h1 效果:耕耘]将一定范围内所有合适的方块 锄成耕地.
+witchery:cauldronbook.pruning=[h1 效果:剪树叶]将一定范围内所有树叶清除, 得到他们正常的掉落物.
+witchery:cauldronbook.felling=[h1 效果:伐木]破坏附近所有的原木方块, 得到他们正常的掉落物.
+witchery:cauldronbook.growlily=[h1 效果:长出莲叶]在水中触发时会长出莲叶. 莲叶扩散范围由药力等级决定.
+witchery:cauldronbook.tinting=[h1 效果:皮肤着色]将生物或玩家的皮肤变成 所选燃料的颜色.
+
+witchery:cauldronbook.transpose=[next=transpose2][h1 效果:传送]在药剂中, 此效果会将目标随机 传送一较短距离.[br][br]两种仪式可供实施. 一种需要寻路石 代表目的地, 最终需要巫媒代表目标.
+witchery:cauldronbook.transpose2=[next=transpose3][h1 效果:传送]实施另一种仪式时, 需要将代表始发地的寻路石 在末影珍珠加入[i 前] 加入.[br][br]代表目的地的寻路石需要在 末影珍珠加入[i 后]加入.
+witchery:cauldronbook.transpose3=[h1 效果:传送]始发地[i 必须]被中型他处圆环环绕.[br][br][img=witchery:textures/gui/circles_mpurple.png|center|top|32|32]
+
+witchery:cauldronbook.transposeore=[h1 效果:矿石转移]破坏大小由药力决定的 球形范围内的矿石. 更高的药力等级可以 破坏更稀有的矿物. 你需要某种手段收集矿石.
+witchery:cauldronbook.frogsleg=[h1 效果:蛙之腿]多段跳, 每个药力等级可多跳一段. 在有蛙宠时才有效.
+witchery:cauldronbook.fear=[h1 效果:恐惧]生物因惊吓而无法接近.
+
+witchery:cauldronbook.removedebuffs=[h1 效果:消除负面效果]将等级相同或更低的 可治愈效果移除. 作为仪式实施时可移除不可治愈效果. 需要等级III+移除疾病.
+witchery:cauldronbook.paralysis=[h1 效果:瘫痪]让生物无法移动. 等级III+可使玩家无法移动.
+witchery:cauldronbook.combustion=[h1 效果:燃烧]创造出可以在熔炉中 做燃料的药水. 药力越强烧得越久.
+
+witchery:cauldronbook.illfitting=[h1 效果:不合身]倒计时结束后受害者的衣服 会滑脱. 等级越高, 越有可能丢多件衣物. 
+witchery:cauldronbook.leonard=[h1 莱昂纳德]中世纪的恶魔, 能指挥一场影响另一个世界 的仪式. 一旦被召唤就不会离开, 除非被打败.
+
+witchery:cauldronbook.durationboost=[h1 效果:持久度增强]使现有药剂效果持续时间延长. 闹肚子时不能用.
+witchery:cauldronbook.absorbmagic=[h1 效果:魔法吸收]将魔法伤害转化为注魔能量.
+witchery:cauldronbook.reincarnate=[h1 效果:转世]一旦生物死亡, 他们会转生为其他生物, 力量由药力决定.
+witchery:cauldronbook.moonshine=[h1 效果:月光]酒精让你受到更少痛苦, 但会让你饥饿, 有时会眩晕.
+witchery:cauldronbook.stoutbelly=[h1 效果:大肚皮]移除[url=moonshine 月光]带来的眩晕效果.
+witchery:cauldronbook.brewgasimmunity=[h1 效果:气雾剂免疫]让你对负面效果药剂产生的 气体云免疫
+witchery:cauldronbook.drainmagic=[h1 效果:耗尽魔法]耗尽受害者的魔法能量.
+witchery:cauldronbook.keepinventory=[h1 效果:保持物品栏]死后保留你的物品.
+witchery:cauldronbook.shiftingseasons=[h1 效果:季节变迁]将目标地点变成新的生物群系. 生态便条决定目标生物群系.
+witchery:cauldronbook.keepeffects=[h1 效果:保留效果]死后保留有效的正面药剂效果. 
+witchery:cauldronbook.spreaddebuffs=[h1 效果:扩散负面效果]将比此药剂效果低一级的可治愈 负面效果传播至一宽阔范围 内所有生物.
+
+witchery:cauldronbook.brewbottling=[h1 效果:药剂装瓶]增加一位[i 熟练的]女巫可以制造的药剂数.
+witchery:cauldronbook.planting=[h1 效果:种植]种植附近散落的任何种子.
+witchery:cauldronbook.pulverize=[h1 效果:粉碎]将附近的方块粉碎为更 细碎的种类. 石头到砂砾到沙子.
+witchery:cauldronbook.vines=[h1 效果:藤蔓]在固体表面上创造藤蔓, 高等级下可以穿透空气直达地面. 击中的生物更容易着火.
+witchery:cauldronbook.love=[h1 效果:爱]动物,村民和僵尸会尝试繁殖.
+witchery:cauldronbook.volatility=[h1 效果:挥发]被这种效果击中的生物, 受攻击时变得脆弱且易爆炸.
+witchery:cauldronbook.iceworld=[h1 效果:冰天雪地]把方块和其他结构变成 冰和雪.
+witchery:cauldronbook.resizing=[h1 效果:改变大小]改变被击中生物的大小:[br][br]> 等级I: 1/4大小[br]> 等级II: 1/2大小[br]> 等级III: 1.5倍大小[br]> 等级IV: 2倍大小.
+witchery:cauldronbook.stealbuffs=[h1 效果:窃取正面效果]移除一宽阔范围内生物 的正面效果, 且施加于自己身上.
+
+
+witchery:cauldronbook.wolfsbane=[h1 效果:狼族之祸]阻止狼人变身, 使之保留现有形态直至 药效结束. 药力决定在对付更强大的狼人 时效果如何.
+
+witchery.brewing.ingredientpowercost=消耗祭坛之力: %d (实施仪式时: %d)
+
+item.witchery:mooncharm.name=月之神符
+item.witchery:mooncharm.tip=帮助狼人变身.
+tile.witchery:wolfaltar.name=狼之祭坛
+item.witchery:silversword.name=银剑
+item.witchery:silversword.tip=对狼人2倍不可格挡伤害.
+item.witchery:ingredient.boltSilver.name=银弩箭
+entity.witchery.wolfman.name=狼人
+entity.witchery.hellhound.name=地狱三头犬
+entity.witchery.werevillager.name=村民
+item.witchery:seedswolfsbane.name=乌头种子
+item.witchery:ingredient.wolfsbane.name=乌头
+item.witchery:ingredient.silverdust.name=银粉堆
+item.witchery:ingredient.muttonraw.name=生羊排
+item.witchery:ingredient.muttoncooked.name=熟羊排
+item.witchery:wolfhead.wolf.name=狼头
+item.witchery:wolfhead.hellhound.name=地狱犬头
+tile.witchery:wolfhead.name=狼头
+tile.witchery:wolfhead.wolf.name=狼头
+tile.witchery:wolfhead.hellhound.name=地狱犬头
+tile.witchery:wolfsbane.name=乌头
+tile.witchery:silvervat.name=集银盆
+witchery:potion.wolfsbane=狼族之祸
+witchery:brew.harmwerewolves=狼人之殇
+item.witchery:hornofthehunt.name=猎人的角
+item.witchery:hornofthehunt.tip=召唤角魔族猎人后消失.
+item.witchery:wolftoken.name=创造蝙蝠/群狼标记
+item.witchery:wolftoken.tip=(仅创造模式)|使用切换狼人等级.|潜行后使用切换吸血鬼等级.
+tile.witchery:beartrap.name=捕熊器
+tile.witchery:wolftrap.name=捕狼器
+
+witchery.nosleep.wolf=你不能在狼形状态睡觉!
+witchery.nosleep.resized=你不能再大小改变后睡觉!
+
+witchery.werewolf.infection=你的嗅觉似乎有些更强.
+witchery.rite.wolfcurse.alreadyactive=目标已受诅咒.
+witchery.rite.wolfcurse.nothuman=目标不是正常的村民或玩家.
+witchery.rite.wolfcurse.notactive=目标未受诅咒.
+witchery.rite.wolfcurse.requiresfullmoon=必须在满月下施法.
+witchery.rite.wolfcurse.requirescat=需要猫宠.
+witchery.rite.wolfcurse.requiresfullcoven=需要完整的有六位其他女巫的聚会.
+witchery.rite.wolfcurse.toofar=狼人太强大, 必须在圆环内治疗.
+
+witchery.rite.wolfcurse.book=狼人之咒{r|| 需在满月下施法且有完整的聚会.
+witchery.rite.wolfcure.book=诅咒祛除仪式{r||解除巫媒对象的狼人存在.
+
+witchery.werewolf.setlevel=狼人等级设定为%s.
+witchery.werewolf.chunkvisited=你觉得你似乎已经去过了.
+witchery.werewolf.mooncharmcrafted=怪声低沉地说, "别再把它弄丢了!"
+witchery.werewolf.notworthy=一个怪声在你的脑海中回响, "你没有价值!"
+
+witchery.werewolf.level2begin=一个怪声回响, "%s 块金锭, 交给我!"
+witchery.werewolf.level2progress=一个深沉的怪声咆哮道, "%s 块金锭已经找到, 你还缺 %s 块!"
+witchery.werewolf.level2complete=怪声低沉地说, "金子给我了, 护符造出了, 内心野兽快释放, 明月不再动摇!"
+
+witchery.werewolf.level3begin=怪声强调说, "锻炼你的利爪, 从 %s 只最弱的猎物身上撕下肉, 把那些羊排放在我跟前!"
+witchery.werewolf.level3progress=怪声回响道, "杀死了 %s 只并带来了肉, 你还需要再杀 %s 只!"
+witchery.werewolf.level3complete=怪声咆哮道, "至弱之肉已撕下, 爪如百炼精钢造, 撕裂大地和血肉, 兽之饥饿永不足!" 
+
+witchery.werewolf.level4begin=怪声低沉地说, "头狼的牙必须磨, 撕开%s 只弱狼的喉咙 然后把它们的舌头带来!"
+witchery.werewolf.level4progress=怪声回响道, "通知了 %s 只, 还有 %s 只!"
+witchery.werewolf.level4complete=怪声咆哮道, "狼群饥渴难耐, 杀戮以飨狼牙, 新头狼已崛起, 屠杀让你吃个够!" 
+
+witchery.werewolf.level5begin=怪声低沉地说, "狼和人必须合为一体, 杀了长角的狩猎之王! 用这号角把他叫来然后使出致命一击!"
+witchery.werewolf.level5progress=怪声回响道, "猎人还没打败! 用这号角召唤他然后使出致命一击!"
+witchery.werewolf.level5complete=怪声咆哮道, "机敏之冠已败, 胜者立于高处, 野兽完全觉醒, 且借腿脚行猎!" 
+
+witchery.werewolf.level6begin=怪声低吼道, "塑造强劲的肌肉以猛击猎物, 跳到 %s 只猎物上, 从空中杀了它们!"
+witchery.werewolf.level6progress=怪声低沉地说, "已经从空中杀了 %s 只猎物,还有 %s 只!"
+witchery.werewolf.level6complete=怪声宣布说, "死亡自天降, 招式如雷电, 攻击需要冲刺, 以图速战速决!"
+
+witchery.werewolf.level7begin=怪声咆哮道, "其他一切唯有学会恐惧, 在夜里游历四方, 在 %s 处地方仰望天空发出狼吼!"
+witchery.werewolf.level7progress=怪声强调说, "在 %s 处地方吼叫过了,还有 %s 处!"
+witchery.werewolf.level7complete=怪声低吼道, "狼吼已经处处可闻, 你的到来实非喜讯, 狼人一声吼, 群敌莫敢动!"
+
+witchery.werewolf.level8begin=怪声回响道, "主宰狼群! 作为一只狼, 找到 %s 只狼让他们听从你的意志!"
+witchery.werewolf.level8progress=怪声强调说, "组成了有 %s 只狼的狼群. 你还需要主宰 %s 只!"
+witchery.werewolf.level8complete=怪声低沉地说, "群狼之首, 大权在握, 仰天长啸, 奴仆随时到."
+
+witchery.werewolf.level9begin=怪声咆哮道, "利爪就是刀子, 作为狼人必须狩猎, 杀了 %s 只在地狱哼哼的猪!"
+witchery.werewolf.level9progress=怪声强调说, "作为狼人, 抓了 %s 只地狱猪, 还有 %s 只要找到!"
+witchery.werewolf.level9complete=怪声宣布说, "地狱之敌已败,利爪锋芒毕露, 盔甲如纸, 现在撕碎一切!"
+
+witchery.werewolf.level10begin=怪声咆哮道, "带走另外一个家伙的生命, 村里人或是朋友们, 你将拥有我的眷顾, 我的祝福将四处传播!"
+witchery.werewolf.level10progress=怪声回响道, "杀了村里那个家伙, 或者像你一样的家伙!"
+witchery.werewolf.level10complete=怪声尖叫道, "你已掌握了我的道路, 传播我的祝福吧!"
+
+item.witchery:hunterhatsilvered.name=狩巫帽 (加银)
+item.witchery:hunterhatsilvered.tip={9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:huntercoatsilvered.name=狩巫衣 (加银)
+item.witchery:huntercoatsilvered.tip={9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:hunterlegssilvered.name=狩巫裤 (加银)
+item.witchery:hunterlegssilvered.tip={9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:hunterbootssilvered.name=狩巫靴 (加银)
+item.witchery:hunterbootssilvered.tip={9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+
+entity.witchery.villageguard.name=守卫
+entity.witchery.vampire.name=吸血鬼
+item.witchery:coffin.name=棺材
+item.witchery:garlic.name=大蒜
+tile.witchery:garlicplant.name=大蒜
+tile.witchery:coffinblock.name=棺材
+witchery.nosleep.dayonly=吸血鬼只能在白天睡觉
+witchery.nosleep.closedcoffin=棺材没有打开
+tile.witchery:garlicgarland.name=大蒜花环
+tile.witchery:bloodedwool.name=沾血的羊毛
+
+tile.witchery:shadedglass_active.black.name=黑色阴影玻璃
+tile.witchery:shadedglass_active.red.name=红色阴影玻璃
+tile.witchery:shadedglass_active.green.name=绿色阴影玻璃
+tile.witchery:shadedglass_active.brown.name=棕色阴影玻璃
+tile.witchery:shadedglass_active.blue.name=蓝色阴影玻璃
+tile.witchery:shadedglass_active.purple.name=紫色阴影玻璃
+tile.witchery:shadedglass_active.cyan.name=青色阴影玻璃
+tile.witchery:shadedglass_active.silver.name=银色阴影玻璃
+tile.witchery:shadedglass_active.gray.name=灰色阴影玻璃
+tile.witchery:shadedglass_active.pink.name=粉红色阴影玻璃
+tile.witchery:shadedglass_active.lime.name=黄绿色阴影玻璃
+tile.witchery:shadedglass_active.yellow.name=黄色阴影玻璃
+tile.witchery:shadedglass_active.light_blue.name=淡蓝色阴影玻璃
+tile.witchery:shadedglass_active.magenta.name=品红色阴影玻璃
+tile.witchery:shadedglass_active.orange.name=橙色阴影玻璃
+tile.witchery:shadedglass_active.white.name=白色阴影玻璃
+
+tile.witchery:shadedglass.black.name=黑色阴影玻璃
+tile.witchery:shadedglass.red.name=红色阴影玻璃
+tile.witchery:shadedglass.green.name=绿色阴影玻璃
+tile.witchery:shadedglass.brown.name=棕色阴影玻璃
+tile.witchery:shadedglass.blue.name=蓝色阴影玻璃
+tile.witchery:shadedglass.purple.name=紫色阴影玻璃
+tile.witchery:shadedglass.cyan.name=青色阴影玻璃
+tile.witchery:shadedglass.silver.name=银色阴影玻璃
+tile.witchery:shadedglass.gray.name=灰色阴影玻璃
+tile.witchery:shadedglass.pink.name=粉红色阴影玻璃
+tile.witchery:shadedglass.lime.name=黄绿色阴影玻璃
+tile.witchery:shadedglass.yellow.name=黄色阴影玻璃
+tile.witchery:shadedglass.light_blue.name=淡蓝色阴影玻璃
+tile.witchery:shadedglass.magenta.name=品红色阴影玻璃
+tile.witchery:shadedglass.orange.name=橙色阴影玻璃
+tile.witchery:shadedglass.white.name=白色阴影玻璃
+
+item.witchery:glassgoblet.name=高脚玻璃杯
+item.witchery:glassgoblet.full=高脚玻璃杯(装满的)
+item.witchery:glassgoblet.tip=血: {4%s{0
+item.witchery:glassgoblet.chicken=鸡
+item.witchery:glassgoblet.lilith=莉莉丝
+item.witchery:glassgoblet.convertingplayermustsleep=受害者必须睡着
+item.witchery:glassgoblet.targetnotdrained=受害者必须血液已流失
+item.witchery:glassgoblet.targetnottransfixed=受害者必须不被催眠
+item.witchery:glassgoblet.nocoffinnear=附近没有棺材
+item.witchery:glassgoblet.notenoughblood=装满玻璃杯需要半滴血
+item.witchery:glassgoblet.nothighenoughlevel=你的血对这次任务来说不够强大
+item.witchery:glassgoblet.nothinghappens=什么也没有发生
+item.witchery:glassgoblet.seemswrong=有点不太对劲
+item.witchery:glassgoblet.lilithquest=一个怪声唱到, "把我的女儿带到地狱的火焰之湖边上"
+item.witchery:glassgoblet.lilithquestsummon=你对我的女主人有价值吗?
+item.witchery:glassgoblet.lilithquestsummon2=我的女主人在此...
+item.witchery:glassgoblet.lilithquestcomplete=你是有价值的... 就在这次... 你想要魔法, 还是死亡?
+item.witchery:glassgoblet.lilithquestcomplete2=如果你想要魔法, 拿个东西给我附魔.
+item.witchery:glassgoblet.lilithquestcompletelife=我带走了你的血, 把我的给你, 快喝了它...
+item.witchery:glassgoblet.lilithquestcompletemagic=收下这个, 作为一份心意... 
+item.witchery:glassgoblet.lilithquestcompletelifefail=孩子, 你不需要我的血...
+item.witchery:glassgoblet.lilithquestcompletecure=如果你真要这样, 你将再次化为凡人...
+item.witchery:glassgoblet.lilithquestcompletecurefail=这样一点意义也没有...
+item.witchery:glassgoblet.lilithquestcompletebatflight=孩子, 我赐予你自由...
+item.witchery:glassgoblet.lilithquestcompletebatflightfail=你在奉承我, 不要啊...
+
+item.witchery:sungrenade.name=太阳手榴弹
+item.witchery:stew.name=肉汤
+item.witchery:stewraw.name=生肉汤
+item.witchery:canesword.name=藤剑
+item.witchery:canesword.tip=潜行时使用以拔出/入鞘.|将被击杀生物的血储存在内置|血库中, 入鞘后使用以提取.|{4血库容量: %d{0
+tile.witchery:daylightcollector.name=阳光收集器
+tile.witchery:bloodcrucible.name=血坩埚
+
+entity.witchery.lilith.name=莉莉丝
+entity.witchery.follower.name=随从
+entity.witchery.follower.elle.name=爱丽
+entity.witchery.wingedmonkey.name=长翅膀的猴子
+witchery:brew.weakenvampires=吸血鬼削弱
+
+witchery.village.reptoolow=你的声望过低以至于无法推举守卫.
+witchery.village.villagetoosmall=这座村长太小容纳不下更多守卫.
+witchery.village.toomanyguards=这座村庄守卫已满员.
+witchery.village.villagerrefusesguardduty=我不想当守卫!
+witchery.village.villageracceptsguardduty=谨遵汝命!
+
+witchery.book.herbology.wolfsbane=乌头乌头, 灭狼一流. 它可以种植在耕地上,分若干阶段生长.高草阶段能产出种子.
+witchery.book.herbology.garlic=白天做菜吃饭香, 夜里吸血鬼死光. 它可以种植在耕地上,分若干阶段生长.高草阶段能产出种子.
+
+item.witchery:ingredient.darkCloth.name=织过的凝血
+item.witchery:ingredient.warmBlood.name=温血
+item.witchery:ingredient.lilithsBlood.name=莉莉丝的血
+item.witchery:ingredient.stake.name=木桩
+item.witchery:ingredient.vbookPage.name=撕烂的书页
+item.witchery:vampirebook.name=不朽者的观察报告
+item.witchery:vampirebook.tip=一位堕落学者关于永生的论述.
+
+witchery.rite.vampirecure.book=诅咒祛除仪式{r||去除巫媒目标的吸血鬼存在.
+
+witchery.rite.wolfcurse.hybridsnotallow=吸血鬼和狼人不能杂交
+witchery.vampirepower.feed=吸血
+witchery.vampirepower.eye=惊吓 / 切换夜视
+witchery.vampirepower.speed=神速
+witchery.vampirepower.bat=切换蝙蝠形态
+witchery.vampirepower.unone=无
+witchery.vampirepower.ubats=蝙蝠群 (%d)
+witchery.vampirepower.uteleport=传送 (%d)
+witchery.vampirepower.ustorm=召唤暴风雨 (%d)
+
+witchery:vampirebook.toc=[next=ritual1][h1 不朽者的观察报告][br][br][br][darkred 一位堕落学者关于永生的论述]
+witchery:vampirebook.ritual1=[next=ritual2]经过观察我在这篇论文中勉强 承认,我看到这些现象不是因为 思维有问题. 恰恰相反, 请把我的话视为警告...
+witchery:vampirebook.ritual2=[next=ritual3][br]...他在吃晚饭时追忆他的那次 "诞生", 一种恶魔似的记忆...[br][br]...用一把祭祀弯刀从头上把鸡 杀了然后用一个高脚玻璃杯 野蛮地收集血液," 我曾告诉他...
+witchery:vampirebook.ritual3=[next=ritual4][br]...显然在启动一场早已失传的仪式 (我画了张草图)...[br][img=witchery:textures/gui/vritual.png|center|middle|64|64][br]...夜晚, 对着月亮, 线, 红色的粉末, 火把和头骨...
+witchery:vampirebook.ritual4=[next=ritual5][br][br]...把血泼在头骨上...[br][br]...跌跌撞撞地把她带到岩浆湖边...   ...在地狱...
+witchery:vampirebook.ritual5=[next=transfix|1][br]...向她证明他的价值...[br][br][br]...又是那个杯子, 谁能真的喝下这东西? ...
+witchery:vampirebook.transfix=[next=knockback|2][br]...今天, 或者说是今夜, 他告诉我他第一次杀人的事...[br][br][br]...第一夜的饥渴, 他说, 压倒了他, 他必须想方设法消除这种饥饿...
+witchery:vampirebook.knockback=[next=speed|3]...他发现他可以使他的受害者 惊呆...[br][br]...可以神不知鬼不觉地喝 他需要的那东西, 因此他的血液不会再流失超过 一半...[br][br]...这样做, 从五个明显的灵魂那里...
+witchery:vampirebook.speed=[next=resistsun|4][br]...力量流进他的身体, 喝的越多, 夜色越深, 他也变得越强...[br][br]...在第四夜他完全掌握了吸血, 世界慢了下来...
+witchery:vampirebook.resistsun=[next=smashstone|5]...他最大的敌人, 太阳, 还是出现了, 一下子致命地折磨着他...[br][br]...他无法摆脱... ...找到一种方法收集阳光 并且他自己受到夜里时 十倍的灼烧...
+witchery:vampirebook.smashstone=[next=bats|6]...重生后第一次在阳光下行走 给他带来了血一般的眼泪, 他觉得血在燃烧, 但一下子就停止了...[br][br]...他需要更多力量, 扑灭那些纯粹由火组成 的生物是解决方案...[br]...二十至死了.
+witchery:vampirebook.bats=[next=mesmerize|7]...他能破坏石头了, 但仍受大地的束缚, 虽然很快, 他仍然受限制...[br][br]...他又一次找到了她, 重复了那场再生仪式...[br][br]...给她一朵花, 她渴望的血色之花...
+witchery:vampirebook.mesmerize=[next=maker|8]...他笑了, 很稀有地, 当他谈到第一次战斗...[br][br]...他从一个村庄飞到另一个村庄, 直到他了解他领域里的一切, 现在没有他去不了的地方... 
+witchery:vampirebook.maker=[next=maker2|8]...虚弱的心灵现在不仅让 他吸血寻找满足, 也让他像一只忠犬...[br][br]...诸恐惧之恐惧, 他诱惑了五只到早已预备的 铁笼中, 用木头封顶且在前方留了空隙. 他把它们关了进去...
+witchery:vampirebook.maker2=[next=finalpowers|9][img=witchery:textures/gui/vcage.png|center|middle|64|64][br][br]...他开始以它们作为饲料; 先将它们催眠, 小心翼翼的吸取他所有能吸的血, 在不伤害任何...
+witchery:vampirebook.finalpowers=最终他知道他的血已强大到 可以重复她做的一切... ...使我虚弱, 接近遗忘, 但我看到他装满了一个 高脚玻璃杯然后递给我... ...我们一起坐在棺材边, 远离太阳直射, "喝吧!" 他只说了这句...
+
+witchery.vampire.setlevel=吸血鬼等级设定为 %s.
+witchery:death.attack.sun=%1$s 在阳光下烧得又酥又脆
+witchery:death.attack.sun.player=%1$s 与 %2$s 战斗时在阳光下烧得又酥又脆
+death.attack.sun=%1$s 在阳光下烧得又酥又脆
+death.attack.sun.player=%1$s 与 %2$s 战斗时在阳光下烧得又酥又脆
+item.witchery:vampirehat.name=吸血鬼大礼帽
+item.witchery:vampirehat.tip=套装加成:|2件 - 更快吸血|3件 - 抗火|3件 - 催眠增强|4件 - 加强抗火
+item.witchery:vampirehelmet.name=吸血鬼头盔
+item.witchery:vampirehelmet.tip=套装加成:|2件 - 抗火
+item.witchery:vampirecoat.name=吸血鬼大衣
+item.witchery:vampirecoat.tip=套装加成:|2件 - 更快吸血|3件 - 抗火|3件 - 催眠增强|4件 - 加强抗火
+item.witchery:vampirecoat_female.name=吸血鬼大衣(女式)
+item.witchery:vampirecoat_female.tip=套装加成:|2件 - 更快吸血|3件 - 抗火|3件 - 催眠增强|4件 - 加强抗火
+item.witchery:vampirechaincoat.name=吸血鬼链甲
+item.witchery:vampirechaincoat.tip=套装加成:|2件 - 抗火
+item.witchery:vampirechaincoat_female.name=吸血鬼链甲 (女式)
+item.witchery:vampirechaincoat_female.tip=套装加成:|2件 - 抗火
+item.witchery:vampirelegs.name=吸血鬼长裤
+item.witchery:vampirelegs.tip=套装加成:|2件 - 更快吸血|3件 - 抗火|3件 - 催眠增强|4件 - 加强抗火
+item.witchery:vampirelegs_kilt.name=吸血鬼裙裤
+item.witchery:vampirelegs_kilt.tip=套装加成:|2件 - 更快吸血|3件 - 抗火|3件 - 催眠增强|4件 - 加强抗火
+item.witchery:vampireboots.name=吸血鬼牛津鞋
+item.witchery:vampireboots.tip=套装加成:|2件 - 更快吸血|3件 - 抗火|3件 - 催眠增强|4件 - 加强抗火
+
+item.witchery:hunterhatgarlicked.name=狩巫黎明之帽
+item.witchery:hunterhatgarlicked.tip={9吸血鬼防护.{0|{9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:huntercoatgarlicked.name=狩巫黎明之衣
+item.witchery:huntercoatgarlicked.tip={9吸血鬼防护.{0|{9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:hunterlegsgarlicked.name=狩巫黎明之裤
+item.witchery:hunterlegsgarlicked.tip={9吸血鬼防护.{0|{9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:hunterbootsgarlicked.name=狩巫黎明之靴
+item.witchery:hunterbootsgarlicked.tip={9吸血鬼防护.{0|{9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+
+
+tile.witchery:mirrorblock.name=镜子
+tile.witchery:mirrorblock2.name=镜子
+tile.witchery:mirrorwall.name=镜面
+item.witchery:mirror.name=镜子
+item.witchery:dupgrenade.name=复制手榴弹
+item.witchery:dupgrenade.tip={3反射: %s{0
+item.witchery:mirror.tip.bridge={5空的{0
+item.witchery:mirror.tip.bridgeplus={5空的 (%s: %d, %d, %d){0
+item.witchery:mirror.tip.inhabited={3已定居{0
+entity.witchery.reflection.name=反射
+item.witchery:ingredient.heartofgold.name=金色之心
+
+witchery.rite.infusionmirror=注魔仪式{r||把恶魔关进镜子.
+witchery:brew.animalattraction=动物吸引
+witchery:brew.animalrepulsion=动物排斥
+witchery.rite.summonreflection=召唤仪式{r||把镜子里的恶魔叫出来. 内部区域必须为全空的7x7x4格方块!
+witchery.rite.eclipse.cooldown=最近已经实施过日食仪式了, 等一会.
+witchery.rite.mirrormirror.playersseen=除此之外, 除了你, 还有他们站这里: %s
+witchery.rite.mirrormirror.playersnotseen=除此之外, 除了你, 没有外人站这里.
+witchery.rite.mirrormirror.escapecooldown=吟唱失败, 冷却时间生效 (%s seconds remain)
+
+witchery.rite.mirrormirrorsendmehome=魔镜魔镜带我回家
+witchery.rite.mirrormirrorigiveup=魔镜魔镜我不行了
+witchery.rite.mirrormirror=<%s> 魔镜, 魔镜, 告诉我, 最美的人是什么?
+witchery.rite.mirrormirror.anotherf=你在这里最美丽. 但是, 世上最美在那里. 啊, 她比你更美丽.
+witchery.rite.mirrormirror.anotherm=你在这里最美丽. 但是, 世上最美在那里. 啊, 他比你更美丽.
+witchery.rite.mirrormirror.anotherplayer=你在这里最美丽. 但是, 世上最美有一群. 啊, 他们比你更美丽.
+witchery.rite.mirrormirror.you=大千世界皆寻觅, 你是世上最美丽.
+witchery.rite.mirrormirror.bearing0=欲寻最美向北去.
+witchery.rite.mirrormirror.bearing1=欲寻最美东北去.
+witchery.rite.mirrormirror.bearing2=欲寻最美向东去.
+witchery.rite.mirrormirror.bearing3=欲寻最美东南去.
+witchery.rite.mirrormirror.bearing4=欲寻最美向南去.
+witchery.rite.mirrormirror.bearing5=欲寻最美西南去.
+witchery.rite.mirrormirror.bearing6=欲寻最美向西去.
+witchery.rite.mirrormirror.bearing7=欲寻最美西北去.
+
+witchery.rite.mirrormirror.opchatreveal=在下一条消息中, 玩家 "%s" 实际上是: "%s"
