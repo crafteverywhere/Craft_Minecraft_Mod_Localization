@@ -99,7 +99,7 @@ item.witchery:polynesiacharm.tip=他与动物交谈...
 item.witchery:devilstonguecharm.name=恶魔舌之咒
 item.witchery:devilstonguecharm.tip=即使恶魔也能察觉到你的智慧|大多数时候...不可抗拒.
 item.witchery:witchhat.name=巫师帽
-item.witchery:witchhat.tip=多么原汁原味的...一顶尖帽子|穿戴时提升酿造技术
+item.witchery:witchhat.tip=多么原汁原味的...一顶尖帽子|35%几率额外获得一瓶药水
 item.witchery:seedsbelladonna.name=颠茄种子
 item.witchery:seedsmandrake.name=曼德拉种子
 item.witchery:seedsartichoke.name=水洋蓟种子
@@ -253,16 +253,16 @@ witchery.infuse.cannotteleport=太远了,长按鼠标来传送得更远!
 
 witchery.familiar.foundsomething=呼噜! %s, %s, %s.
 
-witchery.rite.nullfield=仪式为能开始,圆环魔法在该区域无效.
+witchery.rite.nullfield=仪式不能开始,圆环魔法在该区域无效.
 tile.witchery:voidbramble.name=虚空荆棘
 
 witchery.rite.naturespower=自然力量仪式{r||对贫瘠的区域施放自然之力.
 
 item.witchery:witchrobe.name=巫师袍
-item.witchery:witchrobe.tip=城市里眼光敏锐的巫师所穿戴的服饰
+item.witchery:witchrobe.tip=城市里眼光敏锐的巫师所穿戴的服饰.||{5爬行者会无视穿戴者.{0||{9 35%几率额外获得一瓶药水 (除了死灵类药水){0
 
 item.witchery:necromancerrobe.name=死灵法师袍
-item.witchery:necromancerrobe.tip=掌控亡灵
+item.witchery:necromancerrobe.tip=死灵归降.||{5不死族会基本无视穿戴者.{0||{9 35%几率额外获得一瓶死灵类药水{0
 
 item.witchery:ingredient.creeperHeart.name=爬行者之心
 tile.witchery:glintweed.name=闪烁草
@@ -469,7 +469,7 @@ witchery.witch.say.questnotfinished=你还没完成我的任务!
 witchery.witch.say.begone=滚吧!
 witchery.witch.say.notinterested1=我对你没兴趣!
 witchery.witch.say.notinterested2=为何你要浪费我的时间!
-witchery.witch.say.notinterested3=你对艺术不擅长!
+witchery.witch.say.notinterested3=你对这门手艺不擅长!
 witchery.witch.say.tricked=我只需要...一个爱上当的蠢货...现在你死了!
 
 witchery.witch.quest.fightspider=击败我的宠物并为我带回它的眼睛,如果你接受任务就再和我对话一次!
@@ -507,11 +507,11 @@ item.witchery:ingredient.brewFlowingSpirit.name=流动精神之酿药水
 item.witchery:ingredient.weaveIntensity.name=炽烈之织梦者
 item.witchery:bucketspirit.name=精神桶
 item.witchery:bitingbelt.name=咬人带
-item.witchery:bitingbelt.tip=当心... 它会咬人.
+item.witchery:bitingbelt.tip=当心...它会咬人||{5与最多两个药水合成,被攻击{0|{5时可以触发药效.{0
 
 witchery.brew.flowingspirit=只能在精神世界酿造
 
-witchery.rite.manifest=甜蜜仪式{r||从精神世界而来的幽灵旅客单。
+witchery.rite.manifest=显灵仪式{r||允许从精神世界显灵进入主世界.
 
 witchery.book.herbology.somniancotton=一个仅仅生长在梦境肆虐的睡眠深处的假想植物。
 
@@ -729,13 +729,13 @@ entity.witchery.witchhunter.name=狩巫人
 
 item.witchery:handbow.name=狩巫手弩
 item.witchery:hunterhat.name=狩巫帽
-item.witchery:hunterhat.tip={9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:hunterhat.tip={9套装加成: 防护诅咒.{0|{9激活废弃弩箭.{0|{9无法使用娃娃.{0
 item.witchery:huntercoat.name=狩巫衣
-item.witchery:huntercoat.tip={9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:huntercoat.tip={9套装加成: 防护诅咒.{0|{9激活废弃弩箭.{0|{9无法使用娃娃.{0
 item.witchery:hunterlegs.name=狩巫裤
-item.witchery:hunterlegs.tip={9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:hunterlegs.tip={9套装加成: 防护诅咒.{0|{9激活废弃弩箭.{0|{9无法使用娃娃.{0
 item.witchery:hunterboots.name=狩巫靴
-item.witchery:hunterboots.tip={9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:hunterboots.tip={9套装加成: 防护诅咒.{0|{9激活废弃弩箭.{0|{9无法使用娃娃.{0
 item.witchery:shelfcompass.name=娃娃架罗盘
 item.witchery:ingredient.boltStake.name=木制弩箭
 item.witchery:ingredient.boltAntiMagic.name=废弃弩箭
@@ -772,9 +772,9 @@ entity.witchery.imp.contract.unsigned=<%s> 请以汝之血结契!
 entity.witchery.imp.contract.noxp=<%s>汝之经验少甚,不足以供吾之求!
 entity.witchery.imp.contract.deal=<%s>契成!
 entity.witchery.imp.gift.like=<%s> 烁烁然!
-entity.witchery.imp.gift.hate=<%s> 吾不喜之!此仅为新烁烁然之物耳!
+entity.witchery.imp.gift.hate=<%s> 吾不喜之!予吾新烁烁然之物!
 entity.witchery.imp.gift.reciprocate=<%s> 吾有秘欲与汝共!
-entity.witchery.imp.gift.toomany=<%s> 烁烁然...噫...
+entity.witchery.imp.gift.toomany=<%s> 烁烁然...（欠伸科）...
 entity.witchery.imp.gift.power=<%s> 胜万物之伟力!
 entity.witchery.imp.gift.powerloss=<%s> 汝何为行事如彼?
 entity.witchery.imp.spell.feelthefire=<%s>%s将觉吾之光!
@@ -857,7 +857,7 @@ tile.witchery:perpetualice.name=永冻之冰
 tile.witchery:tormentstone.name=痛苦之石
 
 tile.witchery:infinityegg.name=无穷之蛋
-item.witchery:kobolditehelm.name=扭曲手杖
+item.witchery:kobolditehelm.name=扭曲头带
 item.witchery:kobolditehelm.tip={9让观察者晕头转向.{0
 
 
@@ -913,7 +913,7 @@ witchery:potion.stoutbelly=大肚皮
 witchery:potion.feelnopain=无痛
 witchery:potion.floating=漂浮
 witchery:potion.gasmask=防毒面具
-witchery:potion.diseased=疾病
+witchery:potion.diseased=瘟疫
 witchery:potion.fortune=幸运
 witchery:potion.worship=崇拜
 witchery:potion.keepeffects=药效粘性
@@ -1028,7 +1028,7 @@ witchery:brew.batburst=蝙蝠爆发
 witchery:brew.sinking=沉重
 witchery:brew.overheating=过热
 witchery:brew.wakingnightmare=白日噩梦
-witchery:brew.drainmagic=耗尽魔法
+witchery:brew.drainmagic=汲取魔力
 witchery:brew.lilify=莲叶化
 witchery:brew.hellgate=地狱
 witchery:brew.harmdemons=恶魔杀手
@@ -1159,13 +1159,13 @@ witchery:cauldronbook.tbench=[i Crafting Bench][br][br][stack=%s][stack=%s][stac
 witchery:cauldronbook.tcraft=%s[br][img=witchery:textures/gui/cauldron.png|left|top|30|29] [img=witchery:textures/gui/arrowrightresult.png|left|middle|22|15] [stack=%s|left|middle]
 witchery:cauldronbook.tritual=%s[br][img=witchery:textures/gui/cauldron.png|center|top|30|29]
 
-witchery:cauldronbook.toc=[h1 女巫的酿造]> [url=introduction 简介][br]> [url=brewing 酿造][br]> [url=rituals 炼药锅仪式][br]> [url=crafting 合成][br]> [url=otherrituals 其他仪式][br]> [url=capacity 容量][br]> [url=power 药力][br]> [url=duration 持久度][br]> [url=modifiers 修饰][br]> [url=dispersal 扩散][br]> [url=toc/effects 效果]
+witchery:cauldronbook.toc=[h1 女巫的酿造]> [url=introduction 简介][br]> [url=brewing 酿造][br]> [url=rituals 炼药锅仪式][br]> [url=crafting 合成][br]> [url=otherrituals 其他仪式][br]> [url=capacity 容量][br]> [url=power 药力][br]> [url=duration 持久度][br]> [url=modifiers 修饰][br]> [url=dispersal 扩散][br]> [url=toc/effects 效果][br]>    汉化：Clayblockiller
 
 witchery:cauldronbook.introduction=[next=cauldron][h1 简介]用水把[url=cauldron 炼药锅]装满然后在下面生火. 当水沸腾后, 加入以下任意成分:[br][br]> [url=brewing 酿造][br]> [url=rituals 仪式][br]> [url=crafting 合成]
 witchery:cauldronbook.cauldron=[next=cauldron2][h1 炼药锅:配方]女巫的炼药锅是把普通的[i 炼药锅]放置在世界中然后对其使用[i 神奇药膏]:[br][br][template=tbench 6=witchery:ingredient|153 0=witchery:seedsbelladonna 1=witchery:seedsmandrake 2=empty 3=witchery:seedsartichoke 4=witchery:seedssnowbell 5=empty 7=empty 8=empty 9=empty]
 witchery:cauldronbook.cauldron2=[h1 炼药锅:清空]向炼药锅中丢入以下成分以清空:[br][br][stack=witchery:ingredient|17 清空炼药锅][br][stack=witchery:ingredient|16 内容物爆炸][br][br][i 女巫和附近地形不会受到破坏.]
 
-witchery:cauldronbook.crafting=[next=toc/crafting2][h1 合成]炼药锅可以用来创造或 灌输魔法物品.如果合适的组合 或成分被丢入炼药锅,创造 过程会自动开始.使用 [url=rituals6 仪式圆环]以减少力量消耗!
+witchery:cauldronbook.crafting=[next=toc/crafting2][h1 合成]炼药锅可以用来创造或 灌输魔法物品.如果合适的组合 或成分被丢入炼药锅,创造 过程会自动开始.使用 [url=rituals6 仪式圆环]以减少祭坛之力消耗!
 witchery:cauldronbook.toc/crafting2=[next=crafting3][h1 合成:配方]> [url=boiledmeat 熟肉][br]> [url=mutandis 转生粉][br]> [url=mutandisextremis 超级转生粉][br]> [url=dropofluck 幸运液滴][br]> [url=otherwherechalk 他处粉笔][br]> [url=infernalchalk 炼狱粉笔][br]> [url=goldenchalk 金色粉笔][br]> [url=mutatingsprig 变异枝条][br]> [url=netherwart 地狱疣][br]> [url=endstone 末地石][br]> [url=rottenflesh 腐肉]
 witchery:cauldronbook.crafting3=[h1 合成:配方]> [url=pittraps 陷阱方块][br]> [url=compass 玩家罗盘]
 witchery:cauldronbook.boiledmeat=[h1 合成:熟肉]生猪排,生牛肉,生鸡肉和生猪排? 都可以丢入煮沸的炼药锅中煮熟.[br][br][template=tcraft stack|0=porkchop 1=cooked_porkchop]
@@ -1183,10 +1183,10 @@ witchery:cauldronbook.pittraps=[h1 合成:陷阱方块]非固体方块![br][temp
 witchery:cauldronbook.compass=[h1 合成:玩家罗盘]与巫媒合成用来指出玩家的方向.[br][br][template=tcraft stack|0=nether_wart,witchery:ingredient|37,vine,spider_eye,compass 1=witchery:playercompass]
 
 witchery:cauldronbook.brewing=[next=brewing2][h1 酿造]当炼药锅发出噼噼啪啪的声音时, 将药水装入玻璃瓶中. 某些成分需要抽取祭坛之力. 更多的药剂会随着你的 [url=bottling 经验]增长被发现.[br][br][stack=glass_bottle 玻璃瓶]
-witchery:cauldronbook.brewing2=[next=brewing3][h1 酿造: 效果&修饰]一瓶药剂含有一种或几种[url=toc/effects 效果]伴随着修饰和[url 扩散]方法, 也伴随着修饰. 效果或扩散方法的修饰组分 必须在加入有效成分前加入.
+witchery:cauldronbook.brewing2=[next=brewing3][h1 酿造: 效果和调料]一瓶药水可以加入一个或 多个[url=toc/effects 效果]和调料外加一种 可以加调料的[url=dispersal 喷溅]方式. 调料必须在药效或者喷溅方式 之前添加.
 witchery:cauldronbook.brewing3=[next=brewing4][h1 酿造:容量]加入药剂的每种效果 都需要一定的储存空间. 特殊的[url=capacity 成分]可以用于增加空间, 而且必须按顺序 加入以累积效果.
 witchery:cauldronbook.brewing4=[next=brewing5][h1 酿造:容量]一瓶药剂可加入多种效果, 但必须有足够的空间 容纳所有效果.
-witchery:cauldronbook.brewing5=[next=brewing6][h1 酿造:手把手教学]1.增加[url=capacity 容量][br]2.加入[url=modifiers 修饰][br]3.增加[url=power 药力][br]4. 增加[url=duration 持久度][br]5.加入[url=toc/effects 有效成分][br]6. 从第3步开始重复[br]>装瓶或继续[br]7.增加[url=extent 扩散程度][br]8. 增加[url=linger 保留时间][br]9. 设置[url=dispersal 扩散][br]> 装瓶或实施[url=rituals 仪式]
+witchery:cauldronbook.brewing5=[next=brewing6][h1 酿造:手把手教学]1.增加[url=capacity 容量][br]2.加入[url=modifiers 调料][br]3.增加[url=power 药力][br]4. 增加[url=duration 持久度][br]5.加入[url=toc/effects 有效成分][br]6. 从第3步开始重复[br]>装瓶或继续[br]7.增加[url=extent 扩散程度][br]8. 增加[url=linger 保留时间][br]9. 设置[url=dispersal 扩散][br]> 装瓶或实施[url=rituals 仪式]
 witchery:cauldronbook.brewing6=[h1 酿造: 喷溅药水——灭火]将以下物品扔进满的, 沸腾的炼药锅. 然后对炼药锅使用玻璃瓶.[stack=glass_bottle][br][stack=witchery:ingredient|22][stack=coal][stack=gunpowder][br][img=witchery:textures/gui/cauldron.png|center|top|30|29]
 witchery:cauldronbook.bottling=[next=bottling2][h1 装瓶]缺乏经验的女巫在给药剂装瓶 时并不是那么熟练. 要从炼药锅得到更多药剂需要练习, 最终需要制作更复杂的药剂.
 witchery:cauldronbook.bottling2=[h1 装瓶]正确的服装也能帮助有经验的女巫, 蛙宠一样有用. 也可以用一些特别的药剂改变熟练度.
@@ -1213,11 +1213,11 @@ witchery:cauldronbook.capacity=[i 容量] - [url=toc/effects 每种效果]都有
 witchery:cauldronbook.power=[i 药力] - 在加入[url=toc/effects 有效成分]前按顺序 加入以增强药力.[br][br][stack=glowstone_dust +1 (到等级 II)][br][stack=blaze_rod +1 (到等级III)][br][stack=witchery:ingredient|11 +1 (到等级IV)]
 witchery:cauldronbook.duration=[i 持久度] - 在加入[url=toc/effects 有效成分]前按顺序 加入以增强持久度.[br][br][stack=redstone +1 (到x2)][br][stack=obsidian +1 (到x4)][br][stack=witchery:seedsmindrake +1 (到x6)]
 
-witchery:cauldronbook.modifiers=[next=modifiers2][h1 修饰:综合]这些修饰会产生如下效果.[br][br][stack=gold_nugget 没有粒子][br][stack=fermented_spider_eye 得到相反效果][br][stack=netherbrick 跳过方块效果][br][stack=brick 跳过实体效果]
-witchery:cauldronbook.modifiers2=[next=modifiers3][h1 修饰:喝干]每种喝干加成只能 在所有有效成分之前加入一次, 以获取叠加效果.[br][br][stack=witchery:ingredient|63 更快喝干][br][stack=witchery:ingredient|31 更快喝干][br][stack=witchery:spanishmoss 更快喝干]
-witchery:cauldronbook.modifiers3=[next=modifiers4][h1 修饰:颜色]改变药剂颜色.[br][stack=wool|0 白色][br][stack=wool|1 橙色][br][stack=wool|2 品红色][br][stack=wool|3 淡蓝色][br][stack=wool|4 黄色][br][stack=wool|5 黄绿色]
-witchery:cauldronbook.modifiers4=[next=modifiers5][h1 修饰:颜色][stack=wool|6 粉红色][br][stack=wool|7 灰色][br][stack=wool|8 淡灰色][br][stack=wool|9 青色][br][stack=wool|10 紫色][br][stack=wool|11 蓝色]
-witchery:cauldronbook.modifiers5=[h1 修饰:颜色][stack=wool|12 棕色][br][stack=wool|13 绿色][br][stack=wool|14 红色][br][stack=wool|15 黑色]
+witchery:cauldronbook.modifiers=[next=modifiers2][h1 调料:综合]这些调料会产生如下效果.[br][br][stack=gold_nugget 没有粒子][br][stack=fermented_spider_eye 得到相反效果][br][stack=netherbrick 对方块无效][br][stack=brick 对实体无效]
+witchery:cauldronbook.modifiers2=[next=modifiers3][h1 调料:喝干]每种喝干加成只能 在所有有效成分之前加入一次, 以获取叠加效果.[br][br][stack=witchery:ingredient|63 更快喝干][br][stack=witchery:ingredient|31 更快喝干][br][stack=witchery:spanishmoss 更快喝干]
+witchery:cauldronbook.modifiers3=[next=modifiers4][h1 调料:颜色]改变药剂颜色.[br][stack=wool|0 白色][br][stack=wool|1 橙色][br][stack=wool|2 品红色][br][stack=wool|3 淡蓝色][br][stack=wool|4 黄色][br][stack=wool|5 黄绿色]
+witchery:cauldronbook.modifiers4=[next=modifiers5][h1 调料:颜色][stack=wool|6 粉红色][br][stack=wool|7 灰色][br][stack=wool|8 淡灰色][br][stack=wool|9 青色][br][stack=wool|10 紫色][br][stack=wool|11 蓝色]
+witchery:cauldronbook.modifiers5=[h1 调料:颜色][stack=wool|12 棕色][br][stack=wool|13 绿色][br][stack=wool|14 红色][br][stack=wool|15 黑色]
 
 witchery:cauldronbook.dispersal=[i 扩散] -在任何[url=extent 有效成分]或[url=linger 保留时间]修饰后加入其中一种, 以确定喷溅效果.[br][br][stack=gunpowder]或者[stack=witchery:ingredient|69 速效][br][stack=witchery:ingredient|24 气体][br][stack=witchery:ingredient|111 液体][br][stack=skull|2][url=dispersaltrigger|middle 触发]
 witchery:cauldronbook.dispersaltrigger=[next=dispersaltrigger2][h1 扩散:触发-药剂]酿造[url=brewing 药水]然后扔在按钮,拉杆, 木门或压力板上, 以对下一个激活方块者释放效果.
@@ -1282,7 +1282,7 @@ witchery:cauldronbook.floating=[h1 效果:漂浮]生物会在地面上漂浮一�
 witchery:cauldronbook.damageboost=[h1 效果:杀伤加成]增加生物的攻击伤害.
 witchery:cauldronbook.weakness=[h1 效果:虚弱]降低生物的攻击伤害.
 witchery:cauldronbook.heal=[h1 效果:治疗]治疗生物或玩家. 会伤害不死族.
-witchery:cauldronbook.harm=[h1 效果:伤害]杀伤上午或玩家(魔法伤害). 会治疗不死族.
+witchery:cauldronbook.harm=[h1 效果:伤害]杀伤生物或玩家(魔法伤害). 会治疗不死族.
 witchery:cauldronbook.nightvision=[h1 效果:夜视]让玩家在黑暗中看得清清楚楚.
 witchery:cauldronbook.invisible=[h1 效果:隐身]让生物隐身. 盔甲和手持物品无法隐身.
 witchery:cauldronbook.fastmove=[h1 效果:疾行]生物移动速度更快.
@@ -1323,7 +1323,7 @@ witchery:cauldronbook.poisontoad=[h1 效果:毒蟾蜍]召唤一只会爆炸的�
 witchery:cauldronbook.reflectdamage=[h1 效果:反射伤害]将一些伤害转移至其来源. 等级越高, 反射的伤害越多.
 witchery:cauldronbook.iceshell=[h1 效果:寒冰外壳]在落地点制造一个空心冰球体. 药力越强半径越大. 可在水下使用制造可供 呼吸的空间. 
 
-witchery:cauldronbook.fortune=[h1 效果:幸运]药效作用下的玩家, 在挖矿使会更幸运.
+witchery:cauldronbook.fortune=[h1 效果:幸运]药效作用下的玩家, 在挖矿时会更幸运.
 witchery:cauldronbook.undeadscurse=[h1 效果:亡灵之诅咒]生物会受阳光伤害.
 
 witchery:cauldronbook.snowburst=[h1 效果:雪之爆发&足迹]在击中点附近爆发产生 一薄层雪. 生物和玩家会留下雪之足迹 (在不太热的生物群系). 雪人会受雪量过多之苦.
@@ -1339,9 +1339,9 @@ witchery:cauldronbook.tilling=[h1 效果:耕耘]将一定范围内所有合适�
 witchery:cauldronbook.pruning=[h1 效果:剪树叶]将一定范围内所有树叶清除, 得到他们正常的掉落物.
 witchery:cauldronbook.felling=[h1 效果:伐木]破坏附近所有的原木方块, 得到他们正常的掉落物.
 witchery:cauldronbook.growlily=[h1 效果:长出莲叶]在水中触发时会长出莲叶. 莲叶扩散范围由药力等级决定.
-witchery:cauldronbook.tinting=[h1 效果:皮肤着色]将生物或玩家的皮肤变成 所选燃料的颜色.
+witchery:cauldronbook.tinting=[h1 效果:皮肤着色]将生物或玩家的皮肤变成 所选染料的颜色.
 
-witchery:cauldronbook.transpose=[next=transpose2][h1 效果:传送]在药剂中, 此效果会将目标随机 传送一较短距离.[br][br]两种仪式可供实施. 一种需要寻路石 代表目的地, 最终需要巫媒代表目标.
+witchery:cauldronbook.transpose=[next=transpose2][h1 效果:传送]在药剂中, 此效果会将目标随机 传送一较短距离.[br][br]两种仪式可供实施. 一种需要寻路石 代表目的地然后加入巫媒来代 表目标.
 witchery:cauldronbook.transpose2=[next=transpose3][h1 效果:传送]实施另一种仪式时, 需要将代表始发地的寻路石 在末影珍珠加入[i 前] 加入.[br][br]代表目的地的寻路石需要在 末影珍珠加入[i 后]加入.
 witchery:cauldronbook.transpose3=[h1 效果:传送]始发地[i 必须]被中型他处圆环环绕.[br][br][img=witchery:textures/gui/circles_mpurple.png|center|top|32|32]
 
@@ -1433,50 +1433,52 @@ witchery.werewolf.chunkvisited=你觉得你似乎已经去过了.
 witchery.werewolf.mooncharmcrafted=怪声低沉地说, "别再把它弄丢了!"
 witchery.werewolf.notworthy=一个怪声在你的脑海中回响, "你没有价值!"
 
-witchery.werewolf.level2begin=一个怪声回响, "%s 块金锭, 交给我!"
-witchery.werewolf.level2progress=一个深沉的怪声咆哮道, "%s 块金锭已经找到, 你还缺 %s 块!"
-witchery.werewolf.level2complete=怪声低沉地说, "金子给我了, 护符造出了, 内心野兽快释放, 明月不再动摇!"
 
-witchery.werewolf.level3begin=怪声强调说, "锻炼你的利爪, 从 %s 只最弱的猎物身上撕下肉, 把那些羊排放在我跟前!"
-witchery.werewolf.level3progress=怪声回响道, "杀死了 %s 只并带来了肉, 你还需要再杀 %s 只!"
-witchery.werewolf.level3complete=怪声咆哮道, "至弱之肉已撕下, 爪如百炼精钢造, 撕裂大地和血肉, 兽之饥饿永不足!" 
+witchery.werewolf.level2begin=一个声音回响起来,"%s个金锭!带来给我!!"
+witchery.werewolf.level2progress=一个声音低沉道,"%s金子还不够,你还缺少%s!"
+witchery.werewolf.level2complete=一个声音低语道,"金子闪烁,魅影完成,释放野性,月之永恒！"
 
-witchery.werewolf.level4begin=怪声低沉地说, "头狼的牙必须磨, 撕开%s 只弱狼的喉咙 然后把它们的舌头带来!"
-witchery.werewolf.level4progress=怪声回响道, "通知了 %s 只, 还有 %s 只!"
-witchery.werewolf.level4complete=怪声咆哮道, "狼群饥渴难耐, 杀戮以飨狼牙, 新头狼已崛起, 屠杀让你吃个够!" 
+witchery.werewolf.level3begin=一个声音诉说道,"磨快你的爪子,撕裂%s只最弱的猎物,把他们的羊排带来给我!"
+witchery.werewolf.level3progress=一个声音回响起来,"屠杀%s只然后带给我它们的血肉,你还需要%s只!"
+witchery.werewolf.level3complete=一个声音响起,"弱者之肉,利爪钢铸,地血翻腾,兽饥难填!" 
 
-witchery.werewolf.level5begin=怪声低沉地说, "狼和人必须合为一体, 杀了长角的狩猎之王! 用这号角把他叫来然后使出致命一击!"
-witchery.werewolf.level5progress=怪声回响道, "猎人还没打败! 用这号角召唤他然后使出致命一击!"
-witchery.werewolf.level5complete=怪声咆哮道, "机敏之冠已败, 胜者立于高处, 野兽完全觉醒, 且借腿脚行猎!" 
+witchery.werewolf.level4begin=一个声音高傲的说,"先锐的牙齿必须要磨尖,刺穿%s只小狼然后把他们的舌头带给我"
+witchery.werewolf.level4progress=一个声音回响起来,"镇压%s只,还剩%s只"
+witchery.werewolf.level4complete=一个声音说道,"饥饿常伴,尖牙入骨,先锐崛起,嗜血夺魂!" 
 
-witchery.werewolf.level6begin=怪声低吼道, "塑造强劲的肌肉以猛击猎物, 跳到 %s 只猎物上, 从空中杀了它们!"
-witchery.werewolf.level6progress=怪声低沉地说, "已经从空中杀了 %s 只猎物,还有 %s 只!"
-witchery.werewolf.level6complete=怪声宣布说, "死亡自天降, 招式如雷电, 攻击需要冲刺, 以图速战速决!"
+witchery.werewolf.level5begin=一个声音回响起来,"狼与人必须要合体,抹杀掉角魔狩猎之王!用它的号角来召唤它然后给与他致命一击"
+witchery.werewolf.level5progress=一个声音回响起来,"狩猎者还活着!用它的号角来召唤它然后给与他致命一击!"
+witchery.werewolf.level5complete=一个声音低沉道,"英豪溃败,冠军傲立,兽性迸发,二四并行!" 
 
-witchery.werewolf.level7begin=怪声咆哮道, "其他一切唯有学会恐惧, 在夜里游历四方, 在 %s 处地方仰望天空发出狼吼!"
-witchery.werewolf.level7progress=怪声强调说, "在 %s 处地方吼叫过了,还有 %s 处!"
-witchery.werewolf.level7complete=怪声低吼道, "狼吼已经处处可闻, 你的到来实非喜讯, 狼人一声吼, 群敌莫敢动!"
 
-witchery.werewolf.level8begin=怪声回响道, "主宰狼群! 作为一只狼, 找到 %s 只狼让他们听从你的意志!"
-witchery.werewolf.level8progress=怪声强调说, "组成了有 %s 只狼的狼群. 你还需要主宰 %s 只!"
-witchery.werewolf.level8complete=怪声低沉地说, "群狼之首, 大权在握, 仰天长啸, 奴仆随时到."
+witchery.werewolf.level6begin=一个声音咆哮道,"锻炼强劲的肌肉来屠杀你的猎物,跃向%s只怪物,然后在空中击杀他们!"
+witchery.werewolf.level6progress=一个声音低语道,"在空中屠杀%s只了,还剩%s只"
+witchery.werewolf.level6complete=一个声音高喊道,"死亡天降,迅如闪电,疾行之击,一击制敌!"
 
-witchery.werewolf.level9begin=怪声咆哮道, "利爪就是刀子, 作为狼人必须狩猎, 杀了 %s 只在地狱哼哼的猪!"
-witchery.werewolf.level9progress=怪声强调说, "作为狼人, 抓了 %s 只地狱猪, 还有 %s 只要找到!"
-witchery.werewolf.level9complete=怪声宣布说, "地狱之敌已败,利爪锋芒毕露, 盔甲如纸, 现在撕碎一切!"
+witchery.werewolf.level7begin=一个声音低语道,"让他们感受到你散发的恐惧,在夜晚旅行,在%s个地点望向天空,让你的狼吠响彻世界!"
+witchery.werewolf.level7progress=一个声音高喊道,"在%s个地方对天长啸,还剩%s个!"
+witchery.werewolf.level7complete=一个声音咆哮道,"恐惧之吼,震慑四方,狼人怒吼,恐惧冻结!"
+
+witchery.werewolf.level8begin=一个声音回响到,"掌控权势!作为一只狼,找到并驯服%s只狼!"
+witchery.werewolf.level8progress=一个声音咆哮道,"组成%s只狼的狼队.你还需要驯服%s只!"
+witchery.werewolf.level8complete=一个声音低语道,"先锐突起,驯化完成,仰天长啸,战狼护身."
+
+witchery.werewolf.level9begin=一个声音回想响道,"尖牙利爪,作为狼人你必须狩猎,屠杀%s只地狱猪圈中的渣渣!"
+witchery.werewolf.level9progress=一个声音高喊道,"作为狼人,击杀%s只地狱猪人,还有%s只需要被抹杀!"
+witchery.werewolf.level9complete=一个声音回响道,"炼狱无敌,利爪磨成,透甲如纸,见血封喉!"
 
 witchery.werewolf.level10begin=怪声咆哮道, "带走另外一个家伙的生命, 村里人或是朋友们, 你将拥有我的眷顾, 我的祝福将四处传播!"
 witchery.werewolf.level10progress=怪声回响道, "杀了村里那个家伙, 或者像你一样的家伙!"
 witchery.werewolf.level10complete=怪声尖叫道, "你已掌握了我的道路, 传播我的祝福吧!"
 
-item.witchery:hunterhatsilvered.name=狩巫帽 (加银)
-item.witchery:hunterhatsilvered.tip={9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
-item.witchery:huntercoatsilvered.name=狩巫衣 (加银)
-item.witchery:huntercoatsilvered.tip={9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
-item.witchery:hunterlegssilvered.name=狩巫裤 (加银)
-item.witchery:hunterlegssilvered.tip={9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
-item.witchery:hunterbootssilvered.name=狩巫靴 (加银)
-item.witchery:hunterbootssilvered.tip={9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:hunterhatsilvered.name=狩巫帽(镀银)
+item.witchery:hunterhatsilvered.tip={9狼人保护.{0|{9套装: 诅咒保护.{0|{9激活废弃弩箭.{0|{9不能使用娃娃.{0
+item.witchery:huntercoatsilvered.name=狩巫衣(镀银)
+item.witchery:huntercoatsilvered.tip={9狼人保护.{0|{9套装: 诅咒保护.{0|{9激活废弃弩箭.{0|{9不能使用娃娃.{0
+item.witchery:hunterlegssilvered.name=狩巫裤(镀银)
+item.witchery:hunterlegssilvered.tip={9狼人保护.{0|{9套装: 诅咒保护.{0|{9激活废弃弩箭.{0|{9不能使用娃娃.{0
+item.witchery:hunterbootssilvered.name=狩巫靴(镀银)
+item.witchery:hunterbootssilvered.tip={9狼人保护.{0|{9套装: 诅咒保护.{0|{9激活废弃弩箭.{0|{9不能使用娃娃.{0
 
 entity.witchery.villageguard.name=守卫
 entity.witchery.vampire.name=吸血鬼
@@ -1536,7 +1538,7 @@ item.witchery:glassgoblet.notenoughblood=装满玻璃杯需要半滴血
 item.witchery:glassgoblet.nothighenoughlevel=你的血对这次任务来说不够强大
 item.witchery:glassgoblet.nothinghappens=什么也没有发生
 item.witchery:glassgoblet.seemswrong=有点不太对劲
-item.witchery:glassgoblet.lilithquest=一个怪声唱到, "把我的女儿带到地狱的火焰之湖边上"
+item.witchery:glassgoblet.lilithquest=一个怪声唱道, "把我的女儿带到地狱的火焰之湖边上"
 item.witchery:glassgoblet.lilithquestsummon=你对我的女主人有价值吗?
 item.witchery:glassgoblet.lilithquestsummon2=我的女主人在此...
 item.witchery:glassgoblet.lilithquestcomplete=你是有价值的... 就在这次... 你想要魔法, 还是死亡?
@@ -1552,8 +1554,8 @@ item.witchery:glassgoblet.lilithquestcompletebatflightfail=你在奉承我, 不�
 item.witchery:sungrenade.name=太阳手榴弹
 item.witchery:stew.name=肉汤
 item.witchery:stewraw.name=生肉汤
-item.witchery:canesword.name=藤剑
-item.witchery:canesword.tip=潜行时使用以拔出/入鞘.|将被击杀生物的血储存在内置|血库中, 入鞘后使用以提取.|{4血库容量: %d{0
+item.witchery:canesword.name=手杖剑
+item.witchery:canesword.tip=潜行时使用以拔出/入鞘.|将被击杀生物的血储存在内置|血库中, 入鞘后使用以提取.|{4血液储存: %s{0
 tile.witchery:daylightcollector.name=阳光收集器
 tile.witchery:bloodcrucible.name=血坩埚
 
@@ -1593,20 +1595,20 @@ witchery.vampirepower.uteleport=传送 (%d)
 witchery.vampirepower.ustorm=召唤暴风雨 (%d)
 
 witchery:vampirebook.toc=[next=ritual1][h1 不朽者的观察报告][br][br][br][darkred 一位堕落学者关于永生的论述]
-witchery:vampirebook.ritual1=[next=ritual2]经过观察我在这篇论文中勉强 承认,我看到这些现象不是因为 思维有问题. 恰恰相反, 请把我的话视为警告...
-witchery:vampirebook.ritual2=[next=ritual3][br]...他在吃晚饭时追忆他的那次 "诞生", 一种恶魔似的记忆...[br][br]...用一把祭祀弯刀从头上把鸡 杀了然后用一个高脚玻璃杯 野蛮地收集血液," 我曾告诉他...
+witchery:vampirebook.ritual1=[next=ritual2]经过观察我在这篇论文中勉强 承认,我会旁观这些事情不是因为 思维有问题. 恰恰相反, 请把我的话视为警告...
+witchery:vampirebook.ritual2=[next=ritual3][br]...他在吃晚饭时追忆他的那次 "诞生", 一种恶魔似的记忆...[br][br]..."在骷髅头颅上用伯莱恩匕首 屠宰一只鸡，用玻璃高脚 杯去收集留下的血液，是 无比残忍的事情," 我曾告诉他...
 witchery:vampirebook.ritual3=[next=ritual4][br]...显然在启动一场早已失传的仪式 (我画了张草图)...[br][img=witchery:textures/gui/vritual.png|center|middle|64|64][br]...夜晚, 对着月亮, 线, 红色的粉末, 火把和头骨...
 witchery:vampirebook.ritual4=[next=ritual5][br][br]...把血泼在头骨上...[br][br]...跌跌撞撞地把她带到岩浆湖边...   ...在地狱...
 witchery:vampirebook.ritual5=[next=transfix|1][br]...向她证明他的价值...[br][br][br]...又是那个杯子, 谁能真的喝下这东西? ...
 witchery:vampirebook.transfix=[next=knockback|2][br]...今天, 或者说是今夜, 他告诉我他第一次杀人的事...[br][br][br]...第一夜的饥渴, 他说, 压倒了他, 他必须想方设法消除这种饥饿...
 witchery:vampirebook.knockback=[next=speed|3]...他发现他可以使他的受害者 惊呆...[br][br]...可以神不知鬼不觉地喝 他需要的那东西, 因此他的血液不会再流失超过 一半...[br][br]...这样做, 从五个明显的灵魂那里...
 witchery:vampirebook.speed=[next=resistsun|4][br]...力量流进他的身体, 喝的越多, 夜色越深, 他也变得越强...[br][br]...在第四夜他完全掌握了吸血, 世界慢了下来...
-witchery:vampirebook.resistsun=[next=smashstone|5]...他最大的敌人, 太阳, 还是出现了, 一下子致命地折磨着他...[br][br]...他无法摆脱... ...找到一种方法收集阳光 并且他自己受到夜里时 十倍的灼烧...
-witchery:vampirebook.smashstone=[next=bats|6]...重生后第一次在阳光下行走 给他带来了血一般的眼泪, 他觉得血在燃烧, 但一下子就停止了...[br][br]...他需要更多力量, 扑灭那些纯粹由火组成 的生物是解决方案...[br]...二十至死了.
+witchery:vampirebook.resistsun=[next=smashstone|5]...他最大的敌人, 太阳, 还是出现了, 一下子致命地折磨着他...[br][br]...他无法摆脱... ...找到一种方法收集阳光然 后在夜里被燃烧十次...
+witchery:vampirebook.smashstone=[next=bats|6]...重生后第一次在阳光下行走 给他带来了血一般的眼泪, 他觉得血在燃烧, 但一下子就停止了...[br][br]...他需要更多力量, 扑灭那些纯粹由火组成 的生物是解决方案...[br]...然后廿次死亡.
 witchery:vampirebook.bats=[next=mesmerize|7]...他能破坏石头了, 但仍受大地的束缚, 虽然很快, 他仍然受限制...[br][br]...他又一次找到了她, 重复了那场再生仪式...[br][br]...给她一朵花, 她渴望的血色之花...
 witchery:vampirebook.mesmerize=[next=maker|8]...他笑了, 很稀有地, 当他谈到第一次战斗...[br][br]...他从一个村庄飞到另一个村庄, 直到他了解他领域里的一切, 现在没有他去不了的地方... 
 witchery:vampirebook.maker=[next=maker2|8]...虚弱的心灵现在不仅让 他吸血寻找满足, 也让他像一只忠犬...[br][br]...诸恐惧之恐惧, 他诱惑了五只到早已预备的 铁笼中, 用木头封顶且在前方留了空隙. 他把它们关了进去...
-witchery:vampirebook.maker2=[next=finalpowers|9][img=witchery:textures/gui/vcage.png|center|middle|64|64][br][br]...他开始以它们作为饲料; 先将它们催眠, 小心翼翼的吸取他所有能吸的血, 在不伤害任何...
+witchery:vampirebook.maker2=[next=finalpowers|9][img=witchery:textures/gui/vcage.png|center|middle|64|64][br][br]...他开始以它们作为饲料; 先将它们催眠, 小心翼翼的吸取他所有能吸的血但又 小心翼翼地不伤害他们...
 witchery:vampirebook.finalpowers=最终他知道他的血已强大到 可以重复她做的一切... ...使我虚弱, 接近遗忘, 但我看到他装满了一个 高脚玻璃杯然后递给我... ...我们一起坐在棺材边, 远离太阳直射, "喝吧!" 他只说了这句...
 
 witchery.vampire.setlevel=吸血鬼等级设定为 %s.
@@ -1634,13 +1636,13 @@ item.witchery:vampireboots.name=吸血鬼牛津鞋
 item.witchery:vampireboots.tip=套装加成:|2件 - 更快吸血|3件 - 抗火|3件 - 催眠增强|4件 - 加强抗火
 
 item.witchery:hunterhatgarlicked.name=狩巫黎明之帽
-item.witchery:hunterhatgarlicked.tip={9吸血鬼防护.{0|{9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:hunterhatgarlicked.tip={9吸血鬼防护.{0|{9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9激活废弃弩箭.{0|{9无法使用娃娃.{0
 item.witchery:huntercoatgarlicked.name=狩巫黎明之衣
-item.witchery:huntercoatgarlicked.tip={9吸血鬼防护.{0|{9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:huntercoatgarlicked.tip={9吸血鬼防护.{0|{9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9激活废弃弩箭.{0|{9无法使用娃娃.{0
 item.witchery:hunterlegsgarlicked.name=狩巫黎明之裤
-item.witchery:hunterlegsgarlicked.tip={9吸血鬼防护.{0|{9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:hunterlegsgarlicked.tip={9吸血鬼防护.{0|{9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9激活废弃弩箭.{0|{9无法使用娃娃.{0
 item.witchery:hunterbootsgarlicked.name=狩巫黎明之靴
-item.witchery:hunterbootsgarlicked.tip={9吸血鬼防护.{0|{9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9耗尽弩箭有效.{0|{9无法使用娃娃.{0
+item.witchery:hunterbootsgarlicked.tip={9吸血鬼防护.{0|{9狼人防护.{0|{9套装加成: 防护诅咒.{0|{9激活废弃弩箭.{0|{9无法使用娃娃.{0
 
 
 tile.witchery:mirrorblock.name=镜子
@@ -1648,11 +1650,11 @@ tile.witchery:mirrorblock2.name=镜子
 tile.witchery:mirrorwall.name=镜面
 item.witchery:mirror.name=镜子
 item.witchery:dupgrenade.name=复制手榴弹
-item.witchery:dupgrenade.tip={3反射: %s{0
+item.witchery:dupgrenade.tip={3 镜像体: %s{0
 item.witchery:mirror.tip.bridge={5空的{0
 item.witchery:mirror.tip.bridgeplus={5空的 (%s: %d, %d, %d){0
 item.witchery:mirror.tip.inhabited={3已定居{0
-entity.witchery.reflection.name=反射
+entity.witchery.reflection.name=镜像体
 item.witchery:ingredient.heartofgold.name=金色之心
 
 witchery.rite.infusionmirror=注魔仪式{r||把恶魔关进镜子.
@@ -1679,5 +1681,6 @@ witchery.rite.mirrormirror.bearing4=欲寻最美向南去.
 witchery.rite.mirrormirror.bearing5=欲寻最美西南去.
 witchery.rite.mirrormirror.bearing6=欲寻最美向西去.
 witchery.rite.mirrormirror.bearing7=欲寻最美西北去.
+
 
 witchery.rite.mirrormirror.opchatreveal=在下一条消息中, 玩家 "%s" 实际上是: "%s"
