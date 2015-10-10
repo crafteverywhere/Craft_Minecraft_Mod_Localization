@@ -24,6 +24,8 @@ en_dict = dict()
 cn_dict = dict()
 en_old_dict = dict()
 
+auto_dict = dict()
+
 change = int()
 line_number = int()
 
@@ -63,6 +65,12 @@ for line in file_cn.readlines():
 		line_key = line_list[0]
 		line_value = line_list[1]
 		cn_dict[line_key] = line_value
+		try:
+			auto_dict[en_old_dict[line_key]] = line_value
+		except:
+			print('No auto_dict entry!')
+
+print('zh_CN.lang has been loaded!')
 
 line_number = 0
 for line in en_list:
@@ -79,8 +87,11 @@ for line in en_list:
 			else:
 				file_out.writelines(line + '=' + cn_dict[line])
 		except:
-			file_out.writelines('#NEW ' + line + '=' + en_dict[line])
-			change += 1
+			try:
+				file_out.writelines(line + '=' + auto_dict[en_dict[line]])
+			except:
+				file_out.writelines('#NEW ' + line + '=' + en_dict[line])
+				change += 1
 
 print('Done!')
 print('Line Numbers: ' + str(line_number))
