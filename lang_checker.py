@@ -24,8 +24,13 @@ en_dict = dict()
 cn_dict = dict()
 en_old_dict = dict()
 
+change = int()
+line_number = int()
+
+line_number = 0
 for line in file_en.readlines():
-	print('[' + str(len(en_list) + 1) + ']' + 'Loading en_US.lang: ' + line)
+	line_number += 1
+	print('[' + str(line_number) + ']' + 'Loading en_US.lang: ' + line)
 	if line != None and line[0] != '#' and '=' in line:
 		line_list = line.split('=', 1)
 		line_key = line_list[0]
@@ -33,11 +38,14 @@ for line in file_en.readlines():
 		en_list.append(line_key)
 		en_dict[line_key] = line_value
 	else:
-		en_list.append('#craft love comments' + line)
+		en_list.append('#craft loves comments' + line)
 
 print('en_US.lang has been loaded!')
 
+line_number = 0
 for line in file_en_old.readlines():
+	line_number += 1
+	print('[' + str(line_number) + ']' + 'Loading the old version of en_US.lang: ' + line)
 	if line != None and line[0] != '#' and '=' in line:
 		line_list = line.split('=', 1)
 		line_key = line_list[0]
@@ -46,29 +54,37 @@ for line in file_en_old.readlines():
 
 print('the old version of en_US.lang has been loaded!')
 
+line_number = 0
 for line in file_cn.readlines():
-	print('Loading zh_CN.lang: ' + line)
+	line_number += 1
+	print('[' + str(line_number) + ']' + 'Loading zh_CN.lang: ' + line)
 	if line != None and line[0] != '#' and '=' in line:
 		line_list = line.split('=', 1)
 		line_key = line_list[0]
 		line_value = line_list[1]
 		cn_dict[line_key] = line_value
 
+line_number = 0
 for line in en_list:
-	if '#craft love comments' in line:
-		print(file_out.writelines(line.replace('#craft love comments', '')))
+	line_number += 1
+	if '#craft loves comments' in line:
+		file_out.writelines(line.replace('#craft loves comments', ''))
 	else:
 		try:
 			if en_old_dict[line] != en_dict[line]:
-				print(file_out.writelines('#BEFORE ' + line + '=' + en_old_dict[line]))
-				print(file_out.writelines('#AFTER ' + line + '=' + en_dict[line]))
-				print(file_out.writelines('#CHANGE ' + line + '=' + cn_dict[line]))
+				file_out.writelines('#BEFORE ' + line + '=' + en_old_dict[line])
+				file_out.writelines('#AFTER ' + line + '=' + en_dict[line])
+				file_out.writelines('#CHANGE ' + line + '=' + cn_dict[line])
+				change += 1
 			else:
-				print(file_out.writelines(line + '=' + cn_dict[line]))
+				file_out.writelines(line + '=' + cn_dict[line])
 		except:
-			print(file_out.writelines('#NEW ' + line + '=' + en_dict[line]))
+			file_out.writelines('#NEW ' + line + '=' + en_dict[line])
+			change += 1
 
 print('Done!')
+print('Line Numbers: ' + str(line_number))
+print('Changes: ' + str(change))
 
 file_cn.close()
 file_en.close()
