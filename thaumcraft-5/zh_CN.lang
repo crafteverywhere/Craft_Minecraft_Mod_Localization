@@ -860,53 +860,37 @@ tc.research_name.NODES=灵气和节点
 tc.research_text.NODES=魔法无所不在
 tc.research_page.NODES.1=§5灵气§0是笼罩世界的魔法能量.其源头未明.有些人相信灵气是活物积累的生命能量,而有些人则倾向于认为它仅仅不过是一种从某些地方渗出的能量.后一种观点似乎更具可能：因为人们经常发现灵气环绕于一种汇聚着魔法能量的§5“灵气节点”§0周围.<BR>灵气中蕴含浓度不等的元始要素.例如,水边的灵气场中通常会蕴含更多的§3Aqua§0要素,在沙漠中则§cIgnis§0要素浓度更高.
 tc.research_page.NODES.2=灵气场按区块分布.如果一片区域中的灵气场变得枯竭,它会尝试从比邻灵气浓度更高的区域中抽取灵气.它们之间的灵气浓度永远不会完全相等,因为灵气场与其说类似海水,倒不如说更像粘稠的凝胶组成的海洋.<BR>灵气场如果被污染就会蕴含§5Vitium§0要素(即咒波).咒波比一般的要素更加'粘稠',更趋向于在分离的区域汇聚而不是流动到临近区域去.灵气场中的要素浓度降低到最低浓度以下也会产生咒波.<BR>如果一片区域中的咒波浓度过高,就会导致§l腐化§r.想要了解有关腐化的更多信息,请翻阅魔导手册的相关章节.
-#B tc.research_page.NODES.3=disappear or harm the integrity of the node.<BR>It is possible for the node to disappear completely if all the aspects are used up.<LINE>Fortunately most nodes replenish their aspects over time and if properly maintained can provide a clever thaumaturge with all the vis he could want.<BR>Nodes react in interesting ways to other nearby nodes and bigger nodes tend to drain the vis out of their smaller neighbors to increase their own girth. 
-#A tc.research_page.NODES.3=Aura nodes act like a doorway to some other mystical realm through which magical energy seeps. Each node is usually 'tuned' to a §5Primal Aspect§0, but rarely a node may be tuned to a §5Compound Aspect§0.<BR>Nodes cannot be tapped directly, but do slowly replenish the aura around them.<BR>Generally the rate of replenishment seems to vary with the phases of the moon with the full moon having the highest rates.<BR>The size of the node is also directly related to how quickly it will replenish the aura.
-#C tc.research_page.NODES.3=<BR>如果其蕴含的要素都消失了那么节点本身也可能会消失.<LINE>好在节点中的要素会缓慢地自行恢复,如果妥善管理,足以供应明智的神秘使所需.
-#N tc.research_page.NODES.4=Aura nodes are virtually impossible to see with the naked eye. Often the only way to determine their presence is to look for elevated aura levels in a localized area.<BR>Nearby nodes often attract each other and will move closer together. When they get close enough they will merge with varying results, but usually resulting in a larger node containing features of one or both the original nodes.<BR>There are many different kinds of nodes to be found, but as yet you know very little about them.
-#N tc.research_page.NODES.A=§l§nAstral Nodes§r<BR>These nodes seems to react to light - the greater the amount of light, the faster they recharge the aura.  
-#N tc.research_page.NODES.D=§l§nSinister Nodes§r<BR>These nodes operate best in darkness and when the moon is waning. Furthermore the area around such nodes is often quite sinister and dangerous as if they are tapping into some evil and dangerous mystical realm.
-#N tc.research_page.NODES.H=§l§nHungry Nodes§r<BR>Instead of recharging the aura, these nodes slowly drain it instead. These nodes seem to increase in size and strength the more aura they consume.<BR>Many thaumaturges speculate that what you call a hungry node may merely be a node seen from the other side, but if that was true then and normal nodes would also grow in size and hungry nodes would be far more common. Fortunately, they are not.
-#N tc.research_page.NODES.P=§l§nPure Nodes§r<BR>Pure nodes are always a welcome find. They slowly remove any flux from the surrounding aura.
-#N tc.research_page.NODES.T=§l§nTainted Nodes§r<BR>These nodes are mystically tainted. The energy they tap into has been fouled and will occasionally create flux in the aura they are replenishing.
-#N tc.research_page.NODES.U=§l§nUnstable Nodes§r<BR>These nodes are highly unstable and the type of aspect they replenish will occasionally change to some other random primal.
+tc.research_name.NODES=灵气和节点
+tc.research_text.NODES=魔法无所不在
+tc.research_page.NODES.1=§5灵气§0是笼罩世界的魔法能量.其源头未明.有些人相信灵气是活物积累的生命能量,而有些人则倾向于认为它不过是一种从某些地方渗出的能量.后一种观点似乎更具可能：因为人们经常发现灵气环绕于一种汇聚着魔法能量的§5“灵气节点”§0周围.<BR>灵气中蕴含浓度不等的元始要素.例如,水边的灵气场中通常会蕴含更多的§3Aqua§0要素,在沙漠中则§cIgnis§0要素浓度更高.
+tc.research_page.NODES.2=灵气按区块分布.如果一片区域中的灵气变得枯竭,它会尝试从比邻灵气浓度更高的区域中抽取灵气.它们的灵气浓度永远不会完全相等,因为灵气与其说类似海水,倒不如说更像粘稠的凝胶组成的海洋.<BR>灵气如果被污染就会蕴含§5Vitium§0要素(即咒波).咒波比一般的要素更加'粘稠',更趋向于在分离的区域汇聚而不是流动到临近区域去.灵气浓度如果降低到最低限度以下也会产生咒波.<BR>如果一片区域中的咒波浓度过高,则会导致§l腐化§r.想要了解有关腐化的更多信息,请翻阅魔导手册的相关章节.
+tc.research_page.NODES.3=灵气节点表现得犹如一些通往其他神秘世界的门户,魔法能量从中渗出.每个节点都会同某些§5元始要素§0相谐振,但几乎没有节点会与 §5复合要素§0谐振.<BR>虽然没办法直接从节点抽取魔力,但节点却缓慢地补充着它周围的灵气.<BR>一般来说,灵气的补充速率似乎和月相有关,在满月时速率将达到最快.<BR>另一个决定补充速率的因素则是灵气节点的大小.
+tc.research_page.NODES.4=肉眼并不能看到灵气节点.通常来说,只有企图提升当地灵气浓度的时候才会需要去确定它们的存在.<BR>相邻的节点经常相互吸引从而变得越来越靠近.当它们靠得足够近的时候,会相互融合,结果不定,但通常会变成一个更大的节点,蕴含融合前的一部分(或者所有)节点的要素.<BR>人们已经发现了许多种不同的节点,但你目前对他们还所知甚少.
+tc.research_page.NODES.A=§l§n星辰节点§r<BR>这种节点似乎会对光照有所反应-光芒越盛,它们补充灵气的速率越快.
+tc.research_page.NODES.D=§l§n凶险节点§r<BR>这种节点在黑暗中或者月亏之时最为活跃.此外,这种节点所在的区域通常凶险莫测,因为与它们相连的是一些邪恶又危险的魔法世界.
+tc.research_page.NODES.H=§l§n饕餮节点§r<BR>这种节点不但不会补充灵气,还会慢慢吞噬灵气.这种节点似乎会越长越大,吞噬更多的灵气.<BR>有些神秘使猜测饕餮节点正是其他节点相连的另一端,如果假说属实,那么普通节点按说也会变大,饕餮节点则会比现在更加常见.幸运的是,并非如此.
+tc.research_page.NODES.P=§l§n纯净节点§r<BR>人们总是很乐于发现纯洁节点.它会缓慢地清楚周围灵气中的咒波.
+tc.research_page.NODES.T=§l§n腐化节点§r<BR>这种节点被魔法污染了.它们抽取出的能量已经被污染了,有时会使得周围的灵气产生咒波.
+tc.research_page.NODES.U=§l§n震荡节点§r<BR>这种节点极其不稳定.它们抽取的要素是不是会随机变成某种元始要素.
 #
 tc.research_name.ORE=矿石
 tc.research_text.ORE=深度发掘
-#B tc.research_page.ORE.1=§l       §nInfused Stone§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>On occasion there is so much primal energy in an aura that it will settle into solid stone to form Infused Ore. The magic forms crystals within the rock that can be harvested.
-#A tc.research_page.ORE.1=§l§nVis Crystals§r<BR><IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG><BR>On occasion there is so much primal energy in an aura that it will settle into rock from which vis infused crystals will grow. As long as they are fed vis they will continue to grow and even spread.<BR>Once the aura dips low enough the 
-#C tc.research_page.ORE.1=§l       §n蕴魔石§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>有时,当一个灵气场内的魔力能量过高,魔力会渗入岩石并形成结晶状的蕴魔矿物.这种魔力晶矿能够被采掘.
-#B tc.research_page.ORE.2=These crystals have various elemental properties and have many uses in Thaumaturgy.<BR>There are six types of infused stone, one for each of the Primal Aspects.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>They can be combined together to form crystal clusters. Crystal clusters have no special properties beyond adding a touch of class to any home. Breaking a crystal cluster causes it to shatter into its component crystals.
-#A tc.research_page.ORE.2=energy once again dissipates out of the crystals, replenishing the aura and causing the crystals to crumble. In effect, they are natural, or in this case, supernatural vis batteries. They will never crumble away completely and at least a small remnant of the crystal will remain.<BR>These crystals can be harvested for elemental shards that have many uses in Thaumaturgy.<BR><IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG><BR>You know of no way to only harvest some of the crystals. It is a matter of all or none.
-#C tc.research_page.ORE.2=这些晶矿按蕴含要素分为多种类型,在神秘学中应用广泛.<BR>计有六种蕴魔石,分别对应不同的元始要素.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>魔力晶矿能够被聚合成晶簇,晶簇除了能够为家居增添一些典雅气质外别无他用,而破坏晶簇能够取回魔力水晶.
-#B tc.research_page.ORE.3=§l         §nCinnabar§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>This reddish ore is found deep underground and when smelted produces quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-#A tc.research_page.ORE.3=§l§nCinnabar§r<BR><IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG><BR>This reddish ore is found deep underground and when smelted produces quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-#C tc.research_page.ORE.3=§l       §n朱砂§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>这种泛红的矿石分布于地底深处,能够冶炼成水银.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-#B tc.research_page.ORE.4=§l           §nAmber§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>This ore is found near the surface and when mined drops chunks of amber.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
-#A tc.research_page.ORE.4=§l§nAmber§r<BR><IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG><BR>This ore is found near the surface and when mined drops chunks of amber.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
-#C tc.research_page.ORE.4=§l       §n琥珀§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>这种矿石分布于地表附近,采掘时会掉落琥珀块.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.1=§l§n魔力结晶§r<BR><IMG>thaumcraft:textures/research/research4.png:0:0:128:128:.6</IMG><BR>有时,当一个灵气场内的魔力能量过高,魔力会渗入岩石,之后那里就会长出魔力结晶.只要灵气充盈它们就会继续生长甚至扩散.<BR>一旦环境中的灵气浓度下降至一定水平,
+tc.research_page.ORE.2=魔力结晶又会释放出能量来补充灵气,直至魔力结晶变得破碎.实际说来,魔力结晶是非常自然的事物,但就灵气枯竭的情况而言,它们能够作为神奇的魔力电池发挥作用.它们不会因为补充灵气而彻底溃散消失,至少会残留一小块结晶.<BR>采集这些结晶能够得到在神秘学上应用广泛的元素碎片.<BR><IMG>thaumcraft:textures/research/research3.png:0:104:96:16:1</IMG><BR>你并不知道如何才能只采集一部分结晶.要么全采下来,要么就全保留.
+tc.research_page.ORE.3=§l§n朱砂§r<BR><IMG>thaumcraft:textures/research/research3.png:128:128:128:128:.6</IMG><BR>这种泛红的矿石分布于地底深处,能够冶炼成水银.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.4=§l§n琥珀§r<BR><IMG>thaumcraft:textures/research/research3.png:0:128:128:128:.6</IMG><BR>这种矿石分布于地表附近,采掘时会掉落琥珀块.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
 tc.research_name.PLANTS=植物&树木
 tc.research_text.PLANTS=神奇植物
-#B tc.research_page.PLANTS.1=§l      §nGreatwood Trees§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
-#A tc.research_page.PLANTS.1=§l§nGreatwood Trees§r<BR><IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG><BR>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
-#C tc.research_page.PLANTS.1=§l    §n宏伟之木§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>这种枝繁叶茂的大树广泛分布于郊外.<BR>由于其木材吸纳了大量的魔力能量,因此可谓搭建神秘学建筑设备的最佳材料之一.
-#B tc.research_page.PLANTS.2=§l     §nSilverwood Trees§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that aura nodes often form within their hearts - this feature alone makes a silverwood sapling a prize beyond measure.
-#A tc.research_page.PLANTS.2=§l§nSilverwood Trees§r<BR><IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG><BR>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that aura nodes often form within their hearts - this feature alone makes a silverwood sapling a prize beyond measure.
-#C tc.research_page.PLANTS.2=§l    §n银树§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>这种罕见的神奇树木算得上奇妙的景观.它的枝叶散发出蕴含着魔力能量的柔和光芒,而它那柔韧白皙的干部则因净化咒波的能力而颇具价值.<BR>这种神秘的树木的树心还经常孕育出灵气节点,这一特性让银树树苗的价值足以胜过珍宝.
-#B tc.research_page.PLANTS.3=§l        §nShimmerleaf§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>The strange, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-#A tc.research_page.PLANTS.3=§l§nShimmerleaf§r<BR><IMG>thaumcraft:textures/research/research4.png:128:0:128:128:.6</IMG><BR>The strange, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-#C tc.research_page.PLANTS.3=§l    §n水银花§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>这种奇怪的发光的小花只生长在银树的树荫下.收获并打浆后能得到水银.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-#B tc.research_page.PLANTS.4=§l        §nCinderpearl§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
-#A tc.research_page.PLANTS.4=§l§nCinderpearl§r<BR><IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG><BR>Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
-#C tc.research_page.PLANTS.4=§l    §n火焰草§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>这些植物伴随熊熊的元素烈火生长,只分布于炎热气候的地区.采摘并研磨它们可以得到重要的炼金材料烈焰粉.
-#B tc.research_page.PLANTS.5=§l         §nMana Pod§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>This strange, pod like plant is only found growing on trees in magical forests. They grow very slowly and when harvested usually only yield one or two beans. 
-#A tc.research_page.PLANTS.5=§l§nVishroom§r<BR><IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>This strange, glowing mushroom can only be found growing in magical forests.<BR>They have hallucinogenic properties so one must be careful not to approach too closely. 
-#C tc.research_page.PLANTS.5=§l    §n魔豆§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>这种奇异的荚状植物仅仅生长在魔法森林的树荫中.它们生长缓慢,收获时仅能掉落1~2个魔豆.
+tc.research_page.PLANTS.1=§l§n宏伟之木§r<BR><IMG>thaumcraft:textures/research/research4.png:128:128:128:128:.6</IMG><BR>这种枝繁叶茂的大树广泛分布于郊外.<BR>由于其木材吸纳了大量的魔力能量,因此可谓搭建神秘学建筑设备的最佳材料之一.
+tc.research_page.PLANTS.2=§l§n银树§r<BR><IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG><BR>这种罕见的神奇树木算得上奇妙的景观.它的枝叶散发出蕴含着魔力能量的柔和光芒,而它那柔韧白皙的干部则因净化咒波的能力而颇具价值.<BR>这种神秘的树木的树心还经常孕育出灵气节点,这一特性让银树树苗的价值足以胜过珍宝.
+tc.research_page.PLANTS.3=§l§n水银花§r<BR><IMG>thaumcraft:textures/research/research4.png:0:128:128:128:.6</IMG><BR>这种奇怪的发光的小花只生长在银树的树荫下.收获并打浆后能得到水银.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.PLANTS.4=§l§n火焰草§r<BR><IMG>thaumcraft:textures/research/research5.png:0:0:128:128:.6</IMG><BR>这些植物伴随熊熊的元素烈火生长,只分布于炎热气候的地区.采摘并研磨它们可以得到重要的炼金材料烈焰粉.
+tc.research_page.PLANTS.5=§l§n魔豆§r<BR><IMG>thaumcraft:textures/research/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>这种奇异的荚状植物仅仅生长在魔法森林的树荫中.它们生长缓慢,收获时仅能掉落1~2个魔豆.
 #
 tc.research_name.CRYSTALFARMER=结晶农场
 tc.research_text.CRYSTALFARMER=帮助它们成长
-#N tc.research_page.CRYSTALFARMER.1=You have made a couple of discoveries that have given you the ability to turn vis shards into 'plantable' vis crystals on stone.<BR>What is more, you can now pluck a single shard from a crystal growth without having to break it - simply right click on it with your wand.
+tc.research_page.CRYSTALFARMER.1=你所做的一系列发现让你学会了把魔力碎片变成可以种植在岩石上的魔力结晶的方法.<BR>不仅如此,你还学会了如何在不彻底弄碎整块结晶的前提下采集一片结晶-拿着法杖对着它右击就好.
 #
 tc.research_name.RESEARCHER1=研究专长
 tc.research_text.RESEARCHER1=知识就是力量
@@ -949,15 +933,11 @@ tc.research_page.BASICTHAUMATURGY.2=按住shift时会显示标注魔力数量的
 #
 tc.research_name.NODETAPPER1=进阶灵气引流术
 tc.research_text.NODETAPPER1=取走全部
-#B tc.research_page.NODETAPPER1.1=Usually the process of drawing vis from a node with a wand is quite slow... but not anymore.<BR>You have discovered a more efficient way of tapping into aura nodes, resulting in a doubling of the vis draw rate.
-#A tc.research_page.NODETAPPER1.1=Usually the process of drawing vis from the aura with a wand is quite slow... but not anymore.<BR>You have discovered a more efficient way of tapping into the aura, doubling the normal draw rate. In addition you no longer need to hold the wand in your hand to do this, merely having it on your hotbar is sufficient.
-#C tc.research_page.NODETAPPER1.1=通常从节点吸取魔力都相当缓慢…以后再也不会这样了.<BR>你发现了从灵气节点吸取魔力更加高效的方式,使得你能够两倍于标准速度吸取魔力.
+tc.research_page.NODETAPPER1.1=通常从灵气中吸取魔力都相当缓慢…以后再也不需要这样了.<BR>你发现了更加高效的从灵气中抽取魔力的方法,能够使得你以两倍于标准速度吸取魔力.此外,不必手持法杖才能补充魔力了,只需将它放在快捷键就好.
 #
 tc.research_name.NODETAPPER2=大师灵气引流术
 tc.research_text.NODETAPPER2=你的魔力都属于我们了
-#B tc.research_page.NODETAPPER2.1=You have added further refinements to the methods you use to tap aura nodes.<BR>You are now able to draw vis three times faster than normal.
-#A tc.research_page.NODETAPPER2.1=You have added further refinements to the methods you use to tap the aura.<BR>You are now able to draw vis three times faster than normal. Furthermore you will recharge wands anywhere in your inventory, not just in your hand or hotbar.
-#C tc.research_page.NODETAPPER2.1=你已经掌握更加精细的魔力吸取技术.<BR>现在你能够三倍于标准速度吸取魔力.
+tc.research_page.NODETAPPER2.1=你已经掌握了更加精细的魔力抽取技术.<BR>现在你能够三倍于标准速度吸取魔力.此外,即使没有手持或者放在快捷栏中,只要在物品栏内的法杖就能够被充能.
 #
 tc.research_name.AURAMANIP1=基础灵气操纵学
 tc.research_text.AURAMANIP1=让魔力流动起来
@@ -978,7 +958,7 @@ tc.research_text.CAP_gold=高调做事
 tc.research_page.CAP_gold.1=金是比铁更好的魔导介质,使用金杖端的法杖在引导魔力时不会有损失.
 #
 tc.research_name.CAP_brass=黄铜杖端
-#N tc.research_text.CAP_brass=Drawing in the Vis
+tc.research_text.CAP_brass=抽取魔力
 #N tc.research_page.CAP_brass.1=Like gold, wands capped with this material takes no penalty when used to channel vis. More importantly however, is the fact that these caps can draw vis from the aura easier than normal, allowing the wands they are placed on to charge faster.
 #
 tc.research_name.CAP_thaumium=神秘杖端
@@ -1001,8 +981,8 @@ tc.research_name.SCEPTRE=工艺权杖
 tc.research_text.SCEPTRE=以制造为己任
 tc.research_page.SCEPTRE.1=工艺权杖是一种特制法杖,它专业制造魔力物品三十年,而别无旁顾.虽无法安装法杖核心,但其若干特性仍使得它非常值得使用.<BR>首先,这种法杖额外会提供5%的魔力减免,这比其杖端能提供的还要多.<BR>其次,在其杖柄通常所提供的容量的基础上,这种法杖还能够多存储50%的魔力.<BR>类似其他法杖,工艺权杖也可以通过杖端杖柄的绝大部分组合方式制出 - 下面几页仅仅给出部分例子.
 #
-#N tc.research_name.PRIMALRODS=Elemental Wand Cores
-#N tc.research_text.PRIMALRODS=Elemental vis storage
+tc.research_name.PRIMALRODS=元素杖芯
+tc.research_text.PRIMALRODS=元素魔力存储
 #N tc.research_page.PRIMALRODS.1=Each of these wand cores is linked to a specific primal element which grants them additional abilities.<LINE>§l§nReed Wand Core§r<BR>A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §6Aer§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
 #N tc.research_page.PRIMALRODS.2=§l§nBlazing Wand Core§r<BR>Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §cIgnis§0 stored inside it drops below 10%, its fiery nature will slowly replenish it.
 #N tc.research_page.PRIMALRODS.3=§l§nObsidian Wand Core§r<BR>A wand core chiseled from obsidian has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §2Terra§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
@@ -1010,8 +990,8 @@ tc.research_page.SCEPTRE.1=工艺权杖是一种特制法杖,它专业制造魔�
 #N tc.research_page.PRIMALRODS.5=§l§nQuartz Wand Core§r<BR>A wand core chiseled from nether quartz has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §7Ordo§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
 #N tc.research_page.PRIMALRODS.6=§l§nBone Wand Core§r<BR>A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §8Perditio§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
 #
-#N tc.research_name.PRIMALSTAVES=Elemental Staves 
-#N tc.research_text.PRIMALSTAVES=Elemental vis storage
+tc.research_name.PRIMALSTAVES=元素手杖 
+tc.research_text.PRIMALSTAVES=元素魔力手杖
 #N tc.research_page.PRIMALSTAVES.1=Like the elemental wand cores, these stave cores are linked to a specific primal element which grants them additional abilities and slowly replenish their vis stores if they get low enough. They can store 1750 vis of each type.
 #
 tc.research_name.ROD_greatwood_staff=魔法手杖
@@ -1054,15 +1034,11 @@ tc.research_page.FOCUSHELLBAT.1=你的下界之旅让你充分领略到了九狱
 #
 tc.research_name.FOCUSPORTABLEHOLE=法杖核心:便携式洞穴
 tc.research_text.FOCUSPORTABLEHOLE=妈妈再也不担心你回不了家
-#B tc.research_page.FOCUSPORTABLEHOLE.1=You have succeeded in using vis to create extra dimensional spaces. Using this focus on a wall or other surface will create an extra dimensional passage leading to the other side.<BR>This 'hole' only remains open for a few seconds and drains vis from the wand depending on its depth.<BR>Extra dimensional holes cannot be created through certain kinds of matter or particularly complex objects.
-#A tc.research_page.FOCUSPORTABLEHOLE.1=You have succeeded in using vis to create extra dimensional spaces. Using this focus on a wall or other surface will create an extra dimensional passage leading to the other side. This 'hole' only remains open for a few seconds.<BR>Extra dimensional holes cannot be created through certain kinds of matter or particularly complex objects.
-#C tc.research_page.FOCUSPORTABLEHOLE.1=你已经能够成功地使用魔力创造异次元空间.使用该核心的法杖能够在墙壁或者其他表面打通异次元通道通往彼端.<BR>通道只能维持数秒,且根据通道深度会从法杖中抽取不等数量的魔力以完成施法.<BR>异次元通道在一些特定方块或者比较复杂的物体表面都不能创建.
+tc.research_page.FOCUSPORTABLEHOLE.1=你已经能够成功地使用魔力创造异次元空间.使用该核心的法杖能够在墙壁或者其他表面打通异次元通道通往彼端.通道只能维持数秒.<BR>异次元通道在一些特定方块或者比较复杂的物体表面都不能创建.
 #
 tc.research_name.FOCUSPRIMAL=法杖核心:元始
 tc.research_text.FOCUSPRIMAL=天然魔力
-#B tc.research_page.FOCUSPRIMAL.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
-#A tc.research_page.FOCUSPRIMAL.1=What madness possessed you to create this thing? This focus seems wildly dangerous and only a lunatic will attempt to use it anywhere but the most controlled environments.<BR>Granted, the orb of raw primal energy it creates is quite devastating, but its path of travel is erratic at best and downright malicious at worst.<BR>It  does beg further study however: The orb shows some interesting dimensional properties and it exhibits energy patterns you have only seen in wisps and aura nodes.
-#C tc.research_page.FOCUSPRIMAL.1=要疯到什么程度你才会去做出这个玩意儿啊？这个核心看起来就极其危险,除非是在最受控的环境下,否则只有疯子才会尝试去使用它.<BR>诚然,它制造出的元始能量球的确所向披靡.但其飞行轨迹最好的时候是全然漂忽不定,最糟的时候则透着彻头彻尾的恶意.<BR>然而它尚需更进一步研究:这些能量球显露出一些有趣的次元特性,且它的能量模式你仅仅在小精灵和灵气及节点那里见到过.
+tc.research_page.FOCUSPRIMAL.1=要疯到什么程度你才会去做出这个玩意儿啊？这个核心看起来就极其危险,除非是在最受控的环境下,否则只有疯子才会尝试去使用它.<BR>诚然,它制造出的元始能量球的确所向披靡.但其飞行轨迹最好的时候是全然漂忽不定,最糟的时候则透着彻头彻尾的恶意.<BR>然而它尚需更进一步研究:这些能量球显露出一些有趣的次元特性,且它的能量模式你仅仅在小精灵和灵气及节点那里见到过.
 #
 tc.research_name.FOCUSPOUCH=法杖核心手袋
 tc.research_text.FOCUSPOUCH=法杖核心的便携口袋
@@ -1097,8 +1073,8 @@ tc.research_name.WORKBENCHCHARGER=奥术工作台充能器
 tc.research_text.WORKBENCHCHARGER=奥法合成简化
 #N tc.research_page.WORKBENCHCHARGER.1=An annoyance for any thaumaturge that performs regular arcane crafting is to constantly keep his wand charged.<BR>Now that you have found an automated way to draw vis directly from the aura you are able to craft an Arcane Workbench Charger. It is designed to be placed on top of an arcane crafting table and will draw vis from the aura to recharge wands placed in the table.<BR>The only drawback is that it recharges much slower than it would from a wand recharging pedestal or doing it by hand. 
 #
-#N tc.research_name.NODEMAGNET=Node Attraction
-#N tc.research_text.NODEMAGNET=It works with magnets
+tc.research_name.NODEMAGNET=节点牵引术
+tc.research_text.NODEMAGNET=像用磁铁一样
 #N tc.research_page.NODEMAGNET.1=Manipulating the aura is one thing, but if you were able to move nodes around you could insure a steady supply of vis where and when you want it. To this end you have developed Node Magnets.<BR>The magnet focuses on the nearest node within 32 blocks and slowly draws it towards the itself. It sounds simple, but in effect the node is being forcefully ripped through the aura. This not only requires large amounts of vis of all types, but causes considerable amounts of flux.<BR>The larger a node is, the slower the it moves which leads to more vis being used and more flux being generated.
 #N tc.research_page.NODEMAGNET.2=The Node Magnet itself is quite fragile and care must be taken not to damage or topple it. It can survive minor knocks, but anything more will shatter the delicate components.<BR>It can be picked up by right-clicking on it with a wand.
 #N tc.research_page.NODEMAGNET.3=§nWarning!§r<BR><BR>The moment you place down the node magnet you notice something strange: It seems to emit an almost inaudible humming noise that still manages to set your teeth on edge.<BR>Angry grunts and howls from the surrounding area seems to indicate you are not the only one disturbed by the noise.
@@ -1140,9 +1116,7 @@ tc.research_text.TABLE=一些设备安装所需
 #A tc.research_page.TABLE.1=The table is more than a simple decorative block - it also serves as a base for other surfaces useful in the practice of magic, like the Arcane Workbench and the Research Table. 
 #C tc.research_page.TABLE.1=台桌并非仅仅是个装饰性的方块 - 比如在魔法实验中,它还能作为创建奥术工作台和研究台的基础部件.
 #
-#B tc.research_name.ARCTABLE=Arcane Worktable
-#A tc.research_name.ARCTABLE=Arcane Workbench
-#C tc.research_name.ARCTABLE=奥术工作台
+tc.research_name.ARCTABLE=奥术工作台
 tc.research_text.ARCTABLE=魔力合成
 #B tc.research_page.ARCTABLE.1=To create an Arcane Worktable simply right-click with a wand on a table you have placed in the world. The Arcane Worktable serves the same purpose as a normal crafting table, with a few key exceptions.<BR>Apart from normal crafting recipes, it can also craft some of the items unique to Thaumaturgy. To do that you need to place a wand in the top-right slot. This will allow you to craft items that require vis by drawing the energy directly from the wand.<BR>The vis required to craft an item will be shown in the six circular symbols surrounding the crafting grid.
 #A tc.research_page.ARCTABLE.1=To create an Arcane Workbench simply right-click with a wand on a table you have placed in the world. The Arcane Workbench serves the same purpose as a normal crafting table, with a few key exceptions.<BR>Apart from normal crafting recipes, it can also craft some of the items unique to Thaumaturgy. To do that you need to place a wand in the top-right slot. This will allow you to craft items that require vis by drawing the energy directly from the wand.<BR>The vis required to craft an item will be shown in the six circular symbols surrounding the crafting grid.
@@ -1155,8 +1129,8 @@ tc.research_text.ENCHFABRIC=丝般柔滑
 #C tc.research_page.ENCHFABRIC.1=你曾用羊毛和蜘蛛丝制成过简单结实的布匹.现在你确信能够用它融合魔力,做成一种更加惊艳的魔力布匹.<BR>你还发现了用魔力布匹编织神秘使法袍的方法.法袍防御效果类似皮革套装,但耐久是它的数倍.<BR>而且它们是优良的魔法亲和材料,能够进行神秘的附魔.相比一些甚至相对更昂贵的材料,它能够容纳更多的魔力. 
 tc.research_page.ENCHFABRIC.2=当穿戴法袍施法时你能够更高效地使用数种法术.<BR>类似皮革套装,你可以对法袍进行染色.
 #
-#N tc.research_name.ELEMENTALTOOLS=Elemental Tools
-#N tc.research_text.ELEMENTALTOOLS=Harnessing the elements
+tc.research_name.ELEMENTALTOOLS=元素工具
+tc.research_text.ELEMENTALTOOLS=利用元素的力量
 #N tc.research_page.ELEMENTALTOOLS.1=With the discovery of infusion, you have found a way to bind the primal elements into tools and weapons, each with unique and powerful properties.<LINE>§l§nAxe of the Stream§r<BR>By combining water shards and a thaumium axe, you have created a tool that embodies the aspects of motion and flow.<BR>It functions like a normal axe on all materials except natural logs and trees. When used on them the axe seeks to furthest block of the same type that is still connected to the
 #N tc.research_page.ELEMENTALTOOLS.2=block you are attempting to harvest and harvests that one instead.<BR>In effect you will chop trees from the top down even if you hit the bottom-most block.<BR>Any wood chopped in this fashion will automatically float towards you.<BR>If you press and hold right click the axe will axe will draw all nearby items towards you - not just wood it chopped.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal axe.
 #N tc.research_page.ELEMENTALTOOLS.3=§l§nPickaxe of the Core§r<BR>By infusing a thaumium pickaxe with fire shards, you have created a pickaxe that glows with the heat of a forge.<BR>When you mine ore blocks there is a chance that you will mine a cluster instead. Native clusters are much easier to process and produces double the normal amount of metal when smelted.<BR>It can also be used to sound out any surface you right click against to find out what valuable ores, lava or water can be found nearby.
@@ -1196,8 +1170,8 @@ tc.research_page.INFUSION.4=比较常见的意外包括注魔过载被基座中�
 #N tc.research_page.INFUSION.ANCIENT=§nAncient Stone§r<BR>The strange, ancient stone you have found has some interesting mystical properties. You believe that when used to craft the pillars for an infusion altar that it will help reduce the amount of essentia required during infusion crafting and speed up the crafting process by a small amount. It will however increase instability slightly.<BR>Should you find pedestals crafted from the same material each one will also help reduce essentia costs. Unfortunately you have been unable to craft such pedestals yourself.
 #N tc.research_page.INFUSION.ELDRITCH=§nEldritch Stone§r<BR>The dark, eldritch stone you have discovered has some strange properties. When used to craft the infusion altar pillars it will help reduce instability and speed up the crafting process by a moderate amount. It will unfortunately increase crafting cost slightly.<BR>Should you happen accross any pedestals made from the same material it will have much the same effect. Caution should be taken to carefully balance them however as unbalanced eldritch pedestals will massively increase your instability. Unfortunately you have been unable to craft such pedestals yourself.
 #
-#N tc.research_name.INFUSIONBOOST=Infusion Boosting
-#N tc.research_text.INFUSIONBOOST=Upgraded mystical fusion
+tc.research_name.INFUSIONBOOST=注魔加速
+tc.research_text.INFUSIONBOOST=高级魔力灌注
 #N tc.research_page.INFUSIONBOOST.1=You have found a way to improve infusion altars through the use of special blocks placed under one or more of the four altar pillars.<BR>The §5Infusion Speed Stone§0 will increase the speed at which the altar operates, but at a slight increase to costs.<BR>The §5Infusion Cost Stone§0 will decrease infusion costs, but at a slight reduction to operating speed.<BR>These stones must be placed directly under an altar pillar, but they need not be balanced for instability purposes.
 #
 tc.research_name.JARBRAIN=缸中之脑
@@ -1215,12 +1189,10 @@ tc.research_text.HOVERHARNESS=它是一只鸟?
 #
 tc.research_name.HOVERGIRDLE=奥法腰带
 tc.research_text.HOVERGIRDLE=它是只灰机?
-#B tc.research_page.HOVERGIRDLE.1=This girdle is designed to be used with the Thaumostatic Harness. On its own it has very little lifting power - it has just enough to prevent most fall damage.<BR>When worn with the harness however it greatly increases the speed at which you are able to fly. The only drawback is that the harness will consume slightly more fuel than normal.
-#A tc.research_page.HOVERGIRDLE.1=This girdle is designed to be used with the Thaumostatic Harness. On its own it has very little lifting power - it has just enough to prevent most fall damage.<BR>When worn with the harness however it greatly increases the speed at which you are able to fly. The only drawback is that the harness will consume slightly more vis than normal.
-#C tc.research_page.HOVERGIRDLE.1=这种腰带的设计旨在配合奥法缰绳来使用.就自身而言,其浮空力非常小 - 仅够让穿戴者免受大部分的掉落伤害.<BR>但配合奥法缰绳一起使用时,它能够显著提升飞行速度.唯一的坏处是会让奥法缰绳消耗的燃料比平时稍多.
+tc.research_page.HOVERGIRDLE.1=这种腰带的设计旨在配合奥法缰绳来使用.就自身而言,其浮空力非常小 - 仅够让穿戴者免受大部分的掉落伤害.<BR>但配合奥法缰绳一起使用时,它能够显著提升飞行速度.唯一的坏处是会让奥法缰绳消耗的魔力比平时稍多.
 #
-#N tc.research_name.WATERJUG=Everfull Urn
-#N tc.research_text.WATERJUG=A source of infinite water
+tc.research_name.WATERJUG=无尽之瓮
+tc.research_text.WATERJUG=无限水源
 #N tc.research_page.WATERJUG.1=A small fountain of pure water always flows from the top of this urn, making it a perfect water source to fill your buckets, bottles or other liquid containers.<BR>It will also automatically replenish any liquid containers within two blocks of it if they can accept water from the top. This is perfect for automatically refilling crucibles, but has other uses as well.<BR>Every bucket full of water created costs 1 §3Aqua§0 vis which is drawn from the aura.
 #
 tc.research_name.LEVITATOR=奥术悬浮台
@@ -1232,17 +1204,13 @@ tc.research_text.LEVITATOR=下面该研究怎么飞了!
 #
 tc.research_name.ARCANEEAR=奥术之耳
 tc.research_text.ARCANEEAR=嘘,你有没有听见什么?
-#B tc.research_page.ARCANEEAR.1=The Arcane Ear is a device that is capable of detecting the sound emitted from nearby note blocks. If it hears a note it recognizes it will emit a short redstone pulse.<BR>The Arcane Ear needs to be tuned in a manner identical to note blocks, the tone and note it listens for depends on the material it is placed upon.
-#A tc.research_page.ARCANEEAR.1=The Arcane Ear is a device that is capable of detecting the sound emitted from nearby note blocks. If it hears a note it recognizes it will emit a short redstone pulse.<BR>The Arcane Ear needs to be tuned in a manner identical to note blocks, the tone and note it listens for depends on the material it is placed against. Arcane ears can be placed against any surface.
-#C tc.research_page.ARCANEEAR.1=奥术之耳是一个能够检测附近的音符盒发声的设备.当它检测到给定音符时会发出短的红石脉冲.<BR>奥术之耳通过放置在不同材料上实现与不同音色的音符盒对应.
+tc.research_page.ARCANEEAR.1=奥术之耳是一个能够检测附近的音符盒发声的设备.当它检测到给定音符时会发出短的红石脉冲.<BR>奥术之耳通过依附在不同材料上实现与不同音色的音符盒对应.奥术之耳能够依附在任意方块的表面上.
 #
 tc.research_name.MIRROR=魔镜
 tc.research_text.MIRROR=镜中奇缘
 tc.research_page.MIRROR.1=你尝试附魔镜子,将它变成通往世界间隙那广漠虚空的传送门.投入其(或是使用管道向镜子输入)的物品将会跨越空间甚至跨越位面,然后从另外一面镜子喷出.<BR>不幸的是空间通道对像你这样的实体生物非常排斥,因此用这种魔镜来传输生物暂时是不可能的.<BR>要链接一对魔镜,你需要将其中一面镜子安装在目标位置.
 tc.research_page.MIRROR.2=并用第二面镜子右击第一名镜子,并安装在需要的位置.当两面都装好后会建立连接,镜面会出现黑洞的图案.当你将物品投入其中,物品会自动从另一个镜子被抛出.<BR>魔镜只能成对链接.当安装好后不能与第三个魔镜建立链接.当你拆卸后重新安装魔镜的时候,它能够自动回忆上次建立配对的魔镜.然而,拆卸配对的魔镜后,你也能很方便地用它建立新的链接.
-#B tc.research_page.MIRROR.3=Transporting items through mirrors places stress on the magical glass and to prevent it from shattering the mirror automatically slows down the rate at which items is spit out the other side. The greater the instability, the more the transfer rate is slowed.<BR>This instability slowly lessens over time, but it can also be negated by relaying §7Ordo§0 vis directly to the mirror.
-#A tc.research_page.MIRROR.3=Transporting items through mirrors places stress on the magical aura. Every now and again this causes Flux to be generated. The more items you transport, the more flux is generated..
-#C tc.research_page.MIRROR.3=通过镜子传输物品会对魔力玻璃造成压力,为免于破碎镜子会自动降低从另一端的镜面喷吐出物品的频率.不稳定性越高, 传输速度越慢.<BR>这种不稳定性会随着时间推移而下降,或者也可以向镜子直接通入§7Ordo§0源质来抵消它.
+tc.research_page.MIRROR.3=通过镜子传输物品会对当地的灵气平衡造成压力,每次传输物品,都会产生咒波污染,传输物品越多,污染越甚.
 #
 tc.research_name.MIRRORHAND=魔力手镜
 tc.research_text.MIRRORHAND=反思时间
@@ -1252,7 +1220,7 @@ tc.research_name.PAVETRAVEL=旅行者铺路石
 tc.research_text.PAVETRAVEL=缩地成寸
 tc.research_page.PAVETRAVEL.1=你学会了如何向石英方块灌注大地要素的魔力.<BR>走在这种铺路砖上的人们感觉身轻如燕,脚步敏捷,弹跳力也得到加强.
 #
-#N tc.research_name.PAVEBARRIER=Barrier Stone
+tc.research_name.PAVEBARRIER=屏障石
 tc.research_text.PAVEBARRIER=御守于外
 tc.research_page.PAVEBARRIER.1=你发现一种方法能够将奥术石材转换成一种能够有效阻绝大多数生物入侵的守卫铺路石.<BR>注意这种警卫作用并不能提供百分百的防护,例如,它们并不阻止玩家进去它们圈定的区域,但它们确实能防护住大部分常见威胁.它们还会阻止傀儡穿过.<BR>使用它们时最好围成一个不间断的完整的圈,将你想守护的区域与外面的世界相对隔绝.<BR>激活的红石信号会使得该方块的特殊效果暂时失效.
 #N tc.research_page.PAVEBARRIER.2=The color of the runes above the stone indicates its current status.<BR>Purple runes show that it is currently preventing something from passing through.<BR>Blue runes indicates it has been deactivated with a redstone signal.<BR>Red runes shows that something is preventing it from fully warding an area and a gap exists where something might be able to pass through.
@@ -1284,22 +1252,16 @@ tc.research_page.BANNERS.1=有时候,神秘使也不并需要创造出那些撼�
 #
 tc.research_name.LAMPGROWTH=催生灯
 tc.research_text.LAMPGROWTH=催熟作物
-#B tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the Lamp of Growth does not cast much light unless it is provided with Herba essentia. If this is done any plants which grow where its light shines the brightest will grow much faster than normal.<BR>Essentia can be fed to the lamp by attaching it directly to an essentia piping system. 
-#A tc.research_page.LAMPGROWTH.1=Unlike the Arcane lamp from which it is made, the Lamp of Growth does not cast much light unless it is provided with Herba essentia. If this is done any plants which grow where its light shines the brightest will grow much faster than normal.<BR>Essentia can be fed to the lamp by attaching it directly to an essentia piping system.<BR>The lamp can be turned off by applying a redstone signal.
-#C tc.research_page.LAMPGROWTH.1=不像奥术灯具就是用来照明的,除非提供Herba要素,催生灯不会散发出一丝光芒.而沐浴在其光芒之下的作物会生长得比平时更为快速.<BR>要素可以通过直接将灯具安装在源质管道上来提供.
+tc.research_page.LAMPGROWTH.1=不像奥术灯具就是用来照明的,除非提供Herba要素,催生灯不会散发出一丝光芒.而沐浴在其光芒之下的作物会生长得比平时更为快速.<BR>要素可以通过直接将灯具安装在源质管道上来提供.<BR>可以使用红石信号来开关催生灯.
 #
 tc.research_name.LAMPFERTILITY=育种灯
 tc.research_text.LAMPFERTILITY=散发出罗曼蒂克的光辉照耀事物
-#B tc.research_page.LAMPFERTILITY.1=Any living creatures bathed in the gentle pink glow of this lamp is immediately placed in a much more romantic mood. If they are able they will seek others of their kind to mate.<BR>This lamp will have no effect if there is 8 or more of a particular species already present.<BR>It requires Victus essentia to function which can be fed to the lamp by attaching it directly to an essentia piping system.
-#A tc.research_page.LAMPFERTILITY.1=Any living creatures bathed in the gentle pink glow of this lamp is immediately placed in a much more romantic mood. If they are able they will seek others of their kind to mate.<BR>This lamp will have no effect if there is 8 or more of a particular species already present.<BR>It requires Victus essentia to function which can be fed to the lamp by attaching it directly to an essentia piping system.<BR>The lamp can be turned off by applying a redstone signal.
-#C tc.research_page.LAMPFERTILITY.1=沐浴在此灯柔和的粉色光芒之中的所有动物都会径直陷入到更加罗曼蒂克的情绪之中.它们会尽可能地寻找同类交配.<BR>若某种动物已经达到8只或以上,这种灯便不会再对其造成影响.<BR>它需要victus要素来驱动.既可以将要素罐子放于附近,又可以直接将育种灯安附在要素源质管道系统中.
+tc.research_page.LAMPFERTILITY.1=沐浴在此灯柔和的粉色光芒之中的所有动物都会径直陷入到更加罗曼蒂克的情绪之中.它们会尽可能地寻找同类交配.<BR>若某种动物已经达到8只或以上,这种灯便不会再对其造成影响.<BR>它需要victus要素来驱动.既可以将要素罐子放于附近,又可以直接将育种灯安附在要素源质管道系统中.<BR>可以使用红石信号来开关育种灯.
 #
 tc.research_name.MIRRORESSENTIA=源质之镜
 tc.research_text.MIRRORESSENTIA=随处可用的源质
 tc.research_page.MIRRORESSENTIA.1=魔力手镜对长途运输物品可谓实用,但相同的原理能否应用于源质系统呢?你觉得你已经研究出实现它的方法了.<BR>源质之镜,顾名思义,可以类似魔力手镜传输物品那样传输源质.然而也有几条重要的使用限制：<BR>你无法用管道将源质导入镜中 - 源质之镜只能从源头抽取源质运输到类似注魔矩阵这样的设备去.
-#B tc.research_page.MIRRORESSENTIA.2=In effect the mirrors allow these things to draw essentia from sources via the mirror. 
-#A tc.research_page.MIRRORESSENTIA.2=In effect the mirrors allow these things to draw essentia from sources via the mirror.<BR>Like item mirrors, these mirrors cause great stress to the magical aura and will generate flux. 
-#C tc.research_page.MIRRORESSENTIA.2=意即镜子允许这些设备通过镜子从源头抽取源质.<BR>远距离抽取像源质这么不稳定的东西并非毫无风险,有时会造成少量源质流失.
+tc.research_page.MIRRORESSENTIA.2=意即镜子允许这些设备通过镜子从源头抽取源质.<BR>和手镜类似,原纸之镜也会对当地的灵气平衡造成很大压力,并且有可能产生咒波.
 #
 tc.research_name.BONEBOW=骨弓
 tc.research_text.BONEBOW=石为矢兮棍为箭,嘴上威风视等闲....
@@ -1323,15 +1285,15 @@ tc.research_text.RUNICAUGMENTATION=护盾全开
 tc.research_page.RUNICAUGMENTATION.1=嵌有符文护盾的指环,护身符,腰带都非常好用,但你是否确定能将这只防护附魔应用于其他物品呢？<BR>当然你可以的！利用神秘学法术(c) (专利申请中),你将能够将符文护盾镶入多数魔力稳定的装备.<BR>魔力稳定的装备指用神秘锭,魔力布匹或相似魔法材料制成的那些.<BR>只有单次充能的符文护盾能够镶嵌到物品上,但你可以对其进行多次附魔.
 tc.research_page.RUNICAUGMENTATION.2=然而这非常昂贵,消耗的源质量会随级别而上升.需求的世界盐同防护级别成正比,耗费的源质则指数级增加.你也可以对像护盾戒指这样已经做好的符文物品附魔,然而其源质消耗会基于已存在的符文蓄能来计算,这会使得该过程的消耗异常昂贵.
 #
-#N tc.research_name.RUNICSPECIAL=Specialized Runic Baubles
+tc.research_name.RUNICSPECIAL=专业符文首饰
 tc.research_text.RUNICSPECIAL=为充能指环充能!
 #N tc.research_page.RUNICSPECIAL.1=§nCharged Ring of Shielding§r<BR>This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but increases the recharge time of runic shielding by 25%.<BR>You can wear more than one of these rings, effectively halving the normal recharge time.
 #N tc.research_page.RUNICSPECIAL.2=§nRevitalizing Ring of Shielding§r<BR>This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but when your runic shielding is breached it will release a pulse of regenerative energy that will last for a few seconds.<BR>This effect cannot trigger more than once every 20 seconds.
 #N tc.research_page.RUNICSPECIAL.3=§nKinetic Girdle of Shielding§r<BR>This is a specialized version of the Girdle of Shielding.<BR>It has slightly less charge than the girdle it is based on, but when your shielding is breached a detonation of kinetic energy will be released damaging and shoving back anything nearby.<BR>This effect cannot trigger more than once every 20 seconds.
 #N tc.research_page.RUNICSPECIAL.4= §nAmulet of Emergency Shielding§r<BR>This is a specialized version of the Amulet of Shielding.<BR>It has slightly less charge than the amulet it is based on, but when your shielding is breached this upgrade will instantly add 8 charge to your shielding amount.<BR>This effect cannot trigger more than once a minute.
 #
-#N tc.research_name.REDSTONERELAY=Redstone Relay
-#N tc.research_text.REDSTONERELAY=Magical Redstone Interaction
+tc.research_name.REDSTONERELAY=红石中继器
+tc.research_text.REDSTONERELAY=魔力红石交互
 #N tc.research_page.REDSTONERELAY.1=You have always been curious about the seemingly negative reaction between mystical devices and redstone signals. You have studied the matter and while it is a well-known phenomenon that redstone inhibits magic, you have discovered that in specific circumstances the opposite can be true as well.<BR>One practical application of this is the Redstone Relay. By sending a redstone signal through a magical substance like vis crystals you can inhibit it as much or as little as you want.
 #N tc.research_page.REDSTONERELAY.2=Relays are placed much like redstone repeaters with their output side marked by a redstone torch.<BR>Unlike repeaters relays have two toggles - the rearmost one determines the minimum input signal required to overwhelm this inhibiting effect and allow the relay to activate.<BR>The front toggle (next to the redstone torch) determines how strong the redstone signal is that the relay will output once it is active.
 #
@@ -1352,9 +1314,7 @@ tc.research_page.METALLURGY.1=人们已经证实应用神秘学的理论能够�
 #
 tc.research_name.NITOR=闪耀之光
 tc.research_text.NITOR=永恒的花火
-#B tc.research_page.NITOR.1=This flame seems to be fuelled by magic itself. The number of uses for an ever burning flame seems endless, but unfortunately it seems to produce much more light than heat. Despite that it could still prove to be a steady source of energy.<BR>Nitor can also be placed in the world to act as a magical light source.
-#A tc.research_page.NITOR.1=This flame seems to be fuelled by magic itself. The number of uses for an ever burning flame seems endless, but unfortunately it seems to produce much more light than heat. Despite that it could still prove to be a steady source of energy.<BR>Nitor can also be placed in the world to act as a magical light source. It will take on the color of any dye you combine it with in a crafting table.
-#C tc.research_page.NITOR.1=这团发光的花火靠魔力来自己燃烧.这种不灭的永恒之光并不产热,因此无法用作燃料.<BR>但是它们足够稳定,可以用来作为光线以及能量的来源.
+tc.research_page.NITOR.1=这团发光的花火靠魔力来自己燃烧.这种不灭的永恒之光并不产热,因此无法用作燃料.<BR>但是它们足够稳定,可以用来作为光线以及能量的来源.你可以在工作台中使用颜料为其染色.
 #
 tc.research_name.ALUMENTUM=源动之焰
 tc.research_text.ALUMENTUM=神秘的能量团
@@ -1387,7 +1347,7 @@ tc.research_text.PUREMETAL=将金属结晶成原矿簇
 #N tc.research_page.PUREMETAL.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal ore into a native cluster.<BR>When smelted these clusters produces twice the normal amount of ingots.
 #
 tc.research_name.TRANSMETAL=嬗变术:炼铁术
-#N tc.research_text.TRANSMETAL=Transformation of metals into other metals
+tc.research_text.TRANSMETAL=物质转换
 #N tc.research_page.TRANSMETAL.1=You have discovered a way to multiply metals by steeping nuggets of that metal in §5metallum§0 and other aspects.
 #
 tc.research_name.TALLOW=魔力油脂
@@ -1405,11 +1365,11 @@ tc.research_text.DISTILESSENTIA=收获要素
 #N tc.research_page.DISTILESSENTIA.3=The essentia can then be extracted out of an alembic using phials, jars or more complex means.
 #N tc.research_page.DISTILESSENTIA.4=§nArcane Bellows§r<BR>Arcane bellows placed on the side of a smelter will greatly increase the heat it generates, allowing items to be broken down into a slurry much quicker.
 #
-#N tc.research_name.DISTILESSENTIA2=Thaumium Essentia Smeltery
+tc.research_name.DISTILESSENTIA2=神秘源质冶炼场
 tc.research_text.DISTILESSENTIA2=收获要素
 #N tc.research_page.DISTILESSENTIA2.1=The Thaumium Smeltery works much like the basic smeltery, but it has roughly 85% efficiency instead of 80%.<BR>Its main benefit is that it breaks down essentia slurry at double the normal speed. 
 #
-#N tc.research_name.DISTILESSENTIA3=Void Metal Essentia Smeltery
+tc.research_name.DISTILESSENTIA3=虚空金属源质冶炼厂
 tc.research_text.DISTILESSENTIA3=收获要素
 #N tc.research_page.DISTILESSENTIA3.1=The Void Metal Smeltery works much like the basic smeltery, but it has roughly 95% efficiency instead of 80%.<BR>It breaks down essentia slurry slightly quicker than the basic smeltery, but not nearly as fast as the thaumium smeltery.<LINE>When crafting the Advanced Alchemical Construct the primordial pearl is not consumed - it is merely required as a catalyst.
 #
@@ -1441,9 +1401,7 @@ tc.research_page.CENTRIFUGE.1=奥法离心机是一种惊艳的能够将符合�
 #
 tc.research_name.JARVOID=虚空罐子
 tc.research_text.JARVOID=源质太多?这不可能!
-#B tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply lost. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halfway between unlabeled and labeled jar).
-#A tc.research_page.JARVOID.1=Void jars function much the same as normal warded jars with one important difference - even when full they are still able to accept essentia, but the excess essentia is simply vented as flux. This allows you to always have some essentia of that type available, but get rid of any excess that may build up.<BR>Like normal jars, void jars can accept labels, but their suction with a label is less than that of a normal labeled jar (about halfway between unlabeled and labeled jar).
-#C tc.research_page.JARVOID.1=虚空罐子用起来类似普通的要素罐子,但是有一个重要的不同之处:即使它们装满了也能够继续接收要素源质,但多余的要素源质会流失掉.这让你总会有这种源质可用,但却不至于纠结多做出来的那些.<BR>就像普通的要素罐子一样虚空罐子也可用帖标签.但它们在源质管道系统中的优先级低于其他贴了标签的罐子(介于没有贴标签的罐子和贴了标签的罐子之间).优先级(或吸力):标签罐子>标签虚空罐子>虚空罐子>罐子.
+tc.research_page.JARVOID.1=虚空罐子用起来类似普通的要素罐子,但是有一个重要的不同之处:即使它们装满了也能够继续接收要素源质,但多余的要素源质会变成咒波排出.这让你总会有这种源质可用,但却不至于纠结多做出来的那些.<BR>就像普通的要素罐子一样虚空罐子也可用帖标签.但它们在源质管道系统中的优先级低于其他贴了标签的罐子(介于没有贴标签的罐子和贴了标签的罐子之间).
 #
 tc.research_name.TUBEFILTER=高级源质管道
 tc.research_text.TUBEFILTER=你需要什么,需要用它干什么
@@ -1470,9 +1428,7 @@ tc.research_page.LIQUIDDEATH.1=这种液体是一直极其危险的试剂,销肉
 #
 tc.research_name.ARCANESPA=奥术浴场
 tc.research_text.ARCANESPA=时髦的休闲方式
-#B tc.research_page.ARCANESPA.1=Pouring bath salts into water is a bit of a chore, but luckily one easily solved with a bit of magic.<BR>You have created a handy machine that when filled with water and bath salts will automatically mix them and pump the liquid into an area above it. The liquid will fill a 5x5 area above the location where the machine is placed.<BR>Additionally, you have found that it can be used to pump nearly any liquid you can fill it with. You can fill it with automation, or by clicking on the block with the appropriate container. Applying a redstone signal will disable it.  
-#A tc.research_page.ARCANESPA.1=Pouring bath salts into water is a bit of a chore, but luckily one easily solved with a bit of magic.<BR>You have created a handy machine that when filled with water and bath salts will automatically mix them and pump the liquid into an area above it. The liquid will fill a 5x5 area above the location where the machine is placed.<BR>Additionally, you have found that it can be used to pump nearly any liquid you can fill it with. You can fill it with automation, or by clicking on the block with the appropriate container. Applying a redstone signal will disable it.
-#C tc.research_page.ARCANESPA.1=手动将浴盐洒进水里略显琐碎无聊,好在神秘使能够通过一点点魔法手段轻松地解决这个问题.<BR>你已制造出一台便捷的设备,能够自动混合水和浴盐,并将它们泵出到设备上方的空间.泵出的流体将填满机器正上方5X5大小的区域.<BR>另外,你发现它也能用于将任意其他流体泵出.你可以使用自动化设备装填它,或者拿着合适的容器右击方块.通入红石信号能够关闭它. 
+tc.research_page.ARCANESPA.1=手动将浴盐洒进水里略显琐碎无聊,好在神秘使能够通过一点点魔法手段轻松地解决这个问题.<BR>你已制造出一台便捷的设备,能够自动混合水和浴盐,并将它们泵出到设备上方的空间.泵出的流体将填满机器正上方5X5大小的区域.<BR>另外,你发现它也能用于将任意其他流体泵出.你可以使用自动化设备装填它,或者拿着合适的容器右击方块.通入红石信号能够关闭它. 
 #
 tc.research_name.SANESOAP=祛邪肥皂
 tc.research_text.SANESOAP=摆脱那些肮脏的念头吧
@@ -1480,34 +1436,32 @@ tc.research_page.SANESOAP.1=净化肉体固然容易,但一旦陷入扭曲之苦
 #
 tc.research_name.ESSENTIACRYSTAL=源质结晶器 
 tc.research_text.ESSENTIACRYSTAL=要硬通货,还是要流动资产?
-#B tc.research_page.ESSENTIACRYSTAL.1=You have nearly mastered the art of turning concrete objects into liquid essentia, so doing the reverse is a simple matter.<BR>The essentia crystallizer draws in liquid essentia from a pipe network and slowly converts it into small shards of crystalline essentia. Crystalline essentia is safe to handle and very stable.<BR>The Crystallizer either ejects the crystals into the world or into a container. It can be disabled with a redstone signal.<BR>Supplying it with terra vis will greatly increase its speed.
-#A tc.research_page.ESSENTIACRYSTAL.1=You have nearly mastered the art of turning concrete objects into liquid essentia, so doing the reverse is a simple matter.<BR>The essentia crystallizer draws in liquid essentia from a pipe network and converts it into small shards of crystalline essentia. Crystalline essentia is safe to handle and very stable.<BR>The Crystallizer either ejects the crystals into the world or into a container. It can be disabled with a redstone signal.<BR>It draws terra vis from the aura to power itself.
-#C tc.research_page.ESSENTIACRYSTAL.1=你差不多已经掌握了如何将凝聚的物质转换为液态的源质,所以反过来也并不是多麻烦的事儿.<BR>源质结晶器从管道系统中抽取源质并缓慢地将其凝聚成要素源质水晶的小碎片.源质水晶易于管理运输,也非常稳定.<BR>结晶器会将凝聚的水晶弹射出来或者装入旁边的容器,通入红石信号可以关闭这一功能.<BR>向其提供terra魔力将显著提升其速度.
+tc.research_page.ESSENTIACRYSTAL.1=你差不多已经掌握了如何将凝聚的物质转换为液态的源质,所以反过来也并不是多麻烦的事儿.<BR>源质结晶器从管道系统中抽取源质并将其凝聚成要素源质结晶的小碎片.源质结晶易于管理运输,也非常稳定.<BR>结晶器会将凝聚的结晶弹射出来或者装入旁边的容器,通入红石信号可以关闭这一功能.<BR>它会从灵气中吸取terra魔力来为自己供能.
 #
 # Golemancy 
 #######################
-#N tc.research_name.BASICGOLEMANCY=Basic Golemancy
-#N tc.research_text.BASICGOLEMANCY=Motion Controlled
+tc.research_name.BASICGOLEMANCY=基础傀儡学
+tc.research_text.BASICGOLEMANCY=受控运动
 #N tc.research_page.BASICGOLEMANCY.1=You have studied the basic, primitive golems anyone can create and found them lacking. They have potentional, but it is not possible to control them.<BR>You are sure you can do better.
 #
-#N tc.research_name.MATSTUDWOOD=Material Studies: Wood
-#N tc.research_text.MATSTUDWOOD=Advanced Wood crafting
+tc.research_name.MATSTUDWOOD=材料研究:木头
+tc.research_text.MATSTUDWOOD=高级木头加工
 #N tc.research_page.MATSTUDWOOD.1=Golemancy places great demands on your craftsmanship as it often requires intricate components with very narrow margins for error. You will need to increase your skill and knowledge of both mundane and arcane materials. Your first target is wood.<BR>Wood is a versatile substance and despite its weakness, it is light and easy to work. You have found Greatwood to be a superior wood particularly well suited to golemancy. 
 #
-#N tc.research_name.MATSTUDIRON=Material Studies: Iron
-#N tc.research_text.MATSTUDIRON=Advanced Iron crafting
+tc.research_name.MATSTUDIRON=材料研究:铁
+tc.research_text.MATSTUDIRON=高级铁材加工
 #N tc.research_page.MATSTUDIRON.1=Iron has many properties to recommend it - it is much sturdier than wood and malleable in a way that wood can never be. It is harder to work with however and quite heavy.
 #
-#N tc.research_name.MATSTUDBRASS=Material Studies: Brass
-#N tc.research_text.MATSTUDBRASS=Advanced Brass crafting
+tc.research_name.MATSTUDBRASS=材料研究:黄铜
+tc.research_text.MATSTUDBRASS=高级黄铜加工
 #N tc.research_page.MATSTUDBRASS.1=While brass is softer than iron, it is still quite sturdy and well suited to fine mechanical constructs. In your opinion it is the best mundane material for golemancy purposes and you would not dream of crafting intricate metals from any other material. It is quite pleasing to the eye as well. 
 #
-#N tc.research_name.MATSTUDTHAUMIUM=Material Studies: Thaumium
-#N tc.research_text.MATSTUDTHAUMIUM=Advanced Thaumium crafting
+tc.research_name.MATSTUDTHAUMIUM=材料研究:神秘锭
+tc.research_text.MATSTUDTHAUMIUM=高级神秘锭加工
 #N tc.research_page.MATSTUDTHAUMIUM.1=Thaumium is an arcane metal that sucks up enchantments like a proverbial sponge. It is significantly stronger than iron too. Unfortunately it is slightly heavier than iron and its strength also makes it hard to work.<BR>While it cannot compete with brass when it comes to intricate clockwork, thaumiums strength makes it a useful material to craft mechanisms that require strength over precision. 
 #
-#N tc.research_name.MATSTUDVOID=Material Studies: Void Metal
-#N tc.research_text.MATSTUDVOID=Advanced Void Metal crafting
+tc.research_name.MATSTUDVOID=材料研究:虚空金属
+tc.research_text.MATSTUDVOID=高级虚空金属加工
 #N tc.research_page.MATSTUDVOID.1=Void metal is relatively light, but quite soft which would normally make it an unsuitable material for mechanisms. Luckily its morphic properties and ability to self-repair opens up interesting possibilities for a thaumaturge willing to think outside the box.
 #
 tc.research_name.HUNGRYCHEST=饕餮箱子
@@ -1544,7 +1498,7 @@ tc.research_text.BASICTURRET=简易防备
 #N tc.research_page.BASICTURRET.1=You have found a way to give a crossbow a mind of its own turning it into a simple automated turret.<BR>When placed in the world it will automatically fire at any hostile mobs it detects within range. Unfortunately its limited mind does not allow you to fine tune its targets.<BR>It has a very limited internal inventory, but if you wish you can place it over an upward facing dispenser which will allow it to automatically reload itself from that inventory.<BR>Clicking on it with a wand will pick it up.
 #
 tc.research_name.FOCUSTURRET=施法器
-tc.research_text.FOCUSTURRET=自
+tc.research_text.FOCUSTURRET=自动核心
 #N tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with via development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce to activation costs of foci.<BR>The autocaster can be placed against any surface and it is possible to fine tune which targets it attacks. Clicking on it with a wand will pick it up.
 #
 # Eldritch 
