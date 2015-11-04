@@ -310,10 +310,10 @@ tile.pillar.pillar_normal.name=注魔桩
 tile.pillar.pillar_ancient.name=荒古注魔桩
 tile.pillar.pillar_eldritch.name=邪术注魔桩
 tile.infusion_matrix.name=符文矩阵
-tile.aura_totem.push.name=驱散之光环图腾
-tile.aura_totem.pull.name=凝聚之光环图腾
-tile.aura_totem.pole_inner.name=图腾柱芯
-tile.aura_totem.pole_outer.name=图腾柱壳
+tile.aura_totem.push.name=驱散图腾
+tile.aura_totem.pull.name=凝聚图腾
+tile.aura_totem.pole_inner.name=内部图腾柱
+tile.aura_totem.pole_outer.name=外部图腾柱
 tile.aura_totem.pole_pure.name=趋稳图腾柱
 tile.centrifuge.name=源质离心机
 tile.crystallizer.name=源质结晶器
@@ -941,17 +941,17 @@ tc.research_page.NODETAPPER2.1=你已经掌握了更加精细的魔力抽取技�
 #
 tc.research_name.AURAMANIP1=基础灵气操纵学
 tc.research_text.AURAMANIP1=让魔力流动起来
-#N tc.research_page.AURAMANIP1.1=You have made a few interesting discoveries regarding the aura and it is high time you start putting that knowledge to use. You have created a totem that pushes vis away from itself - the Totem of Dispersal.<BR>As the name suggests it takes vis near the totem and spreads it over a wider area.<BR>Messing with the aura is not without risk however and the totem has a small chance of converting the vis into flux instead of moving it.<BR>The totem requires that crystal shards be placed in its inventory to act as fuel and to determine what type of vis is effected.  
-#N tc.research_page.AURAMANIP1.2=Each totem has an inner and outer area in which it operates. By default the inner area consists of the chunk in which it is located while the outer area consists of the 8 chunks surrounding the inner area.<BR>The dispersal totem moves vis from its inner area towards the outer area.<LINE>You also know how to craft two different totem poles. These poles must be placed below a totem and each totem can have up to 5 poles located below it. These poles modify the inner and outer areas that the totem effects. 
-#N tc.research_page.AURAMANIP1.3=For example, a Dispersal totem with 1 inner and 2 outer poles will draw from vis from the green chunks below and push it towards the blue chunks.<IMG>thaumcraft:textures/research/research3.png:168:0:80:80:1</IMG>   
+tc.research_page.AURAMANIP1.1=你已经积累了不少有关灵气的奇妙发现,是时候学以致用了.你制造出一种能够排开灵气的图腾:驱散图腾.<BR>正如其名,它能够将其附近的灵气排开,使得它们能够弥漫得更远.<BR>然而和灵气打交道难免会有点风险,图腾在控制灵气流动的过程中会有小几率将魔力转化为咒波.<BR>你需要将结晶碎片放入图腾的物品栏内,一来充当燃料,二来使用结晶碎片来制定图腾控制的灵气类型.
+tc.research_page.AURAMANIP1.2=每个图腾影响的区域可以划分成内部区域和外部区域两种.默认情况下,内部区域即图腾所在区块,而外部区域则是包围内部区域的八个区块范围.<BR>驱散图腾会使得内部区域的灵气流向外部区域.<LINE>你同样还学会了制造两种不同的图腾柱.这些图腾柱只能放置在图腾下方,每个图腾最高可以垫五个图腾柱.这些图腾柱会调成图腾所影响的内外区域的范围.
+tc.research_page.AURAMANIP1.3=如图所示,装有一个内部图腾柱和两个外部图腾柱的驱散图腾会使得绿色区块范围内的灵气流向蓝色区块.<IMG>thaumcraft:textures/research/research3.png:168:0:80:80:1</IMG>
 #
 tc.research_name.AURAMANIP2=凝聚图腾
 tc.research_text.AURAMANIP2=吸进来
-#N tc.research_page.AURAMANIP2.1=The Totem of Attraction works in much the same way is the Totem of Dispersal, except that it draws vis from the outer area and moves it towards the inner area.    
+tc.research_page.AURAMANIP2.1=凝聚图腾的工作方式类似驱散图腾,但其效果是使得外部区域的灵气流向内部区域.
 #
 tc.research_name.AURAPOLESTABLE=趋稳图腾柱
 tc.research_text.AURAPOLESTABLE=让魔力流更顺滑
-#N tc.research_page.AURAPOLESTABLE.1=This totem pole has a stabilizing effect on the totem it supports. It reduces the chance that flux is created during aura manipulation.
+tc.research_page.AURAPOLESTABLE.1=这种图腾柱能够让它支撑的图腾更加稳定,以减少操纵灵气流动时产生咒波的几率.
 #
 tc.research_name.CAP_gold=金杖端
 tc.research_text.CAP_gold=高调做事
@@ -959,7 +959,7 @@ tc.research_page.CAP_gold.1=金是比铁更好的魔导介质,使用金杖端的
 #
 tc.research_name.CAP_brass=黄铜杖端
 tc.research_text.CAP_brass=抽取魔力
-#N tc.research_page.CAP_brass.1=Like gold, wands capped with this material takes no penalty when used to channel vis. More importantly however, is the fact that these caps can draw vis from the aura easier than normal, allowing the wands they are placed on to charge faster.
+tc.research_page.CAP_brass.1=类似金杖端,黄铜杖端在引导魔力时也不会有额外损失.然而更重要的是,黄铜杖端能够更容易地从灵气中抽取魔力,使得黄铜杖端法杖能够更快地充能.
 #
 tc.research_name.CAP_thaumium=神秘杖端
 tc.research_text.CAP_thaumium=效率比速度更重要
@@ -983,16 +983,16 @@ tc.research_page.SCEPTRE.1=工艺权杖是一种特制法杖,它专业制造魔�
 #
 tc.research_name.PRIMALRODS=元素杖芯
 tc.research_text.PRIMALRODS=元素魔力存储
-#N tc.research_page.PRIMALRODS.1=Each of these wand cores is linked to a specific primal element which grants them additional abilities.<LINE>§l§nReed Wand Core§r<BR>A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §6Aer§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
-#N tc.research_page.PRIMALRODS.2=§l§nBlazing Wand Core§r<BR>Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §cIgnis§0 stored inside it drops below 10%, its fiery nature will slowly replenish it.
-#N tc.research_page.PRIMALRODS.3=§l§nObsidian Wand Core§r<BR>A wand core chiseled from obsidian has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §2Terra§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
-#N tc.research_page.PRIMALRODS.4=§l§nIcy Wand Core§r<BR>Wand cores crafted from ice can store slightly more vis than greatwood cores. What makes it superior to greatwood cores however is that if the level of §3Aqua§0 stored inside it drops below 10%, its icy nature will slowly replenish it.
-#N tc.research_page.PRIMALRODS.5=§l§nQuartz Wand Core§r<BR>A wand core chiseled from nether quartz has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §7Ordo§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
-#N tc.research_page.PRIMALRODS.6=§l§nBone Wand Core§r<BR>A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §8Perditio§0 stored inside it drops below 10%, its will slowly replenish without the use of a node.
+tc.research_page.PRIMALRODS.1=下列杖芯都与一种特定的元始要素相关,因此都分别具有特别的能力.<LINE>§l§n甘蔗杖芯§r<BR>使用甘蔗制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Aer§0要素魔力低于10%时,无需节点就能自动补充.
+tc.research_page.PRIMALRODS.2=§l§n烈焰杖芯§r<BR>使用烈焰棒制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Ignis§0要素魔力低于10%时,无需节点就能自动补充.
+tc.research_page.PRIMALRODS.3=§l§n黑曜石杖芯§r<BR>使用烈焰棒制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Terra§0要素魔力低于10%时,无需节点就能自动补充.
+tc.research_page.PRIMALRODS.4=§l§n寒冰杖芯§r<BR>使用冰块制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Aqua§0要素魔力低于10%时,无需节点就能自动补充.
+tc.research_page.PRIMALRODS.5=§l§n石英杖芯§r<BR>使用石英制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Ordo§0要素魔力低于10%时,无需节点就能自动补充.
+tc.research_page.PRIMALRODS.6=§l§n白骨杖芯§r<BR>使用骨头制成,比宏伟之木做的魔力容量稍高.而真正让它相比宏伟之木杖芯卓越的地方在于:当它存储的§6Perditio§0要素魔力低于10%时,无需节点就能自动补充.
 #
 tc.research_name.PRIMALSTAVES=元素手杖 
 tc.research_text.PRIMALSTAVES=元素魔力手杖
-#N tc.research_page.PRIMALSTAVES.1=Like the elemental wand cores, these stave cores are linked to a specific primal element which grants them additional abilities and slowly replenish their vis stores if they get low enough. They can store 1750 vis of each type.
+tc.research_page.PRIMALSTAVES.1=类似元素杖芯,这些手杖同样也与某种特定的元始要素相关.这赋予了它们特别的能力,并且能够在所储魔力下降到一定水平时自动充能.它们能够储存每种魔力各1750vis.
 #
 tc.research_name.ROD_greatwood_staff=魔法手杖
 tc.research_text.ROD_greatwood_staff=末端带把手的巫师之杖
@@ -1046,9 +1046,7 @@ tc.research_page.FOCUSPOUCH.1=当你已经收集了一定数量的核心后如�
 #
 tc.research_name.FOCALMANIPULATION=核心镶饰台
 tc.research_text.FOCALMANIPULATION=重制法杖核心
-#B tc.research_page.FOCALMANIPULATION.1=Wand foci are capable of amazing feats, but they aren't very flexible. A single focus is seldom capable of performing more than a single function.<BR>You have discovered a way to upgrade basic foci to alter the way they manipulate magic. You simply need to place a focus in a Focal Manipulator and choose the upgrade you wish to apply to it. You also need to provide it with vis from relays and spend experience points to get the process started, but after that it is a simple matter of waiting.<BR>Each focus can be upgraded up to five times, 
-#A tc.research_page.FOCALMANIPULATION.1=Wand foci are capable of amazing feats, but they aren't very flexible. A single focus is seldom capable of performing more than a single function.<BR>You have discovered a way to upgrade basic foci to alter the way they manipulate magic. You simply need to place a focus in a Focal Manipulator and choose the upgrade you wish to apply to it. It will draw vis from the aura and you also need to provide it with experience points to get the process started, but after that it is a simple matter of waiting.<BR>Each focus can be upgraded up to five times, 
-#C tc.research_page.FOCALMANIPULATION.1=法杖核心功能惊艳,但灵活性不足.一种法杖核心罕有超过一种的功能.<BR>你发现一种升级核心的技术,能够调整核心操作魔力的方式.只需将法杖核心放入核心镶饰台并选择你所需的升级项目即可.当然你还需要用中继器为这台设备提供魔力,并且耗费经验值来开始升级过程,不过这之后你唯一需要做的就只是等待了.<BR>每种核心最多能升级五次. 
+tc.research_page.FOCALMANIPULATION.1=法杖核心功能惊艳,但灵活性不足.一种法杖核心罕有超过一种的功能.<BR>你发现一种升级核心的技术,能够调整核心操作魔力的方式.只需将法杖核心放入核心镶饰台并选择你所需的升级项目即可.为了让升级过程开始,这台设备需要从灵气中抽取一些魔力,并且还会耗费掉你的一些经验值,不过这之后你唯一需要做的就只是等待了.<BR>每种核心最多能升级五次. 
 tc.research_page.FOCALMANIPULATION.2=每次升级都会显著提高升级的消耗.<BR>有些升级可以进行多次,无需考虑顺序.而有些升级则要求按照特定序列进行,其中有些会要求已经进行过前置的升级.因此最好多加实验.<BR>升级是永久性的 - 你还未曾想到移除升级的方法,因此选择时切记走心.
 #
 tc.research_name.VAMPBAT=五阶升级:嗜血魔蝠
@@ -1056,22 +1054,16 @@ tc.research_text.VAMPBAT=恶毒的小吸血鬼们
 #
 tc.research_name.WANDPED=充能基座
 tc.research_text.WANDPED=自动补魔
-#B tc.research_page.WANDPED.1=Traveling around the countryside to recharge your wand is all good and well, but an automatic way of doing it would be much better.<BR>This specially crafted pedestal does just that - any wand placed in it will automatically draw vis from nearby nodes.<BR>Nodes will not be fully drained unless it is a poor quality wand crafted from iron or sticks.
-#A tc.research_page.WANDPED.1=Traveling around the countryside to recharge your wand is all good and well, but an automatic way of doing it would be much better.<BR>This specially crafted pedestal does just that - any wand placed in it will automatically draw vis from the aura to recharge itself.<BR>Wands are not the only items that can be recharged in this device - many vis holding gadgets should be rechargeble in this.
-#C tc.research_page.WANDPED.1=在旅途中为法杖补魔虽好,但如果有自动充能的办法就再好不过了.<BR>这种特制的基座具有这种效果 - 自动抽取灵气中的魔力为放置于其上的法杖充能.<BR>节点魔力不会被完全抽尽,除非你放置的是拿着用铁和木棍制作的最低廉的劣质法杖.
+tc.research_page.WANDPED.1=东奔西走地为法杖补魔虽然也没什么不好,但如果有自动充能的办法就再好不过了.<BR>这种特制的基座具有这种效果 - 自动抽取灵气中的魔力为放置于其上的法杖充能.<BR>这种设备并不是只能为法杖充能-有许多能够容纳魔力的首饰都可以用他来充能.
 #
 tc.research_name.VISAMULET=魔力存储
 tc.research_text.VISAMULET=俭以防匮
-#B tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>Your success has been mixed however. You can only recharge wands while holding them in your own hand and even then the recharge rate is slow. 
-#A tc.research_page.VISAMULET.1=Most of the time a single wand is more than enough for any thaumaturge, but there are occasions that the vis it stores just isn't enough. Carrying more than one wand would solve this, but experimentation has shown that there is another way.<BR>By crafting an amulet capable of storing vis, you will be able to recharge wands and other items in the field while it is being worn.<BR>Your success has been mixed however. You can only recharge wands while holding them in your hand and even then the recharge rate is slow. 
-#C tc.research_page.VISAMULET.1=大多数时候,对神秘使来说,有一根法杖就远远满足需求了,但有时候它储存的魔力却偏偏不够用.多带一支法杖就能解决问题,但实验表明另有他法.<BR>制作一枚储存有魔力的护身符,就能在法杖或者相关物品耗尽魔力时为其充能了.<BR>然而你的这项成就并非尽善尽美.只有手里攥着法杖的时候才能为其充能,且充能速度缓慢.
-#B tc.research_page.VISAMULET.2=However the amulet is able to act as a good power source for other things like the Repair enchant or runic shielding.<BR>The amulet can only be recharged in a wand pedestal or from nearby vis relays.
-#A tc.research_page.VISAMULET.2=However the amulet is able to act as a good power source for other things like the Repair enchant or runic shielding.<BR>The amulet recharges itself slowly while worn, or it can be placed in a recharge pedestal.
-#C tc.research_page.VISAMULET.2=然而护身符是类似修复附魔或者符文护盾这类物品非常好的能量来源.<BR>护身符只能使用法杖基座或魔力中继器充能.
+tc.research_page.VISAMULET.1=大多数时候,对神秘使来说,有一根法杖就远远满足需求了,但有时候它储存的魔力却偏偏不够用.多带一支法杖就能解决问题,但实验表明另有他法.<BR>制作一枚储存有魔力的护身符,就能在法杖或者相关物品耗尽魔力时为其充能了.<BR>然而你的这项成就并非尽善尽美.只有手里攥着法杖的时候才能为其充能,且充能速度缓慢.
+tc.research_page.VISAMULET.2=然而护身符是类似修复附魔或者符文护盾这类物品非常好的能量来源.<BR>戴上后的护身符自己充能的速度很慢,你也可以用充能基座来为它充能.
 #
 tc.research_name.WORKBENCHCHARGER=奥术工作台充能器
 tc.research_text.WORKBENCHCHARGER=奥法合成简化
-#N tc.research_page.WORKBENCHCHARGER.1=An annoyance for any thaumaturge that performs regular arcane crafting is to constantly keep his wand charged.<BR>Now that you have found an automated way to draw vis directly from the aura you are able to craft an Arcane Workbench Charger. It is designed to be placed on top of an arcane crafting table and will draw vis from the aura to recharge wands placed in the table.<BR>The only drawback is that it recharges much slower than it would from a wand recharging pedestal or doing it by hand. 
+tc.research_page.WORKBENCHCHARGER.1=大部分神秘使经常会有这样的烦恼,进行普通的奥术合成时会消耗魔力,因此需要持续地为法杖充能.<BR>而现在,你找到一种全自动地从周围的灵气中抽取魔力的方案:制造出一台奥术工作台充能器.你可以将其安置在奥术工作台顶部,它能够自动从灵气中抽取魔力,为工作台中的法杖充能.<BR>唯一欠缺之处在于这种充能方式和充能基座或者手持充能的方式相比都更慢.
 #
 tc.research_name.NODEMAGNET=节点牵引术
 tc.research_text.NODEMAGNET=像用磁铁一样
@@ -1487,19 +1479,19 @@ tc.research_page.TRAVELTRUNK.UEN=§n傀儡升级:混沌§r<BR>安装该升级后
 #
 tc.research_name.MINDCLOCKWORK=发条之心
 tc.research_text.MINDCLOCKWORK=滴答滴答
-#N tc.research_page.MINDCLOCKWORK.1=Iron golems, snow golems and similar creations that anyone can throw together all have the same thing in common - they are unpredictable and uncontrollable.<BR>The spirits that animate them are wild and follow their own will. This is a problem.<BR>If you are going to create intelligent magical servants then you are going to have to give them a mind that is willing to take orders. The simplest solution is a clockwork construct quickened by Thaumaturgy. It has its limitations and very little autonomy, but it is a start.
+tc.research_page.MINDCLOCKWORK.1=铁傀儡,雪傀儡或者其他能放一块比较的类似造物都有一个共通之处:它们的行为都不受控制,难以预测.<BR>驱使他们行动的是狂野的具有自由意志的灵魂.这正是问题所在.<BR>如果你打算制造一些智能的魔力仆人,你就得考虑赋予他们能够接受命令的思维.最简单的解决方案是制造出一个使用神秘学驱动的发条装置.它只具有极其有限的自主思维,不过这才仅仅是开始而已嘛.
 #
 tc.research_name.MINDBIOTHAUMIC=神秘生物学之心
 tc.research_text.MINDBIOTHAUMIC=我思故我在
-#N tc.research_page.MINDBIOTHAUMIC.1=As predicted the clockwork minds you have created offers very little in the way of abstract reasoning and autonomy. Attempting to create more complex clockworks has met with very little success, so you have turned to something you already know will work - human brains.<BR>Though hesitant at first, you soon overcame any trepidation you felt and delved into Biothaumaturgy - merging flesh, machines and magic into a single whole.<BR>The results are encouraging and you are now able to infuse clockwork minds with salvaged gray matter to form a mind with much greater capabilities.
+tc.research_page.MINDBIOTHAUMIC.1=如你预期一样,你所制造的发条之心在抽象推理和自主思维方面的表现乏善可陈. 然而尝试制造更复杂的发条装置的努力却一直收效甚微,于是你转而研究起一种你早已知道具有这些能力的东西:人脑.<BR>尽管起初你尚有犹疑,但很快便克服了恐惧,开始深入研究神秘生物学的奥秘-一门研究如何将血肉,机器和魔法融为一体的学科.<BR>研究结果鼓舞人心,你很快就学会了如何将发条之心融入残存灰质从而制造出更强能力的人工思维.
 #
 tc.research_name.BASICTURRET=自动十字弩
 tc.research_text.BASICTURRET=简易防备
-#N tc.research_page.BASICTURRET.1=You have found a way to give a crossbow a mind of its own turning it into a simple automated turret.<BR>When placed in the world it will automatically fire at any hostile mobs it detects within range. Unfortunately its limited mind does not allow you to fine tune its targets.<BR>It has a very limited internal inventory, but if you wish you can place it over an upward facing dispenser which will allow it to automatically reload itself from that inventory.<BR>Clicking on it with a wand will pick it up.
+tc.research_page.BASICTURRET.1=你找到一种方法能够赋予十字弩思维,使其变为一种简易的自动炮台.<BR>放置好后的自动十字弩会自动朝着射程内的所有敌对生物开火.不幸的是它有限的思维能力不允许你为其精细地设置攻击目标.<BR>它内部存储空间也非常有限,但如果有更高的需求可以将其放置在一个面朝上的发射器上,这样它就能够自动从发射器中装填弹药了.<BR>拿着法杖点击它可以将其回收.
 #
 tc.research_name.FOCUSTURRET=施法器
 tc.research_text.FOCUSTURRET=自动核心
-#N tc.research_page.FOCUSTURRET.1=With your discovery of advanced artificial minds and recent advances made with via development of the Arcane Bore you have found a way to create an automated turret that uses wand foci.<BR>It has a small, internal store of vis that it can replenish from the aura, but a machine is no thaumaturge - the recharge rate is slow and it cannot make use of any mechanisms to reduce to activation costs of foci.<BR>The autocaster can be placed against any surface and it is possible to fine tune which targets it attacks. Clicking on it with a wand will pick it up.
+tc.research_page.FOCUSTURRET.1=你对高级人工思维的研究配合最近在奥术钻探机开发过程中的进行的高级实践终于结出了硕果:你研究出了能够使用法杖核心的自动魔法炮台.<BR>它拥有一个较小的内部魔力缓存,并且能够从灵气中补充魔力.但机器毕竟并非神秘使,它充能的速度较慢,并且缺乏机制来优化激活法杖核心时的魔力消耗.<BR>施法器能够放置在任何表面上,而且允许神秘使非常精细地调整它攻击的目标.拿着法杖点击它会将其回收.
 #
 # Eldritch 
 #######################
@@ -1549,14 +1541,11 @@ tc.research_page.CRIMSON.1=书册内容多以密如蛛网,不知所云的字符�
 #
 tc.research_name.OCULUS=开眼仪式
 tc.research_text.OCULUS=向他们展示你的发现,向他们所有人.
-#B tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson Cultists have never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eyes on the specially marked keystone found at one of the strange altars where you first discovered the cult. The sinister node above the keystone must remain intact.<BR>Once this is done it is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 100 units of each should be sufficient.
-#A tc.research_page.OCULUS.1=It was all so simple - you are amazed the Crimson Cultists have never discovered this.<BR>To perform the ritual you simply need to place four Eldritch Eyes on the specially marked keystone found at one of the strange altars where you first discovered the cult.<BR>Once this is done it is a simple matter of infusing a large amount of primal vis into the keystone with a wand - 1000 units of each should be sufficient.
-#C tc.research_page.OCULUS.1=一切都是那样简单 - 你对那些血腥邪徒一直没有发现它感到惊讶.<BR>想要完成仪式,需要将4颗邪术之眼放在一种特别显眼的拱顶石上.那种拱顶石在你头一回发现血腥邪徒的祭坛那里就能找到.<BR>完成上述步奏后,还需要再让拱顶石从法杖中抽取大量的元始要素 - 每种大约 1000 点.
+tc.research_page.OCULUS.1=一切都是那样简单 - 你对那些血腥邪徒一直没有发现它感到惊讶.<BR>想要完成仪式,需要将4颗邪术之眼放在一种特别显眼的拱顶石上.那种拱顶石在你头一回发现血腥邪徒的祭坛那里就能找到.<BR>完成上述步奏后,还需要再让拱顶石从法杖中抽取大量的元始要素 - 每种大约 1000 点.
+tc.research_page.OCULUS.2=如果所有步骤均正确,那么仪式将被完成而名为"眼"之存在将会睁开.<BR>当然你并不知道那意味着什么.不过那又有什么关系呢?只有傻瓜才会畏惧未知.
 tc.research_page.OCULUS.2=如果所有步骤均正确,那么仪式将被完成而名为"眼"之存在将会睁开.<BR>当然你并不知道那意味着什么.不过那又有什么关系呢?只有傻瓜才会畏惧未知.
 #
 tc.research_name.SINSTONE=凶险磁石
 tc.research_text.SINSTONE=你敢跟来吗?
-#B tc.research_page.SINSTONE.1=You have made an interesting discovery during your study of nodes. Different kinds of nodes emit varying types of radiant energy, but none are quite as distinct as that of Sinister nodes.<BR>The energy emitted by Sinister nodes is quite unique and simple to track. By infusing a piece of flint you think you can create a simple scrying device that will light up whenever it is pointed towards such a node.<BR>The range is limited, but it is a worthwhile invention since you have often found Sinister nodes in the most interesting of places.
-#A tc.research_page.SINSTONE.1=You have made an interesting discovery during your study of the Apertis Oculis ritual. The spot where the "eye" will open emits a very distinct kind of energy that is detectable even when it is still closed.<BR>By infusing a piece of flint you think you can create a simple scrying device that will light up whenever it is pointed towards such an energy signature.<BR>The range is limited, but it is a worthwhile invention since the ritual stones are often hard to find.
-#C tc.research_page.SINSTONE.1=研究节点的过程中你有一个有趣的发现.不同类型的节点都会发出不同类型的辐射能量,但它们大都不像凶险节点那样独树一帜.<BR>凶险节点发出的能量十分独特且易于追踪.你认为利用向燧石注魔得到的简易探测设备就能够帮助你指明凶险节点所指向的地方.<BR>探测范围非常有限,但这项发明物有所值,因为你发现凶险节点通常会出现在那些最有趣的地方.
+tc.research_page.SINSTONE.1=研究开眼仪式的过程中你得到了一个有趣的发现.在"眼"将会睁开的那些地方,即使是在"眼"还闭上的时候也会检测到弥漫着一种非常独树一帜的能量类型.<BR>你认为利用向燧石注魔得到的简易探测设备就能够帮助你指明散发这种能量的地方.<BR>这种设备的探测范围很有限,但这项发明物有所值,因为开眼仪式的所在地是很难找到的.
 #
