@@ -173,7 +173,7 @@ tile.shimmerleaf.name=水银花
 tile.cinderpearl.name=火焰草
 tile.vishroom.name=纤毛菇
 tile.bloom.name=天域花
-tile.flux_goo.name=咒波粘浆
+tile.flux_goo.name=咒波黏浆
 tile.taint_dust.name=次级腐化粉
 tile.loot_urn.common.name=寻常瓮
 tile.loot_urn.uncommon.name=稀有瓮
@@ -301,7 +301,7 @@ tile.smelter_basic.name=源质冶炼厂
 tile.smelter_thaumium.name=神秘源质冶炼厂
 tile.smelter_void.name=虚空金属源质冶炼厂
 tile.alembic.alembic_normal.name=奥术蒸馏器
-tile.smelter_aux.name=附属浆液泵
+tile.smelter_aux.name=附属黏浆泵
 tile.arcane_bore_base.name=奥术钻探机基座
 tile.arcane_bore.name=奥术钻探机
 tile.thaumatorium.name=神秘炼金塔
@@ -476,11 +476,11 @@ item.traveller_boots.name=旅行者之靴
 item.amulet_runic.0.name=符文护盾护身符
 item.amulet_runic.1.name=应急护盾护身符
 item.ring_runic.0.name=防护指环
-item.ring_runic.1.name=符文护盾指环
-item.ring_runic.2.name=充能护盾指环
-item.ring_runic.3.name=再充能护盾指环
-item.girdle_runic.0.name=符文护盾腰带
-item.girdle_runic.1.name=冲击护盾腰带
+item.ring_runic.1.name=符文防护指环
+item.ring_runic.2.name=充能防护指环
+item.ring_runic.3.name=活力防护指环
+item.girdle_runic.0.name=符文防护腰带
+item.girdle_runic.1.name=动力防护腰带
 item.baubles.0.name=凡人护身符
 item.baubles.1.name=凡人指环
 item.baubles.2.name=凡人腰带
@@ -554,7 +554,7 @@ item.Wand.thaumium.cap=神秘杖端
 item.Wand.void.cap=虚空杖端
 #
 # Misc
-item.tainted.slime.name=腐化粘浆
+item.tainted.slime.name=腐化黏浆
 item.tainted.tendril.name=腐化触手
 item.coin.name=金币
 item.primordial_pearl.name=元始珍珠
@@ -582,7 +582,7 @@ item.chargebonus.text=充能
 #
 # Fluids
 ##############################
-fluid.fluxGoo=咒波粘浆
+fluid.fluxGoo=咒波黏浆
 fluid.fluxGas=咒波瓦斯
 fluid.fluidPure=净化之水
 fluid.fluidDeath=死亡之水
@@ -1156,12 +1156,8 @@ tc.research_page.JARBRAIN.1= -  向罐子丢一个僵尸之脑.<BR> -  添加蜘
 #
 tc.research_name.HOVERHARNESS=奥法缰绳
 tc.research_text.HOVERHARNESS=它是一只鸟?
-#B tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>Unusually the only vis required to power this harness is added during its creation process. Instead the fuel it requires for flight is raw Potentia. Simply right click while holding the harness to insert filled jars.<BR>Pressing 'H' while wearing the harness activates or deactivates it.
-#A tc.research_page.HOVERHARNESS.1=You have finally managed to unlock the secret of flight. You have created a harness that anchors itself to the Thaumic Field using thaumostatic energy allowing you to defy gravity. You think quantum's and quarks might also be involved somehow.<BR>The harness is powered by vis it draws directly from the local aura. Single unit of Aer and Ignis vis provides enough power for 1 second of flight. The harness has an internal buffer that stores enough vis for 10 seconds of flight if the local aura is depleted.<BR>Pressing 'H' while wearing the harness activates or deactivates it.
-#C tc.research_page.HOVERHARNESS.1=最终你揭开了飞行的奥秘.你创造出一种可穿戴的缰绳,它能够利用奥法能量将穿戴者锚定在神秘力场中,从而使其摆脱重力的束缚.你认为某种程度上这一过程还涉及到了量子和夸克的玄奥性质.<BR>缰绳需要的魔力在创造的时候就已经全部加入进去,它消耗的燃料是原生的要素：Potentia(潜能).当穿戴着缰绳的时候右击盛满的罐子来灌注要素.<BR>当穿戴有奥法缰绳时按下"F"激活或关闭其功能.
-#B tc.research_page.HOVERHARNESS.2=While active the harness will constantly use Potentia.<BR>It can be enchanted with the Haste enchant to increase the speed at which you move while flying.<BR>The harness will not reduce your block breaking speed while you are flying with it.
-#A tc.research_page.HOVERHARNESS.2=It can be enchanted with the Haste enchant to increase the speed at which you move while flying.<BR>The harness will not reduce your block breaking speed while you are flying with it.
-#C tc.research_page.HOVERHARNESS.2=激活后奥法缰绳会持续消耗Potentia要素.<BR>急迫附魔能够加快奥法缰绳的飞行速度.
+tc.research_page.HOVERHARNESS.1=最终你揭开了飞行的奥秘.你创造出一种可穿戴的缰绳,它能够利用奥法能量将穿戴者锚定在神秘力场中,从而使其摆脱重力的束缚.你认为某种程度上这一过程还涉及到了量子和夸克的玄奥性质.<BR>缰绳所需的魔力会直接从灵气中抽取.每供应一点Aer要素和Igins要素能够维持一秒钟的飞行时间.如果无法从灵气中抽取所需的魔力它会使用自身缓存的魔力,足够维持10秒的飞行时间.<BR>当穿戴有奥法缰绳时按下"H"激活或关闭其功能.
+tc.research_page.HOVERHARNESS.2=急迫附魔能够加快奥法缰绳的飞行速度.<BR>使用缰绳飞行不会影响你破坏方块的速度.
 #
 tc.research_name.HOVERGIRDLE=奥法腰带
 tc.research_text.HOVERGIRDLE=它是只灰机?
@@ -1169,14 +1165,12 @@ tc.research_page.HOVERGIRDLE.1=这种腰带的设计旨在配合奥法缰绳来�
 #
 tc.research_name.WATERJUG=无尽之瓮
 tc.research_text.WATERJUG=无限水源
-#N tc.research_page.WATERJUG.1=A small fountain of pure water always flows from the top of this urn, making it a perfect water source to fill your buckets, bottles or other liquid containers.<BR>It will also automatically replenish any liquid containers within two blocks of it if they can accept water from the top. This is perfect for automatically refilling crucibles, but has other uses as well.<BR>Every bucket full of water created costs 1 §3Aqua§0 vis which is drawn from the aura.
+tc.research_page.WATERJUG.1=从瓮口不断涌出的一小股清泉让无尽之瓮能够用来为水桶,药瓶和其他流体容器提供水源.<BR>它还能够为两格范围内的流体容器自动添水,只要这些容器能够从顶部注水.配合坩埚可以很完美地实现自动化,当然别的方面也有诸多妙用.<BR>每制造一桶水都会从灵气中抽取1点§3Aqua§0要素.
 #
 tc.research_name.LEVITATOR=奥术悬浮台
 tc.research_text.LEVITATOR=下面该研究怎么飞了!
-#B tc.research_page.LEVITATOR.1=While not true flight, the Arcane Levitator is the next best thing.<BR>When placed the levitator lifts any item or creature above it up to 10 blocks into the air. A sneaking creature or player will be slowly lowered.<BR>Each levitator placed upon another increases the range at which it can lift entities by 10 blocks, so a stack of 3 can lift entities up to 30 blocks.<BR>Levitators can be deactivated by applying a redstone signal to them.  
-#A tc.research_page.LEVITATOR.1=While not true flight, the Arcane Levitator is the next best thing.<BR>When placed the levitator lifts any item or creature above it up to 8 blocks into the air. A sneaking creature or player will be slowly lowered.<BR>While levitating something it consumes 2 aer CV per second from the aura.<BR>The levitator can be placed in any orientation, and when placed horizontally will push creatures along while keeping them aloft.
-#C tc.research_page.LEVITATOR.1=如果不去考虑真正的飞翔,奥术悬浮台可谓是最棒的玩意之一了.<BR>放置奥术悬浮台的地方,任何物品和生物都会悬浮到离其上表面10米高处.任何被悬浮台飘起的物品都会被减速到只需要很少地承受掉落伤害.<BR>每个悬浮台堆叠放置可以叠加其悬浮的高度,例如若一次将三个悬浮台叠放,则能够悬浮实体的高度为30米,而假如累加足够多的悬浮台,你便能被悬浮到很高的空中.俯瞰山河,有没有一种指点江山,挥斥方遒的感觉呢?<BR>悬浮台可用红石信号控制开启或者关闭.
-#N tc.research_page.LEVITATOR.2=A toggle on the back of the device allows you to alter the range at which it operates, but also changes the amount of CV it uses.  
+tc.research_page.LEVITATOR.1=如果不去考虑真正的飞翔,奥术悬浮台可谓是最棒的玩意之一了.<BR>放置奥术悬浮台的地方,任何物品和生物都会悬浮到离其上表面8格高处.潜行状态的生物或玩家则会缓缓落地.<BR>当有生物悬浮时它每秒钟会从灵气中抽取2厘魔(CV)的Aer要素.<BR>悬浮台可以面朝任何方向放置,当水平放置时它会在推开生物的同时保持它们悬浮.
+tc.research_page.LEVITATOR.2=位于悬浮台后部的触发器可以用来调整悬浮距离并同时影响魔力的消耗.
 #
 tc.research_name.ARCANEEAR=奥术之耳
 tc.research_text.ARCANEEAR=嘘,你有没有听见什么?
@@ -1199,7 +1193,7 @@ tc.research_page.PAVETRAVEL.1=你学会了如何向石英方块灌注大地要�
 tc.research_name.PAVEBARRIER=屏障石
 tc.research_text.PAVEBARRIER=御守于外
 tc.research_page.PAVEBARRIER.1=你发现一种方法能够将奥术石材转换成一种能够有效阻绝大多数生物入侵的守卫铺路石.<BR>注意这种警卫作用并不能提供百分百的防护,例如,它们并不阻止玩家进去它们圈定的区域,但它们确实能防护住大部分常见威胁.它们还会阻止傀儡穿过.<BR>使用它们时最好围成一个不间断的完整的圈,将你想守护的区域与外面的世界相对隔绝.<BR>激活的红石信号会使得该方块的特殊效果暂时失效.
-#N tc.research_page.PAVEBARRIER.2=The color of the runes above the stone indicates its current status.<BR>Purple runes show that it is currently preventing something from passing through.<BR>Blue runes indicates it has been deactivated with a redstone signal.<BR>Red runes shows that something is preventing it from fully warding an area and a gap exists where something might be able to pass through.
+tc.research_page.PAVEBARRIER.2=屏障石上方符文的颜色能够显示其当前的状态.<BR>蓝色符文说明它以及接入红石信号处于被关闭状态.<BR>蓝色符文说明有什么东西破坏了它的结界,存在缝隙能够让东西穿过去.
 #
 tc.research_name.ARMORFORTRESS=神秘要塞甲胄
 tc.research_text.ARMORFORTRESS=百害莫侵
@@ -1252,9 +1246,7 @@ tc.research_page.PRIMALARROW.3=但无论射中什么都会造成凋灵效果.<LI
 tc.research_name.RUNICARMOR=符文护盾
 tc.research_text.RUNICARMOR=护盾开启!
 tc.research_page.RUNICARMOR.1=对防护法术的研究最终使你发明出符文护盾.它并非传统意义上的护甲装备,而是一种佩戴在日常衣物上的符咒,纹章或类似防护物品.<BR>这种物品会制造出一个防范绝大多数伤害的魔力屏障.护盾会拥有一个伤害量承受池来先一步减免损伤,以保护佩戴者免受各种伤害.当伤害量承受池耗尽佩戴者才会开始像平常一样承受伤害.<BR>伤害量承受池随着时间推移会自己回复,但即使是耗尽状态也至少会为佩戴者提供基本上相当于皮革装备的防护.
-#B tc.research_page.RUNICARMOR.2=The pool replenishes over time and requires §2Terra§0 and §eAer§0 vis to replenish its charge which it draws from carried wands.<BR>The armor offers no protection from damage suffered due to drowning, starvation or similar environmental hazards.<BR>Due to its nature the armor cannot be enchanted by normal means, but you are sure there are ways to improve its effectiveness - you just need to discover them.
-#A tc.research_page.RUNICARMOR.2=The pool replenishes over time and requires §2Terra§0 and §eAer§0 vis to replenish its charge which it draws from the aura.<BR>The armor offers no protection from damage suffered due to drowning, starvation or similar environmental hazards.<BR>Due to its nature the armor cannot be enchanted by normal means, but you are sure there are ways to improve its effectiveness - you just need to discover them.
-#C tc.research_page.RUNICARMOR.2=<BR>这种自动回复需要护盾从穿戴者携带的法杖中抽取§2Terra§0和§eAer§0要素.<BR>但符文护盾并不会防护溺水,饥饿或者其他类似环境危害造成的伤害.由于其天然特性符文护盾也无法使用寻常方法附魔,但你确定有些方法能够提供其效能 - 只是尚待发现.
+tc.research_page.RUNICARMOR.2=<BR>这种自动回复需要护盾从灵气中抽取§2Terra§0和§eAer§0要素.<BR>但符文护盾并不会防护溺水,饥饿或者其他类似环境危害造成的伤害.由于其天然特性符文护盾也无法使用寻常方法附魔,但你确定有些方法能够提供其效能 - 只是尚待发现.
 #
 tc.research_name.RUNICAUGMENTATION=增广符文护盾
 tc.research_text.RUNICAUGMENTATION=护盾全开
@@ -1263,15 +1255,15 @@ tc.research_page.RUNICAUGMENTATION.2=然而这非常昂贵,消耗的源质量会
 #
 tc.research_name.RUNICSPECIAL=专业符文首饰
 tc.research_text.RUNICSPECIAL=为充能指环充能!
-#N tc.research_page.RUNICSPECIAL.1=§nCharged Ring of Shielding§r<BR>This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but increases the recharge time of runic shielding by 25%.<BR>You can wear more than one of these rings, effectively halving the normal recharge time.
-#N tc.research_page.RUNICSPECIAL.2=§nRevitalizing Ring of Shielding§r<BR>This is a specialized version of the Ring of Shielding.<BR>It has slightly less charge than the ring it is based on, but when your runic shielding is breached it will release a pulse of regenerative energy that will last for a few seconds.<BR>This effect cannot trigger more than once every 20 seconds.
-#N tc.research_page.RUNICSPECIAL.3=§nKinetic Girdle of Shielding§r<BR>This is a specialized version of the Girdle of Shielding.<BR>It has slightly less charge than the girdle it is based on, but when your shielding is breached a detonation of kinetic energy will be released damaging and shoving back anything nearby.<BR>This effect cannot trigger more than once every 20 seconds.
-#N tc.research_page.RUNICSPECIAL.4= §nAmulet of Emergency Shielding§r<BR>This is a specialized version of the Amulet of Shielding.<BR>It has slightly less charge than the amulet it is based on, but when your shielding is breached this upgrade will instantly add 8 charge to your shielding amount.<BR>This effect cannot trigger more than once a minute.
+tc.research_page.RUNICSPECIAL.1=§n充能防护指环§r<BR>这是防护指环的一种特殊版本.<BR>较改造前的指环充能量略少些,且充能时间比符文护盾多1/4.<BR>但你可以穿戴不止一只指环,这会让正常充能时间减半.
+tc.research_page.RUNICSPECIAL.2=§n活力防护指环§r<BR>这是防护指环的一种特殊版本.<BR>较改造前的指环充能量略少些,但当你你的符文护盾被打破时它能够释放出一波维持数秒的回复能量.<BR>在20s内只能激活一次这种效果.
+tc.research_page.RUNICSPECIAL.3=§n动力防护腰带§r<BR>这是防护腰带的一种特殊版本.<BR>较改造前的腰带充能量略少些,但当护盾被打破时会爆发出一阵能够伤害并推开附近所有物品的冲击波.<BR>在20s内只能激活一次这种效果.
+tc.research_page.RUNICSPECIAL.4= §n应急护盾护身符§r<BR>这是护盾护身符的一种特殊版本.<BR>较改造前的护身符充能量会略微少些,但当护盾被打破时这项升级能够立即再为护盾增加8点能量.<BR>在1分钟内只能激活一次这种效果.
 #
 tc.research_name.REDSTONERELAY=红石中继器
 tc.research_text.REDSTONERELAY=魔力红石交互
-#N tc.research_page.REDSTONERELAY.1=You have always been curious about the seemingly negative reaction between mystical devices and redstone signals. You have studied the matter and while it is a well-known phenomenon that redstone inhibits magic, you have discovered that in specific circumstances the opposite can be true as well.<BR>One practical application of this is the Redstone Relay. By sending a redstone signal through a magical substance like vis crystals you can inhibit it as much or as little as you want.
-#N tc.research_page.REDSTONERELAY.2=Relays are placed much like redstone repeaters with their output side marked by a redstone torch.<BR>Unlike repeaters relays have two toggles - the rearmost one determines the minimum input signal required to overwhelm this inhibiting effect and allow the relay to activate.<BR>The front toggle (next to the redstone torch) determines how strong the redstone signal is that the relay will output once it is active.
+tc.research_page.REDSTONERELAY.1=你总是会好奇魔力设备和红石信号为什么会表现出那样的负面反应.你已经做出了很多的研究工作,尽管红石信号对魔力的抑制作用广为人知,你还是找到了在特定情况下反转这一现象的方法.<BR>这项成果的一个实际应用便是这种红石继能器.通过它向魔力结晶这样的魔法物质发送强度不同的红石信号能够就按你所需的抑制它们的活动.
+tc.research_page.REDSTONERELAY.2=继能器能够像红石中继器那样使用,它的输出端会标有一个红石火把.<BR>相比中继器只有一个输入端口,红石继能器有两个控制端口.它最靠后的端口用来控制消除魔力抑制效果,激活继能器所需的最小红石信号.<BR>而正面的输入端(与红石火把相邻位置)则决定红石继能器输出的红石信号强度.
 #
 # Alchemy 
 #######################
@@ -1286,7 +1278,7 @@ tc.research_page.CRUCIBLE.5=§n世界盐§r<BR><BR>世界盐,或其广为人知�
 tc.research_name.METALLURGY=神秘锭
 tc.research_text.METALLURGY=魔导金属
 tc.research_page.METALLURGY.1=人们已经证实应用神秘学的理论能够轻易地处理金属材料.你首次的相关实验就发现了神秘锭.<BR>神秘锭是向普通的金属材料灌注天然魔力得到的产物.相比铁,它更坚硬,也更具附魔亲和力.<BR>这种金属广泛用于制造更高级的魔导设备.<BR>也可以用它使用惯常的合成方法制作出相应的工具,武器和装备.
-#N tc.research_page.METALLURGY.2=While thaumium has many useful features, sometimes mundane metals are better suited to certain tasks. Brass is a sturdy, low friction metal perfectly suited to craft intricate mechanical devices.<BR>Unfortunately it is not always possible to get hold of it due to the morphic properties of the universe you may find yourself in. Fortunately you have found an alchemical method of crafting this useful metal.
+tc.research_page.METALLURGY.2=神秘锭固然有诸多特性,但有时候普通的材料在特定用途上会更胜一筹.黄铜是一种坚固耐用,摩擦小的金属材料,非常适合用来制造精密的机械设备.<BR>但黄铜也不可能满足你身处的这个宇宙多变特性导致的所有复杂需求.好在你找到一种炼金方法能够用它制作出更有用的金属.
 #
 tc.research_name.NITOR=闪耀之光
 tc.research_text.NITOR=永恒的花火
@@ -1310,9 +1302,7 @@ tc.research_page.ALCHEMICALDUPLICATION.1=这世上有许多物质本就是炼金
 #
 tc.research_name.ALCHEMICALMANUFACTURE=炼金制造
 tc.research_text.ALCHEMICALMANUFACTURE=条条路儿通罗马
-#B tc.research_page.ALCHEMICALMANUFACTURE.1=You have mastered the basics of alchemy and alchemical duplication and are now ready to try creating more complex substances from scratch.<BR>You have formulated several recipes that create normally hard to get substances and items via alchemy.
-#A tc.research_page.ALCHEMICALMANUFACTURE.1=You have mastered the basics of alchemy and are now ready to try creating more complex substances from scratch.<BR>You have formulated several recipes that create normally hard to get substances and items via alchemy.
-#C tc.research_page.ALCHEMICALMANUFACTURE.1=在已经掌握了炼金术基础和炼金复制技术后你开始准备从头尝试制造更加复杂的物质.<BR>你已经研究出若干配方,能够通过炼金术制造平素难以得到的物质和物品.
+tc.research_page.ALCHEMICALMANUFACTURE.1=在已经掌握了炼金术基础知识后你开始准备从头尝试制造更加复杂的物质.<BR>你已经研究出若干配方,能够通过炼金术制造平素难以得到的物质和物品.
 #
 tc.research_name.ENTROPICPROCESSING=混沌过程
 tc.research_text.ENTROPICPROCESSING=让事情变得更糟?
@@ -1320,11 +1310,11 @@ tc.research_page.ENTROPICPROCESSING.1=魔法物品或者凡俗物品做起来都
 #
 tc.research_name.PUREMETAL=金属晶簇化
 tc.research_text.PUREMETAL=将金属结晶成原矿簇
-#N tc.research_page.PUREMETAL.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal ore into a native cluster.<BR>When smelted these clusters produces twice the normal amount of ingots.
+tc.research_page.PUREMETAL.1=原矿簇是稀有而最纯净的金属聚合物.你发现一种方法能提纯并聚合矿石得到原矿簇.<BR>冶炼这些原矿簇相比冶炼普通矿石能得到翻倍的金属锭.
 #
 tc.research_name.TRANSMETAL=嬗变术:炼铁术
 tc.research_text.TRANSMETAL=物质转换
-#N tc.research_page.TRANSMETAL.1=You have discovered a way to multiply metals by steeping nuggets of that metal in §5metallum§0 and other aspects.
+tc.research_page.TRANSMETAL.1=你找到一种将金属粒浸泡在§5metallum§0和其他要素源质中来增加其数量的方法.
 #
 tc.research_name.TALLOW=魔力油脂
 tc.research_text.TALLOW=魔力熬制的油脂
@@ -1332,26 +1322,22 @@ tc.research_page.TALLOW.1=在坩埚中熬炼肉块,你制作出一种具有多�
 #
 tc.research_name.DISTILESSENTIA=要素蒸馏
 tc.research_text.DISTILESSENTIA=收获要素
-#B tc.research_page.DISTILESSENTIA.1=In the future you will definitely need to have ready access to multiple different kinds of aspects - not just primal aspects drawn from your wand.<BR>Using basic alchemical principles you have devised a way to break down objects and convert them into essentia.<BR>The first step in this process requires an §lAlchemical Furnace§r. The alchemical furnace works much like a normal furnace by burning coal to produce heat, but instead of smelting ore into metal, it breaks down objects into a slurry of raw, unprocessed essentia.
-#A tc.research_page.DISTILESSENTIA.1=In the future you will definitely need to have ready access to multiple different kinds of aspects - not just primal aspects drawn from your wand.<BR>Using basic alchemical principles you have devised a way to break down objects and convert them into essentia.<BR>The first step in this process requires an §lEssentia Smeltery§r. The smelter works much like a normal furnace by burning coal to produce heat, but instead of smelting ore into metal, it breaks down objects into a slurry of raw, unprocessed essentia. This process isn't very efficient and a small 
-#C tc.research_page.DISTILESSENTIA.1=你意识到未来会需求使用庞大种类的数种要素 - 而非存在法杖内的寥寥几种元始要素.<BR>利用基本炼金原理你已了解了如何分解物品将其转化为基本的要素源质.<BR>首先你需要一台§l炼金炉§r.炼金炉类似普通熔炉那样燃烧燃料获得热量,但并不用于冶炼矿物,而是用以分解物品得到要素源质粘浆.
-#B tc.research_page.DISTILESSENTIA.2=The next step in the process is to take the essentia slurry and distill it using an §lArcane Alembic§r.<BR>To work, arcane alembics need to be placed on top of an alchemical furnace. The essentia slurry will slowly be drawn into the alembic and the individual aspected essentia separated out.<BR>If the alchemical furnace is being powered by alumentum, this distillation process is much faster.<BR>You can stack up to 5 different alembics on top of a single furnace.<BR>The essentia can then be extracted out of an alembic using phials.
-#A tc.research_page.DISTILESSENTIA.2=amount of essentia is converted into flux roughly 20% of the time.<BR>The next step in the process is to take the essentia slurry and distill it using an §lArcane Alembic§r.<BR>To work, arcane alembics need to be placed on top of a smelter. Multiple alembics can be placed on top of each other to increase storage, but it does not influence processing speed. The essentia slurry will slowly be drawn into the alembic and the individual aspected essentia separated out.<BR>If the smelter is being powered by alumentum, this distillation process is much faster.
-#C tc.research_page.DISTILESSENTIA.2=接下来你需要利用§l奥术蒸馏器§r分离源质粘浆.<BR>你需要将奥术蒸馏器放置在炼金炉顶部.源质粘浆会慢慢被抽取到蒸馏器中,分馏成独立的要素源质.<BR>如果使用源动之焰作为炼金炉的燃料,那么分馏过程将更迅速.<BR>一个单独的炼金炉上方可以叠放5个奥术蒸馏器.<BR>可以使用要素安瓿取出炼金炉中的要素.
-#N tc.research_page.DISTILESSENTIA.3=The essentia can then be extracted out of an alembic using phials, jars or more complex means.
-#N tc.research_page.DISTILESSENTIA.4=§nArcane Bellows§r<BR>Arcane bellows placed on the side of a smelter will greatly increase the heat it generates, allowing items to be broken down into a slurry much quicker.
+tc.research_page.DISTILESSENTIA.1=你意识到未来会需求使用庞大种类的数种要素 - 而非存在法杖内的寥寥几种元始要素.<BR>利用基本炼金原理你已了解了如何分解物品将其转化为基本的要素源质.<BR>首先你需要一台§l源质冶炼厂§r.冶炼厂类似普通熔炉那样燃烧燃料获得热量,但并不用于冶炼矿物,而是用以分解物品得到要素源质黏浆.
+tc.research_page.DISTILESSENTIA.2=分解过程并非十分高效,会有大约20%的产物转变为咒波.接下来你需要利用§l奥术蒸馏器§r分离源质黏浆.<BR>你需要将奥术蒸馏器放置在冶炼厂顶部.可以放置多个蒸馏器以增加容量,但这样做不会影响分解速度.源质黏浆会慢慢被抽取到蒸馏器中,分馏成独立的要素源质.<BR>如果使用源动之焰作为冶炼厂的燃料,那么分馏过程将更迅速.
+tc.research_page.DISTILESSENTIA.3=可以使用要素安瓿,罐子或者别的更复杂的手段取出冶炼厂中的要素.
+tc.research_page.DISTILESSENTIA.4=§n奥术风箱§r<BR>奥术风箱可以安装在冶炼厂侧面,显著提升其产生的热量,从而加快源质黏浆的分解速度.
 #
 tc.research_name.DISTILESSENTIA2=神秘源质冶炼场
 tc.research_text.DISTILESSENTIA2=收获要素
-#N tc.research_page.DISTILESSENTIA2.1=The Thaumium Smeltery works much like the basic smeltery, but it has roughly 85% efficiency instead of 80%.<BR>Its main benefit is that it breaks down essentia slurry at double the normal speed. 
+tc.research_page.DISTILESSENTIA2.1=神秘冶炼厂工作方式类似普通的冶炼厂,但它的效率高达85%而非80%.<BR>它最主要的优势在于分解黏浆的速度是普通冶炼厂的两倍.
 #
 tc.research_name.DISTILESSENTIA3=虚空金属源质冶炼厂
 tc.research_text.DISTILESSENTIA3=收获要素
-#N tc.research_page.DISTILESSENTIA3.1=The Void Metal Smeltery works much like the basic smeltery, but it has roughly 95% efficiency instead of 80%.<BR>It breaks down essentia slurry slightly quicker than the basic smeltery, but not nearly as fast as the thaumium smeltery.<LINE>When crafting the Advanced Alchemical Construct the primordial pearl is not consumed - it is merely required as a catalyst.
+tc.research_page.DISTILESSENTIA3.1=虚空冶炼厂工作方式类似普通的冶炼厂,但它的效率高达95%而非80%.<BR>它分解黏浆的速度会比普通冶炼厂稍快,但还是赶不上神秘冶炼厂.<LINE>合成它用到的高级炼金构材不会被用掉,而是仅作为催化剂使用.
 #
-#N tc.research_name.IMPROVED_DISTILLATION=Improved Essentia Distillation
-#N tc.research_text.IMPROVED_DISTILLATION=Essentia Harvesting... Improved
-#N tc.research_page.IMPROVED_DISTILLATION.1=While smelters can be very fast, they could always be faster - especially the speed at which they break down the essentia slurry into usable essentia.<BR>Each Auxiliary Slurry Pump placed on the side of a smelter acts as a secondary processor, outputting refined essentia to any alembics placed above it.
+tc.research_name.IMPROVED_DISTILLATION=源质蒸馏改良
+tc.research_text.IMPROVED_DISTILLATION=源质采集...改良
+tc.research_page.IMPROVED_DISTILLATION.1=冶炼厂的加工速度非常快,但它还能变得更快 - 特别是冶炼厂将源质黏浆分解成可用源质的过程还有很大的提速空间.<BR>每个附加在冶炼厂侧面的附属黏浆泵都能够作为辅助的处理设备,向安置在它上方的蒸馏器输出精炼好的源质.
 #
 tc.research_name.JARLABEL=要素罐子和标签
 tc.research_text.JARLABEL=存储和整理要素源质
@@ -1369,7 +1355,7 @@ tc.research_text.TUBES=运输要素源质
 tc.research_page.TUBES.1=你已发现了好些运输要素源质的方法,但都被证明难以与大规模的炼金操作相适应 - 现在这问题解决了.<BR>你已破解了制作稳定及相对密封的管道的关键所在.尽管普通的化学物质可以用玻璃管道运输,但某些类型的要素源质却可能溶解掉或者直接穿透玻璃.在玻璃管道上裹上铁皮并用水银处理,让即使最不稳定的源质也能安全通过.黄金的管道配件装饰得管道系统极其美观.
 tc.research_page.TUBES.2=管道可以与各种类型的奥法设备相连,尽管一般你主要用它连接要素罐子和蒸馏器.<BR>要素源质会主动流向任意可以容纳它的容器 - 比方说要素罐子.<BR>装有不同源质的罐子只会吸引那些同类要素源质.但管道一次只能吸入并运输一种类型的源质 - 吸力最高的会优先处理.若无法恰当使用阀门很容易导致管道系统堵塞.阀门的使用尤为关键.<LINE>
 tc.research_page.TUBES.3=要素阀门类似一段普通管道,但可以通过手动或者红石信号控制其开闭.关闭阀门后通过它的源质流会被阻断.<LINE>要素谐振器是为管道系统排障的方便工具.你可以使用它查看管道或其他使用源质的设备中当前容纳着何种源质以及它们的吸力强弱.
-#N tc.research_page.TUBES.4=Tubes can be connected and disconnected from their neighbors by clicking on a section of tubing with a wand.<BR>The wand can also be used to click on the central section to rotate certain tubes like the valve.
+tc.research_page.TUBES.4=使用法杖点击能够调整管道是否与相邻管道连接.<BR>你还可以使用法杖点击管道中央位置来像调节阀门一样旋转它.
 #
 tc.research_name.CENTRIFUGE=奥法离心机
 tc.research_text.CENTRIFUGE=分离物品
@@ -1381,9 +1367,7 @@ tc.research_page.JARVOID.1=虚空罐子用起来类似普通的要素罐子,但�
 #
 tc.research_name.TUBEFILTER=高级源质管道
 tc.research_text.TUBEFILTER=你需要什么,需要用它干什么
-#B tc.research_page.TUBEFILTER.1=§nFiltered essentia tubes§r work like normal tubes, except it is possible to mark them with labels. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the label.
-#A tc.research_page.TUBEFILTER.1=§nFiltered essentia tubes§r work like normal tubes, except it is possible to mark them with labels, phails or other items that clearly identify a single type of essentia. When marked they will restrict essentia flow through them to what they have been marked with.<BR>Shift-clicking on them with an empty hand will remove the filter.
-#C tc.research_page.TUBEFILTER.1=§n过滤源质管道§r 类似普通管道,但可以贴标签.当使用标签标记后它将只限定于运输指定类型的要素源质.<BR>空手时按住shift点击将取下标签.
+tc.research_page.TUBEFILTER.1=§n过滤源质管道§r类似普通管道,但可以使用标签,安瓿或者其他物品进行标记,标记后的过滤源质管道将只限定于运输指定类型的要素源质.<BR>空手时按住shift点击将取下标签.
 tc.research_page.TUBEFILTER.2=§n限定源质管道§r 类似普通管道,但它们会将通过的源质吸力减半.<LINE>§n定向源质管道§r 只接受某个方向上抽取来的源质,蓝色标记指示了它接受抽取物的方向.
 tc.research_page.TUBEFILTER.3=源质缓冲器能够允许你暂存一定量的源质 - 总计8点,可以是不同源质类型的任意组合.类似罐子它会自动吸收源质,但其吸力是各种可能中最小的(吸收的优先级最低).<BR>换言之通常只有在直接将其安附在源质来源处它才能吸入源质.然而管道可以连接在它所有的方向上,这意味着用它来提取像奥法离心机这种内置大量容纳空间的设备中的源质意义甚微.<BR>你可以为缓冲器安装奥术风箱 - 一个风箱提升64点吸力.
 tc.research_page.TUBEFILTER.4=此外,类似普通的管道,你还能独立控制其每一方向连接的开合,但如若你按住shift点击连接,就能塞住它将其该方向上的吸力抑制在1(蓝圈)或者0(红圈).<BR>这使要素源质运输过程中的许多有趣特性有了可能.
@@ -1418,27 +1402,27 @@ tc.research_page.ESSENTIACRYSTAL.1=你差不多已经掌握了如何将凝聚的
 #######################
 tc.research_name.BASICGOLEMANCY=基础傀儡学
 tc.research_text.BASICGOLEMANCY=受控运动
-#N tc.research_page.BASICGOLEMANCY.1=You have studied the basic, primitive golems anyone can create and found them lacking. They have potentional, but it is not possible to control them.<BR>You are sure you can do better.
+tc.research_page.BASICGOLEMANCY.1=你早已研究过一些非常基础和元始,任何人都能制造但存在许多不足之处的傀儡.它们很有潜力,但不可能受控.<BR>你确定你能够做得比这更好.
 #
 tc.research_name.MATSTUDWOOD=材料研究:木头
 tc.research_text.MATSTUDWOOD=高级木头加工
-#N tc.research_page.MATSTUDWOOD.1=Golemancy places great demands on your craftsmanship as it often requires intricate components with very narrow margins for error. You will need to increase your skill and knowledge of both mundane and arcane materials. Your first target is wood.<BR>Wood is a versatile substance and despite its weakness, it is light and easy to work. You have found Greatwood to be a superior wood particularly well suited to golemancy. 
+tc.research_page.MATSTUDWOOD.1=傀儡学因其需要容错率非常低的精密部件,对你的加工技术提出了更高的要求.你需要同时提升自己在奥术和普通手工制作方面的知识和水平.你的第一个钻研目标是:木头!<BR>尽管木头不算结实,但它确实一种用途广泛的材料,很轻盈而且易于加工.而你已经发现宏伟之木这种更高级的木材非常适合用于傀儡学.
 #
 tc.research_name.MATSTUDIRON=材料研究:铁
 tc.research_text.MATSTUDIRON=高级铁材加工
-#N tc.research_page.MATSTUDIRON.1=Iron has many properties to recommend it - it is much sturdier than wood and malleable in a way that wood can never be. It is harder to work with however and quite heavy.
+tc.research_page.MATSTUDIRON.1=铁拥有许多值得推荐的特性-它比木头结实而且拥有木材不可能具有的可塑性.然而铁的加工难度更大并且相当沉.
 #
 tc.research_name.MATSTUDBRASS=材料研究:黄铜
 tc.research_text.MATSTUDBRASS=高级黄铜加工
-#N tc.research_page.MATSTUDBRASS.1=While brass is softer than iron, it is still quite sturdy and well suited to fine mechanical constructs. In your opinion it is the best mundane material for golemancy purposes and you would not dream of crafting intricate metals from any other material. It is quite pleasing to the eye as well. 
+tc.research_page.MATSTUDBRASS.1=黄铜比铁软,但依然非常结实,适合用来加工精致的构件.在你看来它简直是傀儡学研究能找到的最棒的凡俗材料,你完全想象不出还能找到比它更适合用来加工精致金属的材料.而且外观也很养眼.
 #
 tc.research_name.MATSTUDTHAUMIUM=材料研究:神秘锭
 tc.research_text.MATSTUDTHAUMIUM=高级神秘锭加工
-#N tc.research_page.MATSTUDTHAUMIUM.1=Thaumium is an arcane metal that sucks up enchantments like a proverbial sponge. It is significantly stronger than iron too. Unfortunately it is slightly heavier than iron and its strength also makes it hard to work.<BR>While it cannot compete with brass when it comes to intricate clockwork, thaumiums strength makes it a useful material to craft mechanisms that require strength over precision. 
+tc.research_page.MATSTUDTHAUMIUM.1=神秘锭是一种汲取了魔力的奥术金属,就像你们所知道的海绵那样.它的强度也明显比铁高.但不足之处在于它比铁还稍沉,而且过高的强度也让加工变得更加困难.<BR>因此这种材料并不适合用于制作适合用黄铜做的精密发条装置,它比较适合用在一些对强度的要求比精度更高的机构上.
 #
 tc.research_name.MATSTUDVOID=材料研究:虚空金属
 tc.research_text.MATSTUDVOID=高级虚空金属加工
-#N tc.research_page.MATSTUDVOID.1=Void metal is relatively light, but quite soft which would normally make it an unsuitable material for mechanisms. Luckily its morphic properties and ability to self-repair opens up interesting possibilities for a thaumaturge willing to think outside the box.
+tc.research_page.MATSTUDVOID.1=虚空金属相对来说比较轻,但却相当软,通常来说并不合适用来制作机构.但它能够变形修复自身的特点却让神秘使打破那些条条框框想到许多种有趣的可能.
 #
 tc.research_name.HUNGRYCHEST=饕餮箱子
 tc.research_text.HUNGRYCHEST=无需每次都打开
