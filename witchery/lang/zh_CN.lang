@@ -753,7 +753,7 @@ item.witchery:deathsrobe.tip={9抗火.{0
 item.witchery:deathsfeet.name=死神之鞋
 item.witchery:deathsfeet.tip={9水上行走.{0
 item.witchery:deathshand.name=死神之手
-item.witchery:deathshand.tip={9无视护甲的灵魂接触.{0|{9死亡设置奖励: 召唤死神之镰{9|{9以饱腹度为基础的群体伤害.{9
+item.witchery:deathshand.tip={9无视护甲的灵魂接触.{0|{9死神套装加成: 召唤死神之镰{9|{9以饱腹度为基础的群体伤害.{9
 
 witchery.rite.blackmagicdampening=魔法被驱散了.
 
