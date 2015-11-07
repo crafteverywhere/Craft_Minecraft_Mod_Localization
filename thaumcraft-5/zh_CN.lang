@@ -158,6 +158,7 @@ tile.stone.matrix_cost.name=注魔效能石
 tile.stone.ancient_doorway.name=荒古门廊
 tile.stone.glyphed.name=雕文石头
 tile.stone.bedrock.name=星辉虚空
+tile.stone.porous.name=透水石
 tile.arcane_stairs.name=奥术楼梯
 tile.arcane_brick_stairs.name=奥术石砖楼梯
 tile.ancient_stairs.name=荒古楼梯
@@ -185,6 +186,7 @@ tile.taint_fibre.name=腐化草丛
 tile.taint.crust.name=陈年污点
 tile.taint.soil.name=腐化泥土
 tile.taint.geyser.name=腐化喷泉
+tile.taint.rock.name=腐化岩石
 tile.taint_feature.name=腐化肿泡
 tile.eldritch.altar.name=邪术祭坛
 tile.eldritch.obelisk_base.name=邪术方尖碑
@@ -302,6 +304,7 @@ tile.smelter_thaumium.name=神秘源质冶炼厂
 tile.smelter_void.name=虚空金属源质冶炼厂
 tile.alembic.alembic_normal.name=奥术蒸馏器
 tile.smelter_aux.name=附属黏浆泵
+tile.smelter_vent.name=辅助排放口
 tile.arcane_bore_base.name=奥术钻探机基座
 tile.arcane_bore.name=奥术钻探机
 tile.thaumatorium.name=神秘炼金塔
@@ -466,8 +469,8 @@ item.crimson_robe_legs.name=血腥邪徒护腿
 item.crimson_plate_helm.name=血腥邪徒头盔
 item.crimson_plate_chest.name=血腥邪徒胸甲
 item.crimson_plate_legs.name=血腥邪徒护胫
-item.crimson_praetor_helm.name=血腥主教头盔		
-item.crimson_praetor_chest.name=血腥主教胸甲		
+item.crimson_praetor_helm.name=血腥主教头盔       
+item.crimson_praetor_chest.name=血腥主教胸甲      
 item.crimson_praetor_legs.name=血腥主教护胫
 item.thaumostatic_harness.name=奥法缰绳
 item.traveller_boots.name=旅行者之靴
@@ -584,8 +587,8 @@ item.chargebonus.text=充能
 ##############################
 fluid.fluxGoo=咒波黏浆
 fluid.fluxGas=咒波瓦斯
-fluid.fluidPure=净化之水
-fluid.fluidDeath=死亡之水
+fluid.purifying_fluid=净化之水
+fluid.liquid_death=死亡之水
 #
 # General Focus Upgrades
 ##############################
@@ -858,10 +861,6 @@ tc.research_page.ASPECTS.3=若想要查看一个物品所具备的要素,需要�
 #
 tc.research_name.NODES=灵气和节点
 tc.research_text.NODES=魔法无所不在
-tc.research_page.NODES.1=§5灵气§0是笼罩世界的魔法能量.其源头未明.有些人相信灵气是活物积累的生命能量,而有些人则倾向于认为它仅仅不过是一种从某些地方渗出的能量.后一种观点似乎更具可能：因为人们经常发现灵气环绕于一种汇聚着魔法能量的§5“灵气节点”§0周围.<BR>灵气中蕴含浓度不等的元始要素.例如,水边的灵气场中通常会蕴含更多的§3Aqua§0要素,在沙漠中则§cIgnis§0要素浓度更高.
-tc.research_page.NODES.2=灵气场按区块分布.如果一片区域中的灵气场变得枯竭,它会尝试从比邻灵气浓度更高的区域中抽取灵气.它们之间的灵气浓度永远不会完全相等,因为灵气场与其说类似海水,倒不如说更像粘稠的凝胶组成的海洋.<BR>灵气场如果被污染就会蕴含§5Vitium§0要素(即咒波).咒波比一般的要素更加'粘稠',更趋向于在分离的区域汇聚而不是流动到临近区域去.灵气场中的要素浓度降低到最低浓度以下也会产生咒波.<BR>如果一片区域中的咒波浓度过高,就会导致§l腐化§r.想要了解有关腐化的更多信息,请翻阅魔导手册的相关章节.
-tc.research_name.NODES=灵气和节点
-tc.research_text.NODES=魔法无所不在
 tc.research_page.NODES.1=§5灵气§0是笼罩世界的魔法能量.其源头未明.有些人相信灵气是活物积累的生命能量,而有些人则倾向于认为它不过是一种从某些地方渗出的能量.后一种观点似乎更具可能：因为人们经常发现灵气环绕于一种汇聚着魔法能量的§5“灵气节点”§0周围.<BR>灵气中蕴含浓度不等的元始要素.例如,水边的灵气场中通常会蕴含更多的§3Aqua§0要素,在沙漠中则§cIgnis§0要素浓度更高.
 tc.research_page.NODES.2=灵气按区块分布.如果一片区域中的灵气变得枯竭,它会尝试从比邻灵气浓度更高的区域中抽取灵气.它们的灵气浓度永远不会完全相等,因为灵气与其说类似海水,倒不如说更像粘稠的凝胶组成的海洋.<BR>灵气如果被污染就会蕴含§5Vitium§0要素(即咒波).咒波比一般的要素更加'粘稠',更趋向于在分离的区域汇聚而不是流动到临近区域去.灵气浓度如果降低到最低限度以下也会产生咒波.<BR>如果一片区域中的咒波浓度过高,则会导致§l腐化§r.想要了解有关腐化的更多信息,请翻阅魔导手册的相关章节.
 tc.research_page.NODES.3=灵气节点表现得犹如一些通往其他神秘世界的门户,魔法能量从中渗出.每个节点都会同某些§5元始要素§0相谐振,但几乎没有节点会与 §5复合要素§0谐振.<BR>虽然没办法直接从节点抽取魔力,但节点却缓慢地补充着它周围的灵气.<BR>一般来说,灵气的补充速率似乎和月相有关,在满月时速率将达到最快.<BR>另一个决定补充速率的因素则是灵气节点的大小.
@@ -1059,7 +1058,6 @@ tc.research_page.WANDPED.1=东奔西走地为法杖补魔虽然也没什么不�
 tc.research_name.VISAMULET=魔力存储
 tc.research_text.VISAMULET=俭以防匮
 tc.research_page.VISAMULET.1=大多数时候,对神秘使来说,有一根法杖就远远满足需求了,但有时候它储存的魔力却偏偏不够用.多带一支法杖就能解决问题,但实验表明另有他法.<BR>制作一枚储存有魔力的护身符,就能在法杖或者相关物品耗尽魔力时为其充能了.<BR>然而你的这项成就并非尽善尽美.只有手里攥着法杖的时候才能为其充能,且充能速度缓慢.
-tc.research_page.VISAMULET.2=然而护身符是类似修复附魔或者符文护盾这类物品非常好的能量来源.<BR>戴上后的护身符自己充能的速度很慢,你也可以用充能基座来为它充能.
 #
 tc.research_name.WORKBENCHCHARGER=奥术工作台充能器
 tc.research_text.WORKBENCHCHARGER=奥法合成简化
@@ -1338,6 +1336,7 @@ tc.research_page.DISTILESSENTIA3.1=虚空冶炼厂工作方式类似普通的冶
 tc.research_name.IMPROVED_DISTILLATION=源质蒸馏改良
 tc.research_text.IMPROVED_DISTILLATION=源质采集...改良
 tc.research_page.IMPROVED_DISTILLATION.1=冶炼厂的加工速度非常快,但它还能变得更快 - 特别是冶炼厂将源质黏浆分解成可用源质的过程还有很大的提速空间.<BR>每个附加在冶炼厂侧面的附属黏浆泵都能够作为辅助的处理设备,向安置在它上方的蒸馏器输出精炼好的源质.
+tc.research_page.IMPROVED_DISTILLATION.2=你还研究出一种管理冶炼过程中产生的咒波的方法.让源质黏浆流经源质过滤器的附加装置,就能够将咒波分离出来,将它变成安全无害的蒸汽排放出来.<BR>还可以加装第三级装置来进一步减少咒波产量,但随着加装的排放口数量增多增加的效果会衰减.
 #
 tc.research_name.JARLABEL=要素罐子和标签
 tc.research_text.JARLABEL=存储和整理要素源质
@@ -1510,7 +1509,6 @@ tc.research_page.CRIMSON.1=书册内容多以密如蛛网,不知所云的字符�
 tc.research_name.OCULUS=开眼仪式
 tc.research_text.OCULUS=向他们展示你的发现,向他们所有人.
 tc.research_page.OCULUS.1=一切都是那样简单 - 你对那些血腥邪徒一直没有发现它感到惊讶.<BR>想要完成仪式,需要将4颗邪术之眼放在一种特别显眼的拱顶石上.那种拱顶石在你头一回发现血腥邪徒的祭坛那里就能找到.<BR>完成上述步奏后,还需要再让拱顶石从法杖中抽取大量的元始要素 - 每种大约 1000 点.
-tc.research_page.OCULUS.2=如果所有步骤均正确,那么仪式将被完成而名为"眼"之存在将会睁开.<BR>当然你并不知道那意味着什么.不过那又有什么关系呢?只有傻瓜才会畏惧未知.
 tc.research_page.OCULUS.2=如果所有步骤均正确,那么仪式将被完成而名为"眼"之存在将会睁开.<BR>当然你并不知道那意味着什么.不过那又有什么关系呢?只有傻瓜才会畏惧未知.
 #
 tc.research_name.SINSTONE=凶险磁石
