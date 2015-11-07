@@ -747,42 +747,43 @@ item.witchery:ingredient.binkyhead.name=冰奇头骨
 item.witchery:potion.antidote.name=万能解毒药
 
 item.witchery:deathscowl.name=死神头巾
-item.witchery:deathscowl.tip={9它的凝视让恐惧深入骨髓,吓得可怜的牺牲者动弹不得.{0
+item.witchery:deathscowl.tip={9它的凝视让恐惧直渗骨髓,吓得可怜的牺牲者动弹不得.{0
 item.witchery:deathsrobe.name=死神之袍
 item.witchery:deathsrobe.tip={9抗火.{0
 item.witchery:deathsfeet.name=死神之鞋
 item.witchery:deathsfeet.tip={9水上行走.{0
 item.witchery:deathshand.name=死神之手
-{9幽魂之触，忽略护甲防护.{0|{9死神套装加成: 召唤死神之镰{9|{9消耗饱腹度进行AOE范围攻击.{9
+item.witchery:deathshand.tip={9无视护甲的灵魂接触.{0|{9死亡设置奖励: 召唤死神之镰{9|{9以饱腹度为基础的群体伤害.{9
 
-witchery.rite.blackmagicdampening=有什么在驱散魔法.
+witchery.rite.blackmagicdampening=魔法被驱散了.
 
-fluid.witchery:hollowtears=虚伪泪水
+fluid.witchery:hollowtears=虚伪之泪
 fluid.witchery:flowingspirit=流动精神
 
 tile.witchery:hollowtears.name=流动精神
+
 
 
 entity.witchery.lordoftorment.name=痛苦之王
 
 entity.witchery.imp.name=烈焰小鬼
 entity.witchery.imp.goodbye=<%s> 契已结
-entity.witchery.imp.contract.notowners=<%s> 此契非以汝之血所结!
+entity.witchery.imp.contract.notowners=<%s> 此契非汝之血所结!
 entity.witchery.imp.contract.unsigned=<%s> 请以汝之血结契!
-entity.witchery.imp.contract.noxp=<%s>汝之经验少甚,不足以供吾之求!
+entity.witchery.imp.contract.noxp=<%s>汝之经验甚少,不足以供吾之所求!
 entity.witchery.imp.contract.deal=<%s>契成!
-entity.witchery.imp.gift.like=<%s> 烁烁然!
-entity.witchery.imp.gift.hate=<%s> 吾不喜之!予吾新烁烁然之物!
-entity.witchery.imp.gift.reciprocate=<%s> 吾有秘欲与汝共!
+entity.witchery.imp.gift.like=<%s> 熠熠然!
+entity.witchery.imp.gift.hate=<%s> 忿然哉!独好熠熠之物!
+entity.witchery.imp.gift.reciprocate=<%s> 吾有秘辛欲告汝!
 entity.witchery.imp.gift.toomany=<%s> 烁烁然...（欠伸科）...
 entity.witchery.imp.gift.power=<%s> 胜万物之伟力!
-entity.witchery.imp.gift.powerloss=<%s> 汝何为行事如彼?
+entity.witchery.imp.gift.powerloss=<%s> 汝何为如彼行事?
 entity.witchery.imp.spell.feelthefire=<%s>%s将觉吾之光!
 entity.witchery.imp.spell.cannotfind=<%s> 不可寻%s!
 entity.witchery.imp.spell.failed=<%s> 似有蹊跷.
-entity.witchery.imp.spell.notliked=<%s> 吾为何当如此?
+entity.witchery.imp.spell.notliked=<%s> 吾为何如此?
 entity.witchery.imp.spell.toooften=<%s> 且待片刻.
-entity.witchery.imp.spell.toomuchpower=<%s> 甚多力须得思之!
+entity.witchery.imp.spell.toomuchpower=<%s> 甚为多力，须三思之!
 
 tile.witchery:force.name=固体
 tile.witchery:tormentportal.name=痛苦之扉
@@ -1295,6 +1296,7 @@ witchery:cauldronbook.poison=[h1 效果:剧毒]受到持续一段时间的伤害
 witchery:cauldronbook.regeneration=[h1 效果:再生]在一段时间内治疗生物.
 witchery:cauldronbook.harmwerewolves=[h1 效果:狼人之殇]对狼人造成明显伤害 对其他生物造成少量伤害. 作为仪式实施时, 会导致降雨.
 witchery:cauldronbook.weakenvampires=[h1 效果:吸血鬼削弱]削弱吸血鬼的力量 且使其部分能量流失.
+
 witchery:cauldronbook.animalattraction=[h1 效果:动物吸引]使一片较宽阔区域 内的动物驯服, 且使动物走近饮用者.
 witchery:cauldronbook.animalrepulsion=[h1 效果:动物排斥]使所有不是由饮用者 驯化的动物野化 且使所有动物逃跑.
 
@@ -1433,7 +1435,6 @@ witchery.werewolf.chunkvisited=你觉得你似乎已经去过了.
 witchery.werewolf.mooncharmcrafted=怪声低沉地说, "别再把它弄丢了!"
 witchery.werewolf.notworthy=一个怪声在你的脑海中回响, "你没有价值!"
 
-
 witchery.werewolf.level2begin=一个怪声回响起来,"%s个金锭!带来给我!!"
 witchery.werewolf.level2progress=怪声低沉道,"%s金子还不够,你还缺少%s!"
 witchery.werewolf.level2complete=怪声低语道,"金子闪烁,魅影完成,释放野性,月之永恒！"
@@ -1449,7 +1450,6 @@ witchery.werewolf.level4complete=怪声说道,"饥饿常伴,尖牙入骨,先锐�
 witchery.werewolf.level5begin=怪声回响起来,"狼与人必须要合体,抹杀掉角魔狩猎之王!用它的号角来召唤它然后给与他致命一击"
 witchery.werewolf.level5progress=怪声回响起来,"狩猎者还活着!用它的号角来召唤它然后给与他致命一击!"
 witchery.werewolf.level5complete=怪声低沉道,"英豪溃败,冠军傲立,兽性迸发,二四并行!" 
-
 
 witchery.werewolf.level6begin=怪声咆哮道,"锻炼强劲的肌肉来屠杀你的猎物,跃向%s只怪物,然后在空中击杀他们!"
 witchery.werewolf.level6progress=怪声低语道,"在空中屠杀%s只了,还剩%s只"
@@ -1681,6 +1681,5 @@ witchery.rite.mirrormirror.bearing4=欲寻最美向南去.
 witchery.rite.mirrormirror.bearing5=欲寻最美西南去.
 witchery.rite.mirrormirror.bearing6=欲寻最美向西去.
 witchery.rite.mirrormirror.bearing7=欲寻最美西北去.
-
 
 witchery.rite.mirrormirror.opchatreveal=在下一条消息中, 玩家 "%s" 实际上是: "%s"
