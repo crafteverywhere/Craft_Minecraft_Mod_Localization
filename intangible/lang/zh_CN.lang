@@ -1,0 +1,948 @@
+# CREATIVE
+
+itemGroup.tabintangible=Intangible
+
+# CONFIG COMMENTS
+
+config.intangible:shrinetheftcursechance.name=Probability of being cursed when a non-devout player takes an item from a plate on an altar.
+config.intangible:priestharmedcursechance.name=Probability of being cursed when a non-devout player attacks a devout player near a shrine.
+config.intangible:modhooksenabled.name=Allow Intangible to use features from other mods (via those mods' APIs).
+config.intangible:debugenabled.name=Add more detailed information to the log file to trace what's going on.
+config.intangible:replacedroppedglass.name=Replace vanilla dropped glass block with a functionally equivalent but meltable version (for BlowMold support).
+config.intangible:checkforblockbreakpermission.name=Fire Forge block break events to allow other mods (or servers) to cancel them and therefore disallow the block break
+config.intangible:spellicon.name=Screen position for spell icon
+config.intangible:spellshortcut.name=Hotkey for spell
+config.intangible:hudanchor.name=Anchor point for spell casting head-up display.
+config.intangible:hudanchoroffsetx.name=Horizontal offset in pixels from the HudAnchor (direction depends on anchor point).
+config.intangible:hudanchoroffsety.name=Vertical offset in pixels from the HudAnchor (direction depends on anchor point).
+config.intangible:allowplayerpossessiononpveservers=Enable this option to allow players to possess and control to a llimited extent other players when PVP is disabled on a server.
+config.intangible:reduceoverclockedarmorifenchanted=Reduce some of the bonus from armor protection enchantments if overclocked armor spell is cast.
+
+# DAMAGE SOURCES
+
+death.intangible.attack.chariot=%1$s was run down by %2$s
+F
+# ADMIN COMMANDS
+
+command.intangible:toggleeffect.effectdoesnotexist=Effect <%s> could not be found.
+command.intangible:toggleeffect.active=Effect <%s> now enabled on player <%s>.
+command.intangible:toggleeffect.inactive=Effect <%s> now disabled on player <%s>.
+command.intangible:toggleeffect.invalidcooldown=Invalid value for <cooldown>.
+command.intangible:toggleincorporeal.playernotfound=Player <%s> could not be found.
+command.intangible:toggleincorporeal.playercorporeal=Player <%s> is now corporeal.
+command.intangible:toggleincorporeal.playerincorporeal=Player <%s> is now incorporeal.
+command.intangible:deitysetname.unknowndeity=Deity with id <%s> does not exist in this world, use </deity list> to find all ids.
+command.intangible:deitylist.empty=The are no deities in this world.
+command.intangible:deityspawn.invaliditems=One or more of the three items could not be found, you must use the item id (not the display name).
+command.intangible:setknol.notfound=The knol <%s> could not be found.
+command.intangible:setknol.alreadyknown=Player <%s> already knows <%s>.
+command.intangible:setknol.alreadyunknown=Player <%s> already does not know <%s>.
+command.intangible:setknol.added=Knol <%s> added to player <%s>.
+command.intangible:setknol.removed=Knol <%s> removed from player <%s>.
+command.intangible:setknol.removedall=Removed all such knols from player <%s>.
+command.intangible:setknol.addedall=Added all such knols to player <%s>.
+command.intangible:listknol.nothingknown=Player <%s> knows nothing on this topic.
+
+# ENTITIES
+
+entity.intangible.pigvillager.name=猪人
+entity.intangible.wreckinggolem.name=落难傀儡
+entity.intangible.spell.name=Spell
+entity.intangible.avatarbiped.name=Avatar
+entity.intangible.avatarof.name=Avatar of %s
+entity.intangible.soul.name=Soul
+entity.intangible.knowledgegem.name=Book
+entity.intangible.raisingblock.name=Block
+entity.intangible.earthgolem.name=地傀儡
+entity.intangible.spiderblock.name=蜘蛛化方块
+entity.intangible.seeker.name=Spell
+entity.intangible.spikeball.name=Spell
+entity.intangible.hollowirongolem.name=铁傀儡
+entity.intangible.skybeam.name=Beam
+entity.intangible.spellanchor.name=Anchor
+entity.intangible.clone.name=Clone
+entity.intangible.reaper.name=Reaper
+entity.intangible.tool.name=Animated Item
+entity.intangible.chariot.name=Chariot
+entity.intangible.javelin.name=Javelin
+entity.intangible.food.name=Food
+
+entity.intangible.deity.awakened=[red]<%s>[/] [b]I HAVE AWAKENED![/]
+entity.intangible.deity.damaged=[red]<%s>[/] [b]SACRILEGE![/]
+entity.intangible.deity.death=[red]<%s>[/] [b]IMPOSSIBLE!?! I... AM... NO... MORE...[/]
+
+# TILES
+
+tile.intangible:blue_crystal_block.name=蓝晶方块
+tile.intangible:yellow_crystal_block.name=黄晶方块
+tile.intangible:wellofsouls.name=灵魂之井
+tile.intangible:wellofsoulscore.name=灵魂之井
+tile.intangible:wellofsoulscore.report.title=灵魂[br]
+tile.intangible:wellofsoulscore.report.row=%s: %d of %d[br]
+tile.intangible:wellofsoulscore.report.empty=[i]None[/]
+tile.intangible:soulrelay.name=灵魂中继器
+tile.intangible:soulwrench.name=灵魂扳手
+tile.intangible:soulward.name=Soul Ward
+tile.intangible:soulforge.name=灵魂锻造器
+tile.intangible:soulcage_benign.name=亲和石
+tile.intangible:soulcage_benign.soulforge=Place a plinth or offering plate on top to use as part of soul armor forging.
+tile.intangible:soulcage_wise.name=智慧石
+tile.intangible:soulcage_wise.soulforge=Places a block into the world (on any unobstructed side), from the plinth placed above (or below) it. The block will fall if there is no block below it. If four sides are free and there are four blocks in the plinth, four blocks will be placed. Use an offering plate above (or below) instead of a plinth, to pull from inventories known to the forge (see immutable stone in the soul forge).
+tile.intangible:soulcage_malleable.name=可塑石
+tile.intangible:soulcage_malleable.soulforge=Craft an item that matches the pattern based on the layout of [link intangible:benignstone]benign[/] blocks and plinths around this block. The malleable block must be powered by redstone. The created item will be deployed on an unobstructed face of the block, first sides are checked, then below and finally above (if a plinth is found above and all sides are obstructed, the item will be added to the plinth). This block is mostly used for [link intangible:soulbonearmor]soulbone armor[/] crafting and tempering (such recipes must follow the shown pattern and may require additional souls to be consumed from a well). Use offering plates instead of plinths, to pull from inventories known to the forge (see immutable stone in the soul forge). Some say a grid laid out like a normal crafting table, with a block space between each cell, with the malleable block in the output position, allows crafting other items too.
+tile.intangible:soulcage_noble.name=高贵石
+tile.intangible:soulcage_noble.soulforge=A noble soul will pull up any items it finds in a 3x3 region, anywhere below. Placing an item in an offering plate above this block will restrict it to only pull up that type of item.
+tile.intangible:soulcage_doomed.name=注定石
+tile.intangible:soulcage_doomed.soulforge=Use an offering plate containing a block or item dropped from a block, to have the doomed soul seek out and break such blocks in a 3x3 region anywhere below.
+tile.intangible:soulcage_immutable.name=不变石
+tile.intangible:soulcage_immutable.soulforge=Place an inventory block on top, to feed items from the inventory to other parts of the forge when needed. For example, when crafting [link intangible:part_crystallizedsoulbone]crystallized soulbone[/] instead of plinths placed on the benign stone, plates containing the ingredients can be used, and then the forge will pull these ingredients from the inventory in the immutable block instead of the item from the plate.
+tile.intangible:soulcage_unhinged.name=错乱石
+tile.intangible:soulcage_unhinged.soulforge=Places a block into the world (on any unobstructed side), from the plinth placed above (or below) it. The block will [i]rise into the air[/] if there is no block above it. If four sides are free and there are four blocks in the plinth, four blocks will be placed. Use an offering plate above (or below) instead of a plinth, to pull from inventories known to the forge (see immutable stone in the soul forge).
+tile.intangible:soulcage_predatory.name=掠夺石
+tile.intangible:soulcage_predatory.soulforge=Break any blocks on the four sides of this block. Use an offering plate above (or below), to only break blocks matching the item on the plate. Wool blocks and machines do not get broken. Perhaps, use hoppers to pick up the broken blocks.
+tile.intangible:plinth.name=基座
+tile.intangible:deitybuilder.name=神明制造器
+tile.intangible:deitybuilder.report.title=消耗的灵魂[br]
+tile.intangible:deitybuilder.report.row=%s: %d[br]
+tile.intangible:pantheon.name=万神殿
+tile.intangible:offeringplate.name=供盘
+tile.intangible:shrine.name=神社
+tile.intangible:shrine.dedicated=%s的神社
+tile.intangible:bonecage.name=骨笼
+tile.intangible:soulfunnel.name=灵魂漏斗
+tile.intangible:stamper.name=电路压模
+tile.intangible:crystal.name=蓝水晶
+tile.intangible:moltencrystalblue.name=熔融蓝水晶
+tile.intangible:moltencrystalyellow.name=熔融黄水晶
+tile.intangible:moltenglass.name=熔融玻璃
+tile.intangible:blowmold.name=吹模
+tile.intangible:bellows.name=风箱
+tile.intangible:decanter.name=滗析器
+tile.intangible:funnel.name=漏斗
+tile.intangible:splitter.name=分离器
+tile.intangible:gourd.name=葫芦
+tile.intangible:spiral.name=螺旋管
+tile.intangible:infinitesoulwell.name=无限灵魂之井
+tile.intangible:infuser.name=灵魂灌注器
+tile.intangible:shell.name=贝壳
+tile.intangible:reconstructor.name=肉身重塑器
+tile.intangible:golemfactory.name=傀儡制造器
+tile.intangible:syntheticresonator.name=合成谐振器
+tile.intangible:largebutton.name=大型按钮
+tile.intangible:golempartassembler.name=傀儡部件装配机
+tile.intangible:golempartassembler.soulforge=[link intangible:golemparts]Parts[/]或许能用于制造我的傀儡 [link intangible:partassembler]device[/].
+tile.intangible:deityhammer.name=神明锤
+tile.intangible:trigger.name=符咒
+tile.intangible:defense.name=防护水晶
+tile.intangible:slurp.name=空气
+tile.intangible:cloud.name=云
+tile.intangible:largelever.name=大型拉杆
+
+# ITEMS
+
+item.intangible:shard.name=黄水晶
+item.intangible:foci.name=焦点
+item.intangible:soulhelmet.name=魂骨头盔
+item.intangible:soulchestplate.name=魂骨胸甲
+item.intangible:soulleggings.name=魂骨护腿
+item.intangible:soulboots.name=魂骨靴
+item.intangible:knowledgegem.name=知识宝石
+item.intangible:soulbone.name=魂骨
+item.intangible:bucketmoltencrystalblue.name=桶装熔融蓝水晶
+item.intangible:bucketmoltencrystalyellow.name=桶装熔融黄水晶
+item.intangible:bucketmoltenglass.name=桶装熔融玻璃
+
+item.intangible:moldfunnel.name=模子-漏斗
+item.intangible:molddecanter.name=模子-滗析器
+item.intangible:moldsplitter.name=模子-分离器
+item.intangible:moldgourd.name=模子-葫芦
+item.intangible:moldspiral.name=模子-螺旋
+item.intangible:moldbottle.name=模子-玻璃瓶
+item.intangible:moldpane.name=模子-玻璃板
+item.intangible:moldgems.name=模子-宝石
+item.intangible:glass.name=玻璃
+
+item.intangible:part_ironcase.name=铁盒
+item.intangible:part_soulbonesplinters.name=魂骨碎片
+item.intangible:part_soulboneconduit.name=魂骨导管
+item.intangible:part_stonering.name=Stone 环
+item.intangible:part_controlcircuit.name=控制回路
+item.intangible:part_crystallizedsoulbone.name=晶化魂骨
+item.intangible:part_bluegem.name=蓝宝石
+item.intangible:part_yellowgem.name=黄宝石
+item.intangible:part_quantifier.name=Quantifier
+item.intangible:part_emitter.name=Emitter
+item.intangible:part_ponderancelattice.name=Ponderance Lattice
+
+item.intangible:part_golemheadarmored.name=傀儡头部-武装型
+item.intangible:part_golemheadarmored.p1=增加傀儡能够承受的伤害
+item.intangible:part_golemheadregen.name=傀儡头部-修复型
+item.intangible:part_golemheadregen.p1=缓慢的修复傀儡
+item.intangible:part_golemheadhoover.name=傀儡头部-吸力型
+item.intangible:part_golemheadhoover.p1=将附近的掉落物吸入傀儡的物品栏
+item.intangible:part_golembody.name=傀儡躯干-武装型
+item.intangible:part_golembody.p1=增加傀儡能够承受的伤害
+
+item.intangible:part_golembodyturret.name=傀儡躯干-炮塔型
+item.intangible:part_golembodyturret.p1=携带一个供其它玩家使用的炮塔
+
+item.intangible:part_golemleg.name=傀儡下肢-跳跃型
+item.intangible:part_golemleg.p1=降低傀儡的速度但使傀儡获得多重跳跃能力
+item.intangible:part_golemlegfast.name=傀儡下肢-奔跑型
+item.intangible:part_golemlegfast.p1=跑得比香港记者还快！
+item.intangible:part_golemlegcandle.name=傀儡下肢-点蜡型
+item.intangible:part_golemlegcandle.p1=自动使用傀儡物品栏的火把点亮暗处
+item.intangible:part_golemarmclaw.name=傀儡手臂-爪
+item.intangible:part_golemarmclaw.p1=像铲子一样快速挖掘泥土，对单一目标有非常高的伤害，能够使用大型转换器
+item.intangible:part_golemarmhammer.name=傀儡手臂-锤
+item.intangible:part_golemarmhammer.p1=像镐子一样快速挖掘石头，范围打击
+item.intangible:part_golemarmburst.name=傀儡手臂-爆裂
+item.intangible:part_golemarmburst.p1=能够发射会爆炸性能量
+item.intangible:part_golemarmswarm.name=傀儡手臂-多重打击
+item.intangible:part_golemarmswarm.p1=发射多个低伤害能量球，如果能量球没有命中目标，它们将在几秒后自动寻找目标
+item.intangible:part_golemarmaxe.name=傀儡手臂-斧
+item.intangible:part_golemarmaxe.p1=快速砍下树木，范围打击
+item.intangible:part_condensedstoneplate.name=压缩石板
+item.intangible:part_golemarmoredplate.name=傀儡装甲板
+item.intangible:part_golemcore.name=傀儡核心
+item.intangible:part_golemjoint.name=傀儡关节
+item.intangible:part_golemshoulder.name=傀儡肩膀
+item.intangible:part_golemoculus.name=傀儡眼睛
+item.intangible:part_golemthruster.name=傀儡推进单元
+item.intangible:rod.name=杆
+item.intangible:rod.dedicated=%s 杆
+
+item.intangible:boundring.name=灵魂绑定指环
+
+item.intangible:soulleash.name=创造灵魂束缚
+item.intangible:villagefinder.name=村庄检测器
+
+item.intangible:bluecrystalhelmet.name=蓝晶头盔
+item.intangible:bluecrystalhelmet.info=高防御，低耐久
+item.intangible:bluecrystalchestplate.name=蓝晶胸甲
+item.intangible:bluecrystalchestplate.info=高防御，低耐久
+item.intangible:bluecrystalleggings.name=蓝晶护腿
+item.intangible:bluecrystalleggings.info=高防御，低耐久
+item.intangible:bluecrystalboots.name=蓝晶靴
+item.intangible:bluecrystalboots.info=高防御，低耐久
+item.intangible:yellowcrystalhelmet.name=黄晶头盔
+item.intangible:yellowcrystalhelmet.info=高防御，低耐久，停止占用
+
+item.intangible:chariot.name=Chariot
+item.intangible:javelin.name=Javelin
+item.intangible:cornucopia.name=Cornucopia
+
+# FLUIDS
+
+fluid.intangible:moltencrystalblue=熔融蓝水晶
+fluid.intangible:moltencrystalyellow=熔融黄水晶
+fluid.intangible:moltenglass=熔融玻璃
+
+# POTIONS
+
+potion.intangible:bloodlust=嗜血
+potion.intangible:cowardly=胆怯
+potion.intangible:tank=肉盾
+potion.intangible:pickpocket=扒手
+
+# CONTAINERS
+
+intangible:container.offeringplate=Offering
+intangible:container.plinth=Plinth
+
+intangible:container.plinth.sacreditem1=Sacred Item
+intangible:container.plinth.sacreditem2=Sacred Item
+intangible:container.plinth.sacreditem3=Sacred Item
+
+intangible:container.plinth.color=Color
+intangible:container.plinth.worship1=Worship Area
+intangible:container.plinth.worship2=Worship Area
+
+intangible:container.plinth.voice=Voice
+
+intangible:container.plinth.avatarbody=Avatar Body
+intangible:container.plinth.avatarpower=Avatar Power
+
+intangible:container.plinth.minoreffect=Minor Power
+intangible:container.plinth.majoreffect=Major Power
+intangible:container.plinth.constraint=Constraint
+
+intangible:container.plinth.templeeffect=Temple Power
+intangible:container.plinth.blessingeffect=Blessing
+intangible:container.plinth.curseeffect=Curse
+
+# JEI
+
+gui.jei.intangible:stamper=Circuit Stamper
+gui.jei.intangible:blowmold=Blow Mold
+gui.jei.intangible:golemparts=Golem Part Assembler
+gui.jei.intangible:soulforge=Soul Forge
+
+# PASSIVE EFFECTS
+
+effect.intangible:armor=Armor
+spell.intangible:armor.details=Increase the protection of your[br]armor.
+
+effect.intangible:claws=Claws
+spell.intangible:claws.details=Grow claws to do significant[br]unarmed damage.[br]Needs chest armor.
+
+effect.intangible:momentum=Momentum
+spell.intangible:momentum.details=Smash through blocks when[br]sprinting.
+
+effect.intangible:tendrils=Tendrils
+spell.intangible:tendrils.details=Pick up nearby items and[br]deflect some projectiles.[br]Needs chest armor.
+
+effect.intangible:shield=Shield
+spell.intangible:shield.details=Completely deflects one attack,[br]then it must recharge.
+
+effect.intangible:wings=Wings
+spell.intangible:wings.details=Allows flight and prevents[br]fall damage.[br]Needs chest armor.
+
+effect.intangible:procburn=Burn
+spell.intangible:procburn.details=Can set a [aqua]focused[/][br]creature alight.
+
+effect.intangible:proclaunch=Launch
+spell.intangible:proclaunch.details=Can throw a [aqua]focused[/][br]creature into the air.
+
+effect.intangible:repair=Repair
+spell.intangible:repair.details=Slowly repairs your armor.
+
+effect.intangible:dig=Dig
+spell.intangible:dig.details=Shift-use to dig blocks at range.
+
+effect.intangible:vision=Vision
+spell.intangible:vision.details=See creatures through blocks.
+
+effect.intangible:place=Place
+spell.intangible:place.details=Place blocks far away, shift-use[br]to place blocks in the air.
+
+effect.intangible:slowfall=Slowfall
+
+effect.intangible:overclock=Overclock
+spell.intangible:overclock.details=Boosts the effectiveness[br]of other effects.
+
+effect.intangible:unexpected=Unexpected
+spell.intangible:unexpected.details=Adds unexpected behaviour[br]to other effects.
+
+effect.intangible:swipe=Swipe
+spell.intangible:swipe.details=Shift-swing to blast a nearby[br]creature, then it must recharge.
+
+effect.intangible:push=Push
+spell.intangible:push.details=Shift-swing to push away nearby[br]creatures, then it must recharge.
+
+effect.intangible:incorporeal=Incorporeal
+spell.intangible:incorporeal.details=Leave your body and travel[br]intangibly, possess what you will.
+
+effect.intangible:strength=Strength
+spell.intangible:strength.details=Do more damage with each hit.
+
+effect.intangible:procheal=Heal
+spell.intangible:procheal.details=Heals when hitting a[br][aqua]focused[/] creature.
+
+effect.intangible:procdodge=Dodge
+spell.intangible:procdodge.details=Can dodge a [aqua]focused[/][br]creature's attack.
+
+effect.intangible:procclone=Clone
+spell.intangible:procclone.details=Replace yourself with[br]a clone after a [aqua]focused[/][br]creature's attack.
+
+effect.intangible:pacified=Pacified
+
+effect.intangible:charged=Charged
+spell.intangible:charged.details=Release a burst of built-up[br]energy when attacked.
+
+effect.intangible:cloudwalk=Cloud Walk
+spell.intangible:cloudwalk.details=Sneak when airborne[br]to walk on the clouds.
+
+effect.intangible:procreaper=Reaper
+spell.intangible:procreaper.details=Chance to summon a Reaper[br]to chase and kill a [aqua]focused[/][br]creature.
+spell.intangible:procreaper.warning=Flee! A [darkred]Reaper[/] seeks you!
+
+effect.intangible:coward=Coward
+effect.intangible:starving=Starving
+
+# SPELLS
+
+spell.intangible:doombolt=Doombolt
+spell.intangible:doombolt.details=High-damaging projectile of[br]force, can harm souls.
+
+spell.intangible:soulleash=Soul Leash
+spell.intangible:soulleash.details=Projectile that attaches a leash[br]to a soul, second use detaches.
+
+spell.intangible:animategolem=Animate Golem
+spell.intangible:animategolem.details=Animates the large chunk of[br]earth or rock the projectile hits.
+
+spell.intangible:animatespider=Animate Spider
+spell.intangible:animatespider.details=Animates the block of earth[br]or rock the projectile hits.
+
+spell.intangible:swarm=Swarm
+spell.intangible:swarm.details=Multiple low-damage projectiles[br]that seek their prey.
+
+spell.intangible:trigger=Trigger
+spell.intangible:trigger.details=Cast to place soul at location.[br] Recast to trigger signal at original soul.[br]Cast at original to clear.
+
+spell.intangible:slingshot=Slingshot
+spell.intangible:slingshot.details=Cast to place a connected soul[br]that will pull harder the further away[br]the caster moves, eventually breaking.
+
+spell.intangible:gravitywell=Gravity Well
+spell.intangible:gravitywell.details=Cast to pull everything[br]near to it.
+
+spell.intangible:mirrorimage=Mirror Image
+spell.intangible:mirrorimage.details=Create a clone and[br]swap places with it.
+
+spell.intangible:shatter=Shatter Clones
+spell.intangible:shatter.details=Destroy clones near impact and[br]cause AOE damage to nearby targets.
+
+
+spell.intangible:pacify=Pacify
+spell.intangible:pacify.details=Throw grenade that will pacify[br]any creatures near where it explodes.
+
+spell.intangible:animatetool=Animate Tool
+spell.intangible:animatetool.details=Cast at a sword, bow or tool[br]to bring it to life.
+
+spell.intangible:castingcost.title=[blue]Casting Cost[/]
+spell.intangible:castingcost.item=%d %s [gray][%.1f s][/]
+spell.intangible:maintaincost.title=[blue]Maintain Cost[/]
+spell.intangible:maintaincost.item=%d %s
+spell.intangible:requiredknowledge.title=[darkyellow]Spell requires more knowledge:[/]
+
+# PRIEST SPELLS
+
+priest.intangible:blessing.title=Blessing
+priest.intangible:blessing.details=Bless all followers nearby
+priest.intangible:curse.title=Curse
+priest.intangible:curse.details=Curse all non-devout nearby
+priest.intangible:summonavatar.title=Summon Avatar
+priest.intangible:summonavatar.details=Summon the avatar of %s
+priest.intangible:minorpower.title=Power of %s
+priest.intangible:minorpower.details=Invoke the power of %s
+
+priest.intangible:cooldown=[blue]Cooldown[/] %ds
+priest.intangible:cooldownactive=[blue]Cooldown[/] %ds (ready in: %ds)
+priest.intangible:worship=[blue]Worship[/] %d/%d
+priest.intangible:worship.details=[purple]%s[/] %d
+
+# SOULS
+
+soul.intangible:benign=[aqua]Benign（亲和）[/]
+soul.intangible:doomed=[darkblue]Doomed（注定）[/]
+soul.intangible:immutable=[gray]Immutable（不变）[/]
+soul.intangible:malleable=[darkgreen]Malleable（可塑）[/]
+soul.intangible:noble=[darkyellow]Noble（高贵）[/]
+soul.intangible:wise=[green]Wise（智慧）[/]
+soul.intangible:unhinged=[red]Unhinged（错乱）[/]
+soul.intangible:predatory=[darkpurple]Predatory（掠夺）[/]
+
+# KNOLS
+
+knol.intangible:learned=Discovery: [darkyellow]%s[/]
+
+knol.intangible:souls=Souls
+knol.intangible:noble=Noble Soul
+knol.intangible:benign=Benign Soul
+knol.intangible:immutable=Immutable Soul
+knol.intangible:predatory=Predatory Soul
+knol.intangible:doomed=Doomed Soul
+knol.intangible:unhinged=Unhinged Soul
+knol.intangible:malleable=Malleable Soul
+knol.intangible:wise=Wise Soul
+knol.intangible:soulbone=Soulbone
+knol.intangible:crystal=Crystal
+knol.intangible:soulmanipulation=Soul Manipulation
+knol.intangible:soultransfusion=Soul Transfusion
+
+
+# BOOK
+
+book.intangible:pagenumber=Page %d/%d
+book.intangible:layernumber=Layer %d/%d
+book.intangible:layersize=Size %dx%d
+book.intangible:recipestamping=Circuit Stamper
+book.intangible:recipemold=Blow Mold
+book.intangible:recipeforge=Soul Forge
+book.intangible:recipegolempart=Part Assembler
+book.intangible:soulcost=%s: %d
+book.intangible:usedsouls=[u]Working Souls[/]
+book.intangible:consumedsouls=[u]Consumed Souls[/]
+
+book.intangible:index.title=On Matters Incorporeal
+
+
+
+
+# Concepts
+
+# Souls
+book.intangible:souls.title=Souls
+book.intangible:souls.p1=Creatures appear to contain an essential energy, or soul.
+
+# Detecting Souls
+book.intangible:detectingsouls.title=Detecting Souls
+book.intangible:detectingsouls.p1=Having discovered that souls inhabit the bodies of living creatures, it is time to quantify, what they actually are, and indeed if there is just one type or many. For this task I will need to build some suitable [link intangible:glassware]equipment[/]. I believe that this will require the subject to be held in place surrounded by a [link intangible:bonecage]cage made of Soulbone[/], this will act as a conduit to syphon off a portion of the creatures soul, at least temporarily. To this [link intangible:bonecage]cage[/], I will attach a [link intangible:funnel]device for funnelling[/] the captured essence, I am pretty convinced this [link intangible:funnel]funnel[/] will need to be powered by redstone to actually pull the soul. Finally, I will need to attach to the [link intangible:funnel]funnel[/], various pieces of [link intangible:glassware]apparatus[/] in a chain. The order and type probably will lead to a discovery or two. For the record, I suspect that some combination of four [link intangible:decanter]decanters[/], [link intangible:splitter]splitters[/], [[link intangible:gourd]gourds[/] and/or [link intangible:spiral]spirals[/] will be necessary (perhaps more than one of each). Resetting the redstone signal to the funnel will probably be necessary to restart the experiment between attempts.
+
+# Extracting souls
+book.intangible:extractingsouls.title=Extracting Souls
+book.intangible:extractingsouls.p1=So having found a way to identify a soul, the next stage is to actually get the soul from its corporeal container. I have been postulating that the [link intangible:soulrelay]soul relay[/] device may be of some benefit in this task. I am aware that two relays on top of each other create an amplified, but very short range attractive field. If I were to place two such redstone-powered pillars either side of the [link intangible:bonecage]bone cage[/] in the experiment that I use to detect a soul I believe the soul will be in such a destabilized state, that it will be pulled in its entirety from the body when I activate the experiment. The real question is what to do with the souls once I have them.
+
+# Maneuvering Souls
+book.intangible:movingsouls.title=Directing Souls
+book.intangible:movingsouls.p1=Souls are naturally attracted to soulbone, and a device that magnifies and focuses this effect is most likely to be the best way to direct them. I propose a [link intangible:soulrelay]Soul Relay[/], that when powered by redstone will attract souls free of their corporeal form. A chain of such devices, no further than 16m from each other should allow me to create pathways for the incorporeal.
+
+# Storing Souls
+book.intangible:storingsouls.title=Storing Souls
+book.intangible:storingsouls.p1=Apart from the corporeal container from which a soul comes, I theorise it is possible to store souls permanently in an artificial structure. Such a construct would need to be made of a [link intangible:materials]material[/] that exhibits complete neutrality and passivity. I wonder if I am able to infuse the [link intangible:benign]Benign souls[/] that I have discovered into a neutral material such as [black]Stone[/]? Would such a material exhibit the properties I require? If it does, and can theorise the creation of an infinite [link intangible:wellofsouls]Well[/] of these souls, by setting twelve blocks of this [link intangible:benignstone]Benign Stone[/] arranged in a ring, three blocks per side.
+
+# Absorbing Souls
+book.intangible:absorbingsouls.title=Absorbing Souls
+book.intangible:absorbingsouls.p1=So it becomes apparent that to truly influence another soul, I must take direct control over it. This means letting it reside, at least temporarily, within my own body. I believe that with sufficient mental training, I will then be able to command the soul to do my bidding in some limited way. I will need to construct an [link intangible:infuser]infusion device[/] that is capable of transposing a soul from the [link intangible:wellofsouls]Well of Souls[/] into my very being. I am quite certain that there will be limits to the number (and perhaps types) of souls I am able to absorb, although with practice, I am sure this number may grow. I am more or less certain, that the [link intangible:infuser]infusion device[/] will allow addition, removal and substitution of souls, so I am able to experiment freely. I believe that a basic knowledge of each soul type will allow me to control at best two souls per soul researched. Perhaps other research can expand on this basic quantity.
+
+# Casting Spells
+book.intangible:spellcasting.title=Spellcasting
+book.intangible:spellcasting.p1=With souls now under my mental will, I should be able to command them to perform what the less rational individual might call magic.
+
+book.intangible:spellcastingfoci.title=Casting Foci
+book.intangible:spellcastingfoci.p1=I suppose that forcing my will upon these souls will result in some effect or another randomly spewing forth, I feel that creating a [link intangible:foci]Foci Device[/], to refine this process will allow much more useful effects to be produced. Indeed, who is to distinguish me from the wizards of yore? Any spell I cast will require a certain quantity of souls to be used for a time. Other spells may require the souls to stay in use for the duration I keep the spell active.
+
+book.intangible:spellcastingspelltypes.title=Spell Types
+book.intangible:spellcastingspelltypes.p1=Spells will either have a casting cost in souls, a maintenance cost, or both.
+
+book.intangible:spellcastingprepared.title=Prepared Spells
+book.intangible:spellcastingprepared.p1=Prepared spells when selected go into a ready state, so when a [link intangible:foci]Foci[/] is used a second time the spell is actually cast. The spells do not require [link intangible:soulbonearmor]soulbone armor[/] to use and souls will automatically become available after a time. These spells have a rounded icon in the [link intangible:foci]Foci[/] interface.
+
+book.intangible:spellcastingpassive.title=Passive Spells
+book.intangible:spellcastingpassive.p1=Passive spells remain active until dispelled (with a second casting), they consume the maintenance cost in souls until dispelled. Passive spells that have a maintenance cost, require [link intangible:soulbonearmor]soulbone armor[/] to be [link intangible:soulbonearmortempering]tempered[/] to meet the maintenance cost of the spell. Passive spells have a square icon in the [link intangible:foci]Foci[/] casting interface. Passive spells may trigger automatically, or they may require some other action like attacking, or sneak using.
+
+book.intangible:spellcastingfocused.title=Focused Spells
+book.intangible:spellcastingfocused.p1=Focused Spells are [link intangible:spellcastingpassive]passive[/] spells that will trigger there effect when a single enemy is repeatedly attacked.
+
+book.intangible:spellcastingrebellion.title=Rebellion
+book.intangible:spellcastingrebellion.p1=Using souls to perform spell-like effects may result in them starting to object, an effect I will term [i]rebellion[/]. This process may be visualized as a colorful bar that fills behind my absorbed souls. Should the rebellion reach its maximum level, I will be unable to use souls for casting, and all souls currently in use will immediately stop what they are doing. Rebellion will naturally abate over time.
+
+# Transfusing Souls
+book.intangible:soultransfusion.title=Transfusing Souls
+
+book.intangible:soultransfusionprocess.title=Soul Transfusion
+book.intangible:soultransfusionprocess.p1=Using a Corporeal [link intangible:reconstructor]Reconstructor[/] with a [link intangible:bonecage]bone cage[/] above it, I will be able to trap soulless creatures for the purpose of reacquainting them with a soul. Such a soul will need to be compatible with the body, for example a zombie is essentially just a soulless villager, so using a villager's soul should lead to obvious results. More interestingly, I suspect other types of zombified creatures, may also accept a villager's soul, although I am not completely sure what may happen to it when it finds a new host, perhaps something new, only more experimentation will unlock this knowledge.
+
+book.intangible:soultransfusionstructure.title=Transfuse Structure
+
+book.intangible:soultransfusionrecipes.title=Transfusions
+
+book.intangible:transfusezombie.title=Zombie to Villager
+book.intangible:transfusezombie.p1=If I trap a normal zombie in the cage, I may be able to reacquaint with a villagers souls.
+book.intangible:transfusezombiepigman.title=Zombie Pigman to Pigman
+book.intangible:transfusezombiepigman.p1=How interesting, I wonder if putting a villager's soul in one of these strange zombified pigs, will have a useful effect?
+
+# Intangibility
+book.intangible:intangibility.title=Intangibility
+book.intangible:intangibility.p1=So the power to separate myself from my own body is now mine. Casting the Incorporeal spell with the aid of the [link intangible:malleable]Malleable[/] souls residing in my body allows for a clean separation. It seems travelling as a soul has a few benefits, flight and invisibility being two of them. The only drawback is I am unable to interact with the world, only re-entering my own body. I also seem to be able to pass through thin walls. A discovery! I can also interact with other creatures, and possess them, directing their movements to a degree. A strange trait that this form of existence possesses, is an awareness of where my physical form resides, and upon directing myself towards this form, I travel there with utmost speed. Now just to find a [link intangible:reconstructor]way to form[/] more of these corporeal shells, and rapid travel will be a very beneficial consequence. I wonder too, if I can construct a [link intangible:golems]device[/] that can only be controlled by one who has mastered this skill?
+
+# Soul Types
+book.intangible:soultypes.title=Types of Soul
+book.intangible:soultypes.p1=It appears that there are indeed differing types of soul, each presumably can be used for different purposes.
+
+book.intangible:noble.title=Noble Soul
+book.intangible:noble.p1=The soul from a divine being. What uses could such a thing yield.
+
+book.intangible:benign.title=Benign Soul
+book.intangible:benign.p1=A benign soul seems to be present in creatures that act passively, or gently. I postulate that such souls will be of use in magics that require benevolence or passivity.
+
+book.intangible:immutable.title=Immutable Soul
+book.intangible:immutable.p1=Unchanging and stoic, an artificial soul created for an artificial being. Such a soul exemplifies permanence.
+
+book.intangible:predatory.title=Predatory Soul
+book.intangible:predatory.p1=The soul of a carnivore, forever hungry and on the hunt, seeking its prey.
+
+book.intangible:doomed.title=Doomed Soul
+book.intangible:doomed.p1=A being damned for eternity, its doom transcending its physical form. Cursed forever.
+
+book.intangible:unhinged.title=Unhinged Soul
+book.intangible:unhinged.p1=Madness incarnate, perhaps too many rebirths fragment and ruin the soul. What use but chaos and confusion can such a soul yield.
+
+book.intangible:malleable.title=Malleable Soul
+book.intangible:malleable.p1=Flexibility appears to be the principle trait of this soul, changing and yielding as required.
+
+book.intangible:wise.title=Wise Soul
+book.intangible:wise.p1=Experience and above all sentience, the wise soul is that with which I am most acquainted.
+
+# Materials
+book.intangible:materials.title=Materials
+book.intangible:soulbone.title=Soulbone
+book.intangible:soulbone.p1=I have discovered that exposing bone to the escaping soul of a dying creature somehow alters the bone. I observed, what can only be described as a glimpse of something traversing the length of the bone, almost as if it was acting as a conduit. I suspect if I can find a way to prevent the essence of the creature dissipating, simply exposing bones to it will be enough to produce endless supplies of this material.
+
+book.intangible:crystal.title=Crystal
+book.intangible:crystal.p1=It seems that [black]Lapis Lazuli[/] and [link intangible:soulbone]Soulbone[/] crystallize when left for a while in water. The resulting crystalline structure amazingly appears to grow rapidly when exposed to air. I have noticed that placing shards of the crystal into stone has the best growth rate, sometimes even forming an off-colored, but especially pure column. I suspect that both forms of this crystal (blue and yellow), will have a melting point lower than that of lava. I may be able to melt the crystal by dropping it into still or flowing lava, and then form it in a [link intangible:blowmold]mold[/].
+
+book.intangible:sentientstone.title=Sentient Stone
+book.intangible:sentientstone.p1=I believe that I am able to imbue living rock with a degree of sentience.
+book.intangible:makingsentientstone.title=Manufacture
+book.intangible:makingsentientstone.p1=A walking soul must be trapped within four redstone-powered [link intangible:soulrelay]relay columns[/] for the soul to be ripped asunder. Living rock placed around the soul, will absorb part of soul as it is shredded, creating the material corresponding to the type of soul. I have found that only natural stone will suffice for this task. To attract the soul, I should probably place a powered [link intangible:soulrelaycolumn]relay[/] below the center of the structure.
+book.intangible:sentientstonetypes.title=Types of Sentient Stone
+book.intangible:wisestone.title=Wise Stone
+book.intangible:wisestone.p1=It seems that this material has an unexpected air of intelligence about it.
+book.intangible:benignstone.title=Benign Stone
+book.intangible:benignstone.p1=This material seems oddly inert, I almost wonder if it differs from normal stone in any way at all.
+book.intangible:noblestone.title=Noble Stone
+book.intangible:noblestone.p1=...
+book.intangible:predatorystone.title=Predatory Stone
+book.intangible:predatorystone.p1=Just being near this material makes me feel aggressive.
+book.intangible:doomedstone.title=Doomed Stone
+book.intangible:doomedstone.p1=...
+book.intangible:unhingedstone.title=Unhinged Stone
+book.intangible:unhingedstone.p1=What madness will using this material create.
+book.intangible:malleablestone.title=Malleable Stone
+book.intangible:malleablestone.p1=A truly flexible material
+book.intangible:immutablestone.title=Immutable Stone
+book.intangible:immutablestone.p1=Stone, forever and enduring.
+
+# Devices
+book.intangible:devices.title=Devices
+
+book.intangible:blowmold.title=Blow Mold
+book.intangible:blowmold.p1=Forcing air, with a [link intangible:bellows]bellows[/], into a filled mold placed in this device, will allow me to form intricate crystalline apparatus. After crafting a suitable [link intangible:molds]mold[/] and placing it in this device, I must then simply fill it with a molten material, like [link intangible:crystal]crystal[/] or glass. Then I must use a [link intangible:bellows]bellows[/] to apply a constant stream of concentrated air. When complete, the the finished item may be removed by hand or hopper. It seems that pouring the molten material into the mold with a bucket, or letting it run over the top is sufficient to fill the mold.
+
+book.intangible:molds.title=Molds
+
+book.intangible:bellows.title=Bellows
+book.intangible:bellows.p1=Harnessing the power of good ol' elbow grease, I am able to produce a continuous air flow. Apart from the rather benign use of this tool to blow items around, I feel this will be perfect to form crystalline objects in a [link intangible:blowmold]blow mold[/]. I also suspect that a furnace will burn more efficiently if fed by a bellows. Perhaps I can even rend the flesh off of a zombie trapped in a bonecage.
+
+book.intangible:circuitstamper.title=Circuit Stamper
+book.intangible:circuitstamper.p1=This device allows me to create certain intricate components for use in my larger projects. I must place the appropriate components in the four slots and then deliver a redstone pulse (using a button or lever) from the side or front. This device may receive a redstone current from the rear, to prevent the last component in each slot being consumed.
+
+book.intangible:knowledgegem.title=Knowledge Gem
+book.intangible:knowledgegem.p1=A simple device that projects my own knowledge.
+
+book.intangible:soulrelay.title=Soul Relay
+book.intangible:soulrelay.p1=This device exploits the natural attraction souls have to soulbone, and amplifies it. By powering this device with redstone, souls detached from their bodies will be drawn towards it, making it the perfect way to direct the bodyless souls. I suspect that placing two relays one above the other will concentrate this effect horizontally but over a short distance. Two or more such pillars spaced one block apart, should create a suitable field between them to render a soul into an unstable state, perhaps allowing its easy removal from its host. Indeed, four such pillars could do terrible things to a soul huddling at their center.
+
+book.intangible:bonecage.title=Bone Cage
+book.intangible:bonecage.p1=A cage of [link intangible:soulbone]soulbone[/] is the perfect way to trap creatures for my experiments. I just need them to stand in front of the cage before I snap it closed (whether by hand or with a redstone switch). I suspect the more mighty creatures will not remain trapped however.
+
+book.intangible:glassware.title=Glassware
+book.intangible:glassware.p1=Various utensils, formed from molten [link intangible:crystal]blue crystal[/] in a [link intangible:blowmold]blow mold[/], combined together to aid my [link intangible:detectingsouls]research[/] of [link intangible:souls]souls[/].
+
+book.intangible:funnel.title=Funnel
+book.intangible:funnel.p1=The funnel, when attached to a [link intangible:bonecage]bone cage[/] will syphon off a small portion of the trapped creatures essence when powered with a redstone current. A chain of other glassware attached to the funnel will yield the information I require.
+
+book.intangible:decanter.title=Decanter
+book.intangible:decanter.p1=
+
+book.intangible:gourd.title=Gourd
+book.intangible:gourd.p1=
+
+book.intangible:spiral.title=Spiral
+book.intangible:spiral.p1=
+
+book.intangible:splitter.title=Splitter
+book.intangible:splitter.p1=
+
+book.intangible:wellofsouls.title=Well of Souls
+book.intangible:wellofsouls.p1=The artificial way to store souls, without the need for a corporeal host. This structure must be made from twelve [link intangible:benignstone]Benign Stone[/] blocks arranged in a ring, three blocks per side. When the last block is placed, the soul fragments contained within them will form the final construct. I am convinced that nearby souls will be attracted to a Well of Souls and enter it, forever losing the last vestiges of their material forms.
+
+book.intangible:infuser.title=Soul Infuser
+book.intangible:infuser.p1=At last something practical! With this device I am able to transpose souls from the [link intangible:wellofsouls]Well of Souls[/] into my body. I must just select the types and quantity of souls I require (each side of the device allows me to configure a separate type of soul), ensure such souls are in nearby (say 16m away) Well, power the Infuser with redstone and then stand on it for a time. Any souls I am harbouring will be returned to the well, and those I have selected transferred into my body. Placing multiple infusers above one another, will allow me to specify richer combinations of souls to infuse (up to four types per infuser).
+
+book.intangible:foci.title=Foci
+book.intangible:foci.p1=This device will give me refined control over the souls I have [link intangible:absorbingsouls]absorbed[/], and allow the otherwise chaotic command over them to be turned into many useful, magic-like effects. Using the Foci, will allow me to move my hand in such a way that an effect may be selected and either cast immediately, or prepared to be cast when I next use the Foci.[br][i]Tip: When a spell effect is hovered over, pressing a number key will add a shortcut to it, so that holding the use-button and pressing the corresponding number is all that is needed in future. Holding the inventory key which the spells are visible allows spell icons to be moved around.[/]
+
+book.intangible:defense.title=Defensive Crystal
+
+book.intangible:defenseoverview.title=Overview
+book.intangible:defenseoverview.p1=Such a crystal can be used to summon a certain type of soul to take an action when an unknown creature approaches within perhaps 2 blocks. A crystal may be [link intangible:defense_tempering]tempered[/] with the soul type required. When a create approaches, if a nearby [link intangible:wellofsouls]Well[/] contains a suitable soul, it will be summoned and perform its required defensive action. All nearby creatures at the time the crystal is placed will be ignored by it, the placer may use the crystal (with an empty hand) to toggle whether they activate the crystal or not. I believe placing up to 6 [link intangible:part_bluegem]blue gems[/] on the crystal will increase its detection zone by one block for each gem added. Adding up to 6 [link intangible:part_yellowgem]yellow gems[/] can have an effect on the power of the crystal's effect.
+
+book.intangible:defense_tempering.title=Tempering
+book.intangible:defense_tempering.p1=A crystal can only hold a single tempering at a time. Repeated tempering will replace the original temper.
+
+book.intangible:defenseblocks.title=Blocks
+book.intangible:defenseblocks.p1=
+
+[br][br][aqua]Benign[/]: Push back[br][darkgray]Immutable[/]: Solidify - Immobile, heavy and resistant.[br][darkpurple]Predatory[/]: Cause pain.[br][darkblue]Doomed[/]: Remove earth - Temporarily remove the top layers.[br][red]Unhinged[/]: Send away - within 64 blocks.[br][darkgreen]Malleable[/]: Redstone signal.[br][green]Wise[/]: Monster attraction.[br][darkyellow]Noble[/]: Project upwards.[br][br]
+
+book.intangible:defensebenign.title=Benign Crystal
+book.intangible:defensebenign.p1=Gently pushes back unwelcome guests.
+
+book.intangible:defenseimmutable.title=Immutable Crystal
+book.intangible:defenseimmutable.p1=Solidifies nearby creatures, making them heavy, immobile and very resistant.
+
+book.intangible:defensepredatory.title=Predatory Crystal
+book.intangible:defensepredatory.p1=Takes small bites from those near, should they not flee away.
+
+book.intangible:defensedoomed.title=Doomed Crystal
+book.intangible:defensedoomed.p1=Temporarily removes the top layers of earth in the area around it, replacing them when the creature leaves. The area removed is proportional to the number of yellow gems.
+
+book.intangible:defenseunhinged.title=Unhinged Crystal
+book.intangible:defenseunhinged.p1=Forces the invading creatures to go somewhere, some distance away.
+
+book.intangible:defensemalleable.title=Malleable Crystal
+book.intangible:defensemalleable.p1=Causes all nearby monsters to become very interested in the intruder.
+
+book.intangible:defensewise.title=Wise Crystal
+book.intangible:defensewise.p1=Generates a redstone signal.
+
+book.intangible:defensenoble.title=Noble Crystal
+book.intangible:defensenoble.p1=Launches those near into the sky, a distance equal proportional to the number of yellow gems.
+
+book.intangible:villagefinder.title=Village Detector
+book.intangible:villagefinder.p1=This thing seems to illuminate the closer I am to a village.
+
+book.intangible:reconstructor.title=Corporeal Reconstructor
+book.intangible:reconstructor.p1=I theorize that this device will enable me to rebuild the physical form of a soul.
+
+book.intangible:reconstructor2.title=Transfusing Souls
+book.intangible:reconstructor2.p1=If I power this device with redstone, and set a bone cage on top of it, I suspect that I may be able to [link intangible:soultransfusion]transfuse[/] a suitable soul from a Well into a zombified, and soulless body, within the cage. It will probably be necessary to surround the cage with Benign Stone to ease the transition of the soul into its new host.
+
+book.intangible:reconstructor3.title=Reconstructing Bodies
+book.intangible:reconstructor3.p1=While standing on this redstone powered device (with no cage on it), I will be able to fully form a new body around my own soul, should I be free from my [link intangible:intangibility]physical form[/] at the time.
+
+book.intangible:soulforge.title=Soul Forge
+
+book.intangible:soulforging.title=Forging with Souls
+book.intangible:soulforging.p1=At last, a major breakthrough, I have found the necessary method to focus the souls in a Well to work for me for a short time. The Soul Forge device can be thought of as the coordinator of an organized process of work. Placing suitable devices or materials near to it and giving it a redstone signal, will enable the Forge to direct souls to the device and perform whichever task is appropriate. It seems it will work best with blocks of [link intangible:sentientstone]sentient stone[/] placed withing 16 blocks of it, performing various effects dependent on the stone type. I will need a soul of the same type as the sentient stone in a nearby well, to actually trigger that stone's effect.
+
+book.intangible:plinth.title=Plinth
+book.intangible:plinth.p1=A simple stone platform, onto which items of a single type may be placed. Plinths are used in a [link intangible:soulforge]soul forge[/], to aid in the construction of various items.
+
+book.intangible:offeringplate.title=Offering Plate
+book.intangible:offeringplate.p1=A gem encrusted plate, onto which a single item may be placed. Offering Plates are used in a [link intangible:soulforge]soul forge[/], to identify a specific item of block to be used by the Forge.
+
+book.intangible:resonator.title=Synthetic Resonator
+book.intangible:resonator.p1=At last, the secret to extracting the soul of a synthetic being, is revealed to me. Placing this device atop the [link intangible:bonecage]bone cage[/] I use to [link intangible:extractingsouls]extract[/] souls will disable the inherent resistance that synthetic beings have to the separation process. The only difficulty is that this device must be spinning, and that will require a significant amount of strength, much more than any organic creature possesses. I wonder if I can construct [link intangible:golems]something[/] that can boost my strength?
+
+book.intangible:soulbonearmor.title=Soulbone Armor
+book.intangible:soulbonearmor.p1=Strong and flexible armor made from soulbone in a [link intangible:soulforge]Soul Forge[/] and ideal for souls to influence.
+
+book.intangible:soulbonearmorconstruction.title=Constructing Armor
+book.intangible:soulbonearmorconstruction.p1=It seems that I am able to encourage the souls that I have absorbed, to travel along a soulbone construction, if it is kept close to me. Constructing a suit of armor, made from a hardened form of soulbone, will both enable me to exploit this effect, and provide a reasonable degree of protection from the hazards of the world. The only caveat, is that I must first [link intangible:soulbonearmortempering]temper[/] the armor pieces with souls I have collected, so that I am then able to direct some of the souls I have absorbed of the same type, into the armor I wear. The initial construction of soulbone armor requires the use of a [link intangible:soulforge]Soul Forge[/], and uses a circle of [link intangible:plinth]plinths[/] atop a Benign Stone block with a central Plinth, sitting atop a redstone-powered block of Malleable Stone. Placing the various items required to forge an armor piece onto the plinths, and having the necessary souls in a nearby Well, will allow the creation of the desired item. A final note, crafting a finished piece of armor with dye is a good way to personalize it.
+
+book.intangible:soulbonearmortempering.title=Tempering Armor
+book.intangible:soulbonearmortempering.p1=In order for me to actually push absorbed souls into my armor, I must first temper it to accept that type of soul. Each armor piece can be tempered with each type of soul, from a nearby [link intangible:wellofsouls]well[/], although the used soul is destroyed in the process. Tempering for a specific soul type, will require a different combination of ingredients, used in the same manner as [link intangible:soulbonearmorconstruction]making[/] the armor in the first place. Once tempered, my armor will act as an aggregate, allowing persistent spells to be cast on it, up to a total cost in souls equivalent to the number of souls I have tempered all the pieces of armor with. As an added constraint, it seems that spells that use more than one of a given soul to cast, will only work if all my armor pieces together have been tempered with, at least, that combination of souls.
+
+book.intangible:soulbonehelmet.title=Soulbone Helmet
+book.intangible:soulbonehelmet.p1=
+book.intangible:soulbonehelmet_tempering.title=Tempering Helmet
+
+book.intangible:soulbonechestplate.title=Soulbone Chestplate
+book.intangible:soulbonechestplate.p1=
+book.intangible:soulbonechestplate_tempering.title=Tempering Chestplate
+
+book.intangible:soulboneleggings.title=Soulbone Leggings
+book.intangible:soulboneleggings.p1=
+book.intangible:soulboneleggings_tempering.title=Tempering Leggings
+
+book.intangible:soulboneboots.title=Soulbone Boots
+book.intangible:soulboneboots.p1=
+book.intangible:soulboneboots_tempering.title=Tempering Boots
+
+book.intangible:soulboundring.title=Soulbound Ring
+book.intangible:soulboundring.p1=
+book.intangible:soulboundring_tempering.title=Tempering Ring
+
+book.intangible:parts.title=Parts
+
+# Golems
+
+book.intangible:golems.title=Golems
+book.intangible:golems.p1=Inanimate beings of great power, just requiring a consciousness to direct them.
+
+book.intangible:golemspiloting.title=Piloting Golems
+book.intangible:golemspiloting.p1=The golem is such a useful tool, extremely powerful and unusable by anyone who has not mastered the ability to separate their soul from the body (as I have done with the [link intangible:intangibility]Incorporeal[/] spell). Once a golem is deployed from its construction housing, I must just enter the Incorporeal form, and possess it link any other creature. Golems are fully controllable, so I am able to swing either arm as I do my own arms.
+
+book.intangible:golemfactory.title=Golem Factory
+book.intangible:golemfactory.p1=Golems can be constructed using this apparatus, I must start with a suitable body piece and place it on the frame, and then add arms to the appropriate side, then legs to each side and a finally a head in the appropriate place. I can always swap pieces later should I so desire. Golems also have an internal inventory that will be automatically unloaded should I ever reattach the golem (when pilotted) to the factory frame (the stored items can be access from the back of the frame).
+
+book.intangible:partassembler.title=Golem Part Assembler
+book.intangible:partassembler.p1=This must be used with a [link intangible:soulforge]Soul Forge[/], with components placed on each face.
+
+book.intangible:largebutton.title=Large Button
+book.intangible:largebutton.p1=This button can only be pressed by a golem with a suitable arm attachment.
+
+book.intangible:largelever.title=Large Lever
+book.intangible:largelever.p1=This lever can only be pressed by a golem with a suitable arm attachment.
+
+book.intangible:golemparts.title=Golem Parts
+book.intangible:golemparts.p1=Golem parts can only be made with a golem part [link intangible:partassembler]assembler[/] in a soul forge.
+
+# Deities
+
+book.intangible:deities.title=Deities
+book.intangible:deities.p1=Harnessing the most potent souls require a touch of the divine.
+
+book.intangible:deitiesoverview.title=Deities
+book.intangible:deitiesoverview.p1=It seems that my experiments into creating [link intangible:malleable]new types[/] of soul are too limited in outlook, I will need to [link intangible:deitymanufacture]create[/] a catalyst to deliver the most potent of souls, a divine sentience from which I will syphon the essence I require. Let us hope that such a being can be sufficiently controlled. This endeavour is going to require immense resources in both materials and the souls I have already collected. Should I be successful, I suspect I could make many deities, offering differing benefits should I find sufficient communities to [link intangible:deitiesworship]worship[/] them. I may even need to make a device to keep track of my creations, my very own [link intangible:pantheon]Pantheon[/] of deities. Of course, pandering to these deities may well be necessary to gain benefits from them, but I will need to accelerate certain processes in order to gain the [link intangible:noble]divine souls[/] that I require. Developing a way to [link intangible:deitiesavatars]damage a deity[/], is a sure way to gain their ire, who knows, perhaps they may be foolish enough to send some of their divine essence in the form of an [link intangible:deitiesavatars]avatar[/] to me.
+
+book.intangible:deitymanufacture.title=Fabricating Deities
+book.intangible:deitymanufacture.p1=Is this wise?
+
+book.intangible:deitymanufactureoverview.title=Fabricating Deities
+book.intangible:deitymanufactureoverview.p1=Creating a deity will require the construction of an elaborate [link intangible:deitybuilderstructure]structure[/], on top of which the fabrication [link intangible:deitybuilder]device[/] must be built. The structure must always face north. Under the structure is a 7x7x7 space in which I must build the head of the deity from any type of blocks (it must face [u]northwards[/]). On the structure are multiple [link intangible:plinth]plinths[/] which are labelled with their purpose, into which I must place the appropriate [link intangible:deitycomponents]component[/] for the deity that I am creating. Three of the plinths are labelled with [i]Sacred Item[/], three different items must be chosen and placed in these plinth to uniquely identify this deity. It does not matter which items are used, only that they are all different and the combination has not already been used for another deity. Finally, when the head is made and the plinths are filled, I must supply the fabrication [link intangible:deitybuilder]device[/] with redstone power. At various points during the fabrication process, souls will need to be used, or consumed, from a nearby [link intangible:wellofsouls]well[/]. Each component requires a different quantity and type of souls. It is important to remember that the components that I use for worship restrictions and for blessings and curses must be different from each other. It is probably also important to note that worship restrictions may be mutually exclusive, and choosing two such components (for example [i]At day[/] and [i]At night[/]) would be foolish, since it is not possible to fulfil both.
+
+book.intangible:deitybuilderstructure.title=Fabrication Structure
+book.intangible:deitybuilderstructure.p1=Made of [link intangible:benignstone]Benign Stone[/] and topped with [link intangible:plinth]plinths[/] and the builder [link intangible:deitybuilder]device[/].
+
+book.intangible:deitybuilder.title=Fabrication Device
+book.intangible:deitybuilder.p1=This multiblock has a [link intangible:soulforge]soul forge[/] at its core, and is surrounded by [link intangible:immutablestone]Immutable Stone[/] and [link intangible:malleablestone]Malleable Stone[/] blocks.
+
+book.intangible:deitycomponents.title=Deity Components
+book.intangible:deitycomponents.p1=Place these components in the appropriately labelled [link intangible:plinth]plinths[/].
+
+# DEITY MAJOR POWERS
+
+book.intangible:deitymajorpowers.title=Deity Major Powers
+book.deitymajorpowers.intangible:shortday.title=Short day
+book.deitymajorpowers.intangible:shortday.p1=Time during the day proceeds at twice its normal speed.
+book.deitymajorpowers.intangible:shortnight.title=Short night
+book.deitymajorpowers.intangible:shortnight.p1=Time during the night proceeds at twice its normal speed.
+book.deitymajorpowers.intangible:daytimemonsters.title=Eternal War
+book.deitymajorpowers.intangible:daytimemonsters.p1=Monsters spawn at night and day.
+book.deitymajorpowers.intangible:bumperharvest.title=Bumper Harvests
+book.deitymajorpowers.intangible:bumperharvest.p1=Harvest yields will double, but no harvest will be possible during certain lunar cycles.
+
+# DEITY MINOR POWERS
+
+book.intangible:deityminorpowers.title=Deity Minor Powers
+book.deityminorpowers.intangible:resistant.title=Resistant
+book.deityminorpowers.intangible:resistant.p1=Hard to damage, indeed may do its best to punish those souls who try.
+book.deityminorpowers.intangible:morelightning.title=Increased lightning
+book.deityminorpowers.intangible:morelightning.p1=Increases the chance of lightning strikes during storms. Priests can summon lightning
+book.deityminorpowers.intangible:induceviolence.title=Induce violence
+book.deityminorpowers.intangible:induceviolence.p1=Makes normally peaceful animals aggressive. Priests can induce bloodlust in followers.
+book.deityminorpowers.intangible:naturesbounty.title=Nature's bounty
+book.deityminorpowers.intangible:naturesbounty.p1=Food is more beneficial. Priests can will plants to grow.
+
+# DEITY SHRINE EFFECTS
+
+book.intangible:deityshrineeffects.title=Deity Shrine Effects
+book.deityshrineeffects.intangible:fertility.title=Fertility
+book.deityshrineeffects.intangible:fertility.p1=Causes nearby plants to grow faster.
+book.deityshrineeffects.intangible:intimidate.title=Intimidate
+book.deityshrineeffects.intangible:intimidate.p1=Living creatures, and non-believers will be too fearful to approach this shrine.
+book.deityshrineeffects.intangible:travel.title=Travel
+book.deityshrineeffects.intangible:travel.p1=Followers may instantly travel between shrines, after worship.
+
+# DEITY BLESSINGS AND CURSES
+
+book.intangible:deityblessings.title=Deity Blessings/Curses
+book.deityblessings.intangible:stonewall.title=Stonewall
+book.deityblessings.intangible:stonewall.p1=
+book.deityblessings.intangible:chains.title=Chains
+book.deityblessings.intangible:chains.p1=
+book.deityblessings.intangible:warmachine.title=War Machine
+book.deityblessings.intangible:warmachine.p1=Receive a divine chariot to begin war. Priests can summon javelins.
+book.deityblessings.intangible:cowardice.title=Cowardice
+book.deityblessings.intangible:cowardice.p1=Victim has a hard time confronting danger.
+
+book.deityblessings.intangible:feast.title=Feast
+book.deityblessings.intangible:feast.p1=Receive a Cornucopia of food. Priests bestow a blessing of food.
+
+book.deityblessings.intangible:starve.title=Starve
+book.deityblessings.intangible:starve.p1=Victim slowly starves to death.
+
+# DEITY AVATAR POWERS
+
+book.intangible:avatarpowers.title=Avatar Powers
+
+book.avatarpowers.intangible:healer.title=Healer
+book.avatarpowers.intangible:healer.p1=Heals nearby devout players. On death will fully heal all devout players in the world. Will occasionally convert water bottles it is given by devout players, to a beneficial potion.
+
+book.avatarpowers.intangible:warrior.title=Warrior
+book.avatarpowers.intangible:warrior.p1=Requires enchantments to kill, does more damage and kills all nearby enemies when it dies. Nearby followers receive a strength boost.
+
+book.avatarpowers.intangible:harvester.title=Farmer
+book.avatarpowers.intangible:harvester.p1=Will cause earth to become farmland where it walks, and farmland to get wheat planted. Nearby followers will not get hungry, and enemies will feel hunger.
+
+# DEITY AVATAR BODIES
+
+book.intangible:avatarbodies.title=Avatar Bodies
+book.avatarbodies.intangible:none.title=Floating Head
+book.avatarbodies.intangible:none.p1=
+book.avatarbodies.intangible:biped.title=Humanoid
+book.avatarbodies.intangible:biped.p1=
+book.avatarbodies.intangible:tentacle.title=Tentacle
+book.avatarbodies.intangible:tentacle.p1=
+book.avatarbodies.intangible:angelic.title=Angelic
+book.avatarbodies.intangible:angelic.p1=
+
+# DEITY CONSTRAINTS
+
+book.intangible:deityconstraints.title=Deity Constraints
+book.deityconstraints.intangible:regularworship.title=Regular worship
+book.deityconstraints.intangible:regularworship.p1=The deity must be regularly worshipped.
+book.deityconstraints.intangible:mustkill.title=Must kill
+book.deityconstraints.intangible:mustkill.p1=War must be brought to the enemy.
+book.deityconstraints.intangible:nokilling.title=No killing
+book.deityconstraints.intangible:nokilling.p1=No honest being must be killed.
+book.deityconstraints.intangible:exclusive.title=Exclusive worship
+book.deityconstraints.intangible:exclusive.p1=No other deities may be worshipped.
+book.deityconstraints.intangible:regularharvest.title=Regular harvest
+book.deityconstraints.intangible:regularharvest.p1=Crops must be regularly harvested.
+
+# DEITY VOICES
+
+book.intangible:deityvoices.title=Deity Voices
+book.deityvoices.intangible:choir.title=Choir
+book.deityvoices.intangible:choir.p1=
+book.deityvoices.intangible:lament.title=Lament
+book.deityvoices.intangible:lament.p1=
+book.deityvoices.intangible:angelic.title=Angelic
+book.deityvoices.intangible:angelic.p1=
+book.deityvoices.intangible:beastial.title=Bestial
+book.deityvoices.intangible:beastial.p1=
+
+# DEITY COLORS
+
+book.intangible:deitycolors.title=Deity Colors
+book.intangible:deitycolors.p1=Any of the sixteen vanilla dyes can be used (this includes Lapis Lazuli, Cocoa beans, Bone meal and Ink Sacs).
+
+# DEITY SHRINE RESTRICTIONS
+
+book.intangible:worshiprestrictions.title=Worship Restrictions
+book.worshiprestrictions.intangible:stonebuilding.title=In a stone building
+book.worshiprestrictions.intangible:stonebuilding.p1=The shrine must be enclosed in a stone building, walls must be detected on three sides and a roof must be present, all must be at least four blocks away from the shrine.
+book.worshiprestrictions.intangible:trees.title=In a forest
+book.worshiprestrictions.intangible:trees.p1=Many trees must be found nearby.
+book.worshiprestrictions.intangible:day.title=At daytime
+book.worshiprestrictions.intangible:day.p1=It must be day.
+book.worshiprestrictions.intangible:night.title=At night
+book.worshiprestrictions.intangible:night.p1=It must be night.
+book.worshiprestrictions.intangible:desert.title=In the desert
+book.worshiprestrictions.intangible:desert.p1=It must be a desert biome.
+book.worshiprestrictions.intangible:raining.title=In the rain
+book.worshiprestrictions.intangible:raining.p1=It must be raining.
+book.worshiprestrictions.intangible:cold.title=In snowy places
+book.worshiprestrictions.intangible:cold.p1=It must be a biome where snow can fall.
+book.worshiprestrictions.intangible:high.title=High up
+book.worshiprestrictions.intangible:high.p1=It must be at least 75% of the world height.
+book.worshiprestrictions.intangible:underwater.title=Underwater
+book.worshiprestrictions.intangible:underwater.p1=The shrine must be surrounded by water, and the worshipper must be in the water too.
+
+book.intangible:deitiesmanufacture.p2=On top of the structure I must build the deity fabrication device.
+book.intangible:deitiesmanufacture.p3=Beneath the structure, in the 7x7x7 space, I must create the head of the deity using any materials I desire. The head must look [u]northwards[/]! The [link intangible:plinth]plinths[/] surrounding the device must be filled with items appropriate to the deity I am fashioning, most important of which are the three sacred items that will represent this deity. Each plinth is labeled with what it is used for. When all of the plinths are full, the fabricator can be powered with redstone to begin the process. At various stages souls from a nearby [link intangible:wellofsouls]well[/] will be used and/or consumed depending on the items used to create the deity. On completion, the head and all items will be consumed.
+
+book.intangible:deitiesworship.title=Worshipping Deities
+book.intangible:deitiesworship.p1=Worship requires two things, a dedicated shrine and a suitable surrounding for it. A shrine once made must be dedicated to a specific deity. By placing [link intangible:offeringplate]Offering Plates[/] around the shrine, I will be able to place the three sacred objects of a deity in three of the places, and a suitably valuable offering (such as a gold ingot) in the forth. Activating the shrine should dedicate it to the specific deity. The second part of this process will require me to place the shrine in a suitable location of which the deity approves. Typically a deity will have two restrictions on where a shrine may be placed, as determined when the deity was made. Once the shrine is placed, I or others may use it once in a while to worship the deity, improving its standing and power, and our own favor with it. The more a deity is worshipped, the increasing chance of the worshipper and/or shrine receiving blessings from the deity. While it is possible to worship multiple deities, staying focused on just one will have yield extra benefits. The will of the most worshipped deity in a world will be felt more strongly that the others, the standing of each can be observed using a [link intangible:pantheon]Pantheon[/] device.
+
+book.intangible:deitiespriesthood.title=Priesthood
+book.intangible:deitiespriesthood.p1=If a single deity is [link intangible:deitiesworship]worshipped[/] to the exclusion of others, one becomes devout to that deity. If devout, a [link intangible:rod]rod[/] may be made, and used on the deity's shrine, which given good standing with the deity, may bless the rod, allowing it to be used to invoke the deities power. Once upgraded, a devout individual, may use the rod and select a power to activate it. Some powers require a certain amount of worship to have been performed.
+
+book.intangible:rod.title=Rod
+book.intangible:rod.p1=A [link intangible:deitiespriesthood]devout[/] player, may use a rod on their deity's shrine to have it blessed. Using such a rod grants various powers from the deity.
+
+book.intangible:deitiesavatars.title=Avatars and Noble Souls
+book.intangible:deitiesavatars.p1=An avatar is the physical embodiment of part of a deities essence, and while interacting with an incorporeal entity such as a deity is unlikely to yield the noble souls that I seek; defeating a deity's avatar just may. I suspect that with enough focused worship, it may be possible to be granted a visitation from an avatar, but such ways are for those with more time. I believe that through technology, a device may be crafted that should [link intangible:deityhammer]harm a deity[/], that it will send its avatar in self defense. Defeating an avatar will not be an easy task, and then I suspect I will need to capture its soul in a suitable vessel, perhaps an iron golem devoid of its own soul will be sufficient if placed nearby (after which I can experiment on it normally).
+
+book.intangible:deityhammer.title=Deity Hammer
+book.intangible:deityhammer.p1=Oh what a marvellous device, it fires the soul of a creature to damage a deity.
+book.intangible:deityhammer.p2=
+book.intangible:deityhammer.p3=I must power it with redstone, and have both a [link intangible:malleable]Malleable[/] and 3 [link intangible:predatory]Predatory[/] souls to operate the device and a [link intangible:predatory]Predatory[/] Soul to be consumed, in a [link intangible:wellofsouls]Well[/] nearby. To target a specific deity, I will need to place the three sacred objects of the deity on [link intangible:offeringplate]offering plates[/] surrounding the base of the device. I imagine that with perfect timing, it may even be possible to cause enough sustained damage from these devices to expunge a deity from existence.
+
+book.intangible:pantheon.title=Pantheon
+book.intangible:pantheon.p1=This device, when powered with redstone, will show all of the deities in a world and their three sacred items. The relative height of the deities indicates their relative [link intangible:deitiesworship]worship[/] levels, the highest shown, being the deity who is dominant in the world.
+
+book.intangible:soulwrench.title=Soul Wrench
+book.intangible:soulwrench.p1=This device will wrench the souls from many types of nearby creature.
+book.intangible:soulwrench.p2=The soul wrench must be powered with redstone and surrounded on each corner with two, powered, [link intangible:soulrelay]soul relay[/] pillars. This device requires [link intangible:malleable]malleable[/] and [link intangible:doomed]doomed[/] souls, in a nearby [link intangible:wellofsouls]Well[/], to operate.
+
+
+# Book Extensions
+
+book.intangible:recipes.title=Recipes
+book.intangible:extensions.title=Further Reading
